@@ -69,7 +69,7 @@
   {
     "id": "mission-leviathan-sites-of-power",
     "lore": "There is great power for those bold enough to claim it.",
-    "body": "The objective markers in No Mans' Land are sites of power. At the end of each Command phase, the player whose turn it is empowers all sites of power that they control that have one or more CHARACTER models from their army within range; each site of power remains empowered by that player while one or more of their CHARACTER models remains within range of it.\n    \nIn the second, third and fourth battle rounds:\n    \nAt the end of each player's Command phase, the player whose turn it is scores VP as follows (up to 15VP per turn):\n\n• 3VP for each objective marker they control.\n• 3VP for each site of power that they have empowered.\nNote that these arc cumulative, so a player that controls one objective marker they have also empowered will score 6VP that turn.\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
+    "body": "The objective markers in No Mans' Land are sites of power. At the end of each Command phase, the player whose turn it is empowers all sites of power that they control that have one or more CHARACTER models from their army within range; each site of power remains empowered by that player while one or more of their CHARACTER models remains within range of it.\n    \nIn the second, third and fourth battle rounds:\n    \nAt the end of each player's Command phase, the player whose turn it is scores VP as follows (up to 15VP per turn):\n\n• 3VP for each objective marker they control.\n• 3VP for each site of power that they have empowered.\nNote that these are cumulative, so a player that controls one objective marker they have also empowered will score 6VP that turn.\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
   },
   {
     "id": "mission-leviathan-the-ritual",
@@ -157,9 +157,14 @@
     "body": "In this mission, each time an Advance roll of 6 is made for a unit, that unit suffers 1 mortal wound."
   },
   {
-    "id": "secondary-mission-behind-enemy-lines",
-    "lore": "Break through the foe's army and cut of their lines of escape.",
-    "body": "At the end of your turn, if two or more units from your army (excluding Aircraft) are wholly within your opponent’s deployment zone, this Secondary Mission is achieved and you score 4VP (or 5VP if you are using Tactical Missions). \n\nIf, at the end of your turn, only one unit from your army (excluding Aircraft) is wholly within your opponent’s deployment zone, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 4VP (or instead of 5VP)."
+    "id": "secondary-mission-a-tempting-target",
+    "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely ot use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
+    "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score 5VP."
+  },
+  {
+    "id": "secondary-mission-area-denial",
+    "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
+    "body": "At the end of your turn, if one or more units from your army (excluding Battle-shocked units) are wholly within 6\" of the centre of the battlefield, and there are no enemy units wholly within 6\" of the centre of the battlefield, this Secondary Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, there are one or more enemy units wholly within 6\" of the centre of the battlefield, but there are no enemy units within 3\" of the centre of the battlefield, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 5VP."
   },
   {
     "id": "secondary-mission-assassination",
@@ -167,19 +172,19 @@
     "body": "If you are using Fixed Missions, then while this Secondary Mission is active, each time an enemy CHARACTER model is destroyed, you score 4VP.\n\nIf you are using Tactical Missions, then at the end of the turn, if either of the conditions below are satisfied, this Secondary Mission is achieved and you score 5VP:\n• One or more enemy CHARACTER units were destroyed during this turn.\n• All CHARACTER units from your opponent's Army Roster have been destroyed during the battle.\n\nNote that if you are using Tactical Missions, this Secondary Mission is achieved even if such a unit was destroyed and then subsequently resurrected for any reason."
   },
   {
+    "id": "secondary-mission-behind-enemy-lines",
+    "lore": "Break through the foe's army and cut of their lines of escape.",
+    "body": "At the end of your turn, if two or more units from your army (excluding Aircraft) are wholly within your opponent’s deployment zone, this Secondary Mission is achieved and you score 4VP (or 5VP if you are using Tactical Missions). \n\nIf, at the end of your turn, only one unit from your army (excluding Aircraft) is wholly within your opponent’s deployment zone, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 4VP (or instead of 5VP)."
+  },
+  {
     "id": "secondary-mission-bring-it-down",
     "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
     "body": "While this Secondary Mission is active, each time an enemy MONSTER or VEHICLE model is destroyed, you score 2VP and an extra 1VP for each of the conditions below that are satisfied (all are cumulative]:\n■ The destroyed model had a Wounds characteristic of 10+.\n■ The destroyed model had a Wounds characteristic of 15+.\n■ The destroyed model had a Wounds characteristic of 20+.\n\nNote that VP are scored even if such a model is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP However, if you are using Tactical Missions, you cannot score more than 8VP in total from this Secondary Mission."
   },
   {
-    "id": "secondary-mission-engage-on-all-fronts",
-    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
-    "body": "At the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters. While a unit is Battle-shocked, it is not a qualifying unit.\n\nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
-  },
-  {
-    "id": "secondary-mission-storm-hostile-objective",
-    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
-    "body": "At the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective markers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
+    "id": "secondary-mission-capture-enemy-outpost",
+    "lore": "A vital objective has been identified in your vicinity, but it is currently held by the enemy. You are ordered to capture it at any cost.",
+    "body": "At the end of your turn, if you control one or more objective markers in your opponent's deployment zone, this Secondary Mission is achieved and you score 8VP."
   },
   {
     "id": "secondary-mission-cleanse",
@@ -187,9 +192,24 @@
     "body": "In your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible to shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each objective marker that is not within your deployment zone that you control that has one or more of these selected units within range is cleansed by your army.\n\nIf one or more objective markers are cleansed by your army this turn, this Secondary Mission is achieved and you score a number of VP depending on the number of objective markers cleansed by your army this turn, as follows:\n\n■ 1 objective marker cleansed = 2VP if you are using Fixed Missions, or 3VP if you are using Tactical Missions.\n■ 2 or more objective markers cleansed = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions.\n"
   },
   {
+    "id": "secondary-mission-defend-stronghold",
+    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
+    "body": "At the end of your opponent's turn, or at the end of the battle (whichever comes first), if you control one or more objective markers in your own deployment zone, this Secondary Mission is achieved and you score 3VP.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
+  },
+  {
     "id": "secondary-mission-deploy-teleport-homer",
     "lore": "An allied fleet approaches ready to launch a full-scale invasion of this planet. If our vanguard forces deploy a series of teleport homers and landing beacons deep within enemy territory, troops aboard our ships will be able ot launch a deadly surprise assault from orbit.",
     "body": "In your Shooting phase, you can select one unit from your army that is not Battle-shocked and is eligible to shoot. Until the end of your turn, that unit is not eligible to shoot or declare a charge.\n\nAt the end of your turn, if that unit is within your opponent’s deployment zone, or within 6\" of the centre of the battlefield, it deploys a teleport homer at that location, this Secondary Mission is achieved and you score a number of VP depending on where the teleport homer was deployed, as follows:\n■ Centre of battlefield = 3VP.\n■ Opponent’s deployment zone = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions"
+  },
+  {
+    "id": "secondary-mission-engage-on-all-fronts",
+    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
+    "body": "At the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters. While a unit is Battle-shocked, it is not a qualifying unit.\n\nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
+  },
+  {
+    "id": "secondary-mission-extend-battle-lines",
+    "lore": "The battleground is won one gard at a time. Continue to establish a strong military presence in the area.",
+    "body": "At the end of your turn, if you control one or more objective markers in your own deployment zone and you also control one or more objective markers in No Mans' Land, this Secondary Mission is achieved and you score 5VP.\n\nIf you only have one unit remaining in your army, then this Secondary Mission is instead achieved at the end of your turn if that unit controls one objective marker in No Man's Land, but in this instance you score 2VP instead of 5VP."
   },
   {
     "id": "secondary-mission-investigate-signals",
@@ -202,16 +222,6 @@
     "body": "While this Secondary Mission is active, each time an enemy unit is destroyed, you score 2VP (to a maximum of 5VP].\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
   },
   {
-    "id": "secondary-mission-extend-battle-lines",
-    "lore": "The battleground is won one gard at a time. Continue to establish a strong military presence in the area.",
-    "body": "At the end of your turn, if you control one or more objective markers in your own deployment zone and you also control one or more objective markers in No Mans' Land, this Secondary Mission is achieved and you score 5VP.\n\nIf you only have one unit remaining in your army, then this Secondary Mission is instead achieved at the end of your turn if that unit controls one objective marker in No Man's Land, but in this instance you score 2VP instead of 5VP."
-  },
-  {
-    "id": "secondary-mission-defend-stronghold",
-    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
-    "body": "At the end of your opponent's turn, or at the end of the battle (whichever comes first), if you control one or more objective markers in your own deployment zone, this Secondary Mission is achieved and you score 3VP.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
-  },
-  {
     "id": "secondary-mission-overwhelming-force",
     "lore": "Scour the enemy from the face of the battlefield.",
     "body": "While this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
@@ -222,19 +232,9 @@
     "body": "At the end of your turn, if you control two or more objective markers in No Man's Land, this Secondary Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, you only control one objective marker in No Man's Land, this Secondary Mission is still achieved, but in this instance you score 2VP instead of 5VP.\n"
   },
   {
-    "id": "secondary-mission-area-denial",
-    "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
-    "body": "At the end of your turn, if one or more units from your army (excluding Battle-shocked units) are wholly within 6\" of the centre of the battlefield, and there are no enemy units wholly within 6\" of the centre of the battlefield, this Secondary Mission is achieved and you score 5VP.\n\n    If, at the end of your turn, there are one or more enemy units wholly within 6\" of the centre of the battlefield, but there are no enemy units within 3\" of the centre of the battlefield, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 5VP."
-  },
-  {
-    "id": "secondary-mission-a-tempting-target",
-    "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely ot use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
-    "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score 5VP."
-  },
-  {
-    "id": "secondary-mission-capture-enemy-outpost",
-    "lore": "A vital objective has been identified in your vicinity, but it is currently held by the enemy. You are ordered to capture it at any cost.",
-    "body": "At the end of your turn, if you control one or more objective markers in your opponent's deployment zone, this Secondary Mission is achieved and you score 8VP."
+    "id": "secondary-mission-storm-hostile-objective",
+    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
+    "body": "At the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective markers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
   },
   {
     "id": "stratagem-adepta-sororitas-divine-intervention",
@@ -909,6 +909,62 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-dark-angels-hunters-trail",
+    "lore": "Using augur beacons, servo-skulls and the like, the Ravenwing mark locations they have passed through and cleansed of foes, laying a trial their fellows can follow on the hunt.",
+    "whenRules": "Command phase.",
+    "targetRules": "One Ravenwing Mounted unit from your army that is within range of an objective marker you control.",
+    "effectRules": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-armour-of-contempt",
+    "lore": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-talon-strike",
+    "lore": "Be it their true quarry or simply one who possesses knowledge that will lead them to their apprehension, when the Ravenwing strike at a priority target they do so with unmerciful surety.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Ravenwing Mounted unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an Infantry Character or Mounted Character unit, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-death-on-the-wind",
+    "lore": "The Ravenwing employ shock tactics and focussed firepower to tear bloody paths through the enemy ranks, shattering resistance and clearing the way to their true quarry.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Ravenwing unit from your army that has just shot.",
+    "effectRules": "Select one enemy unit that was hit by one or more of those attacks. That unit must take a Battle-shock test. When doing so, if one or more Ravenwing units from your army are within 6\" of that enemy unit, subtract 1 from the test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-high-speed-focus",
+    "lore": "Even when travelling at breakneck pace, the Ravenwing control their vehicles with consummate skill and are able to jink and dodge around incoming enemy fire.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Ravenwing unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-rapid-reappraisal",
+    "lore": "The Ravenwing scan and analyse their foes’ strategic dispositions constantly, augury and aerial surveillance helping to watch that no quarry slips their closing net. They are quick to redirect combat assets should such a risk present itself.",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One Ravenwing unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-armour-of-contempt",
+    "lore": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-dark-angels-unforgiven-fury",
     "lore": "With focused aggression, the Dark Angels relentlessly punish the foe.",
     "whenRules": "Your Shooting phase or the Fight phase.",
@@ -917,43 +973,83 @@
     "restrictionRules": null
   },
   {
-    "id": "stratagem-dark-angels-armour-of-contempt",
-    "lore": "The belligerency of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
-    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
-    "restrictionRules": null
-  },
-  {
     "id": "stratagem-dark-angels-intractable",
-    "lore": "Although stubborn warriors, even the resolute Dark Angels know that a fighting retreat can be the wisest course of action.",
+    "lore": "Even the Dark Angels must give ground occasionally, but their stubborn determination ensures they never do so for long, or without a fight.",
     "whenRules": "Your Movement phase, just after an Adeptus Astartes unit from your army Falls Back.",
     "targetRules": "That Adeptus Astartes unit.",
-    "effectRules": "Until the end of the turn, that unit is eligible to shoot and declare a charge, even though it Fell Back this phase.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-dark-angels-fire-discipline",
-    "lore": "There is no escaping the Unforgiven’s wrath when they bring their disciplined firepower to bear.",
+    "lore": "There is no escaping the wrath of the Unforgiven when they bring their disciplined firepower to bear.",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One Adeptus Astartes unit from your army that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, ranged weapons equipped by models in that unit have the [ASSAULT], [HEAVY] and [IGNORES COVER] abilities.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT], [HEAVY] and [IGNORES COVER] abilities.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-dark-angels-grim-retribution",
-    "lore": "The Dark Angels are renowned for yielding nothing to the enemy, and fighting back with unanswerable fury in the face of odds that would face even other Adeptus Astartes to reconsider their position.",
-    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-    "targetRules": "One Adeptus Astartes unit from your army that had one or more models destroyed as a result of the attacking unit’s attacks.",
-    "effectRules": "Your unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
+    "lore": "Stern and vengeful as they are, the warriors of the Unforgiven Chapters deliver swift retribution to any foe foolish enough to try to lay them low.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One Adeptus Astartes unit from your army that had one or more models destroyed as a result of the attacking unit's attacks.",
+    "effectRules": "Your unit can shoot as if it were your Shooting phase, but it must target only the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-dark-angels-unbreakable-lines",
     "lore": "Countless assaults have faltered against the unbreakable ceramite wall that is the Unforgiven standing their ground.",
-    "whenRules": "Your opponent’s Charge phase, just after an enemy unit ends a Charge move.",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit ends a Charge move.",
     "targetRules": "One Adeptus Astartes unit from your army within Engagement Range of that enemy unit.",
-    "effectRules": "Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "effectRules": "Until the end of the turn, each time an attack targets your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-armour-of-contempt",
+    "lore": "The belligerence of the Adeptus Astartes combined with their transhuman physiology makes them unyielding foes to face.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-martial-mastery",
+    "lore": "The warriors of the Deathwing fight with the honed skill and lethality of knightly champions.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Deathwing Infantry unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Wound roll of 1. If your unit is within range of your Vowed objective marker, you can re-roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-duty-unto-death",
+    "lore": "So driven by duty are the veterans of the Unforgiven that even death cannot keep them from it.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Deathwing unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 if your unit is within range of your Vowed objective marker. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-relic-teleportarium",
+    "lore": "The Deathwing employ ancient and incredibly powerful teleportariums, some older than the Great Crusade, to strike at their foes with unparalleled safety and accuracy.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Deathwing unit from your army that is arriving using the Deep Strike ability this phase.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "restrictionRules": "Until the end of the turn, your unit is not eligible to declare a charge."
+  },
+  {
+    "id": "stratagem-dark-angels-wrath-of-the-lion",
+    "lore": "Channelling the strategic puissance and measured ferocity of their gene-sire, the veterans of the Unforgiven unleash a perfectly timed and utterly lethal storm of tightly controlled violence.",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One Deathwing Infantry unit from your army that just ended a Charge move.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit, adding 1 to the result if that enemy unit is within range of your Vowed objective marker: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 3 mortal wounds).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-unmatched-fortitude",
+    "lore": "In the name of their oaths to Chapter, Primarch and Emperor, the Deathwing march into the fiercest firestorms and refuse to falter.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Deathwing Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than your unit's Toughness characteristic, subtract 1 from the Wound roll.",
     "restrictionRules": null
   },
   {
