@@ -13,7 +13,7 @@
   },
   {
     "id": "setup-rule-place-objective-markers",
-    "body": "Players now set up objective markers on the battlefield. Each Deployment card's deployment map wil show players how many objective markers to set up and where each should be placed."
+    "body": "Players now set up objective markers on the battlefield. Each Deployment card's deployment map will show players how many objective markers to set up and where each should be placed."
   },
   {
     "id": "setup-rule-create-the-battlefield",
@@ -285,52 +285,196 @@
     "restrictionRules": null
   },
   {
-    "id": "stratagem-adeptus-custodes-slayers-of-nightmares",
-    "lore": "In an age plagued by monstrous foes, when primordial horrors from the darkest void circle Humanity’s dying light, still the Adeptus Custodes stand strong.",
-    "whenRules": "Fight phase.",
-    "targetRules": "One Adeptus Custodes unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a Monster or Vehicle unit, add 1 to the Wound roll.",
+    "id": "stratagem-adeptus-custodes-arcane-genetic-alchemy",
+    "lore": "The Adeptus Custodes are individually engineered on a molecular level using secrets of genetic alchemy that render them almost supernaturally resilient.",
+    "whenRules": "Any phase, just after a mortal wound has been allocated to an Adeptus Custodes model from your army (excluding Anathema Psykana models).",
+    "targetRules": "That Adeptus Custodes model's unit.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-adeptus-custodes-avenge-the-fallen",
     "lore": "The loss of a single Talon of the Emperor is commemorated by the tolling of the Bell of Lost Souls on Terra, and by their comrades’ bloody vengeance on the battlefield.",
     "whenRules": "Start of the Fight phase.",
-    "targetRules": "One Adeptus Custodes unit from your army that is below its Starting Strength and has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. If that unit is Below Half-strength, until the end of the phase, add 2 to the Attacks characteristic of those melee weapons instead.",
+    "targetRules": "One Adeptus Custodes unit from your army (excluding Anathema Psykana units) that is below its Starting Strength.",
+    "effectRules": "Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in your unit. If your unit is Below Half-strength, until the end of the phase, add 2 to the Attacks characteristic of those melee weapons instead.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-adeptus-custodes-unwavering-sentinels",
-    "lore": "Custodians will not be moved from their objective.",
-    "whenRules": "Start of the Fight phase.",
-    "targetRules": "One Adeptus Custodes unit from your army (excluding Anathema Psykana units) that is within range of an objective marker.",
-    "effectRules": "Until the end of the phase, your unit has the Fights First ability.",
+    "lore": "Once the Custodians have laid claim to a location, they defend it with incredible tenacity and skill.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Custodes Infantry unit from your army (excluding Anathema Psykana units) that is within range of an objective marker you control and that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a melee attack targets your unit, subtract 1 from the Hit roll.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-adeptus-custodes-arcane-genetic-alchemy",
-    "lore": "The Adeptus Custodes are individually engineered on a molecular level using secrets of genetic alchemy that render them virtual demigods in battle.",
-    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Custodes Infantry unit from your army (excluding Anathema Psykana units) that was selected as the target of one or more of that enemy unit’s attacks.",
-    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "id": "stratagem-adeptus-custodes-multipotentiality",
+    "lore": "So widely skilled and studied are the Custodians that, whatever situation they find themselves in, they have the martial wisdom to prevail.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Adeptus Custodes unit from your army that Fell Back this phase.",
+    "effectRules": "Until the end of your turn, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-vigilance-eternal",
+    "lore": "Simply because the Adeptus Custodes do not stand sentinel over a strategic location or asset, does not mean that it – or any who would threaten it – escapes their gaze.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Adeptus Custodes Battleline unit from your army (excluding Anathema Psykana units) within range of an objective marker you control.",
+    "effectRules": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-archeotech-munitions",
+    "lore": "The Shield Hosts have access to stockpiles of ancient and incredibly rare weaponry and ammunition.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Adeptus Custodes unit from your army (excluding Anathema Psykana units) that has not been selected to shoot this phase.",
+    "effectRules": "Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-hunt-as-one",
+    "lore": "Custodians and Null Maidens cover one another seamlessly as they manoeuvre to corner their prey.",
+    "whenRules": "Start of your Movement phase.",
+    "targetRules": "Up to two Adeptus Custodes units from your army.",
+    "effectRules": "Until the end of the turn, your units are eligible to shoot and/or declare a charge in a turn in which they Fell Back.",
+    "restrictionRules": "You can only select two units if one (and only one) of them is an Anathema Psykana unit and both are within 6\" of each other."
+  },
+  {
+    "id": "stratagem-adeptus-custodes-talons-interlocked",
+    "lore": "With practiced ease, the Talons of the Emperor establish vicious crossfires to cut the foe apart.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "Up to two Adeptus Custodes Infantry units from your army, and one enemy unit that is an eligible target for all of those units.",
+    "effectRules": "Until the end of the phase, your units can only target that enemy unit, but each time a model in one of your units makes a ranged attack, improve the Strength and Armour Penetration characteristics of that attack by 1.",
+    "restrictionRules": "You can only select two units if one (and only one) of them is an Anathema Psykana unit and both are within 6\" of each other."
+  },
+  {
+    "id": "stratagem-adeptus-custodes-empyric-severance",
+    "lore": "Null Maidens quash the manifestations of witches.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Custodes unit from your army that was selected as the target of one or more of the attacking unit's attacks, and one friendly Anathema Psykana unit within 6\" of that Adeptus Custodes unit.",
+    "effectRules": "Until the end of the phase, your unit has the Feel No Pain 4+ ability against Psychic attacks and mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-emperors-executioners",
+    "lore": "The Talons of the Emperor tear apart their prey.",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "Up to two Adeptus Custodes units from your army.",
+    "effectRules": "Until the end of the phase, each time a model in one of your units targets an enemy unit that is below its Starting Strength, add 1 to the Wound roll.",
+    "restrictionRules": "You can only select two units if one (and only one) of them is an Anathema Psykana unit and both are within 6\" of each other."
+  },
+  {
+    "id": "stratagem-adeptus-custodes-taloned-pincer",
+    "lore": "Every move the enemy makes only sees them fall.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "Up to two Adeptus Custodes units from your army that are within 9\" of that enemy unit.",
+    "effectRules": "Your units can make a Normal move of up to 6\".",
+    "restrictionRules": "You cannot select units that are within Engagement Range of one or more enemy units. You can only select two units if one (and only one) of them is an Anathema Psykana unit and both are within 6\" of each other."
+  },
+  {
+    "id": "stratagem-adeptus-custodes-shield-of-honour",
+    "lore": "It is second nature for Custodes to place themselves between their comrades and potential peril.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Anathema Psykana Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks, and one other friendly Adeptus Custodes Infantry unit (excluding Anathema Psykana units) within 6\" of that Anathema Psykana Infantry unit.",
+    "effectRules": "Until the end of the phase, any attack that targets your Anathema Psykana unit must instead target your other Adeptus Custodes unit (unless it is not an eligible target).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-desperations-price",
+    "lore": "To overcome the Null Maidens’ aura, enemy psykers overstretch themselves with horrible consequences.",
+    "whenRules": "Any phase, just after an enemy Psyker unit has either finished using a Psychic ability that targets a unit, or finished making Psychic Attacks.",
+    "targetRules": "One Anathema Psykana unit from your army within 18\" of that enemy Psyker unit.",
+    "effectRules": "That enemy Psyker unit must take a Leadership test. If the test is passed, that Psyker unit is Battle‑shocked; if the test is failed that Psyker unit suffers 3 mortal wounds and is Battle‑shocked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-witch-hunters",
+    "lore": "Null Maidens train to slay psykers with swift martial efficiency, for they know their prey have many weapons beyond just their powers and must not be allowed time or opportunity to employ them.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Anathema Psykana unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Select either the [LETHAL HITS] or [SUSTAINED HITS 1] ability. Until the end of the phase, weapons equipped by models in your unit have the selected ability, but models in your unit can only target Psyker units with their attacks.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-anathema-blademastery",
+    "lore": "The Vigilators train tirelessly in the art of the swift, beheading strike, with a particular emphasis on the swift elimination of enemy witches.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Vigilators unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a melee attack, you can re‑roll the Hit roll. If the target of that attack is Battle‑shocked or a Psyker, you can re‑roll the Wound roll as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-psy-chaff-volley",
+    "lore": "Prosecutors can fire psy‑chaff bolts whose esoteric emissions weaken those targets not slain outright.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Prosecutors unit from your army that has just shot.",
+    "effectRules": "Select one enemy unit hit by one or more of those attacks. Until the start of your next turn, while your unit is on the battlefield, that enemy unit is prosecuted. While a unit is prosecuted, each time an Anathema Psykana model makes an attack against that unit, improve the Armour Penetration characteristic of that attack by 1. While a Psyker or Battle‑shocked unit is prosecuted, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-purgation-sweep",
+    "lore": "Witchseekers know their role in combat is to spread indiscriminate carnage through the foe’s ranks.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Witchseekers unit from your army that  has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, add 1 to the Attacks characteristic of Torrent weapons equipped by models in your unit. If such a weapon targets a Psyker or Battle‑shocked unit this phase, add 2 to its Attacks characteristic instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-psychic-abominations",
+    "lore": "Enemies must overcome disorienting waves of revulsion in order to even focus upon Null Maidens.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Anathema Psykana Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit has the Stealth ability, and Battle‑shocked and Psyker models can only select your unit as a target of a ranged attack if they are within 12\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-slayer-of-champions",
+    "lore": "What foe can withstand a warrior who has so tested the defences of the Throneworld itself?",
+    "whenRules": "Any phase.",
+    "targetRules": "One Adeptus Custodes Character unit from your army that has just destroyed the unit you selected at the start of your Command phase as the target of your Assemblage of Might ability.",
+    "effectRules": "Select one enemy unit on the battlefield. Until the start of your next Command phase, each time an Adeptus Custodes Character model from your army makes an attack that target that enemy unit, add 1 to the Wound roll. In addition, if the destroyed unit was a Character unit, gain 1CP.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-superhuman-reserves",
+    "lore": "The greatest of the Custodians bring incredible reserves of stamina and ability to bear.",
+    "whenRules": "Any phase, just after an Adeptus Custodes Warlord model from your army has used an ability on its datasheet or from an Enhancement that says it can only be used ‘Once per battle'.",
+    "targetRules": "That Adeptus Custodes Warlord model.",
+    "effectRules": "Your model can use its ‘Once per battle' ability one additional time during this battle (but not in the same phase).",
+    "restrictionRules": "You cannot use this Stratagem more than once per battle."
+  },
+  {
+    "id": "stratagem-adeptus-custodes-the-emperors-auspice",
+    "lore": "In an age plagued by monsters, when primordial horrors from the darkest void circle Humanity’s dying light, still the Adeptus Custodes stand strong.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Custodes Character unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, Character models in your unit have the Feel No Pain 4+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-earning-of-a-name",
+    "lore": "To lay low the greatest and most terrible monsters and heretics is to earn new names for a Custodian’s mighty tally.",
+    "whenRules": "Fight phase.",
+    "targetRules": "Up to two Adeptus Custodes Character units from your army that have not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a Character model in either of your units makes an attack that targets a Monster or Vehicle unit, you can re‑roll the Hit roll and you can re‑roll the Wound roll.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-adeptus-custodes-vigil-unending",
-    "lore": "The Custodes are determined that every second of their lives will be spent committed to the Emperor, and they do not yield while their duty remains unfilfilled, rising from the blood and ashes to continue their vigil.",
-    "whenRules": "Your Command phase.",
-    "targetRules": "One Adeptus Custodes Infantry unit from your army (excluding Anathema Psykana units).",
-    "effectRules": "One destroyed model (excluding Character models) is returned to your unit with its full wounds remaining.",
-    "restrictionRules": "You cannot target the same unit with this Stratagem more than once per battle."
+    "lore": "The Custodes do not yield while their duty remains unfulfilled.",
+    "whenRules": "Fight Phase.",
+    "targetRules": "One Adeptus Custodes Character model from your army that was just destroyed and has not fought this phase. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Do not remove your destroyed model from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play.",
+    "restrictionRules": null
   },
   {
-    "id": "stratagem-adeptus-custodes-sworn-guardians",
-    "lore": "The Adeptus Custodes smash apart their foes without slowing, securing the Emperor’s realm with bloody efficiency and then advancing to new positions.",
-    "whenRules": "Your Movement phase.",
-    "targetRules": "One Adeptus Custodes unit from your army (excluding Anathema Psykana units) within range of an objective marker you control.",
-    "effectRules": "That objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-    "restrictionRules": null
+    "id": "stratagem-adeptus-custodes-shoulder-the-mantle",
+    "lore": "The greatest Custodians know when it is both their duty and their right to command their comrades.",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One Adeptus Custodes Character model from your army that is within 2\" horizontally and 5\" vertically of a friendly unit that it could lead (as described on the Leader section of its datasheet).",
+    "effectRules": "That Character model attaches to that unit to form an Attached unit. Change the unit's Starting Strength accordingly.",
+    "restrictionRules": "Your Character model cannot attach to a unit that is already an Attached unit."
   },
   {
     "id": "stratagem-adeptus-mechanicus-baleful-halo",
@@ -1674,6 +1818,294 @@
     "whenRules": "Your Command phase.",
     "targetRules": "One Lychguard or Triarch Praetorians unit from your army.",
     "effectRules": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. If your unit has the Vehicle keyword, add 3 to the Objective Control characteristic instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-armed-to-da-teef",
+    "lore": "Nobz load themselves with all manner of weapons in shows of wealth and influence, enabling them to smash the foe with a ceaseless barrage of attacks.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Nobz or Meganobz unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1. If a Waaagh! is active for your unit, you can re‑roll the Hit roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-too-arrogant-to-die",
+    "lore": "With bone‑headed arrogance, Nobz will carry on killing before their deaths finally register.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Nobz or Meganobz unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6, adding 2 to the result if a Waaagh! is active for your unit. On a 5+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-always-lookin-fer-a-fight",
+    "lore": "As one enemy falls to the choppas of a battle‑hungry mob of Nobz, they immediately seek out more.",
+    "whenRules": "Fight phase, just after an enemy unit is destroyed.",
+    "targetRules": "One Nobz or Meganobz unit from your army that destroyed that enemy unit.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Consolidation move, it can move up to D3+3\" instead of up to 3\". If a Waaagh! is active for your unit, it can move up to 6\" instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-crushing-impact",
+    "lore": "When a thundering mob of hulking Ork Nobz stampedes into the foe, their crushing momentum is a lethal weapon by itself.",
+    "whenRules": "Your Charge phase, just after a Nobz or Meganobz unit from your army ends a Charge move.",
+    "targetRules": "That Nobz or Meganobz unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If a Waaagh! is active for your unit, that enemy unit suffers 1 mortal wound for each 4+ instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-cut-em-down",
+    "lore": "Furious with any snivelling gitz who attempt to back away from a good fight, Nobz will ruthlessly hack them apart as they turn to flee.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit is selected to Fall Back.",
+    "targetRules": "One Nobz or Meganobz unit from your army within Engagement Range of that enemy unit.",
+    "effectRules": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if a Waaagh! is active for your unit, subtract 1 from each of those tests.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-hulking-brutes",
+    "lore": "The sheer aggressive contempt advancing Nobz project, not to mention their thick skulls and ‘eavy armour, make them a terrifying prospect for foes desperately trying to gun them down.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Nobz or Meganobz unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-drag-it-down",
+    "lore": "Beast Snaggas have many tales of the times they took on the biggest prey, clobbering them with so many blows that what was left was a crumpled mass of broken hide and squished innards.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Beast Snagga unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. In addition, each time a model in your unit makes a melee attack that targets your Prey, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-unstoppable-momentum",
+    "lore": "Smasha squigs are essentially battering rams on legs. Driven on by the squighogs piling in behind them, they plunge headlong into the foe, trampling one after the next.",
+    "whenRules": "Your Charge phase, just after a Beast Snagga Mounted unit from your army ends a Charge move.",
+    "targetRules": "That Beast Snagga unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each model in your unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds). If that enemy unit is your Prey, roll three additional D6.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-dat-ones-even-bigga!",
+    "lore": "When bigger prey is sighted, nothing can keep a mob of Beast Snaggas from it. A great hunting chant erupts, and lesser gitz are swiftly forgotten in the enthusiastic impetus to pile into a bigger challenge.",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One Beast Snagga unit from your army.",
+    "effectRules": "Until the end of the phase, your unit is eligible to charge in a turn in which it Advanced or Fell Back, provided one of the targets of that charge is your Prey.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-where-dya-fink-youre-going",
+    "lore": "Beast Snagga victims often make a break for it before the Orks have had their fill of fighting. With a roar, the Orks immediately give chase, or else lose interest and lunge after other potential trophies.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Fall Back move.",
+    "targetRules": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was within Engagement Range of that enemy unit at the start of the phase.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-stalkin-taktiks",
+    "lore": "There is no hiding a Beast Snagga stampede, but the more agile amongst the hunters know how to evade the worst of an unsporting prey’s dakka.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Beast Snagga Infantry or Beast Snagga Mounted unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a ranged attack targets your unit, models in your unit have the Benefit of Cover against that attack. In addition, if your unit has the Infantry keyword, until the end of the phase, models in your unit have the Stealth ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-instinctive-hunters",
+    "lore": "With a keen eye for tracking their prey, especially kunnin’ Beast Snaggas will circle round the hunt site to ambush the luckless gitz from another angle.",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One Beast Snagga unit from your army that is not within Engagement Range of one or more enemy unit.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-klankin-klaws",
+    "lore": "The krews of a Mek’s stompiest contraptions revel in ripping apart anything they can get their klaws on, heedless of the damage done to their own gubbinz.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Orks Walker unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, add 2 to the Strength characteristic of melee weapons equipped by models in your unit and, if you chose to push it, until the end of the phase, add 1 to the Damage characteristic of those weapons and they have the [HAZARDOUS] ability as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-superfuelled-boiler",
+    "lore": "By pushing their engines past any sane level, Ork combat walkers can build terrifying momentum.",
+    "whenRules": "Your Movement phase, just after an Orks Walker unit from your army has been selected to Advance.",
+    "targetRules": "That Orks Walker unit.",
+    "effectRules": "Until the end of the turn, you can re‑roll Advance rolls made for your unit and ranged weapons equipped by models in your unit have the [ASSAULT] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-bigger-shells-for-bigger-gitz",
+    "lore": "Stashes of extra speshul ammo provided by the Meks are often expended on rival monstrosities.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Mek, Orks Walker or Grots Vehicle unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack that targets a Monster or Vehicle, add 1 to the Wound roll. If you chose to push it, add 1 to the Damage characteristic of that attack and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-dakka!-dakka!-dakka!",
+    "lore": "Orks have a tendency to hold the trigger down until their weapon stops firing, falls apart or misfires.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Orks Walker or Grots Vehicle unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Each time you use this Stratagem, you can choose to push it. Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1. If you chose to push it, you can re‑roll the Hit roll instead and, until the end of the phase, ranged weapons equipped by models in your unit have the [HAZARDOUS] ability as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-conniving-runts",
+    "lore": "A Gretchin’s lot is often a wretched one, and the spiteful zoggers will take any chance to cause pain and mischief using sneaky traps before legging it.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One Gretchin unit from your army that is within 9\" of that enemy unit and not within Engagement Range of any enemy units.",
+    "effectRules": "Roll one D6: on a 4+, that enemy unit suffers D3+1 mortal wounds. Your unit can then make a Normal move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-extra-gubbinz",
+    "lore": "The Meks’ creations can afford to have all manner of useless junk blasted from them with little effect.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Orks Walker or Grots Vehicle unit from your army (excluding Titanic units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-competitive-streak",
+    "lore": "Galvanised by the rest of their mates fighting around them, Orks will redouble their efforts to outdo each other.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Boyz unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1. If your unit contains 10 or more models, re‑roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-bulldozer-brutality",
+    "lore": "In the massive fights that Orks enjoy, the only way to ensure a slice of the action is to bludgeon a path through the press to get a hand on the enemy.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Boyz unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the end of the phase, each time your unit is selected to fight, when determining which models in your unit are eligible to fight, any models in your unit that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-braggin-rights",
+    "lore": "With volleys of wagers, threats, insults, dung and the occasional hurled rock, mobs of Orks bolster each other’s spirits in the most Orky ways possible.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "Two Boyz units from your army that are within 6\" of each other.",
+    "effectRules": "Until the start of your next Command phase, while those two units are within 6\" of each other, they both count as containing 10 or more models for the purposea of your Detachment rule, any Enhancements models from your army have and any Stratagems you use.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-come-on-ladz!",
+    "lore": "Orks are drawn to conflict and constantly race into battle at the merest hint of violence.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Boyz unit from your army.",
+    "effectRules": "Return up to D3+2 destroyed models to your unit (excluding Character models).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-tide-of-muscle",
+    "lore": "Once a horde of Orks get a sight of the foe, nothing can stop them.",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One Boyz unit from your army that has not declared a charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit declares a charge, add the current battle round number to the Charge roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-go-get-em",
+    "lore": "Keeping Orks at arm’s length and pummelling them with as much firepower as possible is often the safest tactic for their victims. Unfortunately, it can also draw their attention and give them the urge to re‑educate the gitz in the joys of up‑close savagery.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Boyz unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "After the attacking unit has shot, your unit can make a Go Get 'Em! move. To do so, roll one D6: each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit contains 10 or more models, it can move up to 6\" when making that move instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-speediest-freeks",
+    "lore": "Speed Freeks are often just blurs of vehicular mayhem that prove difficult to land a blow on.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Speed Freeks or Trukk unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have a 5+ invulnerable save. If your unit is a Vehicle unit with an unmodified Toughness characteristic of 8 or less, until the end of the phase, models in your unit have a 4+ invulnerable save instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-squig-flingin",
+    "lore": "Speed Freeks live in their vehicles, so it’s no surprise to find small squigs lurking in some compartments. A few are vicious, and entertaining, enough to be worth lobbing into nearby enemies to cause anarchy.",
+    "whenRules": "Your Movement phase, just after a Speed Freeks or Trukk unit from your army ends a Normal, Advance or Fall Back move.",
+    "targetRules": "That Speed Freeks or Trukk unit.",
+    "effectRules": "Select one enemy unit within 9\" of your unit. That enemy unit must take a Battle‑shock test and, when doing so, subtract 1 from the result.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-dakkastorm",
+    "lore": "Often all an enemy will see of a Kult of Speed is a blur as they speed by, all guns blazing.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Speed Freeks unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability. While targeting a unit within 9\", they have the [SUSTAINED HITS 2] ability instead.",
+    "restrictionRules": "A unit cannot be targeted by this and the Blitza Fire Stratagem in the same phase."
+  },
+  {
+    "id": "stratagem-orks-blitza-fire",
+    "lore": "Fiercely gripping the trigger, with a manic grin as they close on their foes, Speed Freeks fire so many rounds that some just have to find a weak spot.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Speed Freeks unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability and, each time a model in your unit makes an attack that targets a unit within 9\", a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.",
+    "restrictionRules": "A unit cannot be targeted by this and the Dakkastorm Stratagem in the same phase."
+  },
+  {
+    "id": "stratagem-orks-full-throttle",
+    "lore": "When racing buggies and warbikes charge at full pelt, the power behind their crews’ assault is so great that they can smash through the enemy.",
+    "whenRules": "Your Charge phase, just after a Speed Freeks unit from your army ends a Charge move.",
+    "targetRules": "That Speed Freeks unit.",
+    "effectRules": "Until the end of the turn, each time a model in your unit makes a melee attack, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-more-gitz-over-ere!",
+    "lore": "Sometimes new targets that emerge are just too juicy to ignore.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One Speed Freeks unit from your army that is within 9\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-war-horde-careen",
+    "lore": "If their vehicle is on its last legs, any sensible Ork driver will aim its fiery remains into the nearest foe.",
+    "whenRules": "Any phase, just after an Orks Vehicle unit from your army with the Deadly Demise ability is destroyed.",
+    "targetRules": "That destroyed Orks Vehicle unit, if you rolled a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move over enemy units (excluding Monsters and Vehicles) as if they were not there.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-war-horde-orks-is-never-beaten",
+    "lore": "So resilient is Ork physiology – and so slow are Orks on the uptake – even death can take time to register",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Orks unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-war-horde-unbridled-carnage",
+    "lore": "When Orks get stuck into the foe, the carnage is wonderful to behold, at least for all their mates.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Orks unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a melee attack, an unmodified hit roll of 5+ scores a Critical Hit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-war-horde-ard-as-nails",
+    "lore": "Even the lowliest Ork Boy has a toughened hide and a dense skull. While there yet remains the prospect of a git to give a good kicking, it takes a blow of truly phenomenal strength to even give the Ork pause.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Orks unit from your army (excluding Grots, Monster and Vehicle units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-war-horde-mob-rule",
+    "lore": "The more Orks that gather in one place the more the Waaagh! energy flows, and the more fearless they all become.",
+    "whenRules": "End of your Command phase.",
+    "targetRules": "One Mob unit from your army that contains 10 or more models and is not Below Half‑strength.",
+    "effectRules": "Select one friendly Battle‑shocked Orks Infantry unit within 6\" of that Mob unit. That Orks Infantry unit is no longer Battle‑shocked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-war-horde-ere-we-go",
+    "lore": "Even Orks can put on a surprising turn of speed when the promise of a good face‑to‑face fight is in the offing.",
+    "whenRules": "Start of your Movement phase.",
+    "targetRules": "One Orks Infantry unit from your army.",
+    "effectRules": "Until the end of the turn, add 2 to Advance and Charge rolls made for your unit.",
     "restrictionRules": null
   },
   {
