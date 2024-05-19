@@ -2589,6 +2589,198 @@
     "restrictionRules": "Every model in your T’au Empire Infantry unit must be within 3\" of that Transport and there must be sufficient transport capacity to embark the entire unit."
   },
   {
+    "id": "stratagem-tau-empire-a-tempting-trap",
+    "lore": "Kauyon teaches that many things can be used to bait a trap, luring the foe into position.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire unit from your army that has not been selected to shoot this phase. The first time you use this Stratagem, you must also select one objective marker that is not in your opponent's deployment zone; until the end of the battle, this becomes your Trap objective marker.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within range of your Trap objective marker, add 1 to the Wound roll.",
+    "restrictionRules": "You cannot use this Stratagem during the first or second battle rounds."
+  },
+  {
+    "id": "stratagem-tau-empire-point-blank-ambush",
+    "lore": "Devastating firepower need not be applied from afar, especially when striking an unsuspecting foe.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 9\", improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": "You cannot use this Stratagem during the first or second battle rounds."
+  },
+  {
+    "id": "stratagem-tau-empire-coordinate-to-engage",
+    "lore": "T’au Hunter Cadres work in close coordination to destroy the most dangerous enemy targets.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire unit from your army that has just been selected as an Observer unit (see For the Greater Good).",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets their Spotted unit, improve the Ballistic Skill characteristic of that attack by 1 and, if your unit has the Markerlight keyword, that attack has the [IGNORES COVER] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-combat-embarkation",
+    "lore": "Those who act as the lure in the Kauyon must be ready to make a hasty withdrawal once the enemy closes into range.",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit has declared a charge.",
+    "targetRules": "One T'au Empire Infantry unit from your army that was selected as one of the targets of that charge, and one friendly Transport.",
+    "effectRules": "Your unit embarks within that Transport.",
+    "restrictionRules": "Every model in your Infantry unit must be within 3\" of that Transport and there must be sufficient transport capacity to embark the entire unit."
+  },
+  {
+    "id": "stratagem-tau-empire-photon-grenades",
+    "lore": "Hurling a volley of photon grenades, the T’au leave their enemies dazzled and disorientated.",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit has declared a charge.",
+    "targetRules": "One T'au Empire Grenades unit from your army that was selected as one of the targets of that charge.",
+    "effectRules": "That enemy unit must immediately take a Battle-shock test, and until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+    "restrictionRules": "You cannot target a unit that is within Engagement Range of one or more enemy units."
+  },
+  {
+    "id": "stratagem-tau-empire-wall-of-mirrors",
+    "lore": "T’au Stealth Cadres utilise obfuscation fields and wide-band refraction beams to mask their advance.",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One Stealth, Ghostkeel or Commander Shadowsun unit from your army.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": "You cannot target a unit that is within Engagement Range of one or more enemy units."
+  },
+  {
+    "id": "stratagem-tau-empire-pinpoint-counter-offensive",
+    "lore": "Mont’ka emphasises rapid evolving threat-analysis and the application of overwhelming firepower to eliminate emergent high-priority targets.",
+    "whenRules": "Any phase.",
+    "targetRules": "One T'au Empire unit (excluding Kroot units) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Until the end of the battle, each time a T'au Empire unit (excluding Kroot units) from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-aggressive-mobility",
+    "lore": "By advancing swiftly into commanding positions, Mont’ka forces maximise the benefits of their enemies’ shock and disorientation.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One T'au Empire unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-focused-fire",
+    "lore": "Mont’ka doctrine heavily emphasises the massed concentration of fire upon a single target at a time, obliterating each component of the enemy force in succession with a series of unrelenting barrages.",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "Two T'au Empire units from your army that have not been selected to shoot this phase, and one enemy unit.",
+    "effectRules": "Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, improve the Armour Penetration characteristic by 1.",
+    "restrictionRules": "You cannot use this Stratagem during the fourth or fifth battle rounds."
+  },
+  {
+    "id": "stratagem-tau-empire-combat-debarkation",
+    "lore": "The most aggressive Fire caste warriors sometimes spring from moving transports, roll with the impact of landing, and come up with weapons already blazing.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire Infantry unit from your army that disembarked from a Transport this turn.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets the closest enemy unit, you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-pulse-onslaught",
+    "lore": "Rather than charge into hand-to-hand combat, T’au soldiery instead intensify their fire patterns, pinning their advancing foes and staving off their onslaught.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire Infantry unit (excluding Kroot units) from your army that has just shot, and one enemy unit (excluding Monsters and Vehicles) hit by one or more of those attacks.",
+    "effectRules": "Until the end of your opponent's next turn, that enemy unit is shaken. While a unit is shaken, subtract 2 from its Move characteristic and subtract 2 from Advance and Charge rolls made for it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-counterfire-defence-systems",
+    "lore": "Point-defence systems trigger as incoming fire is detected, blasting projectiles from the air and lessening the power of the enemy fusillade.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One T'au Empire unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-fail-safe-detonator",
+    "lore": "Devices are incorporated into some battlesuits either to prevent high-ranking pilots being taken alive for interrogation or to prevent just such fatal explosions.",
+    "whenRules": "Any phase, just after a T'au Empire Battlesuit model from your army is destroyed.",
+    "targetRules": "That destroyed model's unit. You can use this Stratagem on that unit even if that unit was just destroyed.",
+    "effectRules": "Before removing your model from play, if it has the Deadly Demise ability, do not roll for that ability; instead, you can choose whether the result of that roll is a 1 or a 6. If your model does not have the Deadly Demise ability, roll one D6 for each unit within 6\" of it: on a 4+, that unit suffers D3 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-stimm-injectors",
+    "lore": "On-board hypodermics shunt pain-blockers and chemical stimulants into the pilot’s system.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One T'au Empire Battlesuit unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-the-shortened-blade",
+    "lore": "Made famous by Commander Farsight and his protégé Brightsword, this philosophy encourages pilots to drop into the very teeth of the enemy army and apply their firepower at point-blank range.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One T'au Empire Battlesuit unit from your  army that is arriving using the Deep Strike ability this phase.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "restrictionRules": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
+  },
+  {
+    "id": "stratagem-tau-empire-the-arrokon-protocol",
+    "lore": "Commander Arro’kon’s teachings are considered pre-eminent in the art of engaging and eliminating numerically overwhelming enemy formations.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire Battlesuit unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that contains 6 or more models, that attack has the [SUSTAINED HITS 1] ability. If that attack targets an enemy unit that contains 11 or more models, it has the [SUSTAINED HITS 2] ability instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-the-torchstar-gambit",
+    "lore": "Though now disgraced by association with O’Shovah, Sub-Commander Torchstar’s strike-and-fade tactics are still taught – albeit officially under other names – in many Fire caste academies.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire Battlesuit unit from your army that can Fly whose attacks have been resolved this phase.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, your unit cannot declare a charge this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-grav-inhibitor-field",
+    "lore": "First used by O’Jir during the battle for Laguna Shard, these battlesuit-mounted emitters batter advancing foes backwards with gravitic pulse waves.",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit has declared a charge.",
+    "targetRules": "One T'au Empire Battlesuit unit from your army that was selected as a target of that charge.",
+    "effectRules": "That enemy unit must immediately take a Battle-shock test and you must roll one D6 for each model in that enemy unit: for each 6, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-join-the-hunt",
+    "lore": "When a Kroot Hunting Pack closes in on its prey, there are often other hunters waiting to join in the fray and take their share of any spoils.",
+    "whenRules": "Any phase.",
+    "targetRules": "One Kroot Infantry or Kroot Hounds unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.",
+    "restrictionRules": "This Stratagem cannot be used to return destroyed Character units to Attached units."
+  },
+  {
+    "id": "stratagem-tau-empire-a-trap-well-laid",
+    "lore": "The Kroot have long perfected the art of ambush hunting, their packs working in deadly concert.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Kroot unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "After your unit has resolved its attacks this phase, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a Kroot model from your army makes an attack that targets that enemy unit, unless the attacking unit is Battle-shocked, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-emp-grenades",
+    "lore": "Furnished by T’au allies or returning Farstalkers, these electromagnetic grenades wreak havoc with the animuses of armoured fighting vehicles.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy Vehicle unit is selected to shoot or fight.",
+    "targetRules": "One Kroot Grenades unit from your army within 8\" of that enemy Vehicle unit.",
+    "effectRules": "Until the end of the phase, worsen the Weapon Skill and Ballistic Skill characteristics of that enemy Vehicle unit's weapons by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-the-grisly-feast",
+    "lore": "The psychological impact of witnessing one’s comrades being dismembered and devoured by gore-splattered Kroot cannot be overstated.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Kroot unit from your army that destroyed one or more enemy units this phase.",
+    "effectRules": "In your opponent's next Command phase, each enemy unit within 6\" of your unit must take a Battle-shock test. If the unit taking that test is Below Half-strength, subtract 1 from that test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-guerrilla-warriors",
+    "lore": "Kroot see no value in stand-up fights, caring little for honour or glory. They hit and fade, frustrating their foes and bleeding them by degrees until – weakened and out of position – they are rendered vulnerable.",
+    "whenRules": "Your Movement phase, just after a Kroot unit from your army Falls Back.",
+    "targetRules": "That Kroot unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-hidden-hunters",
+    "lore": "The Kroot are experts in camouflage and concealment, able to utilise cover in ways most foes would never consider and – to their great misfortune – do not anticipate.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Kroot unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-thousand-sons-psychic-dominion",
     "lore": "To pit one’s own psychic prowess against the sorcerous might of the Thousand Sons is to be trapped, helpless and screaming, within one’s own mind.",
     "whenRules": "Any phase, just after an enemy unit has selected its targets.",
