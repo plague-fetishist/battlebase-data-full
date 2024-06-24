@@ -97,6 +97,51 @@
     "body": "If you draw this and the Hidden Supplies Mission Rule card, discard this card and draw a new Primary Mission card.\n\nAfter setting up the battlefield, remove the objective marker in No Man s Land that is closest to the centre of the battlefield.\n\nIn the second, third and fourth battle rounds:\n\nAt the end of each Command phase, the player whose turn it is scores VP as follows:\n• If they control the objective marker in their own deployment zone, they score 2VP\n• For each objective marker in No Mans' Land that they control, they score 5VP.\n• If they control the objective marker in their opponent's deployment zone, they score 6VP.\n\nIn the fifth battle round:\n\n• The player who has the first turn scores VP as described above.\n• The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
   },
   {
+    "id": "mission-pariah-nexus-take-and-hold",
+    "lore": "Several strategic locations have been identified in your vicinity. You are ordered to assault these positions, secure them and hold them at any cost.",
+    "body": "SECOND BATTLE ROUND ONWARDS\n  \nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\n\nThe player whose turn it is scores 5VP for each objective marker they control (up to 15VP per turn)."
+  },
+  {
+    "id": "mission-pariah-nexus-scorched-earth",
+    "lore": "What cannot be secured must be burned to ash.",
+    "body": "BURN OBJECTIVE (ACTION)\nSTARTS: Your Shooting phase, from the second battle round onwards.\nUNITS: One unit from your army within range of an objective marker that is not within your deployment zone.\nCOMPLETES: End of your opponent's next turn or the end of the battle (whichever comes first), if your unit is still within range of the same objective marker and you control that objective marker.\nIF COMPLETED: That objective marker is burned and removed from the battlefield.\n\nSECOND BATTLE ROUND ONWARDS\n\nWHEN: Any time.\nEach time the player whose turn it is burns an objective marker, that player scores 5VP if that objective marker was in No Man's Land, or 10VP instead if that objective marker was in their opponent's deployment zone.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\nThe player whose turn it is scores 5VP for each objective marker they control (up to 10VP per turn)."
+  },
+  {
+    "id": "mission-pariah-nexus-purge-the-foe",
+    "lore": "Exterminate the enemy. Show them no mercy.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of the battle round.\nEach player scores 4VP if one or more enemy units were destroyed this battle round.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the battle round.\nEach player scores 4VP if more enemy units than friendly units were destroyed this battle round.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\nThe player whose turn it is scores 4VP if they control one or more objective markers, and an additional 4VP if they control more objective markers than their opponent controls."
+  },
+  {
+    "id": "mission-pariah-nexus-the-ritual",
+    "lore": "Bitter foes clash in a race to finish a ritual to cither sanctify or corrupt the battlefield.",
+    "body": "When setting up the battlefield, remove all objective markers in No Man's Land except the one closest to the centre of the battlefield.\n\nTHE RITUAL (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army.\nCOMPLETES: End of your turn.\nIF COMPLETED: Set up one objective marker anywhere on the battlefield wholly within No Man's Land and within 1\" of your unit, provided it can be set up exactly 12\" from one other objective marker within No Man's Land and not within 6\" of any other objective marker.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\nThe player whose turn it is scores 5VP for each objective marker in No Man's Land that they control (up to 15VP per turn)."
+  },
+  {
+    "id": "mission-pariah-nexus-supply-drop",
+    "lore": "Supplies are inbound Secure the drop coordinates.",
+    "body": "Start of the Battle: Players randomly select two different objective markers in No Man's Land; the first selected is the Alpha objective, the second selected is the Omega objective.\n\nStart of the Fourth Battle Round: The Alpha objective is removed from the battlefield.\n\nStart of the Fifth Battle Round: All objective markers in No Man's Land apart from the Omega objective are removed from the battlefield.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\nThe player whose turn it is scores the following VP for each objective marker in No Man's Land that they control, depending on the current battle round:\n5VP in the second and third battle rounds.\n8VP in the fourth battle round.\n15VP in the fifth battle round."
+  },
+  {
+    "id": "mission-pariah-nexus-burden-of-trust",
+    "lore": "The strategic prizes in this region must be guarded at all costs - a duty that falls upon a chosen few.",
+    "body": "SECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\nThe player whose turn it is scores 4VP for each objective marker they control that is not within their deployment zone. Then, for each objective marker that player controls, they can select one unit from their army (excluding AIRCRAFT) within range of that objective marker to guard it until the start of their next turn.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of each player's turn.\nThe opponent of the player whose turn it is scores 2VP for each of their units (excluding Battle-shocked units) that are within range of and guarding an objective marker they control."
+  },
+  {
+    "id": "mission-pariah-nexus-terraform",
+    "lore": "Victory here lies in dominating not only the foe, but also the landscape of the battlefield itself.",
+    "body": "TERRAFORM (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army, each within range of a different objective marker that is not within your deployment zone and has not been terraformed.\nCOMPLETES: End of your opponent's next turn or the end of the battle (whichever comes first), if the unit performing this Action is still within range of the same objective marker and you control that objective marker.\nIF COMPLETED: Each of those objective markers is terraformed.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\nThe player whose turn it is scores VP as follows (up to 15VP per turn):\n• 4VP for each objective marker they control.\n• 2VP for each objective marker they have terraformed during the battle.\n\nNote: The above VP are cumulative, so a player who controls one objective marker that they have also terraformed will score 6VP that turn."
+  },
+  {
+    "id": "mission-pariah-nexus-unexploded-ordinance",
+    "lore": "Volatile undetonated material lies in your path. Shifting such hazards towards enemy territory could be the key to victory.",
+    "body": "The objective markers that start the battle in No Man's Land are Hazard objective markers.\n\nMOVE HAZARD (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army, each within range of a different Hazard objective marker you control.\nCOMPLETES: End of your turn, if the unit performing this Action is still within range of the same Hazard objective marker and you control that objective marker.\nIF COMPLETED: You can move each of those Hazard objective markers up to 6\". When doing so, that objective marker cannot end that move on top of any other objective marker or model, or inside impassable parts of terrain features.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of each player's turn.\nThe player whose turn it is scores VP as follows:\n• 8VP for each Hazard objective marker that is wholly within their opponent's deployment zone.\n• 5VP for each other Hazard objective marker that is wholly within 6\" of their opponent's deployment zone."
+  },
+  {
+    "id": "mission-pariah-nexus-linchpin",
+    "lore": "True victory is built upon a firm foundation. If the centre cannot hold then all else swiftly crumbles.",
+    "body": "SECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\nIf the player whose turn it is does not control the objective marker in their deployment zone, they score 3VP for each objective marker they control.\n\nOR\n\nIf the player whose turn it is controls the objective marker in their deployment zone, they score 3VP for controlling that objective marker, and 5VP for each other objective marker they control."
+  },
+  {
     "id": "mission-rule-leviathan-chilling-rain",
     "lore": "Intense winds gust across the battlefield, whipping through the shattered remains of bombed ruins and heavy with the stench of death. Icy rain drenches and chills the warriors, only adding to their misery and discomfort.",
     "body": "In this mission, no additional mission rules apply."
@@ -153,8 +198,58 @@
   },
   {
     "id": "mission-rule-leviathan-minefields",
-    "lore": "Buried ordnance and hidden boody traps litter this battlefield, posing a threat to all units that advance recklessly and without due care.",
+    "lore": "Buried ordinance and hidden boody traps litter this battlefield, posing a threat to all units that advance recklessly and without due care.",
     "body": "In this mission, each time an Advance roll of 6 is made for a unit, that unit suffers 1 mortal wound."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-smoke-and-mirrors",
+    "lore": "Be it through technological trickery, sorcerous illusion or sheer cunning, both commanders seek to outfox and outmanoeuvre the other.",
+    "body": "After both players have deployed their armies, starting with the Attacker, each player can place one unit from their army that is on the battlefield into Strategic Reserves, regardless of how many units are already in Strategic Reserves.\n\nThe points value of such a unit cannot exceed 25% of each player's total points limit for the chosen battle size, as shown below.\n\nBATTLE SIZE     MAXIMUM POINTS VALUE OF UNIT\nIncursion       250 pts\nStrike Force    500 pts\nOnslaught       750 pts"
+  },
+  {
+    "id": "mission-rule-pariah-nexus-inspired-leadership",
+    "lore": "Few sights set such an inspiring example upon the battlefield than a commander leading from the very front, wreathed in glory and stained with gore.",
+    "body": "While a player's WARLORD is not within their deployment zone, each time a unit from that player's army takes a Battle-shock test, if that player's WARLORD is within 9\" of and visible to that unit, add 1 to that test."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-swift-action",
+    "lore": "Time is running out. Cataclysm approaches on an unimaginable scale. In the face of such terrors, every warrior fights with the speed and fury of desperation.",
+    "body": "BATTLELINE units that Advance or Fall Back are still eligible to perform an Action in that turn."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-rapid-escalation",
+    "lore": "Armies hurl themselves recklessly into what is swiftly becoming a maelstrom of battle. With every passing moment, the flames of conflict rage higher.",
+    "body": "In the first battle round, each player can set up BATTLELINE units from Strategic Reserves in the Reinforcements step of their Movement phase. If they do, those units must be set up wholly within 6\" of any battlefield edge, but no model in those units can be set up within the enemy deployment zone.\n\nThe points total of the units a player can set up in this way cannot exceed 10% of their total points limit for the chosen battle size, as shown below.\n\nBATTLE SIZE     MAXIMUM POINTS TOTAL OF STRATEGIC RESERVES UNITS\nIncursion       100 pts\nStrike Force    200 pts\nOnslaught       300 pts"
+  },
+  {
+    "id": "mission-rule-pariah-nexus-prepared-positions",
+    "lore": "This is a battle long in the offing, a fight for which both commanders have had ample time to prepare both their warriors and their defences.",
+    "body": "Players can target their BATTLELINE units with the Go to Ground and Heroic Intervention Stratagems for OCP (but cannot do so if they have already used that Stratagem on a different unit that turn)."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-hidden-supplies",
+    "lore": "Reconnaissance units have uncovered a hidden cache of ammunition, fuel and rations in this war zone.",
+    "body": "When Drawn: If you also drew The Ritual Primary Mission card, discard this Mission Rule card and draw a new Mission Rule card.\n    \nIn the Place Objective Markers step, players must set up one additional objective marker in No Man's Land.\nBefore setting up this new objective marker, players must first move the objective marker in the centre of the battlefield 6\" directly towards one of the corners of the battlefield fif No Man's Land touches any of the corners of the battlefield, you must move the objective marker towards one of those corners).\n\nPlayers then set up the new objective marker 6\" from the centre of the battlefield towards the diagonally opposite corner of the battlefield to the previously moved objective marker."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-adapt-or-die",
+    "lore": "On this changing battlefield, only a commander who can adapt their strategy swiftly and decisively stands any chance of seizing victory.",
+    "body": "FOR PLAYERS USING FIXED MISSIONS\nOnce per battle, at the end of that player's turn, after scoring any VP, they can discard one of their Secondary Mission cards and replace it with another Secondary Mission card that has the Fixed Mission symbol.\n\nFOR PLAYERS USING TACTICAL MISSIONS\nTwice per battle, after drawing a Secondary Mission card, that player can draw another Secondary Mission card, then shuffle one of those two Secondary Mission cards back into their Secondary Mission deck.',  // TODO support!!!\n    lore: 'On this changing battlefield, only a commander who can adapt their strategy swiftly and decisively stands any chance of seizing victory."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-stalwarts",
+    "lore": "This is not a time for gilded glory, but instead it is the hour when the mud-spattered, blood-drenched rank and file step forward and prove their worth.",
+    "body": "BATTLELINE units that perform an Action are still eligible to shoot in that turn (but cannot start to perform another Action in that turn), and BATTLELINE units can perform Actions while within Engagement Range of one or more enemy units."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-raise-banners",
+    "lore": "It is not enough this day simply to defeat the foe. Instead you must raise your banners high, announcing your conquests to all who witness them.",
+    "body": "At the end of each player's turn, if a BATTLELINE unit from their army is within range of an objective marker that player controls, that unit raises a banner on that objective marker: that player scores 1VP (which is counted towards their Secondary Mission score), and that player's units can no longer raise a banner on that objective marker."
+  },
+  {
+    "id": "mission-rule-pariah-nexus-fog-of-war",
+    "lore": "Due to strange atmospheric conditions or supernatural phenomena, confusion abounds. Enemy positions are unknown, and you dare not commit your resources blindly.",
+    "body": "In the first battle round, units have the Benefit of Cover, and players cannot use Core Stratagems (excluding the New Orders Stratagem)."
   },
   {
     "id": "secondary-mission-a-tempting-target",
@@ -235,6 +330,101 @@
     "id": "secondary-mission-storm-hostile-objective",
     "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
     "body": "At the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective markers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-area-denial",
+    "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 3\" of the centre of the battlefield. 2VP\nOR\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 6\" of the centre of the battlefield. 5VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-assassination",
+    "lore": "The enemy look top their champions for courage. Identify and eliminate them with extreme prejudice.",
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy CHARACTER model is destroyed. 4VP\n\nANY BATTLE ROUND\nWHEN: End of either player's turn (if you are using Tactical Missions).\nOne or more enemy CHARACTER units were destroyed this turn. 5VP\nOR\nAll CHARACTER units from your opponent's army have been destroyed during the battle. 5VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-behind-enemy-lines",
+    "lore": "Break through the foe's army and cut of their lines of escape.",
+    "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nOne unit from your army (excluding AIRCRAFT and Battle-shocked units) is wholly within your opponent's deployment zone. 3VP\nOR\nTwo or more units from your army (excluding AIRCRAFT and Battle-shocked units] are wholly within your opponent's deployment zone. 4VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-bring-it-down",
+    "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
+    "body": "When Drawn: If there are no enemy MONSTER or VEHICLE units on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy MONSTER or VEHICLE unit is destroyed. 2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 15+ (at its Starting Strength). +2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 20+ (at its Starting Strength). +2VP\n\nNote: The above VP are cumulative, so destroying a MONSTER or VEHICLE unit with a combined Wounds characteristic of 20 (at its Starting Strength) would award you 6VP."
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-cleanse",
+    "lore": "The objectives in this area have been tainted and must be cleansed with ritual and purifying flame.",
+    "body": "CLEANSE (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army within range of an objective marker that is not within your deployment zone.\nCOMPLETES: End of your turn, if the unit performing this Action is still within range of the same objective marker and you control that objective marker.\nIF COMPLETED: That objective marker is cleansed by your army.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nOne objective marker was cleansed by your army this turn. 2VP\nOR\nTwo or more objective markers were cleansed by your army this turn. 4VP\n"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-containment",
+    "lore": "By setting up servo-sentries, laying booby traps or demolishing routes of egress, you must trap your foes within the bounds of this battiefield.",
+    "body": "CONTAINMENT (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army that are wholly within 9\" of one or more battlefield edges and not within your deployment zone. Select a different one of those battlefield edges for each of those units.\nCOMPLETES: Immediately.\nIF COMPLETED: Each battlefield edge you selected is contained by your army.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nFor each battlefield edge contained by your army this turn. 3VP (UP TO 6VP)"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-cull-the-horde",
+    "lore": "The enemy come forth in teeming masses. Their ranks must be thinned if the day is to be won.",
+    "body": "When Drawn: If there are no enemy units on the battlefield that satisfy either of the conditions required to achieve this card, you can discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: While this card is active.\nVICTORY POINTS\nEach time an enemy INFANTRY unit is destroyed, if one or more of the following conditions are satisfied:\n• The Starting Strength of the destroyed unit was 20+. 5VP\n• The total of the Wounds characteristics of the models in the destroyed unit was 25+ (at its Starting Strength).\n\nNote: For the purposes of the above conditions, models in attached Leader units are ignored."
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-defend-stronghold",
+    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
+    "body": "WHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYou control one or more objective markers in your deployment zone. 3VP\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
+  },
+  {
+    "id": "secondary-mission-deploy-teleport-homer",
+    "lore": "An allied fleet approaches ready to launch a full-scale invasion of this planet. If our vanguard forces deploy a series of teleport homers and landing beacons deep within enemy territory, troops aboard our ships will be able ot launch a deadly surprise assault from orbit.",
+    "body": "In your Shooting phase, you can select one unit from your army that is not Battle-shocked and is eligible to shoot. Until the end of your turn, that unit is not eligible to shoot or declare a charge.\n\nAt the end of your turn, if that unit is within your opponent’s deployment zone, or within 6\" of the centre of the battlefield, it deploys a teleport homer at that location, this Secondary Mission is achieved and you score a number of VP depending on where the teleport homer was deployed, as follows:\n■ Centre of battlefield = 3VP.\n■ Opponent’s deployment zone = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-engage-on-all-fronts",
+    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
+    "body": "When Drawn: If there are fewer than three units from your army on the battlefield, you can discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within three different table quarters, and those units are all more than 6\" away from the centre of the battlefield. 2VP\nOR\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units] are wholly within four different table quarters, and those units are all more than 6\" away from the centre of the battlefield. 4VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-establish-locus",
+    "lore": "Whether a teleport homer crackling with arcane energies, a daemonic summoning circle, a pheromonal marker or some other means of guiding forces onto the battlefield, this locus must be set up swiftly to pave the road to victory.",
+    "body": "ESTABLISH LOCUS (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army.\nCOMPLETES: End of your turn, if that unit is within your opponent's deployment zone or within 6\" of the centre of the battlefield.\nIF COMPLETED: Your unit establishes a locus.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nYour unit established a locus this turn and is within 6\" of the centre of the battlefield. 2VP\nOR\nYour unit established a locus this turn and is within your opponent's deployment zone. 4VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-extend-battle-lines",
+    "lore": "The battleground is won one yard at a time. Continue to establish a strong military presence in the area.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one or more objective markers within your deployment zone and one or more objective markers within No Man's Land. 5VP\nOR\nYou only have one unit on the battlefield, and that unit controls one objective marker within No Man's Land.2VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-marked-for-death",
+    "lore": "These specific enemy assets must be eliminated to ensure victory, no matter how insignificant they might seem.",
+    "body": "When Drawn: Your opponent must select three units from their army on the battlefield. If there are only one or two units from their army on the battlefield, they must select those units. If there are no units from their army on the battlefield, discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: End of either player's turn.\nOne or more of the selected units were destroyed (or removed from the battlefield for any other reason) this turn. 5VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-no-prisoners",
+    "lore": "Exterminate your enemies.",
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit is destroyed. 2VP (UP TO SVP)"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-overwhelming-force",
+    "lore": "Scour the enemy from the face of the battlefield.",
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit that started the turn within range of an objective marker is destroyed. 3VP (UP TO 5VP)"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-recover-assets",
+    "lore": "Scattered strategic assets must be swiftly reclaimed.",
+    "body": "When Drawn: If there are fewer than two units from your army on the battlefield, you can discard this card and draw a new Secondary Mission card.\nRECOVER ASSETS (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: Two or more units from your army, if each of those units is wholly within a different one of the following areas: your deployment zone; No Man's Land; your opponent's deployment zone.\nCOMPLETES: End of your opponent's next turn or the end of the battle (whichever comes first), if either two or three of those units are on the battlefield.\nIF COMPLETED: Those units recover assets.\nANY BATTLE ROUND\nWHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nTwo of your units recovered assets this turn.\nOR\nVICTORY POINTS\n3VP\nThree of your units recovered assets this turn.\n6VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-sabotage",
+    "lore": "This region is replete with strategic assets or supply caches vital to the foe. See to it that they are reduced to just so much flaming wreckage.",
+    "body": "SABOTAGE (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army that is within a terrain feature and not within your deployment zone.\nCOMPLETES: End of your opponent's next turn or the end of the battle (whichever comes first), if your unit is on the battlefield.\nIF COMPLETED: Your unit commits sabotage.\n\nANY BATTLE ROUND\nWHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYour unit committed sabotage this turn and is not within your opponent's deployment zone. 3VP\nOR\nYour unit committed sabotage this turn and is within your opponent's deployment zone. 6VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-secure-no-mans-land",
+    "lore": "You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the entire battlefield.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one objective marker in No Man's Land. 2VP\nOR\nYou control two or more objective markers in No Man's Land. 5VP"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-storm-hostile-objective",
+    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
+    "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of your turn.\nYou control one or more objective markers that were controlled by your opponent at the start of the turn. 4VP\nOR\nYour opponent did not control any objective markers at the start of the turn, and you control one or more objective markers that you did not control at the start of the turn. 4VP"
   },
   {
     "id": "stratagem-adepta-sororitas-divine-intervention",
@@ -1050,6 +1240,390 @@
     "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
     "effectRules": "Until the end of the phase, your unit has the Stealth ability. In addition, if your unit is a Nurgle unit, until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-endless-ire",
+    "lore": "No amount of bloodshed can truly satisfy this bitter champion’s desire for vengeance.",
+    "whenRules": "Any phase, just after your focus of hatred is destroyed.",
+    "targetRules": "One Heretic Astartes Character unit from your army (excluding Damned units).",
+    "effectRules": "Select one enemy unit within 12\" of and visible to your unit. Until the start of your next Command phase, that enemy unit is considered to be your focus of hatred.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-contemptuous-disregard",
+    "lore": "Such embittered warriors as these shrug off hails of enemy fire with arrogant disdain.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes unit from your army (excluding Damned units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-bringers-of-despair",
+    "lore": "Fearful of countenance, these ancient warriors are redolent with warp power and radiate a horrifying aura of might.",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "One Heretic Astartes unit from your army (excluding Damned units) that is within Engagement Range of your focus of hatred.",
+    "effectRules": "Until the end of the phase, your unit has the Fights First ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-black-crusade",
+    "lore": "The Warmaster’s Black Crusade grinds ever onwards without restraint or remorse.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Heretic Astartes Infantry unit or Heretic Astartes Mounted unit from your army (excluding Damned units).",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced or Fell Back, and bolt pistols, boltguns and combi-bolters equipped by models in your unit have the [DEVASTATING WOUNDS] ability while your unit has not already inflicted 6 wounds this turn using that ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-let-the-galaxy-burn",
+    "lore": "No barricade or fortification is proof against the vengeful fury of these hate-fuelled murderers.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Heretic Astartes unit from your army (excluding Tzeentch units) that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability, and change the Attacks characteristic of Torrent weapons equipped by models in your unit to 6.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-millennia-of-experience",
+    "lore": "Thousands of years of ceaseless conflict have forged these warriors into skilled and merciless killers.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One Heretic Astartes Infantry or Heretic Astartes Mounted unit from your army (excluding Damned units) that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-detonator",
+    "lore": "These warriors employ expert saboteurs who utilise melta charges and improvised explosives to sow destruction.",
+    "whenRules": "Any phase, just after an enemy model with the Deadly Demise ability (excluding Titanic models) is destroyed.",
+    "targetRules": "One Heretic Astartes Character unit from your army that was within 18\" of that enemy model when it was destroyed.",
+    "effectRules": "Your opponent does not roll to determine whether mortal wounds are inflicted by their model's Deadly Demise ability. Instead, mortal wounds are automatically inflicted (if that ability inflicts a random number of mortal wounds, your opponent rolls to determine that number as normal).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-from-all-sides",
+    "lore": "When the assault comes, it does so swiftly and without warning.",
+    "whenRules": "Start of your Charge phase.",
+    "targetRules": "One Heretic Astartes unit from your army.",
+    "effectRules": "Until the end of the phase, add 1 to Charge rolls made for your unit for each other Heretic Astartes unit from your army that made a Charge move this phase (to a maximum of +3).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-pick-them-off",
+    "lore": "The Heretic Astartes are pitiless reavers, targeting weak points in the enemy line with ruthless efficiency.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Heretic Astartes unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll. If the target is Below Half-strength, you can re-roll the Wound roll as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-coils-of-deception",
+    "lore": "Some Heretic Astartes are masters of deceit, often feigning retreat only to open fire from close range.",
+    "whenRules": "Your Movement phase, just after a Heretic Astartes unit from your army Falls Back.",
+    "targetRules": "That Heretic Astartes unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-relentless-pursuit",
+    "lore": "These warriors stalk their assigned target with dogged determination, reacting to their every move.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One Heretic Astartes Infantry or Heretic Astartes Mounted unit from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-scrambled-coordinates",
+    "lore": "Employing fell techno-sorcery, the Heretic Astartes disrupt enemy navigational cogitators and scramble teleporter beacons.",
+    "whenRules": "Start of the Reinforcements step of your opponent's Movement phase.",
+    "targetRules": "One Heretic Astartes unit from your army.",
+    "effectRules": "Until the end of the phase, enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" horizontally of your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-unfailingly-obdurate",
+    "lore": "Such is their determination to claim their due that these warriors will gladly weather a storm of fire.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes unit from your army (excluding Damned units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-scour-and-seize",
+    "lore": "If the bounty is to be claimed, the foe must first be purged.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Heretic Astartes unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, that attack has the [PRECISION] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-opportunistic-raiders",
+    "lore": "Mobility is the key to victory. These Heretic Astartes raiders outmanoeuvre outflank the foe in order to achieve victory.",
+    "whenRules": "End of the Fight phase",
+    "targetRules": "One Heretic Astartes unit from your army that was eligible to fight this phase.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" or up to 12\" if it is a Mounted unit. Otherwise, your unit can make a Fall Back move. It cannot embark within a Transport at the end of this move if it disembarked from a Transport this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-warpcharged-engines",
+    "lore": "The engines of this vehicle or construct crackle with the row energies of the immaterium, propelling it forward at incredible speed.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Heretic Astartes Transport or Heretic Astartes Mounted unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-ruinous-raid",
+    "lore": "Utilising their swift transports, these ravagers plunge through the enemy lines to assault key positions.",
+    "whenRules": "Your Shooting phase or your Fight phase.",
+    "targetRules": "One Heretic Astartes unit from your army that disembarked from a Transport this turn and has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, if the target of that attack is within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-reavers-haste",
+    "lore": "The prospect of riches spurs these renegade warriors forwards. Woe betide any in their path.",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One Heretic Astartes Infantry or Heretic Astartes Mounted unit from your army.",
+    "effectRules": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced. If you select one or more units within range of an objective marker as a target of that charge, add 1 to the Charge roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-depthless-cruelty",
+    "lore": "Terror troops such as these inflict agonies upon their victims with malicious relish, targeting the weakened and wounded without pity.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Heretic Astartes Infantry unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle-shocked and/or Below Half-strength, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-bloody-example",
+    "lore": "The violent and bloody slaughter of the enemy’s leadership hurls their followers into object panic.",
+    "whenRules": "Fight phase, just after a Heretic Astartes unit from your army destroys a Character unit.",
+    "targetRules": "That Heretic Astartes unit.",
+    "effectRules": "Each enemy unit within 12\" of and visible to your unit must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-pitiless-hunters",
+    "lore": "These predatory warriors sense weakness as the hydrashark smells blood, sating their bloodlust upon the fearful and wounded.",
+    "whenRules": "Your Shooting phase",
+    "targetRules": "One Heretic Astartes Infantry unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle-shocked and/or Below Half-strength, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-relentless-terror",
+    "lore": "These warriors strike in screaming waves, each charge as brutal as the last.",
+    "whenRules": "Your Movement phase, just after a Heretic Astartes Infantry unit from your army Falls Back.",
+    "targetRules": "That Heretic Astartes Infantry unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a tum in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-screaming-descent",
+    "lore": "Jump pack borne warriors descend from the skies, terrifying screams emanating from their vax-grllles as they plummet towards their prey.",
+    "whenRules": "Reinforcements step of your Movement phase, from the second battle round onwards.",
+    "targetRules": "One Heretic Astartes Jump Pack unit from your army that is in Reserves.",
+    "effectRules": "Set your unit up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge. Then select one enemy Infantry or Mounted unit within 6\" of and visible to your unit: that unit must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-merciless-pursuit",
+    "lore": "The Heretic Astartes allow none to flee the battle, pursuing their broken foes with relentless savagery.",
+    "whenRules": "End of your opponent's Movement phase.",
+    "targetRules": "One Heretic Astartes Infantry unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Select one enemy unit that Fell Back this turn and is within 6\" of your unit. Your unit can declare a charge as if it were your Charge phase. When doing so, you can only select that enemy unit as the target of that charge (and only if it is an eligible target). Note that even if this charge is successful, your unit does not receive any Charge bonus this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-persistent-assailants",
+    "lore": "These iron-willed warriors refuse to retreat, even in the face of overwhelming odds. Mounting losses serve only to drive them forward.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Heretic Astartes unit from your army that was selected as the target of one or more attacks this phase and has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll, and if your unit is Below Half-strength you can re-roll the Wound roll as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-brutal-attrition",
+    "lore": "These implacable soldiers weather the enemy’s fury before striking back in kind, to devastating effect.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes Infantry unit from your army (excluding Damned units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a melee attack is allocated to your unit, after the attacking unit has finished making its attacks, roll one D6 (to a maximum of six D6 per attacking unit): for each 4+, the attacking unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-pitiless-cannonade",
+    "lore": "These warriors focus their ire upon a wounded foe, combining fire to fell their target in a cavalcade of destructive force.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Heretic Astartes unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Below Half-strength, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-point-blank-destruction",
+    "lore": "Even in the press of combat, the Heretic Astartes bring heavy weapons to bear, shattering fortifications and obliterating enemy infantry.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Heretic Astartes unit from your army that is within Engagement Range of one or more enemy units and has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, your unit's ranged weapons (excluding Blast weapons) have the [PISTOL] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-steadfast-determination",
+    "lore": "These warriors possess endless endurance and are capable of weathering untold hardships in order to destroy their foes.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes unit from your army (excluding Damned units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-siegecraft",
+    "lore": "Veterans of countless grinding sieges, these Heretic Astartes repel and pin down wave after wave of foes with rapid boltgun fire and accurate artillery.",
+    "whenRules": "Start of your opponent's Charge phase.",
+    "targetRules": "One Heretic Astartes unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy unit selects your unit as a target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-eye-of-the-gods",
+    "lore": "The eyes of the Dark Gods fall upon those who slaughter in their name.",
+    "whenRules": "Fight phase, just after a Heretic Astartes Character unit from your army (excluding Damned, Daemon and Epic Hero units) destroys an enemy unit.",
+    "targetRules": "One Heretic Astartes Character model in that unit.",
+    "effectRules": "Until the end of the battle, add 1 to the Move, Toughness and Wounds characteristics of that Character model, and add 1 to the Attacks, Strength and Damage characteristics of that Character models melee weapons.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-eternal-hate",
+    "lore": "The Blood God’s thirst can never be slaked.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if it is a Khorne unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking model's unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-profane-zeal",
+    "lore": "Those Heretic Astartes sworn to the service of the Dark Gods display zeal through violence.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Heretic Astartes Chaos Undivided unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-skinshift",
+    "lore": "Those who offer praise to the God of Change may gain the benefits of his mutagenic powers.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Heretic Astartes unit from your army.",
+    "effectRules": "One model in your unit regains up to 3 lost wounds. In addition, if your unit is a Tzeentch unit below its Starting Strength, one destroyed model (excluding Character models) is returned to your unit with its full wounds remaining.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-torpefying-refrain",
+    "lore": "As these warriors traverse the battlefield, an unnatural symphony of hypnotic music accompanies their every move, stupefying their enemies.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Heretic Astartes unit from your army.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If your unit is a Slaanesh unit, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-festering-miasma",
+    "lore": "A roiling storm of warp energy obscures the Heretic Astartes, leaving their foes shooting at indistinct shadows.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit has the Stealth ability. In addition, if your unit is a Nurgle unit, it can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-chosen-for-glory",
+    "lore": "Within the massed ranks of a heretic cult, only a few are marked for greatness.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Damned unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Your unit can make a Desperate Pact. If it does, until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, you can re-roll the Wound roll as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-selfless-demise",
+    "lore": "The zealous followers of the Dark Gods are devoted to the last. As death comes they strike a desperate final blow in hope of reward.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Damned unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has resolved all of its attacks, each time a model in your unit is destroyed, roll one D6: on a 6, the attacking unit suffers 1 mortal wound after all of its attacks have been resolved.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-infernal-sacrifice",
+    "lore": "Those in thrall to the Dark Gods will gladly sacrifice their lives to draw the eye of their darkling patrons.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Damned unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Your unit can make a Desperate Pact. If it does, your unit suffers D3 mortal wounds (in addition to any suffered for failing the resulting Leadership test), and until the end of the phase, add 1 to the Attacks characteristic of the melee weapons equipped by models in your unit, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, until the end of the phase, improve the Strength characteristic of those weapons by 1 as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-crazed-focus",
+    "lore": "Even in the grip of frothing madness, these heretics are murderous in the extreme.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Damned unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Your unit can make a Desperate Pact. If it does, until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1, and if your unit did not fail the resulting Leadership test when making that Desperate Pact, improve the Strength characteristic of that attack by 1 as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-reckless-haste",
+    "lore": "Consumed by a desire to spill blood, these fanatical heretics hurl themselves towards the foe.",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One Damned unit from your army.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-mortal-thralls",
+    "lore": "Disciples of the Chaos Gods think nothing of sacrificing their lesser thralls to protect those of greater worth.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes unit from your army that was selected as the target of one or more of the attacking unit's attacks, and one friendly Damned unit within 3\" of your unit and visible to both your unit and the attacking unit.",
+    "effectRules": "Until the end of the phase, while your Damned unit is on the battlefield, each time your opponent would make a Wound roll for an attack that targets your Heretic Astartes unit, if your Damned unit is visible to the attacking model and is an eligible target for that attack, no roll is made; instead, your Damned unit suffers a number of mortal wounds equal to the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-desperate-pledge",
+    "lore": "A daemon construct may beseech the Arkifane for further aid, adding to its soul debt in return for greater might.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Heretic Astartes Daemon Vehicle unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, if your unit invokes its contract, each time it makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-glut-of-souls",
+    "lore": "With each soul harvested the bound daemon comes closer to settling its contract and earning freedom.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Heretic Astartes Daemon Vehicle unit from your army (excluding Titanic units) that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, if your unit invokes its contract, each time it makes an attack that destroys an enemy model, roll one D6: on a 5+, your unit regains 1 lost wound after all of its attacks have been resolved (to a maximum of 6 wounds).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-daemonic-possession",
+    "lore": "Those steeped in techno-sorcery may trammel daemonic entities within mechanical constructs.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Heretic Astartes Vehicle unit from your army (excluding Daemon units).",
+    "effectRules": "Until the end of the battle, your unit has the Daemon keyword.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-unstoppable-rampage",
+    "lore": "The tortured machine spirits of Heretic Astartes vehicles are driven forward by their anguish.",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One Heretic Astartes Vehicle unit from your army that has not been selected to move or charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-predatory-pursuit",
+    "lore": "Corrupted Heretic Astartes vehicles pursue their prey with an animalistic determination.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One Heretic Astartes Vehicle unit from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\", but must end that move as close as possible to that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heretic-astartes-feeding-frenzy",
+    "lore": "The daemonic entities at the heart of possessed vehicles hunger for the life force of their enemies.",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit (excluding Monsters and Vehicles) is selected to Fall Back.",
+    "targetRules": "One Heretic Astartes Daemon Vehicle unit from your army that is within Engagement Range of that enemy unit.",
+    "effectRules": "Until the end of the phase, each time an enemy unit (excluding Monsters and Vehicles) that is within Engagement Range of your unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle-shocked, subtract 1 from each of those tests.",
     "restrictionRules": null
   },
   {
@@ -3167,8 +3741,8 @@
   {
     "id": "stratagem-core-insane-bravery",
     "lore": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds.",
-    "whenRules": "Battle-shock step of your Command phase, just before you take a Battle-shock test taken for a unit from your army.",
-    "targetRules": "A unit from your army that must take a Battle-shock test.",
+    "whenRules": "Battle-shock step of your Command phase, just before you take a Battle-shock test for a unit from your army (pg 11).",
+    "targetRules": "That unit from your army.",
     "effectRules": "Your unit automatically passes that Battle-shock test.",
     "restrictionRules": "You cannot use this Stratagem more than once per battle."
   },
@@ -3183,9 +3757,9 @@
   {
     "id": "stratagem-core-command-re-roll",
     "lore": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory.",
-    "whenRules": "In any phase, just after you have made a Hit roll, a Wound roll, a Damage roll, a saving throw, an Advance roll, a Charge roll, a Desperate Escape test, a Hazardous test, or just after you have rolled the dice to determine the number of attacks made with a weapon, for an attack, model or unit from your army. ",
-    "targetRules": "-",
-    "effectRules": "You re-roll that roll, test or saving throw.",
+    "whenRules": "Any phase, just after you make an Advance roll, a Charge roll, a Desperate Escape test or a Hazardous test for a unit from your army, or a Hit roll, a Wound roll, a Damage roll or a saving throw for a model in that unit, or a roll to determine the number of attacks made with a weapon equipped by a model in that unit. If you are using fast dice rolling (pg 24), this Stratagem can still be used after  rolling multiple rolls or saving throws at once.",
+    "targetRules": "That unit or model from your army.",
+    "effectRules": "You re-roll that roll, test or saving throw. If you are using fast dice rolling, select one of those rolls or saving throws to re-roll.",
     "restrictionRules": null
   },
   {
@@ -3200,16 +3774,16 @@
     "id": "stratagem-core-grenade",
     "lore": "Priming their hand-held projectiles, these warriors draw back and hurl death into the enemy’s midst.",
     "whenRules": "Your Shooting phase.",
-    "targetRules": "One Grenades unit from your army that is not within Engagement Range of any enemy units and has not been selected to shoot this phase.",
-    "effectRules": "Select one enemy unit that is not within Engagement Range of any units from your army and is within 8\" of and visible to your Grenades unit. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+    "targetRules": "One Grenades unit from your army (excluding units that Advanced, Fell Back or have shot this turn) that is not within Engagement Range of one or more enemy units",
+    "effectRules": "Select one Grenades model in your unit and one enemy unit that is not within Engagement Range of one or more units from your army and is within 8\" of and visible to your Grenades model. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-core-tank-shock",
     "lore": "Ramming the foe with a speeding vehicle may be an unsubtle tactic, but it is a murderously effective one. ",
-    "whenRules": "Your Charge phase.",
-    "targetRules": "One Vehicle unit from your army.",
-    "effectRules": "Until the end of the phase, after your unit ends a Charge move, select one enemy unit within Engagement Range of it, then select one melee weapon your unit is equipped with. Roll a number of D6 equal to that weapon’s Strength characteristic. If that Strength characteristic is greater than that enemy unit’s Toughness characteristic, roll two additional D6. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "whenRules": "Your Charge phase, just after a Vehicle unit from your army ends a Charge move",
+    "targetRules": "That Vehicle unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit, and select one Vehicle model in your unit that is within Engagement Range of that enemy unit. Roll a number of D6 equal to the Toughness characteristic of the selected Vehicle model. For each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
     "restrictionRules": null
   },
   {
@@ -3217,7 +3791,7 @@
     "lore": "Be it cunning strategy, potent technology or supernatural ritual, there are many means by which a commander may hasten their warriors’ onset. ",
     "whenRules": "End of your opponent’s Movement phase.",
     "targetRules": "One unit from your army that is in Reserves.",
-    "effectRules": "Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase. ",
+    "effectRules": "Your unit can arrive on the battlefield as if it were the Reinforcements step of your Movement phase, and if every model in that unit has the Deep Strike ability, you can set that unit up as described in the Deep Strike ability (even though it is not your Movement phase).",
     "restrictionRules": "You cannot use this Stratagem to enable a unit to arrive on the battlefield during a battle round it would not normally be able to do so in."
   },
   {
@@ -3257,8 +3831,7 @@
     "lore": "High command has received new intelligence.",
     "whenRules": "End of your Command phase.",
     "targetRules": "One of your active Secondary Mission cards.",
-    "effectRules": "Discard it and draw one new Secondary Mission card.",
-    "restrictionRules": "You can only use this Stratagem once per battle."
+    "effectRules": "Discard it and draw one new Secondary Mission card."
   },
   {
     "id": "gambit-proceed-as-planned",
