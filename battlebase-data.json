@@ -52,6 +52,10 @@
     "body": "There are two Gambit decks (one for each player) with identical cards. These contain challenging goals that players can attempt to achieve by the and of the battle instead of attempting to score any more VP from their Primary Mission.\n\nAt the end of the third battle round, before starting the next battle round, players can generate Gambits and choose whether to attempt to achieve one.\n\nEach player takes their Gambit deck and removes the Proceed as Planned card, placing it to one side, before shuffling the remaining Gambit cards and randomly discarding one. Each player then adds their Proceed as Planned card back in, to have a hand containing three cards.\n\nPlayers then secretly choose one of these three cards and place ti face down on the battlefield. Once both players have done so, they reveal their choice.\n\nIf a player reveals their Proceed as Planned card, they are not attempting a Gambit ni this bottle and continue ot score VP for achieving the goals as listed on their Primary Mission card.\n\nOtherwise, the player is attempting a Gambit, and until the end of the battle that player cannot score any more VP as described on their Primary Mission card (any VP scored\nso far are kept). Instead, at the end of the battle, if they successfully completed the goal described on the Gambit card, they score VP as detailed on that Gambit card."
   },
   {
+    "id": "setup-rule-secret-missions",
+    "body": "Secret Missions are challenging covert goals you can pursue if the Primary Mission seems in jeopardy.\n  \nAt the end of the third battle round, starting with the player who had the second turn, if your Primary Mission VP total is less than or equal to your opponent’s, you can choose to undertake a Secret Mission. If you do:\n\n■ Secretly select one card from your Secret Mission deck and place it to one side, face-down.\n■ You cannot score more than 20VP from the Primary Mission card; any excess VP awarded above this maximum are lost.\n■ At the end of the battle, reveal your Secret Mission card to your opponent. If you achieved the goal described on that card, you score VP as described on that card."
+  },
+  {
     "id": "mission-leviathan-take-and-hold",
     "lore": "Several strategic locations have been identified in your vicinity. You are ordered to assault these positions, secure them and hold them at any cost.",
     "body": "In the second, third, and fourth battle rounds:\n  \nAt the end of each Command phase, the player whose turn it is scores 5VP for each objective marker they control [up to 15VP per turn].\n\nIn the fifth battle round:\n\nThe player who has the first turn scores VP as described above. The player who has the second turn scores VP as described above, but does so at the end of their turn instead of at the end of their Command phase."
@@ -229,7 +233,7 @@
   {
     "id": "mission-rule-pariah-nexus-hidden-supplies",
     "lore": "Reconnaissance units have uncovered a hidden cache of ammunition, fuel and rations in this war zone.",
-    "body": "When Drawn: If you also drew The Ritual Primary Mission card, discard this Mission Rule card and draw a new Mission Rule card.\n    \nIn the Place Objective Markers step, players must set up one additional objective marker in No Man's Land.\nBefore setting up this new objective marker, players must first move the objective marker in the centre of the battlefield 6\" directly towards one of the corners of the battlefield fif No Man's Land touches any of the corners of the battlefield, you must move the objective marker towards one of those corners).\n\nPlayers then set up the new objective marker 6\" from the centre of the battlefield towards the diagonally opposite corner of the battlefield to the previously moved objective marker."
+    "body": "When Drawn: If you also drew The Ritual Primary Mission card, discard this Mission Rule card and draw a new Mission Rule card.\n    \nIn the Place Objective Markers step, players must set up one additional objective marker in No Man's Land.\nBefore setting up this new objective marker, players must first move the objective marker in the centre of the battlefield 6\" directly towards one of the corners of the battlefield (if No Man's Land touches any of the corners of the battlefield, you must move the objective marker towards one of those corners).\n\nPlayers then set up the new objective marker 6\" from the centre of the battlefield towards the diagonally opposite corner of the battlefield to the previously moved objective marker."
   },
   {
     "id": "mission-rule-pariah-nexus-adapt-or-die",
@@ -262,9 +266,19 @@
     "body": "At the end of your turn, if one or more units from your army (excluding Battle-shocked units) are wholly within 6\" of the centre of the battlefield, and there are no enemy units wholly within 6\" of the centre of the battlefield, this Secondary Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, there are one or more enemy units wholly within 6\" of the centre of the battlefield, but there are no enemy units within 3\" of the centre of the battlefield, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 5VP."
   },
   {
+    "id": "secondary-mission-pariah-nexus-area-denial",
+    "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 3\" of the centre of the battlefield. 2VP\nOR\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 6\" of the centre of the battlefield. 5VP"
+  },
+  {
     "id": "secondary-mission-assassination",
     "lore": "The enemy look ot their champions for courage. Identify and eliminate them with extreme prejudice.",
     "body": "If you are using Fixed Missions, then while this Secondary Mission is active, each time an enemy CHARACTER model is destroyed, you score 4VP.\n\nIf you are using Tactical Missions, then at the end of the turn, if either of the conditions below are satisfied, this Secondary Mission is achieved and you score 5VP:\n• One or more enemy CHARACTER units were destroyed during this turn.\n• All CHARACTER units from your opponent's Army Roster have been destroyed during the battle.\n\nNote that if you are using Tactical Missions, this Secondary Mission is achieved even if such a unit was destroyed and then subsequently resurrected for any reason."
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-assassination",
+    "lore": "The enemy look top their champions for courage. Identify and eliminate them with extreme prejudice.",
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy CHARACTER model is destroyed. 4VP\n\nANY BATTLE ROUND\nWHEN: End of either player's turn (if you are using Tactical Missions).\nOne or more enemy CHARACTER units were destroyed this turn. 5VP\nOR\nAll CHARACTER units from your opponent's army have been destroyed during the battle. 5VP"
   },
   {
     "id": "secondary-mission-behind-enemy-lines",
@@ -272,9 +286,19 @@
     "body": "At the end of your turn, if two or more units from your army (excluding Aircraft) are wholly within your opponent’s deployment zone, this Secondary Mission is achieved and you score 4VP (or 5VP if you are using Tactical Missions). \n\nIf, at the end of your turn, only one unit from your army (excluding Aircraft) is wholly within your opponent’s deployment zone, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 4VP (or instead of 5VP)."
   },
   {
+    "id": "secondary-mission-pariah-nexus-behind-enemy-lines",
+    "lore": "Break through the foe's army and cut of their lines of escape.",
+    "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nOne unit from your army (excluding AIRCRAFT and Battle-shocked units) is wholly within your opponent's deployment zone. 3VP\nOR\nTwo or more units from your army (excluding AIRCRAFT and Battle-shocked units] are wholly within your opponent's deployment zone. 4VP"
+  },
+  {
     "id": "secondary-mission-bring-it-down",
     "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
     "body": "While this Secondary Mission is active, each time an enemy MONSTER or VEHICLE model is destroyed, you score 2VP and an extra 1VP for each of the conditions below that are satisfied (all are cumulative]:\n■ The destroyed model had a Wounds characteristic of 10+.\n■ The destroyed model had a Wounds characteristic of 15+.\n■ The destroyed model had a Wounds characteristic of 20+.\n\nNote that VP are scored even if such a model is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP However, if you are using Tactical Missions, you cannot score more than 8VP in total from this Secondary Mission."
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-bring-it-down",
+    "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
+    "body": "When Drawn: If there are no enemy MONSTER or VEHICLE units on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy MONSTER or VEHICLE unit is destroyed. 2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 15+ (at its Starting Strength). +2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 20+ (at its Starting Strength). +2VP\n\nNote: The above VP are cumulative, so destroying a MONSTER or VEHICLE unit with a combined Wounds characteristic of 20 (at its Starting Strength) would award you 6VP."
   },
   {
     "id": "secondary-mission-capture-enemy-outpost",
@@ -285,71 +309,6 @@
     "id": "secondary-mission-cleanse",
     "lore": "The objectives in this area have been tainted and must be cleansed with ritual and purifying flame.",
     "body": "In your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible to shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each objective marker that is not within your deployment zone that you control that has one or more of these selected units within range is cleansed by your army.\n\nIf one or more objective markers are cleansed by your army this turn, this Secondary Mission is achieved and you score a number of VP depending on the number of objective markers cleansed by your army this turn, as follows:\n\n■ 1 objective marker cleansed = 2VP if you are using Fixed Missions, or 3VP if you are using Tactical Missions.\n■ 2 or more objective markers cleansed = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions.\n"
-  },
-  {
-    "id": "secondary-mission-defend-stronghold",
-    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
-    "body": "At the end of your opponent's turn, or at the end of the battle (whichever comes first), if you control one or more objective markers in your own deployment zone, this Secondary Mission is achieved and you score 3VP.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
-  },
-  {
-    "id": "secondary-mission-deploy-teleport-homer",
-    "lore": "An allied fleet approaches ready to launch a full-scale invasion of this planet. If our vanguard forces deploy a series of teleport homers and landing beacons deep within enemy territory, troops aboard our ships will be able ot launch a deadly surprise assault from orbit.",
-    "body": "In your Shooting phase, you can select one unit from your army that is not Battle-shocked and is eligible to shoot. Until the end of your turn, that unit is not eligible to shoot or declare a charge.\n\nAt the end of your turn, if that unit is within your opponent’s deployment zone, or within 6\" of the centre of the battlefield, it deploys a teleport homer at that location, this Secondary Mission is achieved and you score a number of VP depending on where the teleport homer was deployed, as follows:\n■ Centre of battlefield = 3VP.\n■ Opponent’s deployment zone = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions"
-  },
-  {
-    "id": "secondary-mission-engage-on-all-fronts",
-    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
-    "body": "At the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters. While a unit is Battle-shocked, it is not a qualifying unit.\n\nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
-  },
-  {
-    "id": "secondary-mission-extend-battle-lines",
-    "lore": "The battleground is won one gard at a time. Continue to establish a strong military presence in the area.",
-    "body": "At the end of your turn, if you control one or more objective markers in your own deployment zone and you also control one or more objective markers in No Mans' Land, this Secondary Mission is achieved and you score 5VP.\n\nIf you only have one unit remaining in your army, then this Secondary Mission is instead achieved at the end of your turn if that unit controls one objective marker in No Man's Land, but in this instance you score 2VP instead of 5VP."
-  },
-  {
-    "id": "secondary-mission-investigate-signals",
-    "lore": "Our fleet has received a mysterious signal in this war zone, and its source has been identified as originating somewhere in the vicinity of this battlefield. Locate and secure it without delay.",
-    "body": "In your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible ot shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each corner of the battlefield that has one or more of these selected units wholly within 9\" of it is scanned by your army.\n\nIf one or more corners are scanned by your army, this Secondary Mission is achieved and you score 2VP for each corner scanned by your army this turn."
-  },
-  {
-    "id": "secondary-mission-no-prisoners",
-    "lore": "Exterminate your enemies.",
-    "body": "While this Secondary Mission is active, each time an enemy unit is destroyed, you score 2VP (to a maximum of 5VP].\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
-  },
-  {
-    "id": "secondary-mission-overwhelming-force",
-    "lore": "Scour the enemy from the face of the battlefield.",
-    "body": "While this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
-  },
-  {
-    "id": "secondary-mission-secure-no-mans-land",
-    "lore": "You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the entire battlefield.",
-    "body": "At the end of your turn, if you control two or more objective markers in No Man's Land, this Secondary Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, you only control one objective marker in No Man's Land, this Secondary Mission is still achieved, but in this instance you score 2VP instead of 5VP.\n"
-  },
-  {
-    "id": "secondary-mission-storm-hostile-objective",
-    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
-    "body": "At the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective markers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
-  },
-  {
-    "id": "secondary-mission-pariah-nexus-area-denial",
-    "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
-    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 3\" of the centre of the battlefield. 2VP\nOR\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 6\" of the centre of the battlefield. 5VP"
-  },
-  {
-    "id": "secondary-mission-pariah-nexus-assassination",
-    "lore": "The enemy look top their champions for courage. Identify and eliminate them with extreme prejudice.",
-    "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy CHARACTER model is destroyed. 4VP\n\nANY BATTLE ROUND\nWHEN: End of either player's turn (if you are using Tactical Missions).\nOne or more enemy CHARACTER units were destroyed this turn. 5VP\nOR\nAll CHARACTER units from your opponent's army have been destroyed during the battle. 5VP"
-  },
-  {
-    "id": "secondary-mission-pariah-nexus-behind-enemy-lines",
-    "lore": "Break through the foe's army and cut of their lines of escape.",
-    "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nOne unit from your army (excluding AIRCRAFT and Battle-shocked units) is wholly within your opponent's deployment zone. 3VP\nOR\nTwo or more units from your army (excluding AIRCRAFT and Battle-shocked units] are wholly within your opponent's deployment zone. 4VP"
-  },
-  {
-    "id": "secondary-mission-pariah-nexus-bring-it-down",
-    "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
-    "body": "When Drawn: If there are no enemy MONSTER or VEHICLE units on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy MONSTER or VEHICLE unit is destroyed. 2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 15+ (at its Starting Strength). +2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 20+ (at its Starting Strength). +2VP\n\nNote: The above VP are cumulative, so destroying a MONSTER or VEHICLE unit with a combined Wounds characteristic of 20 (at its Starting Strength) would award you 6VP."
   },
   {
     "id": "secondary-mission-pariah-nexus-cleanse",
@@ -367,6 +326,11 @@
     "body": "When Drawn: If there are no enemy units on the battlefield that satisfy either of the conditions required to achieve this card, you can discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: While this card is active.\nVICTORY POINTS\nEach time an enemy INFANTRY unit is destroyed, if one or more of the following conditions are satisfied:\n• The Starting Strength of the destroyed unit was 20+. 5VP\n• The total of the Wounds characteristics of the models in the destroyed unit was 25+ (at its Starting Strength).\n\nNote: For the purposes of the above conditions, models in attached Leader units are ignored."
   },
   {
+    "id": "secondary-mission-defend-stronghold",
+    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
+    "body": "At the end of your opponent's turn, or at the end of the battle (whichever comes first), if you control one or more objective markers in your own deployment zone, this Secondary Mission is achieved and you score 3VP.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
+  },
+  {
     "id": "secondary-mission-pariah-nexus-defend-stronghold",
     "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
     "body": "WHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYou control one or more objective markers in your deployment zone. 3VP\nThis Secondary Mission cannot be achieved during the first battle round; If you draw this Secondary Mission card during the first battle round, draw a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
@@ -375,6 +339,11 @@
     "id": "secondary-mission-deploy-teleport-homer",
     "lore": "An allied fleet approaches ready to launch a full-scale invasion of this planet. If our vanguard forces deploy a series of teleport homers and landing beacons deep within enemy territory, troops aboard our ships will be able ot launch a deadly surprise assault from orbit.",
     "body": "In your Shooting phase, you can select one unit from your army that is not Battle-shocked and is eligible to shoot. Until the end of your turn, that unit is not eligible to shoot or declare a charge.\n\nAt the end of your turn, if that unit is within your opponent’s deployment zone, or within 6\" of the centre of the battlefield, it deploys a teleport homer at that location, this Secondary Mission is achieved and you score a number of VP depending on where the teleport homer was deployed, as follows:\n■ Centre of battlefield = 3VP.\n■ Opponent’s deployment zone = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions"
+  },
+  {
+    "id": "secondary-mission-engage-on-all-fronts",
+    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
+    "body": "At the end of your turn, if you have one or more qualifying units (see below) from your army wholly within three or more different table quarters, and those units are all more than 3\" away from any other table quarter, this Secondary Mission is achieved and you score 4VP if you have qualifying units in four different table quarters, or 2VP if you have qualifying units in three different table quarters. While a unit is Battle-shocked, it is not a qualifying unit.\n\nIf, when you draw this Secondary Mission card, you only have one or two qualifying units remaining in your army, you can discard this Secondary Mission card and draw a new Secondary Mission card.\n\nIf you are using Tactical Missions, then when this Secondary Mission is achieved you score an extra 1VP (for a maximum of 5VP).\n"
   },
   {
     "id": "secondary-mission-pariah-nexus-engage-on-all-fronts",
@@ -387,9 +356,19 @@
     "body": "ESTABLISH LOCUS (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army.\nCOMPLETES: End of your turn, if that unit is within your opponent's deployment zone or within 6\" of the centre of the battlefield.\nIF COMPLETED: Your unit establishes a locus.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nYour unit established a locus this turn and is within 6\" of the centre of the battlefield. 2VP\nOR\nYour unit established a locus this turn and is within your opponent's deployment zone. 4VP"
   },
   {
+    "id": "secondary-mission-extend-battle-lines",
+    "lore": "The battleground is won one gard at a time. Continue to establish a strong military presence in the area.",
+    "body": "At the end of your turn, if you control one or more objective markers in your own deployment zone and you also control one or more objective markers in No Mans' Land, this Secondary Mission is achieved and you score 5VP.\n\nIf you only have one unit remaining in your army, then this Secondary Mission is instead achieved at the end of your turn if that unit controls one objective marker in No Man's Land, but in this instance you score 2VP instead of 5VP."
+  },
+  {
     "id": "secondary-mission-pariah-nexus-extend-battle-lines",
     "lore": "The battleground is won one yard at a time. Continue to establish a strong military presence in the area.",
     "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one or more objective markers within your deployment zone and one or more objective markers within No Man's Land. 5VP\nOR\nYou only have one unit on the battlefield, and that unit controls one objective marker within No Man's Land.2VP"
+  },
+  {
+    "id": "secondary-mission-investigate-signals",
+    "lore": "Our fleet has received a mysterious signal in this war zone, and its source has been identified as originating somewhere in the vicinity of this battlefield. Locate and secure it without delay.",
+    "body": "In your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible ot shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each corner of the battlefield that has one or more of these selected units wholly within 9\" of it is scanned by your army.\n\nIf one or more corners are scanned by your army, this Secondary Mission is achieved and you score 2VP for each corner scanned by your army this turn."
   },
   {
     "id": "secondary-mission-pariah-nexus-marked-for-death",
@@ -397,14 +376,29 @@
     "body": "When Drawn: Your opponent must select three units from their army on the battlefield. If there are only one or two units from their army on the battlefield, they must select those units. If there are no units from their army on the battlefield, discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: End of either player's turn.\nOne or more of the selected units were destroyed (or removed from the battlefield for any other reason) this turn. 5VP"
   },
   {
+    "id": "secondary-mission-no-prisoners",
+    "lore": "Exterminate your enemies.",
+    "body": "While this Secondary Mission is active, each time an enemy unit is destroyed, you score 2VP (to a maximum of 5VP].\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
+  },
+  {
     "id": "secondary-mission-pariah-nexus-no-prisoners",
     "lore": "Exterminate your enemies.",
     "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit is destroyed. 2VP (UP TO SVP)"
   },
   {
+    "id": "secondary-mission-overwhelming-force",
+    "lore": "Scour the enemy from the face of the battlefield.",
+    "body": "While this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
+  },
+  {
     "id": "secondary-mission-pariah-nexus-overwhelming-force",
     "lore": "Scour the enemy from the face of the battlefield.",
     "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit that started the turn within range of an objective marker is destroyed. 3VP (UP TO 5VP)"
+  },
+  {
+    "id": "secondary-mission-pariah-nexus-raise-banners-mission-rule",
+    "lore": "It is not enough this day simply to defeat the foe. Instead you must raise your banners high, announcing your conquests to all who witness them.",
+    "body": "At the end of each player's turn, if a BATTLELINE unit from their army is within range of an objective marker that player controls, that unit raises a banner on that objective marker: that player scores 1VP (which is counted towards their Secondary Mission score), and that player's units can no longer raise a banner on that objective marker."
   },
   {
     "id": "secondary-mission-pariah-nexus-recover-assets",
@@ -417,9 +411,19 @@
     "body": "SABOTAGE (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army that is within a terrain feature and not within your deployment zone.\nCOMPLETES: End of your opponent's next turn or the end of the battle (whichever comes first), if your unit is on the battlefield.\nIF COMPLETED: Your unit commits sabotage.\n\nANY BATTLE ROUND\nWHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYour unit committed sabotage this turn and is not within your opponent's deployment zone. 3VP\nOR\nYour unit committed sabotage this turn and is within your opponent's deployment zone. 6VP"
   },
   {
+    "id": "secondary-mission-secure-no-mans-land",
+    "lore": "You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the entire battlefield.",
+    "body": "At the end of your turn, if you control two or more objective markers in No Man's Land, this Secondary Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, you only control one objective marker in No Man's Land, this Secondary Mission is still achieved, but in this instance you score 2VP instead of 5VP.\n"
+  },
+  {
     "id": "secondary-mission-pariah-nexus-secure-no-mans-land",
     "lore": "You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the entire battlefield.",
     "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one objective marker in No Man's Land. 2VP\nOR\nYou control two or more objective markers in No Man's Land. 5VP"
+  },
+  {
+    "id": "secondary-mission-storm-hostile-objective",
+    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
+    "body": "At the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective markers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
   },
   {
     "id": "secondary-mission-pariah-nexus-storm-hostile-objective",
@@ -473,6 +477,198 @@
     "targetRules": "One Adepta Sororitas unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
     "effectRules": "Your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
     "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-divine-intervention-codex",
+    "lore": "The pious believe that, in their moment of greatest need, the Emperor protects.",
+    "whenRules": "Any phase.",
+    "targetRules": "One Adepta Sororitas Character unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Discard 1-3 Miracle dice. At the end of the phase, set the last destroyed model from your unit back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of any enemy models. Roll one D3, adding 1 to the result for each Miracle dice you discarded. That model is set back up with that number of wounds remaining (up to its starting number of wounds).",
+    "restrictionRules": "You cannot select Saint Celestine as the target of this Stratagem. You cannot select the same Character as the target of this Stratagem more than once per battle."
+  },
+  {
+    "id": "stratagem-adepta-sororitas-suffering-and-sacrifice",
+    "lore": "Suffering is a staple for the Adepta Sororitas, and a martyr’s fate only brings glory to the God-Emperor.",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "One Adepta Sororitas Infantry or Adepta Sororitas Walker unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects its targets, it must select your unit as the target of its attacks.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-righteous-vengeance",
+    "lore": "With the Emperor’s light upon them, the righteous vengeance of the Sisters of Battle burns brighter.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a melee attack, you can re-roll the Hit roll and, if your unit is Below Half-strength, you can re-roll the Wound roll as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-sanctified-immolation",
+    "lore": "The enemy must perish, even if we perish with them. The enemy must burn, even if we burn with them.",
+    "whenRules": "Any phase.",
+    "targetRules": "One Adepta Sororitas Vehicle model from your army with the Deadly Demise ability that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+    "effectRules": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model's Deadly Demise ability. Instead, mortal wounds are automatically inflicted.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-spirit-of-the-martyr-codex",
+    "lore": "Even with their dying act, the Adepta Sororitas mete out the Emperor’s judgement.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adepta Sororitas unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-praise-the-fallen",
+    "lore": "The death of a Battle Sister only stirs the survivors to fight harder to exact swift vengeance.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One Adepta Sororitas unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
+    "effectRules": "Your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-final-redemption",
+    "lore": "Those seeking absolution in the eyes of the Emperor will gladly give their last drop of blood to defy his enemies.",
+    "whenRules": "Any phase.",
+    "targetRules": "One Penitent unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-purity-of-suffering",
+    "lore": "Suffering is the penance by which the faithful affirm their devotions. To share in the agonies suffered by the God-Emperor and his saints without embracing death is the mark of fidelity to the Imperial Creed.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Penitent unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, Penitent models in your unit have the Feel No Pain 4+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-passion-of-the-penitent",
+    "lore": "The penitent are full of a burning passion to inflict suffering upon the faithless.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Penitent unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a Penitent model in your unit makes a melee attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-lash-of-guilt",
+    "lore": "Agony and guilt drive these sinners forward. Only by meeting the enemy in combat may they find repentance or, failing that, the comfort of death.",
+    "whenRules": "Your Movement phase, just before a Penitent unit from your army Advances.",
+    "targetRules": "That Penitent unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced. If your unit has the Penitent Engines keyword, do not make an Advance roll for it; instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-boundless-zeal",
+    "lore": "The urge to absolve their sins and destroy the enemy drives the penitents to push their tortured bodies beyond their mortal limits.",
+    "whenRules": "Your Movement phase, just after an Adepta Sororitas unit from your army Falls Back.",
+    "targetRules": "That Adepta Sororitas unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot or declare a charge in a turn in which it Fell Back. If your unit has the Penitent keyword, it is eligible to shoot and declare a charge in a turn in which it Fell Back instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-devout-fanaticism",
+    "lore": "The God-Emperor’s faithful followers, heedless of incoming fire, leap forth to deliver his furious judgement in the press of melee.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Penitent unit from your army that was selected as the target as one or more of the attacking unit's attacks.",
+    "effectRules": "Roll one D6: your unit can be moved a distance in inches up to the result, but it must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, models in your unit can be moved within Engagement Range of enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-shield-of-aversion",
+    "lore": "The Sisters of Battle gird themselves with the strength of their faith. It is a shield of repulsion that rejects the heretical cunning of their enemies.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adepta Sororitas unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-righteous-blows",
+    "lore": "As the faithful strike their foes in righteous anger, they feel the Emperor’s hand adding strength to their blows.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If one or more enemy models are destroyed as the result of attacks made by those weapons this phase, select one of those destroyed models; that destroyed model's unit must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-carry-forth-the-faithful",
+    "lore": "Congregated within a transport, the Battle Sisters recite bellowing prayers so that the whole vehicle echoes to furious piety.",
+    "whenRules": "Your Movement phase, just before an Adepta Sororitas Transport model from your army Advances.",
+    "targetRules": "That Adepta Sororitas Transport model.",
+    "effectRules": "Until the end of the turn, you can re-roll Advance rolls made for your Transport, and units can disembark from your Transport even though it Advanced. Units that do so count as having made a Normal move, and cannot declare a charge this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-cleansing-flames",
+    "lore": "Burn the mutant. Burn the heretic. Burn the witch.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Adepta Sororitas unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, Torrent weapons equipped by models in your unit have the [DEVASTATING WOUNDS] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-rites-of-fire",
+    "lore": "At close range, the Adepta Sororitas unleash the full devastating potential of their blessed weapons.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Adepta Sororitas unit from your army that disembarked from a Transport this turn and has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit within 12\" that is also within range of an objective marker, add 1 to the Wound roll. If one or more enemy models are destroyed as the result of those attacks, select one of those destroyed models; that destroyed model's unit must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-blazing-ire",
+    "lore": "The transports of the Adepta Sororitas are mobile shrines. The Sisters within this vehicle recite psalms of righteous hatred and destruction before emerging to obliterate their foes.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One Adepta Sororitas Transport unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "One unit embarked within your Transport can disembark as if it were your Movement phase, and can then shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-shield-of-faith",
+    "lore": "There is no armour as resilient as conviction itself.",
+    "whenRules": "Any phase, just after an Adepta Sororitas unit from your army suffers a mortal wound.",
+    "targetRules": "That Adepta Sororitas unit, or one friendly Adepta Sororitas Jump Pack unit within 3\" of it.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds. If you targeted an Adepta Sororitas Jump Pack unit from your army with this Stratagem, then until the end of the phase, while a friendly Adepta Sororitas unit is unit is within 3\" of your unit, models in that unit have the Feel No Pain 5+ ability against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-light-of-the-emperor",
+    "lore": "The Emperor’s radiance shines upon his warriors, magnifying their purity in their darkest hour.",
+    "whenRules": "Command phase.",
+    "targetRules": "One Adepta Sororitas unit from your army.",
+    "effectRules": "Until the end of the turn, your unit is blessed. While a unit is blessed, it can ignore any or all modifiers to the following: the profile characteristics of its models; the Weapon Skill or Ballistic Skill characteristics of weapons equipped by its models; any roll or test made for it (excluding modifiers to saving throws). If your unit has the Jump Pack keyword, until the end of the turn, while a friendly Adepta Sororitas unit is within 3\" of your unit, that friendly unit is also blessed.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-faith-and-fury",
+    "lore": "The righteous zeal of the Sisters of Battle burns bright as they charge towards their foes.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the [LANCE] ability. If one or more enemy models are destroyed as the result of your unit's attacks this phase, you gain 1 Miracle dice.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-blinding-radiance",
+    "lore": "The Emperor’s divinity manifests in golden halos, blinding the enemy with radiant light.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adepta Sororitas unit from your army that was selected as the target of one or more of the attacking unit's attacks, or one friendly Adepta Sororitas Jump Pack unit within 3\" of such a unit.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll. If you targeted an Adepta Sororitas Jump Pack unit from your army with this Stratagem, then until the end of the phase, while a friendly Adepta Sororitas unit is unit is within 3\" of your unit, each time an attack targets that unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-divine-guidance",
+    "lore": "With miraculous precision, the blows of the Sisters of Battle strike the weak points of enemy armour.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Adepta Sororitas unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1. If one or more enemy models are destroyed as the result of any of those attacks, you gain 1 Miracle dice.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adepta-sororitas-angelic-descent",
+    "lore": "On wings of fire do the angelic warriors of the Orders Militant descent to battle.",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One Adepta Sororitas Jump Pack unit from your army.",
+    "effectRules": "Remove your unit from the battlefield and place to into Strategic Reserves.",
+    "restrictionRules": "You cannot select a unit that is within Engagement Range of one or more enemy units."
   },
   {
     "id": "stratagem-adeptus-custodes-arcane-genetic-alchemy",
@@ -905,6 +1101,198 @@
     "targetRules": "Up to two Sicarian units from your army, or one Skitarii Infantry or Skitarii Mounted unit from your army.",
     "effectRules": "Remove those units from the battlefield and place them into Strategic Reserves.",
     "restrictionRules": "Each unit targeted with this Stratagem must be more than 3\" away from all enemy units."
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-armour-of-contempt",
+    "lore": "The belligerence and transhuman physiologies of the Deathwatch make them unyielding foes.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Deathwatch unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-adaptive-tactics",
+    "lore": "Only a truly versatile approach to warfare allows the Deathwatch to focus their tactical genius and best the myriad xenos foes they face.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Deathwatch unit from your army.",
+    "effectRules": "Select the Furor Tactics, Malleus Tactics or Purgatus Tactics. Until the start of your next Command phase, that Deathwatch Mission Tactic is active for your unit instead of any other Deathwatch Mission Tactic that is active for your army, even if you have already selected that Deathwatch Mission Tactic this battle.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-hellfire-rounds",
+    "lore": "Hellfire rounds contain reservoirs of virulent bio-acids that eat away the flesh of their victims in seconds and leave nothing but bubbling gruel.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Deathwatch Infantry unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons (excluding Devastating Wounds weapons) equipped by models in your unit have the [ANTI-INFANTRY 2+] and [ANTI-MONSTER 5+] abilities.",
+    "restrictionRules": "You cannot select any units that have already been targeted with either the Kraken Rounds or Dragonfire Rounds Stratagems this phase."
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-dragonfire-rounds",
+    "lore": "Dragonfire rounds are designed to explode just before contact, saturating foes in cover with searing gas and flames.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Deathwatch Infantry unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] and [IGNORES COVER] abilities.",
+    "restrictionRules": "You cannot select any units that have already been targeted with either the Kraken Rounds or Hellfire Rounds Stratagems this phase."
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-kraken-rounds",
+    "lore": "Kraken rounds utilise adamantine cores and improved propellants to penetrate the thickest hide.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Deathwatch Infantry unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1 and improve the Range characteristic of those weapons by 6\".",
+    "restrictionRules": "You cannot select any units that have already been targeted with either the Dragonfire Rounds or Hellfire Rounds Stratagems this phase."
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-rapid-tactical-relocation",
+    "lore": "The Ordo Xenos and Deathwatch alike have access to swift gunships and landers that allow for hasty repositioning in the midst of battle.",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One Inquistor or Deathwatch Infantry unit from your army.",
+    "effectRules": "Remove your unit from the battlefield. In the Reinforcements step of your next Movement phase, set your unit up anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+    "restrictionRules": "You cannot select a unit that is within Engagement Range of one or more enemy units."
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-stun-grenades",
+    "lore": "Emitting blasts of light, sound and blinding smoke, these devices disorient the foe.",
+    "whenRules": "Start of any phase (excluding the Command phase).",
+    "targetRules": "One Adeptus Arbites, Inquisitorial Agents or Ordo Hereticus Grenades unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Select one enemy unit (excluding Monsters or Vehicles) within 8\" of and visible to your unit. That enemy unit must take a Battle-shock test and, until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-dispense-justice",
+    "lore": "Agents of the Ordo Hereticus are unmerciful in meting out what they see as the Emperor’s justice.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Adeptus Arbites, Inquisitorial Agents or Ordo Hereticus unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, weapons equipped by models in your unit have the [LETHAL HITS] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-inviolate-jurisdiction",
+    "lore": "These warriors defend the sanctity of the Emperor’s realm with unwavering determination, no matter the odds stacked against them.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Arbites, Inquisitorial Agents or Ordo Hereticus Infantry unit from your army within range of an objective marker and that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-execution-order",
+    "lore": "There can be no mercy for heretic leaders.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Adeptus Arbites, Inquisitorial Agents or Ordo Hereticus Infantry unit from your army.",
+    "effectRules": "Select one enemy Character unit on the battlefield. Until the start of your next Command phase, each time a model in your unit targets that Character unit, its weapons have the [PRECISION] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-line-of-fire",
+    "lore": "These ruthless warriors will risk firing into their own ranks if it ensures the deaths of heretics.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Adeptus Arbites, Inquisitorial Agents or Ordo Hereticus unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, models in your unit can target enemy units that are within Engagement Range of one or more friendly units with ranged weapons (excluding Blast weapons), provided the target is within 12\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-exact-punishment",
+    "lore": "Vengeance is swift and unforgiving for those who attack the servants of the Emperor.",
+    "whenRules": "Your opponent's Shooting phase, just after an Agents of the Imperium unit from your army is destroyed as the result of an enemy unit's attacks.",
+    "targetRules": "One Adeptus Arbites, Inquisitorial Agents or Ordo Hereticus unit from your army that was within 6\" of the destroyed unit (you cannot target the destroyed unit with the Stratagem).",
+    "effectRules": "After the attacking unit has shot, your unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-ritual-of-warding",
+    "lore": "Whether sanctifying the battlefield against heresy or binding sinister guardian entities to keep watch, this ritual extends its practitioner’s strategic influence.",
+    "whenRules": "Start of any Command phase.",
+    "targetRules": "One Inquisitor, Inquisitorial Agents or Ordo Malleus unit from your army that is within range of an objective marker you control.",
+    "effectRules": "That objective marker is said to be Warded and remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn. While an objective marker is Warded and under your control, enemy Daemon units cannot be set up on the battlefield within 6\" of it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-rites-of-exorcism",
+    "lore": "With the correct words of abjuration and banishment, daemons can be driven out of realspace and back into the warp.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Inquisitor, Inquisitorial Agents or Ordo Malleus unit from your army.",
+    "effectRules": "Select one enemy Daemon unit within 12\" and visible to your unit. That unit must take a Battle-shock test. If that test is failed, then until the end of the phase, each time a friendly Agents of the Imperium unit makes an attack that targets that Daemon unit, that attack has the [DEVASTATING WOUNDS] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-steel-heart",
+    "lore": "The battle-brothers of the Grey Knights never flee from their daemonic foes, instead merely withdrawing momentarily before striking anew.",
+    "whenRules": "Your Movement phase, just after a Grey Knights Terminator Squad unit from your army Falls Back.",
+    "targetRules": "That Grey Knights Terminator Squad unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-truesilver-armour",
+    "lore": "Grey Knights battle plate incorporates litanies of purity, strands of sanctified silver and other sacred wards, whose defences can be further empowered by ritual mantras.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Grey Knights Terminator Squad unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-hexagrammic-wards",
+    "lore": "Ancient warding sigils inscribed in shimmering silver, these strange runic designs ward away the hostile energies of the warp.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Ordo Malleus unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": " Until the end of the phase, all Psychic weapons equipped by models in the attacking unit have the [HAZARDOUS] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-psybolt-ammunition",
+    "lore": "Specially consecrated and silver-tipped, these bolt shells channel the firer’s innate psychic fury and detonate spectacularly on impact.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Grey Knights Terminator Squad unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] and [PSYCHIC] abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-violent-acquisition",
+    "lore": "If a high-ranking Imperial agent locates something they wish to acquire, nothing will stop them from unleashing all the forces at their command to seize it.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Agents of the Imperium unit from your army.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, that attack has the [SUSTAINED HITS 1], [LANCE] and [IGNORES COVER] abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-masters-of-the-void",
+    "lore": "With command of the orbital engagement zone comes the ability to strike at the enemy from unexpected angles.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Voidfarers Character unit from your army.",
+    "effectRules": "Until the end of the phase, each Agents of the Imperium unit from your army that is arriving from Strategic Reserves this turn can be set up within your opponent's deployment zone (all other restrictions still apply).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-close-quarters-barrage",
+    "lore": "Soldiers trained in shipboard warfare and chamber-by-chamber clearance know how best to focus their firepower during close-range firefights.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Voidfarers unit from your army.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets a unit within 12\", improve the Strength and Armour Penetration characteristics of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-emperors-will",
+    "lore": "Believing they fight for the safety of the Golden Throne motivates warriors to exceptional deeds.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Agents of the Imperium unit from your army.",
+    "effectRules": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Advanced or Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-displacer-field",
+    "lore": "These rare protective fields perform microteleport displacements to remove their bearers from harm.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Agents of the Imperium Character unit from your army (excluding Officio Assassinorum units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have a 4+ invulnerable save and, after the attacking unit has resolved its attacks, unless your unit is within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\" (when doing so, models in this unit move as if they have the Fly keyword).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-agents-of-the-imperium-selfless-bodyguard",
+    "lore": "Loyal Imperial warriors will martyr themselves gladly to protect high-ranking Imperial agents.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Agents of the Imperium Attached unit that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack with the [PRECISION] ability is allocated to a Character model in your unit, if there are one or more Bodyguard models in your unit, roll one D6: on a 2+, that attack is allocated to a Bodyguard model of your choice in your unit instead.",
+    "restrictionRules": null
   },
   {
     "id": "stratagem-aeldari-lightning-fast-reactions",
@@ -2011,6 +2399,246 @@
     "restrictionRules": "The targeted units must have the Deep Strike ability and cannot be within Engagement Range of any enemy units when targeted."
   },
   {
+    "id": "stratagem-genestealer-cults-coordinated-trap-codex",
+    "lore": "A tenet of guerrilla warfare is the concentration of even inferior firepower to inflict maximum harm.",
+    "whenRules": "The start of your Shooting phase or the start of the Fight phase.",
+    "targetRules": "Two Genestealer Cults units from your army that have not been selected to shoot or fight this phase.",
+    "effectRules": "Select one enemy unit (if this Stratagem is used in the Fight phase, that enemy unit must be within Engagement Range of both of your units). Until the end of the phase, each time a model in either of your units makes an attack, it can only target that enemy unit (and only if it is an eligible target for that attack), and when resolving that attack, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-primed-and-readied",
+    "lore": "The broodkin have been trained and equipped for this moment, with weapons readied for Ascension.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One Genestealer Cults units from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, a Critical Hit is scored on an unmodified Hit roll of 5+, instead of only a 6.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-tunnel-crawlers",
+    "lore": "The cult can expertly assail seemingly impregnable enemy positions.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Genestealer Cults unit from your army that is arriving using the Deep Strike ability this phase.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or more than 3\" horizontally away if your unit has the Battleline keyword.",
+    "restrictionRules": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
+  },
+  {
+    "id": "stratagem-genestealer-cults-lying-in-wait",
+    "lore": "The brood lurks invisibly as the enemy approaches. Not until the last second do they burst from cover to strike.",
+    "whenRules": "Your opponent's Movement phase.",
+    "targetRules": "One Genestealer Cults Battleline unit from your army in Cult Ambush.",
+    "effectRules": "Until the end of the phase, when setting your unit up using a Cult Ambush marker, set your unit up anywhere on the battlefield wholly within 6\" of that Cult Ambush marker and not within Engagement Range of one or more enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-return-to-the-shadows-codex",
+    "lore": "With their task of drawing the oppressors’ fire complete, the surviving cultists melt away, ready to strike again.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One Genestealer Cults Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-a-deadly-snare",
+    "lore": "An enemy’s fervour to strike down the faithful of the cult can be turned against them, luring the foe into a region laced with hidden traps and primed explosives.",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit declares a charge.",
+    "targetRules": "One Genestealer Cults Infantry unit from your army that was selected as a target of that charge.",
+    "effectRules": "Roll one D6: on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5+, that enemy unit suffers 3 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-vengeance-for-the-martyr!",
+    "lore": "Should one of the Patriarch’s inner coven fall, those that remain are swift to call for lethal retribution.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit destroys a Genestealer Cults Character model from your army.",
+    "targetRules": "One other Genestealer Cults Character model from your army.",
+    "effectRules": "Until the end of the battle, each time a friendly Acolyte Hybrids, Hybrid Metamorphs or Neophyte Hybrids model makes an attack that targets that enemy unit, re-roll a Hit roll of 1. If the destroyed model was a Magus, Primus or Acolyte Iconward, you can re-roll the Hit roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-frenzied-devotion",
+    "lore": "The faithful will gladly hurl themselves into harm’s way, frenziedly dragging the foe down.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Acolyte Hybrids, Hybrid Metamorphs or Neophyte Hybrids unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, improve the Attacks and Weapon Skill characteristics of melee weapons equipped by models (excluding Characters) in your unit by 1 and those weapons have the [HAZARDOUS] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-tireless-fervour",
+    "lore": "When the cult’s leaders demand devotion, danger and exhaustion are forgotten in the rush to serve.",
+    "whenRules": "Your Charge phase.",
+    "targetRules": " One Acolyte Hybrids, Hybrid Metamorphs or Neophyte Hybrids unit from your army that has not declared a charge this phase.",
+    "effectRules": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced or Fell Back. When doing so, if it targets an enemy unit within Engagement Range of one or more friendly Character units, you can re-roll the Charge roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-transcendent-celerity",
+    "lore": "Owing to their hypersensory reactions, the cult’s rate of fire increases.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Acolyte Hybrids, Hybrid Metamorphs or Neophyte Hybrids unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [ASSAULT] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-the-downtrodden-rise",
+    "lore": "Such is the creed’s inspirational call to arms that as the foe foil one incursion, another rises for the cause.",
+    "whenRules": "End of the Reinforcements step of your opponent's Movement phase, if you have no Cult Ambush markers on the battlefield.",
+    "targetRules": "One Acolyte Hybrids, Hybrid Metamorphs or Neophyte Hybrids unit from your army in Cult Ambush.",
+    "effectRules": "This phase, you can set up your unit on the battlefield without using a Cult Ambush marker. When doing so, set up your unit anywhere on the battlefield that is more than 9\" horizontally away from all enemy units, not within your opponent's deployment zone, and wholly within 9\" of one or more battlefield edges.\n",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-the-path-of-anguish",
+    "lore": "Bloody persecution by the oppressors is grist for the mill of the cult’s violent and zealous creed.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One Acolyte Hybrids or Neophyte Hybrids unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
+    "effectRules": "Your unit can make a move of up to D6\", but it unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, models in your unit can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-evasive-vanguard",
+    "lore": "Adaptive and intelligent, the purest of a cult’s broods can evade their foes to find new avenues of ingress.",
+    "whenRules": "Any phase, just after an enemy unit ends a move within 9\" of one or more of your Cult Ambush markers, before removing those markers from the battlefield.",
+    "targetRules": "One Purestrain Genestealers unit from your army in Cult Ambush.",
+    "effectRules": "Select one of those Cult Ambush markers. You can move that Cult Ambush marker up to 6\". If that marker is still within 9\" of one or more enemy units, it is removed from the battlefield; otherwise, until the end of the battle, you can only select Purestrain Genestealers units from your army to be set up using that Cult Ambush marker.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-saintly-paroxysm",
+    "lore": "There are few more holy virtues in the cult’s eyes than to use one’s final act to lay low the oppressor.",
+    "whenRules": "Fight phase, just after an enemy unit destroys a Genestealer Cults Character model from your army.",
+    "targetRules": "That destroyed Character model. You can use this Stratagem on that model even though it was just destroyed.",
+    "effectRules": "Roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds. If that Character model is an Abominant or Patriarch, that enemy unit suffers 2D3 mortal wounds instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-gene-twisted-muscle",
+    "lore": "The raw strength of those infused with the Patriarch’s distilled power is undeniable when directed against the foe’s hulking tools of tyranny.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Aberrants, Biophagus or Purestrain Genestealers unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a Monster or Vehicle, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-hyper-metabolic-vigour",
+    "lore": "Evidence of the bio-horror taint in their veins, the most blessed of a cult exhibit an inhuman swiftness.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Aberrants, Biophagus or Purestrain Genestealers unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends it as close as possible to the closest enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-stimulated-bio-surge",
+    "lore": "Triggered by xenos bio-stimms flooding their bodies, when the cult’s predators spring their trap, the jaws close inescapably.",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One Aberrants, Biophagus or Purestrain Genestealers unit from your army that has not declared a charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit declares a charge, if the closest eligible enemy unit is selected as one of the targets of that charge, add 1 to the Charge roll for each selected target of that charge (including the closest eligible enemy unit), to a maximum of +3.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-bio-horror-revelation",
+    "lore": "Face to face with hideous genetic monstrosities, their full horror can shake even the most stoic soul.",
+    "whenRules": "Start of your opponent's Shooting phase.",
+    "targetRules": "One Aberrants, Biophagus or Purestrain Genestealers unit from your army. ",
+    "effectRules": "Until the end of the phase, each time an enemy unit within 9\" of your unit is selected to shoot, it must take a Leadership test, subtracting 1 from the result. If that test is failed, until the end of the phase, each time a model in that enemy unit makes an attack that targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-along-shadowed-trails",
+    "lore": "With raw speed and subtle misdirection, Atalan Jackals outflank those who believe them trapped.",
+    "whenRules": "Any phase, just after an enemy unit ends a move within 9\" of one or more of your Cult Ambush markers.",
+    "targetRules": " One Atalan Jackals unit from your army in Cult Ambush.",
+    "effectRules": "Select one of those Cult Ambush markers. You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9\" horizontally away from all enemy units and wholly within 6\" of one or more battlefield edges. Until the end of the battle, you can only select Atalan Jackals units from your army to set up using that Cult Ambush marker.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-devoted-crew",
+    "lore": "With evasive manoeuvres and split-second repairs, Outlander Claws marshal their rugged vehicles through the worst the foe can throw at them.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Goliath Rockgrinder or Goliath Truck unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-close-range-shoot-out",
+    "lore": "A cult’s experienced outriders are experts in hit-and-run attacks and close-range firefights. These skills are deadly when combined.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Genestealer Cults Mounted or Genestealer Cults Vehicle unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability while targeting an enemy unit within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-rapid-feint",
+    "lore": "An Outlander Claw’s skilled riders and crews can use their enhanced hybrid reactions to rapidly alter speed and course, roaring after fleeing prey or luring enemy out of position and leaving them flat-footed.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One Achilles Ridgerunners or Atalan Jackals unit from your army that is within 9\" of that enemy unit.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-deft-manoeuvring",
+    "lore": "Serpent-fast, jinking and swerving with incredible skill, the cult’s light vehicles appear to slide through the oppressor’s gunfire.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Achilles Ridgerunners or Atalan Jackals unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-encircling-the-prey",
+    "lore": "Skirting the edge of battle, an Outlander Claw’s raiders watch keenly for vulnerabilities, ready to throw themselves back into the fight to exploit any weaknesses in the enemy.",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One Genestealer Cults Mounted or Genestealer Cults Vehicle unit from your army that is not within Engagement Range of one or more enemy units and is wholly within 9\" of one or more battlefield edges.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-in-the-shadow-of-iron",
+    "lore": "Hulking armoured war engines provide ideal cover to launch a well-timed ambush.",
+    "whenRules": "Any phase, just after an enemy unit ends a move within 9\" of one or more of your Cult Ambush markers.",
+    "targetRules": "One Astra Militarum Vehicle unit from your army.",
+    "effectRules": "Select one of those Cult Ambush markers. You can set up that Cult Ambush marker anywhere on the battlefield that is more than 9\" horizontally away from all enemy units and wholly within 6\" of your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-regimental-reinforcements",
+    "lore": "Xeno-tainted soldiers have long learned to lurk in the shadows, ready to attack when the cult calls.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an Astra Militarum Infantry Regiment unit from your army (excluding Artillery and Character units) is destroyed.",
+    "targetRules": "That Infantry unit. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Roll one D6: on a 3+, place one Cult Ambush marker anywhere on the battlefield that is more than 9\" horizontally away from all enemy units (if this is not possible, no marker is placed) and add a new unit to your army identical to your destroyed unit, in Cult Ambush, at its Starting Strength, with all of its wounds remaining and any [ONE SHOT] weapons those models are equipped with considered as not having been shot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-suppress-and-overwhelm",
+    "lore": "Disciplined salvoes of fire can drive the foe into cover, leaving them vulnerable to the rest of the cult.",
+    "whenRules": "Your Shooting phase, just after an Astra Militarum unit from your army has shot.",
+    "targetRules": "That Astra Militarum unit.",
+    "effectRules": "Select one enemy unit hit by one or more of those attacks. Until the end of the turn, that enemy unit cannot be targeted with the Fire Overwatch Stratagem and each time a Genestealer Cults unit from your army selects that enemy unit as a target of a charge, you can re-roll the Charge roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-acceptable-losses",
+    "lore": "With martial pragmatism and the cult’s victory at stake, Brood Brothers will willingly open fire on the foe even if it endangers infiltrating cells of allies.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Astra Militarum unit from your army.",
+    "effectRules": "Select one enemy unit within Engagement Range of one or more Genestealer Cults units from your army. Until the end of the phase, your unit can make ranged attacks that target that enemy unit. If it does, after it has resolved those attacks, roll one D6 for each of those Genestealer Cults units: on a 5+, the unit being rolled for suffers D3+1 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-symbiotic-destruction",
+    "lore": "As the Broodmind coordinates their timing, martial and insurrectionist comrades target their chosen victims in volleys of mutually supportive firepower.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Astra Militarum and one Genestealer Cults unit from your army that have not been selected to shoot this phase.",
+    "effectRules": "Select one enemy unit that is visible to both of those selected units and within range of at least one ranged weapon from each of those units. Until the end of the phase, models in those units can only make attacks that target that enemy unit (and only if it is an eligible target). When doing so, each time such a model makes an attack, re-roll a Wound roll of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-genestealer-cults-a-dark-network",
+    "lore": "Forewarned of the enemy’s sudden onset by spies in their ranks or by the Brood Brothers’ own strategos, the cult’s faithful evade potential catastrophe.",
+    "whenRules": "Reinforcements step of your opponent's Movement phase, just after an enemy unit is set up on the battlefield from Reserves.",
+    "targetRules": "One Astra Militarum or Genestealer Cults unit from your army (excluding Monsters and Vehicles) within 12\" of that enemy unit.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-grey-knights-radiant-strike",
     "lore": "Psychic fire rimes the blades of the Grey Knights as they charge at the foe, fanned by their battle fury. At the moment of contact, the empyric charge is unleashed in a blast of azure light.",
     "whenRules": "Fight phase.",
@@ -2326,7 +2954,7 @@
     "id": "stratagem-necrons-cosmic-precision",
     "lore": "With a sanity-defying mechanism at the heart of the tomb, dynastic astromancers divine the pre-aligned point in space and time where a crucial role can be played in the wider battle plan.",
     "whenRules": "Your Movement phase.",
-    "targetRules": "One Necrons unit from your army that is arriving using the Deep Strike or Hyperphasing abilities this phase.",
+    "targetRules": "One Necrons unit from your army (excluding MONSTER units) that is arriving using the Deep Strike or Hyperphasing abilities this phase.",
     "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
     "restrictionRules": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
   },
@@ -2575,7 +3203,7 @@
     "lore": "Once a horde of Orks get a sight of the foe, nothing can stop them.",
     "whenRules": "Your Charge phase.",
     "targetRules": "One Boyz unit from your army that has not declared a charge this phase.",
-    "effectRules": "Until the end of the phase, each time your unit declares a charge, add the current battle round number to the Charge roll.",
+    "effectRules": "Until the end of the phase, each time your unit declares a charge, add 1 to the Charge roll and, if your unit contains 10 or more models, you can re-roll the Charge roll.",
     "restrictionRules": null
   },
   {
@@ -2583,7 +3211,7 @@
     "lore": "Keeping Orks at arm’s length and pummelling them with as much firepower as possible is often the safest tactic for their victims. Unfortunately, it can also draw their attention and give them the urge to re‑educate the gitz in the joys of up‑close savagery.",
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Boyz unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
-    "effectRules": "After the attacking unit has shot, your unit can make a Go Get 'Em! move. To do so, roll one D6: each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit contains 10 or more models, it can move up to 6\" when making that move instead.",
+    "effectRules": "After the attacking unit has shot, your unit can make a Go Get ’Em! move. To do so, roll one D6: each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit contains 10 or more models, you can re-roll the D6 to determine how far your unit can move.",
     "restrictionRules": null
   },
   {
@@ -3479,7 +4107,7 @@
     "lore": "Encircling and entrapping such physically powerful and fearless beasts is nigh on impossible.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One TYRANIDS MONSTER unit from your army that has not been selected to move this phase.",
-    "effectRules": "Until the end of the phase, models in your unit can move through enemy models as if they were friendly models, and until the end of the phase any Desperate Escape tests those models must take are automatically passed.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Normal, Advance or Fall Back move, it can move through models (excluding Titanic models) and sections of terrain features that are 4\" or less in height. When doing so:\n\n■ It can move within Engagement Range of enemy models, but cannot end that move within Engagement Range of them.\n■ It can also move through sections of terrain features that are more than 4\" in height, but if it does, after its unit has moved, roll one D6: on a 1, your unit is Battle-shocked.",
     "restrictionRules": null
   },
   {
