@@ -863,6 +863,14 @@
     "restrictionRules": "Your Character model cannot attach to a unit that is already an Attached unit."
   },
   {
+    "id": "stratagem-adeptus-custodes-sworn-guardians",
+    "lore": "The Adeptus Custodes smash apart their foes without slowing, securing the Emperor’s realm with bloody efficiency and then advancing to new positions.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Adeptus Custodes unit from your army (excluding Anathema Psykana units) within range of an objective marker you control.",
+    "effectRules": "That objective marker remains under your control even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-adeptus-mechanicus-baleful-halo",
     "lore": "A haze of deadly radiation hangs around the warriors of the Rad-Cohort, every exhalation they make adding to the isotopic fog, sapping the strength and stamina of those who are not inured to its effects.",
     "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
@@ -4480,5 +4488,25 @@
     "id": "gambit-orbital-strike-coordinates",
     "lore": "Remaining in this battlezone is folly. Teleportahums are being sanctified and orbital transports are inbound to exfiltrate what forces remain. Prepare for immediate extraction.",
     "body": "At the end of your fifth turn, if one or more units from your army that are not Battle-shocked are wholly within 9\" of a corner of the battlefield, and those units are not within your own deployment zone, roll 2D6.\n\nAdd 1 to the result for every other corner of the battlefield that has one or more units from your army wholly within 9\" of it (excluding units that are Battle-shocked or within Engagement Range of any enemy units).\n\nIf the final result is 12 or more, this Gambit is successfully completed and you score 30VP."
+  },
+  {
+    "id": "secret-mission-pariah-nexus-command-insertion",
+    "lore": "Sometimes vital tasks cannot be entrusted to underlings. At such times, a commander must lead by example, bloodying their own hands to achieve victory.",
+    "body": "SECRET MISSION\nWHEN: End of the battle.\nYour WARLORD is within range of one or more objective markers in your opponent's deployment zone that you control. 20VP"
+  },
+  {
+    "id": "secret-mission-pariah-nexus-unbroken-wall",
+    "lore": "Intelligence has revealed a secondary enemy attack incoming. Form a wall of warriors across this battlefield, ready to repel it.",
+    "body": "SECRET MISSION\nWHEN: End of the battle.\nYou control three or more objective markers that are not within your deployment zone. 20VP"
+  },
+  {
+    "id": "secret-mission-pariah-nexus-war-of-attrition",
+    "lore": "This is to be a battle of numbers, wherein you must husband your core forces with skill while winnowing those of the foe.",
+    "body": "SECRET MISSION\nWHEN: End of the battle.\nOne or more BATTLELINE units from your army are within your opponent's deployment zone, and one of the following conditions applies:\nVICTORY POINTS\n• There are no BATTLELINE units from your opponent's army on the battlefield.\n• Every BATTLELINE unit from your opponent's army that is on the battlefield is within your opponent's deployment zone. 20VP"
+  },
+  {
+    "id": "secret-mission-pariah-nexus-shatter-cohesion",
+    "lore": "There is no surer way to prevent your foe securing victory than to utterly destroy their strategic and tactical capabilities.",
+    "body": "SECRET MISSION\nWHEN: End of the battle.\nThere are no units from your opponent's army on the battlefield. 20VP\nOR\nEvery unit from your opponent's army that is on the battlefield meets one or more of the following conditions:\n• That unit is Battle-shocked.\nThat unit is Below Half-strength.\n• That unit is more than 3\" away from all objective markers. 20VP"
   }
 ]
