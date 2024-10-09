@@ -238,7 +238,7 @@
   {
     "id": "mission-rule-pariah-nexus-adapt-or-die",
     "lore": "On this changing battlefield, only a commander who can adapt their strategy swiftly and decisively stands any chance of seizing victory.",
-    "body": "FOR PLAYERS USING FIXED MISSIONS\nOnce per battle, at the end of that player's turn, after scoring any VP, they can discard one of their Secondary Mission cards and replace it with another Secondary Mission card that has the Fixed Mission symbol.\n\nFOR PLAYERS USING TACTICAL MISSIONS\nTwice per battle, after drawing a Secondary Mission card, that player can draw another Secondary Mission card, then shuffle one of those two Secondary Mission cards back into their Secondary Mission deck.',  // TODO support!!!\n    lore: 'On this changing battlefield, only a commander who can adapt their strategy swiftly and decisively stands any chance of seizing victory."
+    "body": "FOR PLAYERS USING FIXED MISSIONS\nOnce per battle, at the end of that player's turn, after scoring any VP, they can discard one of their Secondary Mission cards and replace it with another Secondary Mission card that has the Fixed Mission symbol.\n\nFOR PLAYERS USING TACTICAL MISSIONS\nTwice per battle, after drawing a Secondary Mission card, that player can draw another Secondary Mission card, then shuffle one of those two Secondary Mission cards back into their Secondary Mission deck."
   },
   {
     "id": "mission-rule-pariah-nexus-stalwarts",
@@ -871,6 +871,14 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-adeptus-custodes-slayers-of-nightmares",
+    "lore": "In an age plagued by monstrous foes, when primordial horrors from the darkest void circle Humanity’s dying light, still the Adeptus Custodes stand strong.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adeptus Custodes unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a Monster or Vehicle unit, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-adeptus-mechanicus-baleful-halo",
     "lore": "A haze of deadly radiation hangs around the warriors of the Rad-Cohort, every exhalation they make adding to the isotopic fog, sapping the strength and stamina of those who are not inured to its effects.",
     "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
@@ -917,6 +925,54 @@
     "targetRules": "One Skitarii unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
     "effectRules": "Until the end of the turn, models in your unit have a 4+ invulnerable save.",
     "restrictionRules": "You can only use this Stratagem if the Protector Imperative is active for your army."
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-rad-zone-corps-baleful-halo",
+    "lore": "By briefly unshielding the most corrosive or irradiated components of their being, the warriors of a Raz-Zone Corps can exhale an isotopic fog, sapping the strength of those not injured to its effects.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Mechanicus unit from your army (excluding Vehicle units) that was selected as the target of one or more of the attacking unit's attacks. If that unit is Battleline, you can also target one friendly Skitarii unit (excluding Battleline units) within 6\" of it.",
+    "effectRules": "Until the end of the phase, each time an attack targets one of those units from your army, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-rad-zone-corps-extinction-order",
+    "lore": "As Tech-Priests order the purge of an area of the battlefield, hazardous bombardments are redoubled in the hopes of turning it into a wasteland.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Tech-Priest model from your army and one objective marker within 24\" of that model.",
+    "effectRules": "Roll one D6 for each enemy unit within range of that objective marker. On a 4+, that unit suffers 1 mortal wound and must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-rad-zone-corps-aggressor-imperative",
+    "lore": "The Skitarii feel the press of an invisible hand upon their minds as the Machine God drives them forward. Servos are pushed to their structural limits, propelling the faithful on an unstoppable crusade.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Skitarii unit from your army that has not been selected to move this phase. If that unit is Battleline, you can also target one friendly Skitarii unit (excluding Battleline units) within 6\" of it.",
+    "effectRules": "Until the end of the phase, each time one of those units Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-rad-zone-corps-pre-calibrated-purge-solution",
+    "lore": "Employing targeting data collated by a swarm of servo-skulls released over the enemy’s battle lines, the Machine God’s faithful purge the foe stumbling amidst rad-scourged positions.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Adeptus Mechanicus unit from your army that has not been selected to shoot this phase. If that unit is Battleline, you can also target one friendly Skitarii unit (excluding Battleline units) within 6\" of it.",
+    "effectRules": "Until the end of the phase, each time a model in one of those units makes a ranged attack, if the target of that attack is within your opponent's deployment zone, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-rad-zone-corps-lethal-dosage",
+    "lore": "Tri-fold sanctified power cells, fuel canisters and solid slugs have spent a decade in the most irradiated forge temple to certify their lethality.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Adeptus Mechanicus unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [LETHAL HITS] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-rad-zone-corps-bulwark-imperative",
+    "lore": "With a pulse of force-loaded wisdom, microactuators lock into bracing positions, reserve power cells are brought online and the Omnissiah’s holy crusaders are bestowed with a sensation of sacred invulnerability.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Skitarii unit from your army that was selected as the target of one or more of the attacking unit's attacks. If that unit is Battleline, you can also target one friendly Skitarii unit (excluding Battleline units) within 6\" of it.",
+    "effectRules": "Until the end of the phase, models in those units from your army have a 4+ invulnerable save.",
+    "restrictionRules": null
   },
   {
     "id": "stratagem-adeptus-mechanicus-motive-imperative",
