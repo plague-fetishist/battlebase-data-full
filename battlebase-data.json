@@ -1791,6 +1791,54 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-black-templars-fuelled-by-faith",
+    "lore": "The Black Templars fight on through even the most grievous wounds to body and mind.",
+    "whenRules": "Any phase, just after a mortal wound is allocated to an Adeptus Astartes unit from your army.",
+    "targetRules": "That Adeptus Astartes unit.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-wrathful-procession-armour-of-contempt",
+    "lore": "The belligerence and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-wrathful-procession-castigate-the-demagogues",
+    "lore": "There is nowhere that the architects of heresy can hide from the righteous judgement of the Black Templars.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-wrathful-procession-brute-fervour",
+    "lore": "All the enemy’s skill, cunning and trickery come to naught in the face of the Black Templars’ direct and unrelenting brutality.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1 and you can ignore any or all modifiers to the following: that attack’s Weapon Skill characteristic; the Hit roll; the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-wrathful-procession-relentless-momentum",
+    "lore": "The sheer momentum and ferocity of so many charging, armoured killers are almost impossible to stop, carrying them forward through rank after rank of the heretical foe.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the end of the phase, when determining which models in your unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-wrathful-procession-voice-of-devotion",
+    "lore": "In the crucial moment, these battle‑brothers switch to the most apposite devotional litany just as they might select the correct weapon from the Chapter’s armouries.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army.",
+    "effectRules": "Select the Chorus of Relentless Hate, Rite of Perfervid Wrath or Chant of Deathless Devotion Litany. Until the end of the battle round, that Litany is active for your unit instead of any other Litany that is active for your army.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-blood-angels-liberator-assault-group-angelic-grace",
     "lore": "Sanguinius’ sons are blessed with the spiritual fortitude of their Primarch.",
     "whenRules": "Any phase, just after an Adeptus Astartes unit from your army has a mortal wound allocated to it.",
@@ -1980,6 +2028,54 @@
     "whenRules": "Your Movement phase, just after an Adeptus Astartes unit from your army Falls Back.",
     "targetRules": "That Adeptus Astartes unit.",
     "effectRules": "Until the end of the turn, your unit is eligible to declare a charge even though it Fell Back this phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-angelic-inheritors-armour-of-contempt",
+    "lore": "The belligerence of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-angelic-inheritors-focused-fury",
+    "lore": "Keeping the beast within under tight control, the Blood Angels nonetheless tap into that inner rage and shackle it to their precisely aimed blows.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the [LETHAL HITS] ability. If your unit is a Character unit, until the end of the phase, those weapons have the [LANCE] ability as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-angelic-inheritors-instant-of-grace",
+    "lore": "In this most desperate moment of need, a lone battle‑brother rises to the challenge as a true inheritor of the Angel’s legacy.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One Adeptus Astartes Infantry unit from your army.",
+    "effectRules": "Select one non‑Character model in your unit. Until the start of your next Command phase, your model has the Character keyword.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-angelic-inheritors-strike-now-for-glory",
+    "lore": "Knowing instinctively that the pivotal moment has arrived, these battle‑brothers aim and hammer their foes with unrelenting volleys.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [SUSTAINED HITS 1] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-angelic-inheritors-in-the-shadow-of-great-wings",
+    "lore": "The enemy is engulfed in a soul‑deep shadow for just a moment, as though mighty wings have spread above them and marred their vision with occluding darkness.",
+    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes Character unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-angelic-inheritors-unto-the-burning-skies",
+    "lore": "In the face of encroaching doom, as the world seems to burn around them, these scions of Sanguinius leap high into the tormented heavens, ready to strike down with vengeful fury upon the enemy teeming below.",
+    "whenRules": "End of your opponent’s Fight phase.",
+    "targetRules": "One Adeptus Astartes Jump Pack unit from your army. You cannot target a unit that is within Engagement Range of one or more enemy units, unless it is The Sanguinor.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
     "restrictionRules": null
   },
   {
@@ -5049,6 +5145,54 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-space-wolves-preytakers-eye",
+    "lore": "Long and bloody experience has taught these warriors how best to identify the slightest weakness in their prey and exploit it to the fullest.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Select either the [LETHAL HITS] or [SUSTAINED HITS 1] abilities. Until the end of the phase, weapons equipped by models in your unit have that ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-champions-of-fenris-armour-of-contempt",
+    "lore": "The belligerence and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-runes-of-claiming",
+    "lore": "A few quick cuts with a diamond‑keen hunting knife or energised claw tip leave Fenrisian runes carved into bedrock, plasteel or flesh, marks of abjuration against the foe and secret messages between Space Wolves alike.",
+    "whenRules": "End of your Command phase.",
+    "targetRules": "One Adeptus Astartes Infantry or Adeptus Astartes Walker unit from your army.",
+    "effectRules": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-chilling-howl",
+    "lore": "Raising their feral voices as one, the elite champions of Fenris give voice to a predatory howl fit to freeze the marrow of the bravest warriors.",
+    "whenRules": "Your opponent’s Command phase.",
+    "targetRules": "One Adeptus Astartes Terminator unit from your army.",
+    "effectRules": "Each enemy unit within 6\" of your unit must take a Battle‑shock test, subtracting 1 from that test if that unit is Below Half‑strength.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-stalking-wolves",
+    "lore": "These veteran warriors approach the foe like wolves on the hunt. They are ever‑poised to drop into cover or fade into the shadows to avoid their prey’s increasing desperation to drive them off.",
+    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Stealth ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-onrushing-storm",
+    "lore": "A Fenrisian gunship skims low over the battlefield, touching down just long enough for these elite warriors to embark before it lifts off again. The enemy’s respite will not last long; it will return with its deadly cargo soon enough.",
+    "whenRules": "End of your opponent’s Fight phase.",
+    "targetRules": "One Adeptus Astartes Terminator Squad unit from your army that is not within Engagement Range of one or more enemy untis.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-tau-empire-stimm-injectors",
     "lore": "This system injects the battlesuit pilot with a measured dose of chemical stimulants intended to temporarily accelerate their physical aptitude and pain tolerances.",
     "whenRules": "Fight phase or your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
@@ -5286,6 +5430,54 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Kroot unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-experimental-modifications",
+    "lore": "These experimental Earth caste weapon upgrades can only activate for short bursts at a time, but the extra stopping power they provide is formidable.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One T'au Empire unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, improve the Armour Penetration characteristic of weapons equipped by models in your unit by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-multisensory-scanning",
+    "lore": "Target analysis data from scanning drones is rapidly translated into inputs ideally tailored to a range of alien sensoria and then disseminated through the cadre.",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One T'au Empire unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1. If it is a Kroot or Vespid Stingwings unit, you can re‑roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-interlocking-manoeuvres",
+    "lore": "Regular Fire caste forces operating as part of auxiliary cadres are well trained in swift repositioning and fighting retreats, the better to exploit the presence of or provide support for their alien comrades.",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One T'au Empire unit from your army that was eligible to fight this phase.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". Otherwise, your unit can make a Fall Back move. It cannot embark within a Transport at the end of this move if it disembarked from a Transport this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-pheromone-waypoints",
+    "lore": "Air caste craft have dropped drones that emit pheromones into this region, their emissions invisible but blazing like beacons to the correct alien senses.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One Kroot or Vespid Stingwings unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-alien-expertise",
+    "lore": "There is much that the alien auxiliaries of the T'au empire can teach the Fire caste, not least through practical and deadly battlefield demonstrations.",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One T'au Empire unit from your army.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced. If it is a Kroot or Vespid Stingwings unit, until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-guided-fire",
+    "lore": "These Fire Warriors employ sensory data fed to them by supporting alien auxiliary units to maximise accuracy and place their shots against weak points they might not have perceived.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'au Empire unit from your army (excluding Kroot and Vespid Stingwings units) that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in your unit. If your unit is wholly within 9\" of one or more Kroot or Vespid Stingwings units from your army, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit instead.",
     "restrictionRules": null
   },
   {
@@ -5766,6 +5958,54 @@
     "whenRules": "Your Movement phase.",
     "targetRules": "One World Eaters unit from your army that has not been selected to move this phase.",
     "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-aspire-to-infamy",
+    "lore": "With proven champions of Khorne looking on, those of lesser renown hurl themselves into the fray with greater ferocity, eager to prove their prowess.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One World Eaters unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non‑Character models in your unit by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-overshadowed-by-none",
+    "lore": "The more towering and monstrous the adversary, the better a chance that its bloody end will win the approbation of Khorne.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One World Eaters unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a Monster or Vehicle unit, you can re‑roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-gory-dedication",
+    "lore": "To the World Eaters, every battlefield is an altar upon which to offer up crimson sacrifices. Where the lifeblood of their victims falls, it anoints the ground as holy to Khorne’s murderous creed.",
+    "whenRules": "Fight phase, just after a World Eaters unit from your army has fought, if one or more enemy models were destroyed as a result of those attacks.",
+    "targetRules": "That World Eaters unit.",
+    "effectRules": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-punish-the-craven",
+    "lore": "The Blood God is said to detest cowards. Meting out punishment to such degenerates is a sure way to win his favour and gain his wrathful boons.",
+    "whenRules": "Your opponent’s Movement phase, just after an enemy unit (excluding Monsters and Vehicles) is selected to Fall Back.",
+    "targetRules": "One World Eaters Infantry or World Eaters Daemon Prince unit from your army within Engagement Range of that enemy unit.",
+    "effectRules": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a Vessel of Wrath unit, subtract 1 from each of those tests.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-meet-force-with-force",
+    "lore": "Desperate to prove themselves to the Blood God in this hour of infernal glory, these warriors are only goaded to more ferocious efforts by the enemy’s attempts to hold them at bay.",
+    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One World Eaters Infantry, World Eaters Mounted or World Eaters Daemon Prince unit from your army that lost one or more wounds as a result of those attacks.",
+    "effectRules": "Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a Khorne Berzerkers or Vessel of Wrath unit, you can re‑roll the D6 to determine how far your unit can move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-brazen-contempt",
+    "lore": "Empowered by flowing waves of hatred that they believe emanate from the Blood God himself, Khorne’s worshippers feel nothing but scorn at their enemies’ pitiful blows.",
+    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One World Eaters unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a Vessel of Wrath unit, subtract 1 from the Wound roll instead.",
     "restrictionRules": null
   },
   {
