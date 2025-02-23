@@ -1552,6 +1552,384 @@
   },
   {
     "id": "stratagem-aeldari-lightning-fast-reactions",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASURYANI unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-skyborne-sanctuary",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One ASURYANI unit from your army and one friendly TRANSPORT it is able to embark within.",
+    "effectRules": "If your ASURYANI unit is wholly within 6\" of that TRANSPORT, it can embark within it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-feigned-retreat",
+    "whenRules": "Your Movement phase, just after an ASURYANI unit from your army Falls Back.",
+    "targetRules": "That ASURYANI unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-blitzing-firepower",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASURYANI unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the SUSTAINED HITS 1 ability while targeting an enemy unit within 12\". If such a weapon already has that ability, until the end of the phase, each time an attack is made with that weapon, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-warhost-fire-and-fade",
+    "whenRules": "Your Shooting phase, just after an ASURYANI INFANTRY unit from your army (excluding AIRCRAFT, ASURMEN and WRAITH CONSTRUCT units) has shot.",
+    "targetRules": "That ASURYANI unit.",
+    "effectRules": "Your unit can make a Normal move of up to D6+1\".",
+    "restrictionRules": "Until the end of the turn, your unit is not eligible to declare a charge."
+  },
+  {
+    "id": "stratagem-aeldari-webway-tunnel",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One ASURYANI INFANTRY unit from your army that is wholly within 9\" of one or more battlefield edges.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, remove it from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-death-from-on-high",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One ASURYANI MOUNTED or VYPER unit from your army that was set up on the battlefield from Reserves this turn and has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can re‑roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-overflight",
+    "whenRules": "Your Shooting phase or the Fight phase, just after an ASURYANI MOUNTED unit from your army destroys an enemy unit.",
+    "targetRules": "That ASURYANI MOUNTED unit.",
+    "effectRules": "Your unit can make a Normal move of up to 7\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-wind-of-blades",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ASURYANI MOUNTED or VYPER unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-daring-riders",
+    "whenRules": "The Reinforcements step of your Movement phase.",
+    "targetRules": "One ASURYANI MOUNTED or VYPER unit from your army in Reserves.",
+    "effectRules": "Until the end of the phase, when setting up your unit on the battlefield from Reserves, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units. When doing so, if your unit is set up within 9\" horizontally of one or more enemy units, until the end of the turn, it is not eligible to declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-focused-firepower",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASURYANI MOUNTED or VYPER unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-spiralling-evasion",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASURYANI MOUNTED or VYPER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-layered-wards",
+    "whenRules": "Any phase, just after a mortal wound is allocated to an AELDARI VEHICLE unit from your army.",
+    "targetRules": "That AELDARI VEHICLE unit.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-swift-deployment",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One AELDARI TRANSPORT unit from your army.",
+    "effectRules": "Until the end of the phase, units can disembark from your TRANSPORT after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-vectored-engines",
+    "whenRules": "Your Movement phase, just after an AELDARI VEHICLE unit from your army that can FLY Falls Back.",
+    "targetRules": "That AELDARI VEHICLE unit.",
+    "effectRules": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-cloudstrike",
+    "whenRules": "Start of the Reinforcements step of your Movement phase.",
+    "targetRules": "One AELDARI VEHICLE unit from your army that can FLY and is in Strategic Reserves.",
+    "effectRules": "Until the end of the phase, your unit has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but if it does, until the end of the turn, it is not eligible to declare a charge. In addition, if your unit is a TRANSPORT, each unit that disembarks from it this turn must be set up more than 6\" horizontally from all enemy units and until the end of the turn, is not eligible to declare a charge.&#x20;",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-soulsight",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One AELDARI VEHICLE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time your unit is selected to shoot, you can re‑roll one Hit roll, one Wound roll and one Damage roll made for a model in your unit. If you are using fast dice rolling, you can select one of those rolls to re‑roll before moving onto the next step of the attack sequence.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-anti-grav-repulsion",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit has declared a charge.",
+    "targetRules": "One AELDARI VEHICLE unit from your army that can FLY and was selected as a target of that charge.",
+    "effectRules": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-seer's-eye",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One AELDARI PSYKER model from your army and one friendly WRAITH CONSTRUCT unit within 12\" of it that has not been selected to shoot or fight this phase.",
+    "effectRules": "Select one enemy unit visible to your PSYKER model. Until the end of the phase, each time a model in your WRAITH CONSTRUCT unit makes an attack that targets that enemy unit, you can ignore any or all modifiers to the Armour Penetration and/or Damage characteristics of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-wraithbone-armour",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One WRAITH CONSTRUCT unit from your army (excluding TITANIC units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-blades-from-beyond",
+    "whenRules": "Fight phase.",
+    "targetRules": "One WRAITHBLADES, WRAITHLORD or WRAITHKNIGHT unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the DEVASTATING WOUNDS ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-soul-bridge",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One WRAITHBLADES, WRAITHGUARD or WRAITHLORD unit from your army and one ASURYANI PSYKER model from your army.",
+    "effectRules": "Until the start of your next Command phase, your WRAITHBLADES, WRAITHGUARD or WRAITHLORD unit is considered to be within 12\" of your PSYKER model for the purposes of the Psychic Guidance and Spirit Guides abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-spirit-token",
+    "whenRules": "Start of your Movement phase.",
+    "targetRules": "One WRAITHBLADES or WRAITHGUARD unit from your army.",
+    "effectRules": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-crushing-strides",
+    "whenRules": "Your Charge phase, just after a WRAITHBLADES, WRAITHLORD or WRAITHKNIGHT unit from your army ends a Charge move.",
+    "targetRules": "That WRAITHBLADES, WRAITHLORD or WRAITHKNIGHT unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit and roll one D6 for each WRAITHBLADES model in your unit, or roll four D6 if your unit has the WRAITHLORD keyword, or roll six D6 if your unit has the WRAITHKNIGHT keyword: for each 3+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-staged-death",
+    "whenRules": "Any phase.",
+    "targetRules": "One HARLEQUINS CHARACTER model from your army that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+    "effectRules": "At the end of the phase, set your model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with half of its starting number of wounds remaining.",
+    "restrictionRules": "Each model can only be targeted with this Stratagem once per battle."
+  },
+  {
+    "id": "stratagem-aeldari-heroes'-fall",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One HARLEQUINS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-mocking-flight",
+    "whenRules": "Your Movement phase, just after a HARLEQUINS unit from your army Falls Back.",
+    "targetRules": "That HARLEQUINS unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-tricksters'-retort",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One TROUPE unit from your army that is within 9\" of that enemy unit.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-bloody-dance",
+    "whenRules": "End of your opponent's Charge phase.",
+    "targetRules": "One HARLEQUINS INFANTRY or HARLEQUINS MOUNTED unit from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.",
+    "effectRules": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
+    "restrictionRules": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn."
+  },
+  {
+    "id": "stratagem-aeldari-exit-the-stage",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One HARLEQUINS unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-warding-salvoes",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One DIRE AVENGERS or GUARDIANS unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of one or more objective markers, you can re‑roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-shield-nodes",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DIRE AVENGERS or GUARDIANS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "If your unit is within range of one or more objective markers, until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-vaul's-vengeance",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit destroys a DIRE AVENGERS or GUARDIANS unit from your army",
+    "targetRules": "One WAR WALKERS unit from your army.",
+    "effectRules": "After that enemy unit has finished making its attacks, your unit can shoot as if it were your Shooting phase, but when resolving those attacks, it can only target that enemy unit (and only if it is an eligible target).",
+    "restrictionRules": "You can only use this Stratagem once per battle round."
+  },
+  {
+    "id": "stratagem-aeldari-time-to-strike",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One STORM GUARDIANS unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit. Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-blades-of-asuryan",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One Dire AVENGERS or GUARDIANS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the PISTOL ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-cost-of-victory",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One GUARDIANS unit from your army.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, remove it from the battlefield and place it into Strategic Reserves. When doing so, return every destroyed GUARDIANS model to your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-pall-of-dread",
+    "whenRules": "Any phase.",
+    "targetRules": "One YNNARI unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Select one of those objective markers. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-macabre-resilience",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One YNNARI INFANTRY or YNNARI MOUNTED unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-emissaries-of-ynnead",
+    "whenRules": "Fight phase, just after a YNNARI INFANTRY unit from your army has selected its targets.",
+    "targetRules": "That YNNARI INFANTRY unit.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1. If your unit is below its Starting Strength, you can re‑roll the Hit roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-parting-the-veil",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One YNNARI unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-soulsight",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One YNNARI unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the LETHAL HITS and IGNORES COVER abilities",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-death-answers-death",
+    "whenRules": "End of your opponent's Shooting phase.",
+    "targetRules": "One YNNARI unit from your army (excluding WRAITH CONSTRUCT units), if one or more models in that unit were destroyed this phase.",
+    "effectRules": "Your unit can shoot as if it were your Shooting phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-presentiment-of-dread",
+    "whenRules": "Command phase.",
+    "targetRules": "One ASURYANI PSYKER model from your army.",
+    "effectRules": "Select one enemy unit within 18\" of and visible to your model. That enemy unit must take a Battle‑shock test, subtracting 1 from that test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-forewarned",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit's attacks and is within 9\" of one or more friendly ASURYANI PSYKER models.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-unshrouded-truth",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that has not been selected to move this phase and is within 9\" of one or more friendly ASURYANI PSYKER models.",
+    "effectRules": "Remove your unit from the battlefield and set it up again anywhere on the battlefield that is more than 9\" horizontally away from all enemy models.",
+    "restrictionRules": "Until the end of the phase, your unit is not eligible to be selected to move."
+  },
+  {
+    "id": "stratagem-aeldari-fate-inescapable",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that has not been selected to shoot this phase and is within 9\" of one or more friendly ASURYANI PSYKER models.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVER ability and each time a model in your unit makes an attack, on a Critical Wound, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-isha's-fury",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One ASURYANI PSYKER model from your army within 9\" of that enemy unit.",
+    "effectRules": "Roll six D6: for each 3+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-psychic-shield",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASURYANI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit's attacks and is within 9\" of one or more friendly ASURYANI PSYKER models.",
+    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-warrior-focus",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One ASPECT WARRIORS or AVATAR OF KHAINE unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Ballistic Skill, Weapon skill, Strength, Armour Penetration and Damage characteristics and/or any or all modifiers to the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-to-their-final-breath",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASPECT WARRIORS or AVATAR OF KHAINE unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Each time you use this Stratagem, you can remove one Aspect Shrine token your unit has (see datasheets). Then, until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if you removed an Aspect Shrine token during this usage of this Stratagem. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-skyborne-sanctuary",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One ASURYANI unit from your army and one friendly TRANSPORT it is able to embark within.",
+    "effectRules": "If your ASURYANI unit is not within Engagement Range of one or more enemy units and is wholly within 6\" of that TRANSPORT, it can embark within it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-doom-inescapable",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One AVATAR OF KHAINE model from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, your model's Wailing Doom ranged weapon has a Range characteristic of 18\" and a Damage characteristic of 8.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-preternatural-precision",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASPECT WARRIORS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Each time you use this Stratagem, you can remove one Aspect Shrine token your unit has (see datasheets). Then, select one of the following abilities, or select two of the following abilities if you removed an Aspect Shrine token during this usage of this Stratagem: IGNORES COVER, LETHAL HITS, SUSTAINED HITS 1. Until the end of the phase, ranged weapons equipped by models in your unit have the selected abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-khaine's-vengeance",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.",
+    "targetRules": "One ASPECT WARRIORS or AVATAR OF KHAINE unit from your army that is within Engagement Range of that enemy unit.",
+    "effectRules": "All models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-lightning-fast-reactions",
     "lore": "The Aeldari can process battlefield events at baffling speed, making their physical reactions so fast that they are able to dodge attacks that would hit any other target.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Aeldari unit from your army (excluding Wraith Construct units) that was selected as the target of one or more of the attacking unit’s attacks.",
@@ -1597,54 +1975,6 @@
     "targetRules": "One Aeldari Infantry unit from your army.",
     "effectRules": "Your unit can make a Normal move of up to D6\". It cannot embark within a Transport at the end of this move.",
     "restrictionRules": "You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem."
-  },
-  {
-    "id": "stratagem-aeldari-layered-wards",
-    "lore": "The wraithbone superstructure of this vehicle has been interlaced with warding runes, enabling its hull to resist incoming fire.",
-    "whenRules": "Any phase, just after a mortal wound is allocated to an Aeldari Vehicle unit from your army.",
-    "targetRules": "That Aeldari Vehicle unit.",
-    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-aeldari-swift-deployment",
-    "lore": "With consummate skill, Guardian crews guide their agile armoured transports across the battlefield before swooping low to unload their cargo of warriors.",
-    "whenRules": "Your Movement phase.",
-    "targetRules": "One Aeldari Transport unit from your army.",
-    "effectRules": "Until the end of the phase, units can disembark from your Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-aeldari-vectored-engines",
-    "lore": "The result of exquisite and ingenious Aeldari engineering, vectored engines enable grav vehicles to evade their enemies while maintaining accurate fire.",
-    "whenRules": "Your Movement phase, just after an Aeldari Vehicle unit from your army that can Fly Falls Back.",
-    "targetRules": "That Aeldari Vehicle unit.",
-    "effectRules": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-aeldari-cloudstrike",
-    "lore": "The Asuryani often deploy their anti-grav vehicles in the lower atmosphere rather than on the ground. At a signal, they strike before the enemy can react.",
-    "whenRules": "Start of the Reinforcements step of your Movement phase.",
-    "targetRules": "One Aeldari Vehicle unit from your army that can Fly and is in Strategic Reserves.",
-    "effectRules": "Until the end of the phase, your unit has the Deep Strike ability. When your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but if it does, until the end of the turn, it is not eligible to declare a charge. In addition, if your unit is a Transport, each unit that disembarks from it this turn must be set up more than 6\" horizontally from all enemy units and until the end of the turn, is not eligible to declare a charge.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-aeldari-soulsight",
-    "lore": "Spirit stones containing the souls of gifted seers have been embedded into this vehicle’s targeting matrices. The essences within lend guidance even in death.",
-    "whenRules": "Your Shooting phase.",
-    "targetRules": "One Aeldari Vehicle unit from your army that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, each time your unit is selected to shoot, you can re-roll one Hit roll, one Wound roll and one Damage roll made for a model in your unit.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-aeldari-anti-grav-repulsion",
-    "lore": "Skilled Aeldari pilots angle their vehicle’s anti-grav fields to repulse the enemy.",
-    "whenRules": "Your opponent’s Charge phase, just after an enemy unit has declared a charge.",
-    "targetRules": "One Aeldari Vehicle unit from your army that can Fly and was selected as a target of that charge.",
-    "effectRules": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit.",
-    "restrictionRules": null
   },
   {
     "id": "stratagem-astra-militarum-reinforcements!",
@@ -1695,6 +2025,90 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-null-coordinated-action",
+    "whenRules": "Start of any phase.",
+    "targetRules": "One REGIMENT unit from your army and one SQUADRON unit from your army within 6\" of and visible to that REGIMENT unit.",
+    "effectRules": "Until the end of the phase, Orders affecting one of your units affect the other, and vice versa.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-reinforcements!",
+    "whenRules": "Any phase.",
+    "targetRules": "One INFANTRY REGIMENT unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.",
+    "restrictionRules": "This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle."
+  },
+  {
+    "id": "stratagem-null-flexible-command",
+    "whenRules": "Your Command phase.",
+    "targetRules": "Any number of ASTRA MILITARUM OFFICER units from your army.",
+    "effectRules": "Until the end of the phase, your OFFICERS can issue Orders to REGIMENT units and SQUADRON units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-fields-of-fire",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One REGIMENT or SQUADRON unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Select one enemy unit. Until the end of the phase, each time your selected REGIMENT and SQUADRON units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-inspired-command",
+    "whenRules": "Your opponent's Command phase.",
+    "targetRules": "One ASTRA MILITARUM OFFICER unit from your army.",
+    "effectRules": "Your OFFICER can issue one Order as if it were your Command phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-stalwart-protector",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASTRA MILITARUM VEHICLE unit from your army.",
+    "effectRules": "Until the end of the phase, each time a ranged attack is allocated to an INFANTRY model from your army, if that model is not fully visible to every model in the attacking unit because of your VEHICLE, that model has the Benefit of Cover against that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-trench-fighters",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, enemy units model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if it is a REGIMENT model. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-over-the-top",
+    "whenRules": "Start of your Command phase.",
+    "targetRules": "One INFANTRY OFFICER model from your army.",
+    "effectRules": "Until the end of the phase, when your model issues the Move! Move! Move! Order, it can issue that Order to any number of eligible friendly INFANTRY REGIMENT units, regardless of range to your model.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-flare-burst",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM CHARACTER unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes an attack that targets a visible enemy unit within 12\", you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-callous-sacrifice",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One PLATOON unit from your army that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model's unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-furious-fusillade",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One PLATOON unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in your unit while targeting an enemy unit within half range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-minefield",
+    "whenRules": "Start of your opponent's Charge phase.",
+    "targetRules": "One PLATOON unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-astra-militarum-bellicosa-drop",
     "lore": "The Astra Militarum can call upon a nearly inexhaustible supply of warriors.",
     "whenRules": "Your Reinforcements step.",
@@ -1730,7 +2144,7 @@
     "id": "stratagem-astra-militarum-aerial-extraction",
     "lore": "Such swift manoeuvres are vital to retaining command of the developing tactical situation, whether gunships are peeling off to strike at the enemy from a fresh angle or infantry being extracted by dropcraft for rapid redeployment.",
     "whenRules": "End of your opponent’s Fight phase.",
-    "targetRules": "One Valkyrie unit from your army that is not within Engagement Range of one or more enemy units, or one Astra Militarum unit from your army that has the Deep Strike ability and is not within Engagement Range of one or more enemy units.",
+    "targetRules": "One Astra Militarum unit from your army that is not within Engagement Range of one or more enemy units, if all of its models have the Deep Strike ability, or one Valkyrie unit from your army that is not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
     "restrictionRules": null
   },
@@ -1740,6 +2154,132 @@
     "whenRules": "End of your opponent’s Fight phase.",
     "targetRules": "One Regiment Infantry unit from your army that is within Engagement Range of one or more enemy units.",
     "effectRules": "Roll one D6 for each enemy unit within Engagement Range of your unit: on a 2+, that enemy unit suffers D6 mortal wounds. Then, your unit suffers 3D3 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-vox-relay",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One INFANTRY OFFICER unit from your army embarked within a TRANSPORT. You can use this Stratagem on that unit even though it is embarked within a TRANSPORT.",
+    "effectRules": "Until the end of the phase, your unit can issue Orders even though it is not on the battlefield, and it can issue Orders to ASTRA MILITARUM TRANSPORT units from your army (excluding TITANIC units) regardless of the distance to and from your unit's TRANSPORT.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-rapid-dispersal",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army that disembarked from a TRANSPORT this phase.",
+    "effectRules": "Your INFANTRY unit can make a Normal move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-clear-and-secure",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-swift-interception",
+    "whenRules": "Your opponent's movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One TRANSPORT unit from your army (excluding TITANIC units) that is not within Engagement Range of one or more enemy units, and is within 9\" of the enemy unit that just ended that move.",
+    "effectRules": "Your TRANSPORT can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-hasty-extraction",
+    "whenRules": "Your opponent's Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move.",
+    "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army that was selected as a target of that charge.",
+    "effectRules": "Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an ASTRA MILITARUM TRANSPORT from your army, it can embark within that TRANSPORT.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-move-out",
+    "whenRules": "End of your opponent's turn.",
+    "targetRules": "One ASTRA MILITARUM unit from your army.",
+    "effectRules": "Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an ASTRA MILITARUM TRANSPORT from your army, it can embark within that TRANSPORT.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-final-hour",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One SQUADRON unit from your army that is Below Half-strength (excluding OFFICER units).",
+    "effectRules": "Until the end of the battle round, ranged weapons equipped by models in your unit (excluding ONE SHOT weapons) have the HAZARDOUS ability, and each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to that attack's Ballistic Skill characteristic and to the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-blazing-advance",
+    "whenRules": "Your Movement phase, just after a SQUADRON unit from your army Advances.",
+    "targetRules": "That SQUADRON unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-tactical-withdrawal",
+    "whenRules": "Your Movement phase, just after a SQUADRON unit from your army Falls Back.",
+    "targetRules": "That SQUADRON unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-crash-through",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One ASTRA MILITARUM VEHICLE unit from your army that has not been selected to move or charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-furious-cannonade",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One SQUADRON unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within 12\", improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-ablative-plating",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASTRA MILITARUM VEHICLE unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-crack-shots",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One PLATOON unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the PRECISION ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-draw-them-out",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One PLATOON unit from your army that is within 9\" of that enemy unit, and is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-scramble-field",
+    "whenRules": "Start of your opponent's Reinforcements step.",
+    "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army.",
+    "effectRules": "Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-courageous-diversion",
+    "whenRules": "Start of your opponent's Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit from your army.",
+    "effectRules": "Until the end of the phase, your unit has the Feel No Pain 6+ ability, and each time an enemy model makes an attack, if your unit is the closest eligible target, subtract 1 from the hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-tanglefoot-grenades",
+    "whenRules": "Start of your opponent's Charge phase.",
+    "targetRules": "One ASTRA MILITARUM GRENADES unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy unit selects your unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-null-scouting-outriders",
+    "whenRules": "End of your opponent's turn.",
+    "targetRules": "One ASTRA MILITARUM MOUNTED or ASTRA MILITARUM WALKER unit from your army that is wholly within 10\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
     "restrictionRules": null
   },
   {
@@ -2849,7 +3389,7 @@
   {
     "id": "stratagem-heretic-astartes-monstrous-visages",
     "lore": "Bile’s experimental ministrations have left these warriors as freakish monsters. Cursed with clusters of compound eyes, distended, fang‑stuffed jaws or myriad other grotesqueries, they are hideous to behold.",
-    "whenRules": "Your Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Heretic Astartes Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
     "restrictionRules": null
@@ -5188,7 +5728,7 @@
     "id": "stratagem-space-wolves-onrushing-storm",
     "lore": "A Fenrisian gunship skims low over the battlefield, touching down just long enough for these elite warriors to embark before it lifts off again. The enemy’s respite will not last long; it will return with its deadly cargo soon enough.",
     "whenRules": "End of your opponent’s Fight phase.",
-    "targetRules": "One Adeptus Astartes Terminator Squad unit from your army that is not within Engagement Range of one or more enemy untis.",
+    "targetRules": "One Adeptus Astartes Terminator unit from your army that is not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
     "restrictionRules": null
   },
@@ -5979,8 +6519,8 @@
   {
     "id": "stratagem-world-eaters-gory-dedication",
     "lore": "To the World Eaters, every battlefield is an altar upon which to offer up crimson sacrifices. Where the lifeblood of their victims falls, it anoints the ground as holy to Khorne’s murderous creed.",
-    "whenRules": "Fight phase, just after a World Eaters unit from your army has fought, if one or more enemy models were destroyed as a result of those attacks.",
-    "targetRules": "That World Eaters unit.",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One World Eaters unit from your army that destroyed one or more enemy models with a melee attack this phase.",
     "effectRules": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
     "restrictionRules": null
   },
