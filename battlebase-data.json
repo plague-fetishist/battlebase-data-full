@@ -2025,84 +2025,84 @@
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-coordinated-action",
+    "id": "stratagem-astra-militarum-coordinated-action",
     "whenRules": "Start of any phase.",
     "targetRules": "One REGIMENT unit from your army and one SQUADRON unit from your army within 6\" of and visible to that REGIMENT unit.",
     "effectRules": "Until the end of the phase, Orders affecting one of your units affect the other, and vice versa.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-reinforcements!",
+    "id": "stratagem-astra-militarum-reinforcements!",
     "whenRules": "Any phase.",
     "targetRules": "One INFANTRY REGIMENT unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
     "effectRules": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.",
     "restrictionRules": "This Stratagem cannot be used to return destroyed CHARACTER units to Attached units. You can only use this Stratagem once per battle."
   },
   {
-    "id": "stratagem-null-flexible-command",
+    "id": "stratagem-astra-militarum-flexible-command",
     "whenRules": "Your Command phase.",
     "targetRules": "Any number of ASTRA MILITARUM OFFICER units from your army.",
     "effectRules": "Until the end of the phase, your OFFICERS can issue Orders to REGIMENT units and SQUADRON units.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-fields-of-fire",
+    "id": "stratagem-astra-militarum-fields-of-fire",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One REGIMENT or SQUADRON unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Select one enemy unit. Until the end of the phase, each time your selected REGIMENT and SQUADRON units make an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-inspired-command",
+    "id": "stratagem-astra-militarum-inspired-command",
     "whenRules": "Your opponent's Command phase.",
     "targetRules": "One ASTRA MILITARUM OFFICER unit from your army.",
     "effectRules": "Your OFFICER can issue one Order as if it were your Command phase.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-stalwart-protector",
+    "id": "stratagem-astra-militarum-stalwart-protector",
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One ASTRA MILITARUM VEHICLE unit from your army.",
     "effectRules": "Until the end of the phase, each time a ranged attack is allocated to an INFANTRY model from your army, if that model is not fully visible to every model in the attacking unit because of your VEHICLE, that model has the Benefit of Cover against that attack.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-trench-fighters",
+    "id": "stratagem-astra-militarum-trench-fighters",
     "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, enemy units model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if it is a REGIMENT model. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-over-the-top",
+    "id": "stratagem-astra-militarum-over-the-top",
     "whenRules": "Start of your Command phase.",
     "targetRules": "One INFANTRY OFFICER model from your army.",
     "effectRules": "Until the end of the phase, when your model issues the Move! Move! Move! Order, it can issue that Order to any number of eligible friendly INFANTRY REGIMENT units, regardless of range to your model.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-flare-burst",
+    "id": "stratagem-astra-militarum-flare-burst",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One ASTRA MILITARUM CHARACTER unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, each time your unit makes an attack that targets a visible enemy unit within 12\", you can re-roll the Hit roll.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-callous-sacrifice",
+    "id": "stratagem-astra-militarum-callous-sacrifice",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One PLATOON unit from your army that is within Engagement Range of one or more enemy units.",
     "effectRules": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model's unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-furious-fusillade",
+    "id": "stratagem-astra-militarum-furious-fusillade",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One PLATOON unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, add 1 to the Attacks characteristic of ranged weapons equipped by models in your unit while targeting an enemy unit within half range.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-minefield",
+    "id": "stratagem-astra-militarum-minefield",
     "whenRules": "Start of your opponent's Charge phase.",
     "targetRules": "One PLATOON unit from your army.",
     "effectRules": "Until the end of the phase, each time an enemy unit ends a Charge move within Engagement Range of your unit, roll one D6 for each model in that enemy unit: for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
@@ -2157,126 +2157,126 @@
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-vox-relay",
+    "id": "stratagem-astra-militarum-vox-relay",
     "whenRules": "Your Command phase.",
     "targetRules": "One INFANTRY OFFICER unit from your army embarked within a TRANSPORT. You can use this Stratagem on that unit even though it is embarked within a TRANSPORT.",
     "effectRules": "Until the end of the phase, your unit can issue Orders even though it is not on the battlefield, and it can issue Orders to ASTRA MILITARUM TRANSPORT units from your army (excluding TITANIC units) regardless of the distance to and from your unit's TRANSPORT.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-rapid-dispersal",
+    "id": "stratagem-astra-militarum-rapid-dispersal",
     "whenRules": "Your Movement phase.",
     "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army that disembarked from a TRANSPORT this phase.",
     "effectRules": "Your INFANTRY unit can make a Normal move of up to D6\".",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-clear-and-secure",
+    "id": "stratagem-astra-militarum-clear-and-secure",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One ASTRA MILITARUM unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within range of an objective marker, you can re-roll the Hit roll and you can re-roll the Wound roll.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-swift-interception",
+    "id": "stratagem-astra-militarum-swift-interception",
     "whenRules": "Your opponent's movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
     "targetRules": "One TRANSPORT unit from your army (excluding TITANIC units) that is not within Engagement Range of one or more enemy units, and is within 9\" of the enemy unit that just ended that move.",
     "effectRules": "Your TRANSPORT can make a Normal move of up to 6\".",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-hasty-extraction",
+    "id": "stratagem-astra-militarum-hasty-extraction",
     "whenRules": "Your opponent's Charge phase, after an enemy unit has selected targets for its charge but before it makes a Charge move.",
     "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army that was selected as a target of that charge.",
     "effectRules": "Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an ASTRA MILITARUM TRANSPORT from your army, it can embark within that TRANSPORT.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-move-out",
+    "id": "stratagem-astra-militarum-move-out",
     "whenRules": "End of your opponent's turn.",
     "targetRules": "One ASTRA MILITARUM unit from your army.",
     "effectRules": "Provided your unit is not within Engagement Range of one or more enemy units and every model in your unit is within 3\" of an ASTRA MILITARUM TRANSPORT from your army, it can embark within that TRANSPORT.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-final-hour",
+    "id": "stratagem-astra-militarum-final-hour",
     "whenRules": "Your Command phase.",
     "targetRules": "One SQUADRON unit from your army that is Below Half-strength (excluding OFFICER units).",
     "effectRules": "Until the end of the battle round, ranged weapons equipped by models in your unit (excluding ONE SHOT weapons) have the HAZARDOUS ability, and each time a model in your unit makes a ranged attack, you can ignore any or all modifiers to that attack's Ballistic Skill characteristic and to the Hit roll.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-blazing-advance",
+    "id": "stratagem-astra-militarum-blazing-advance",
     "whenRules": "Your Movement phase, just after a SQUADRON unit from your army Advances.",
     "targetRules": "That SQUADRON unit.",
     "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-tactical-withdrawal",
+    "id": "stratagem-astra-militarum-tactical-withdrawal",
     "whenRules": "Your Movement phase, just after a SQUADRON unit from your army Falls Back.",
     "targetRules": "That SQUADRON unit.",
     "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-crash-through",
+    "id": "stratagem-astra-militarum-crash-through",
     "whenRules": "Your Movement phase or your Charge phase.",
     "targetRules": "One ASTRA MILITARUM VEHICLE unit from your army that has not been selected to move or charge this phase.",
     "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features as if they were not there.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-furious-cannonade",
+    "id": "stratagem-astra-militarum-furious-cannonade",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One SQUADRON unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit within 12\", improve the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-ablative-plating",
+    "id": "stratagem-astra-militarum-ablative-plating",
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One ASTRA MILITARUM VEHICLE unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, each time an attack is allocated to your unit, subtract 1 from the Damage characteristic of that attack",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-crack-shots",
+    "id": "stratagem-astra-militarum-crack-shots",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One PLATOON unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the PRECISION ability.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-draw-them-out",
+    "id": "stratagem-astra-militarum-draw-them-out",
     "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
     "targetRules": "One PLATOON unit from your army that is within 9\" of that enemy unit, and is not within Engagement Range of one or more enemy units.",
     "effectRules": "Your unit can make a Normal move of up to 6\".",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-scramble-field",
+    "id": "stratagem-astra-militarum-scramble-field",
     "whenRules": "Start of your opponent's Reinforcements step.",
     "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army.",
     "effectRules": "Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" of your unit.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-courageous-diversion",
+    "id": "stratagem-astra-militarum-courageous-diversion",
     "whenRules": "Start of your opponent's Shooting phase.",
     "targetRules": "One ASTRA MILITARUM INFANTRY or ASTRA MILITARUM MOUNTED unit from your army.",
     "effectRules": "Until the end of the phase, your unit has the Feel No Pain 6+ ability, and each time an enemy model makes an attack, if your unit is the closest eligible target, subtract 1 from the hit roll.",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-tanglefoot-grenades",
+    "id": "stratagem-astra-militarum-tanglefoot-grenades",
     "whenRules": "Start of your opponent's Charge phase.",
     "targetRules": "One ASTRA MILITARUM GRENADES unit from your army.",
     "effectRules": "Until the end of the phase, each time an enemy unit selects your unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-null-scouting-outriders",
+    "id": "stratagem-astra-militarum-scouting-outriders",
     "whenRules": "End of your opponent's turn.",
     "targetRules": "One ASTRA MILITARUM MOUNTED or ASTRA MILITARUM WALKER unit from your army that is wholly within 10\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
