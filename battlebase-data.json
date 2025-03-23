@@ -138,7 +138,7 @@
   {
     "id": "mission-pariah-nexus-unexploded-ordinance",
     "lore": "Volatile undetonated material lies in your path. Shifting such hazards towards enemy territory could be the key to victory.",
-    "body": "The objective markers that start the battle in No Man's Land are Hazard objective markers.\n\nMOVE HAZARD (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army, each within range of a different Hazard objective marker you control.\nCOMPLETES: End of your turn, if the unit performing this Action is still within range of the same Hazard objective marker and you control that objective marker.\nIF COMPLETED: You can move each of those Hazard objective markers up to 6\". When doing so, that objective marker cannot end that move on top of any other objective marker or model, or inside impassable parts of terrain features.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of each player's turn.\nThe player whose turn it is scores VP as follows:\n• 8VP for each Hazard objective marker that is wholly within their opponent's deployment zone.\n• 5VP for each other Hazard objective marker that is wholly within 6\" of their opponent's deployment zone."
+    "body": "The objective markers that start the battle in No Man's Land are Hazard objective markers.\n\nMOVE HAZARD (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army, each within range of a different Hazard objective marker you control.\nCOMPLETES: End of your turn, if the unit performing this Action is still within range of the same Hazard objective marker and you control that objective marker.\nIF COMPLETED: You can move each of those Hazard objective markers up to 6\". When doing so, that objective marker cannot end that move on top of any other objective marker or model, or inside impassable parts of terrain features.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of each player's turn.\nThe player whose turn it is scores VP as follows:\n• 8VP for each Hazard objective marker that is wholly within their opponent's deployment zone.\n• 5VP for each other Hazard objective marker that is wholly within 6\" of their opponent's deployment zone.\n• 2VP for each other Hazard objective marker that is wholly within 12\" of their opponent’s deployment zone."
   },
   {
     "id": "mission-pariah-nexus-linchpin",
@@ -975,6 +975,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-adeptus-custodes-gilded-champion",
+    "whenRules": "Any phase, just after an ADEPTUS CUSTODES CHARACTER model from your army has used an ability on its datasheet that states it can only be used 'once per battle'.",
+    "targetRules": "That ADEPTUS CUSTODES CHARACTER model.",
+    "effectRules": "Your model can use that 'once per battle' ability one additional time during the battle (but not in the same phase).",
+    "restrictionRules": "You cannot use this Stratagem on the same ADEPTUS CUSTODES CHARACTER model more than once per battle."
+  },
+  {
+    "id": "stratagem-adeptus-custodes-defiant-to-the-last",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS CUSTODES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 2 to the result if that model has the CHARACTER keyword. On a 4+, do not remove it from play; the destroyed model can fight after the attacking unit has finished making its attacks (when doing so, it is treated as having 1 wound remaining), and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-peerless-warrior",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ADEPTUS CUSTODES unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the PRECISION ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-unleash-the-lions",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ALLARUS CUSTODIANS or AQUILON CUSTODIANS unit from your army that is on the battlefield.",
+    "effectRules": "That unit is split into separate units, each containing one model. These new units each have a Starting Strength of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-manoeuvre-and-fire",
+    "whenRules": "Your Movement phase, just after an ADEPTUS CUSTODES unit from your army Falls Back.",
+    "targetRules": "That ADEPTUS CUSTODES unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-custodes-swift-as-the-eagle",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One ADEPTUS CUSTODES unit from your army (excluding VEHICLE units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Your unit can make a Normal move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-adeptus-mechanicus-baleful-halo",
     "lore": "A haze of deadly radiation hangs around the warriors of the Rad-Cohort, every exhalation they make adding to the isotopic fog, sapping the strength and stamina of those who are not inured to its effects.",
     "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
@@ -1250,8 +1292,8 @@
     "id": "stratagem-adeptus-mechanicus-shroud-protocols",
     "lore": "When Skitarii Hunter Cohorts march to war, they do so beneath a shrouding squall of cyber-static and filament-heavy banks of sacred incense.",
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Skitarii Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
-    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12\".",
+    "targetRules": "One SKITARII INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
     "restrictionRules": null
   },
   {
@@ -2856,6 +2898,48 @@
     "whenRules": "Your opponent’s Command phase, before selecting any targets for the Melancholic Miasma Detachment rule.",
     "targetRules": "One Legiones Daemonica Nurgle unit from your army.",
     "effectRules": "Until the end of the phase, after an enemy unit takes a Battle‑shock test as a result of the Melancholic Miasma Detachment rule, select one other enemy unit within 9\" of your unit; that enemy unit must take a Battle‑shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legiones-daemonica-spiteful-demise",
+    "whenRules": "Any phase, just after a SHADOW LEGION unit from your army is destroyed, before removing the last model in that unit from the battlefield and before rolling any dice for the Deadly Demise ability.",
+    "targetRules": "That SHADOW LEGION unit. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Roll one D6 for each enemy unit that is within Engagement Range of the last model in your unit, adding 2 to the result if your unit has the SLAANESH keyword: on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6+, that enemy unit suffers 3 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legiones-daemonica-channelled-wrath",
+    "whenRules": "Fight phase.",
+    "targetRules": "One SHADOW LEGION unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the LANCE ability. If your unit has the KHORNE keyword, until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1 as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legiones-daemonica-death-denied",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One SHADOW LEGION unit from your army.",
+    "effectRules": "One model in your unit regains up to 3 lost wounds. In addition, If your unit has the TZEENTCH keyword, return up to one destroyed model (excluding CHARACTER models) to your unit with its full wounds remaining.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legiones-daemonica-encroaching-darkness",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that arrived from Reserves this turn.",
+    "effectRules": "Until the end of the phase, weapons equipped by models in your selected units have the IGNORES COVER ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legiones-daemonica-shade-path",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit declares a charge.",
+    "targetRules": "One SHADOW LEGION unit from your army that was selected as a target of that charge.",
+    "effectRules": "Until the end of the phase, subtract 2 from Charge rolls made for that enemy unit. In addition, if your unit has the NURGLE keyword, that enemy unit must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legiones-daemonica-binding-shadow",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "Up to one SHADOW LEGION HERETIC ASTARTES unit from your army and up to one SHADOW LEGION LEGIONES DAEMONICA unit from your army. You can only select units that are not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove those selected units from the battlefield and place them into Strategic Reserves.",
     "restrictionRules": null
   },
   {
@@ -5253,6 +5337,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-orks-orks-is-still-orks",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit, re‐roll a Wound roll of 1. If that enemy unit is within range of an objective marker, you can re‐roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-get-stuck-in-ladz",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ORKS unit from your army.",
+    "effectRules": "Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\nDesigner's Note: *This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit.*",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-huge-show-offs",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ORKS WALKER unit (excluding KILLA KANS) from your army.",
+    "effectRules": "Until the start of your next Command phase, improve your unit's Move, Leadership and Objective Control characteristics by 1, and each time a model in your unit makes an attack, add 1 to the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-long,-uncontrolled-bursts",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One ORKS CHARACTER model from your army.",
+    "effectRules": "Select one enemy unit within 18\" of your ORKS CHARACTER model. Until the end of the phase, weapons equipped by ORKS models from your army have the IGNORES COVER ability while targeting that unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-speshul-shells",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets the closest eligible target within 18\", improve the Armour Penetration characteristic of ranged weapons equipped by models in your unit by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-call-dat-dakka?",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One ORKS unit from your army that had one or more of its models destroyed as a result of the attacking unit's attacks.",
+    "effectRules": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -6018,6 +6144,48 @@
     "whenRules": "Your Shooting phase.",
     "targetRules": "One T'au Empire unit from your army (excluding Kroot and Vespid Stingwings units) that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, add 1 to the Strength characteristic of ranged weapons equipped by models in your unit. If your unit is wholly within 9\" of one or more Kroot or Vespid Stingwings units from your army, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-automated-repair-drones",
+    "whenRules": "Command phase.",
+    "targetRules": "One T'AU EMPIRE BATTLESUIT unit from your army.",
+    "effectRules": "Select one BATTLESUIT model in your unit: that model regains up to D3+1 lost wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-reactive-impact-dampeners",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One T'AU EMPIRE BATTLESUIT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-experimental-weaponry",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'AU EMPIRE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time you roll one or more dice to determine the number of attacks made with a weapon equipped by a model in your unit, you can re‐roll the result.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tau-empire-experimental-ammunition",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'AU EMPIRE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Select one of the following to apply to your unit until the end of the phase:\n\n• Improve the Strength characteristic of ranged weapons equipped by models in your unit by 1.\n• Improve the Strength and Armour Penetration characteristics of ranged weapons equipped by models in your unit by 1, and those weapons have the HAZARDOUS ability.",
+    "restrictionRules": "You cannot target the same unit with the Experimental Ammunition and Threat Assessment Analyser Stratagems in the same phase."
+  },
+  {
+    "id": "stratagem-tau-empire-threat-assessment-analyser",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One T'AU EMPIRE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Select the SUSTAINED HITS 1 or LETHAL HITS ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. You can instead select the SUSTAINED HITS 1, LETHAL HITS and HAZARDOUS abilities to apply to those weapons until the end of the phase.",
+    "restrictionRules": "You cannot target the same unit with the Experimental Ammunition and Threat Assessment Analyser Stratagems in the same phase."
+  },
+  {
+    "id": "stratagem-tau-empire-neuroweb-system-jammer",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One T'AU EMPIRE CRISIS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
     "restrictionRules": null
   },
   {
