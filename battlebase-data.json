@@ -2553,7 +2553,7 @@
     "lore": "The Blood Angels are masters of aerial assault, leaping from airborne transports with jump packs roaring to plunge into the heat of battle.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One Adeptus Astartes Jump Pack unit from your army that is arriving using the Deep Strike ability this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.",
     "restrictionRules": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
   },
   {
@@ -2689,7 +2689,7 @@
     "lore": "Ever lurking in the warp, daemons will wait until the barriers between realms thin before tearing their way into realspace.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One Legiones Daemonica unit from your army that is arriving using the Deep Strike ability this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
     "restrictionRules": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
   },
   {
@@ -3267,7 +3267,7 @@
     "lore": "Jump pack borne warriors descend from the skies, terrifying screams emanating from their vax-grllles as they plummet towards their prey.",
     "whenRules": "Reinforcements step of your Movement phase, from the second battle round onwards.",
     "targetRules": "One Heretic Astartes Jump Pack unit from your army that is in Reserves.",
-    "effectRules": "Set your unit up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge. Then select one enemy Infantry or Mounted unit within 6\" of and visible to your unit: that unit must take a Battle-shock test.",
+    "effectRules": "Set your unit up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge. Then select one enemy Infantry or Mounted unit within 6\" of and visible to your unit: that unit must take a Battle-shock test.",
     "restrictionRules": null
   },
   {
@@ -3643,7 +3643,7 @@
     "lore": "The Deathwing employ ancient and incredibly powerful teleportariums, some older than the Great Crusade, to strike at their foes with unparalleled safety and accuracy.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One Deathwing unit from your army that is arriving using the Deep Strike ability this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
     "restrictionRules": "Until the end of the turn, your unit is not eligible to declare a charge."
   },
   {
@@ -4047,6 +4047,258 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-emperors-children-violent-excess",
+    "whenRules": "Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the SUSTAINED HITS 1 ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-combat-stimms",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-honour-the-prince",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One EMPEROR'S CHILDREN INFANTRY unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\"to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-dark-vigour",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army (excluding BEASTS and VEHICLES) that is within 9\"of the enemy unit that just ended that move.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-capricious-reactions",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-cruel-raiders",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that is wholly within 9\"of one or more battlefield edges and not within 3\"horizontally of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-deft-parry",
+    "whenRules": "Fight phase just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-death-ecstasy",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-incessant-violence",
+    "whenRules": "Fight phase, just before an EMPEROR'S CHILDREN unit from your army Consolidates.",
+    "targetRules": "That EMPEROR'S CHILDREN unit.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6\"instead of up to 3\",provided your unit ends that Consolidation move within Engagement Range of one or more enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-cruel-bladesman",
+    "whenRules": "Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that made a Charge move this turn and has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-terrifying-spectacle",
+    "whenRules": "Your opponent's Command phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that made a Charge move in the previous turn and destroyed one or more enemy units in the previous Fight phase.",
+    "effectRules": "Each enemy unit within 6\"of your unit must take a Battle-shock test, subtracting 1 from that test if they are Below Half-strength. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-cut-down-the-weak",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit Falls Back.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army (you can only select a VEHICLE if it is a WALKER) that is within 6\"of that enemy unit and would be eligible to declare a charge against that enemy unit if it were your Charge phase.",
+    "effectRules": "Your unit can declare a charge. When doing so, you must select that enemy unit as a target of that charge, and your unit does not receive a Charge bonus this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-on-to-the-next",
+    "whenRules": "Fight phase, just after an EMPEROR'S CHILDREN unit from your army destroys an enemy unit.",
+    "targetRules": "That EMPEROR'S CHILDREN unit and one friendly TRANSPORT it is able to embark within.",
+    "effectRules": "If your EMPEROR'S CHILDREN unit is wholly within 6\"of that TRANSPORT, it can embark within it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-advance-and-claim",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One EMPEROR'S CHILDREN TRANSPORT from your army that has one or more TORMENTORS units embarked within it (excluding Battle-shocked units).",
+    "effectRules": "Select one objective marker you control that your TRANSPORT is within range of. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-dynamic-breakthrough",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One EMPEROR'S CHILDREN VEHICLE unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a move, it can move through enemy models (excluding MONSTERS and VEHICLES). When doing so, it can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-ceaseless-onslaught",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that disembarked from a TRANSPORT that made a Normal move this turn.",
+    "effectRules": "Until the end of the phase, your EMPEROR'S CHILDREN unit is eligible to declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-reactive-disembarkation",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN TRANSPORT from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "One EMPEROR'S CHILDREN unit embarked within your TRANSPORT can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\"of that TRANSPORT and not within Engagement Range of one or more enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-outflanking-strike",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN TRANSPORT from your army, or up to two EMPEROR'S CHILDREN DEDICATED TRANSPORTS from your army.",
+    "effectRules": "For each of those TRANSPORTS wholly within 9\"of one or more battlefield edges, remove it from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-sustained-by-agony",
+    "whenRules": "Fight phase, just after an EMPEROR'S CHILDREN unit from your army destroys an enemy unit.",
+    "targetRules": "That EMPEROR'S CHILDREN unit.",
+    "effectRules": "Select one friendly LEGIONS OF EXCESS unit within 6\"of your unit. One model in that LEGIONS OF EXCESS unit recovers up to 3 lost wounds or, if it is a DAEMONETTES unit, return up to D3+3 destroyed models to it instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-ecstatic-slaughter",
+    "whenRules": "Fight phase, just after a LEGIONS OF EXCESS unit from your army destroys an enemy unit.",
+    "targetRules": "That LEGIONS OF EXCESS unit and one friendly EMPEROR'S CHILDREN unit within 6\"of it that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your EMPEROR'S CHILDREN unit can declare a charge. If it does so and it has already been selected to fight this phase, it cannot fight again this phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-violent-crescendo",
+    "whenRules": "Fight phase.",
+    "targetRules": "One SLAANESH BEASTS, SLAANESH INFANTRY or SLAANESH MOUNTED unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\"instead of up to 3\". When doing so, it does not need to end that move closer to the closest enemy model, provided it ends that move as close as possible to the closest enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-sycophantic-surge",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One LEGIONS OF EXCESS unit from your army.",
+    "effectRules": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced or Fell Back, provided at least one of the targets of that charge is within Engagement Range of one or more EMPEROR'S CHILDREN units from your army.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-uncanny-reactions",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One SLAANESH unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-dark-apparitions",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One DAEMONETTES unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves. If it arrives back on the battlefield in the Reinforcements step of your next Movement phase using the Deep Strike ability, it can be set up anywhere that is more than 6\"horizontally away from all enemy units (instead of more than 9\"). provided it is also set up wholly within 9\"of one or more friendly EMPEROR'S CHILDREN units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-protection-of-the-dark-prince",
+    "whenRules": "Any phase, just after a mortal wound or attack is allocated to a model in an EMPEROR'S CHILDREN unit from your army.",
+    "targetRules": "That EMPEROR'S CHILDREN unit.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability, and the Feel No Pain 4+ ability against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-unshakeable-opponents",
+    "whenRules": "Command phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army.",
+    "effectRules": "Until the end of the turn, each time a model in your unit makes an attack, you can ignore any or all modifiers to the following:that attack's Ballistic Skill or Weapon Skill characteristic; the Hit roll; the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-embrace-the-pain",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN INFANTRY unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy model within Engagement Range of your unit selects targets, it must select your unit as the target of its attacks.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-martial-perfection",
+    "whenRules": "Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-unbound-arrogance",
+    "whenRules": "Your Shooting phase or the Fight phase, just after an EMPEROR'S CHILDREN unit from your army destroys an enemy unit.",
+    "targetRules": "That EMPEROR'S CHILDREN unit.",
+    "effectRules": "Increase your pledge to Slaanesh by 1.",
+    "restrictionRules": "You can only use this Stratagem once per battle round."
+  },
+  {
+    "id": "stratagem-emperors-children-armour-of-abhorrence",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-devoted-duellists",
+    "whenRules": "Fight phase.",
+    "targetRules": "One or more EMPEROR'S CHILDREN CHARACTER units from your army that have not been selected to fight this phase.",
+    "effectRules": "Select one enemy unit. Until the end of the phase, melee weapons equipped by models in those CHARACTER units have the SUSTAINED HITS 1 ability while targeting that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-beautiful-death",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN CHARACTER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if your unit is your army's Favoured Champions. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-heightened-jealousy",
+    "whenRules": "Your Shooting phase or the Fight phase, just after an EMPEROR'S CHILDREN CHARACTER unit becomes your army's Favoured Champions, or just after your army's Favoured Champions unit destroys an enemy unit.",
+    "targetRules": "Your army's Favoured Champions unit.",
+    "effectRules": "Until the end of the phase, each time a model in an EMPEROR'S CHILDREN CHARACTER unit from your army that is not your army's Favoured Champions makes an attack, add 1 to the Strength characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-diabolic-majesty",
+    "whenRules": "Your Shooting phase or the Fight phase, just after an EMPEROR'S CHILDREN CHARACTER unit becomes your army's Favoured Champions.",
+    "targetRules": "That EMPEROR'S CHILDREN unit.",
+    "effectRules": "Each enemy unit within 6\"of your unit must take a Battle-shock test, subtracting 1 from the result.",
+    "restrictionRules": "You can only use this Stratagem once per battle round."
+  },
+  {
+    "id": "stratagem-emperors-children-refusal-to-be-outdone",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One EMPEROR'S CHILDREN CHARACTER unit from your army.",
+    "effectRules": "Select one enemy unit within Engagement Range of one or more units from your army. Until the end of the phase, each time your unit declares a charge, if that enemy unit is one of the targets of that charge, add 2 to the Charge roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-vengeful-surge",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One EMPEROR'S CHILDREN CHARACTER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "After the attacking unit has shot, your unit can make a Surge move. To do so, roll one D6:each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is not your army's Favoured Champions, you can re-roll the dice to determine the distance of its Surge move.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-genestealer-cults-unquestioning-loyalty",
     "lore": "Broodkin are so fanatically loyal that they do not hesitate to sacrifice themselves to protect their leaders.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -4067,7 +4319,7 @@
     "lore": "Squirming, crawling and scrabbling through confined spaces is second nature to many broodkin, and is a skill they use to assail seemingly impregnable enemy positions.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One Genestealer Cults unit from your army that is arriving using the Deep Strike ability this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
     "restrictionRules": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
   },
   {
@@ -4115,7 +4367,7 @@
     "lore": "The cult can expertly assail seemingly impregnable enemy positions.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One Genestealer Cults unit from your army that is arriving using the Deep Strike ability this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units, or more than 3\" horizontally away if your unit has the Battleline keyword.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.",
     "restrictionRules": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
   },
   {
@@ -4395,7 +4647,7 @@
     "lore": "Accessing a vision granted by the Chapter’s Prognosticars, the Grey Knights perceive the hidden ways of the battlefield and a sliver of the enemy’s intentions, granting them a prophetic situational awareness that aids their strategic disposition.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One Grey Knights Psyker unit from your army that is arriving using the Deep Strike or Teleport Assault abilities this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
     "restrictionRules": "A unit targeted by this Stratagem is not eligible to declare a charge in the same turn."
   },
   {
@@ -4837,7 +5089,7 @@
     "lore": "With a sanity-defying mechanism at the heart of the tomb, dynastic astromancers divine the pre-aligned point in space and time where a crucial role can be played in the wider battle plan.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One Necrons unit from your army (excluding MONSTER units) that is arriving using the Deep Strike or Hyperphasing abilities this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
     "restrictionRules": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
   },
   {
@@ -5346,7 +5598,7 @@
   {
     "id": "stratagem-orks-get-stuck-in-ladz",
     "whenRules": "Your Command phase.",
-    "targetRules": "One ORKS unit from your army.",
+    "targetRules": "One ORKS unit (excluding GRETCHIN) from your army.",
     "effectRules": "Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\nDesigner's Note: *This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit.*",
     "restrictionRules": null
   },
@@ -5359,9 +5611,9 @@
   },
   {
     "id": "stratagem-orks-long,-uncontrolled-bursts",
-    "whenRules": "Start of your Shooting phase.",
-    "targetRules": "One ORKS CHARACTER model from your army.",
-    "effectRules": "Select one enemy unit within 18\" of your ORKS CHARACTER model. Until the end of the phase, weapons equipped by ORKS models from your army have the IGNORES COVER ability while targeting that unit.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVER ability.",
     "restrictionRules": null
   },
   {
@@ -6023,7 +6275,7 @@
     "lore": "Made famous by Commander Farsight and his protégé Brightsword, this philosophy encourages pilots to drop into the very teeth of the enemy army and apply their firepower at point-blank range.",
     "whenRules": "Your Movement phase.",
     "targetRules": "One T'au Empire Battlesuit unit from your  army that is arriving using the Deep Strike ability this phase.",
-    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy models.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy models.",
     "restrictionRules": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
   },
   {
@@ -6809,7 +7061,8 @@
     "lore": "High command has received new intelligence.",
     "whenRules": "End of your Command phase.",
     "targetRules": "One of your active Secondary Mission cards.",
-    "effectRules": "Discard it and draw one new Secondary Mission card."
+    "effectRules": "Discard it and draw one new Secondary Mission card.",
+    "restrictionRules": null
   },
   {
     "id": "gambit-proceed-as-planned",
