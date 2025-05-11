@@ -3711,6 +3711,300 @@
     "restrictionRules": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn."
   },
   {
+    "id": "stratagem-death-guard-putrid-detonation",
+    "whenRules": "Any phase.",
+    "targetRules": "One DEATH GUARD VEHICLE or DEATH GUARD MONSTER model from your army with the Deadly Demise ability that was just destroyed. You can use this Stratagem on that model even though it was just destroyed.",
+    "effectRules": "Do not roll one D6 to determine whether mortal wounds are inflicted by your model's Deadly Demise ability. Instead, mortal wounds are automatically inflicted. In addition, any enemy units that suffer mortal wounds as a result of this Stratagem are Afflicted until the start of your next turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-disgustingly-resilient",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DEATH GUARD unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-plaguesurge",
+    "whenRules": "Your Command phase.",
+    "targetRules": "Your DEATH GUARD WARLORD that is on the battlefield.",
+    "effectRules": "Until the start of your next Command phase, add 3\" to the Contagion Range of models from your army.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-leechspore-eruption",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One DEATH GUARD model your army that has lost one or more wounds.",
+    "effectRules": "Select one enemy unit within 3\" of your model. Roll a number of D6 equal to the number of wounds your model has lost: for each 5+, that enemy unit suffers one mortal wound (to a maximum of 6 mortal wounds) and your model regains 1 lost wound (to a maximum of 6 lost wounds).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-overwhelming-generosity",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One DEATH GUARD CHARACTER unit from your army.",
+    "effectRules": "Select one enemy unit visible to your unit. Until the end of the phase, each time a DEATH GUARD unit from your army selects that enemy unit as the target of any ranged attacks, you can re-roll the dice to determine how many attacks a weapon equipped by a model in that unit makes.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-creeping-blight",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One DEATH GUARD INFANTRY unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an Afflicted unit, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-blighted-land",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One DEATH GUARD VEHICLE unit from your army.",
+    "effectRules": "Select one terrain feature within 24\" of and visible to your unit. Until the start of your next turn, enemy units are Afflicted while they are within 3\" of that terrain feature.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-relentless-grind",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One DEATH GUARD VEHICLE unit from your army that has not been selected to move or charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-drawn-to-despair",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One DEATH GUARD unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a visible enemy unit (excluding AIRCRAFT) within your opponent's deployment zone, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-font-of-filth",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One DEATH GUARD VEHICLE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the ASSAULT ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-eyestinger-storm",
+    "whenRules": "Your opponent's Command phase.",
+    "targetRules": "One DEATH GUARD VEHICLE unit from your army.",
+    "effectRules": "Select one objective marker visible to one or more models in your unit. Each Afflicted enemy unit within range of that objective marker must take a Battle-shock test. Enemy units affected by this Stratagem do not need to take any other Battle-shock tests in the same phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-stinking-mire",
+    "whenRules": "Start of your opponent's Charge phase.",
+    "targetRules": "One DEATH GUARD VEHICLE unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy unit selects your unit as the target of a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-blessings-of-filth",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One DEATH GUARD Attached unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-malignance-magnified",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One DEATH GUARD Attached unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is below its Starting Strength, you can re-roll the Hit roll and you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-grotesque-fortitude",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DEATH GUARD Attached unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, add 2 to the Toughness characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-rabid-infusion",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "One DEATH GUARD unit from your army that includes two CHARACTER models.",
+    "effectRules": "Until the end of the phase, your unit has the Fights First ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-mobile-vector",
+    "whenRules": "Your Movement phase, before the Reinforcements step.",
+    "targetRules": "One DEATH GUARD CHARACTER unit from your army that is not leading a unit.",
+    "effectRules": "Select one other friendly DEATH GUARD unit (excluding Battle-shocked units and Attached units that already have two Leader units or one of your CHARACTER units leading it) within 2\" horizontally and 5\" vertically of your unit that your unit can lead (as described in the Leader section of its datasheet). Your unit attaches to that unit as a Leader. Change that unit's Starting Strength accordingly.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-deaths-heads",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One BIOLOGUS PUTRIFIER unit from your army that is not within Engagement Range of one or more enemy units and has not been selected to shoot this phase.",
+    "effectRules": "Select one enemy unit (excluding VEHICLES) that is within 8\" of and visible to your unit. Until the start of your next turn, that unit has the effect of all Plagues (see Nurgle's Gift).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-persistent-pests",
+    "whenRules": "Any phase.",
+    "targetRules": "One NURGLINGS unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
+    "effectRules": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with its full wounds remaining.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-clutching-corruption",
+    "whenRules": "Fight phase.",
+    "targetRules": "One DEATH GUARD unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit that is within Engagement Range of one or more PLAGUE LEGIONS units from your army, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-all-is-rot",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One PLAGUE LEGIONS unit from your army that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model's unit is within Engagement Range of your unit, roll one D6: on a 5+, your unit suffers 1 mortal wound after the attacking unit has finished making its attacks.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-fleshy-avalanche",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One PLAGUE LEGIONS MONSTER unit from your army that has not been selected to move or charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-avatars-of-decay",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One PLAGUE LEGIONS unit from your army.",
+    "effectRules": "Until the end of the phase, while an enemy unit is within 6\" of your unit, that enemy unit is Afflicted.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-mireslick",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.",
+    "targetRules": "One PLAGUE LEGIONS unit from your army that is within Engagement Range of that enemy unit.",
+    "effectRules": "Until the end of the phase, while an enemy unit is within Engagement Range of your unit, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-grip-of-the-walking-pox",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One POXWALKERS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "After the attacking unit has fought, roll one D6 for each model from your unit that was destroyed as a result of those attacks: on a 6, the attacking unit suffers 1 mortal wound. If your unit is not destroyed after the attacking unit has fought, enemy models destroyed as a result of this Stratagem count as enemy models destroyed by an attack made by a model in your unit for the purposes of the Curse of the Walking Pox ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-smeared-with-filth",
+    "whenRules": "Fight phase.",
+    "targetRules": "One POXWALKERS unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
+    "effectRules": "Select one enemy unit that made one or more attacks that targeted your unit this phase. Until the end of the battle, that enemy unit is Afflicted.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-gnawing-hunger",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One POXWALKERS unit from your army.",
+    "effectRules": "Until the end of the turn, add 1 to the Move characteristic of models in your unit, and add 1 to the Attacks and Strength characteristics of melee weapons equipped by models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-hidden-amongst-the-dead",
+    "whenRules": "The Reinforcements step of your Movement phase.",
+    "targetRules": "One POXWALKERS unit from your army that is in Strategic Reserves and that is not an Attached unit.",
+    "effectRules": "Until the end of the phase, models in that unit have the Deep Strike ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-shock-and-horror",
+    "whenRules": "Your Charge phase, just after a DEATH GUARD unit from your army ends a Charge move.",
+    "targetRules": "That DEATH GUARD unit.",
+    "effectRules": "Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from that test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-shambling-wall",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DEATH GUARD unit from your army that was selected as the target of one or more of the attacking unit's attacks, and one friendly POXWALKERS unit within 3\" of your unit and visible to both your unit and the attacking unit.",
+    "effectRules": "Until the end of the phase, each time you would allocate an attack to a model in your DEATH GUARD unit, if your POXWALKERS unit is visible to the attacking model and is an eligible target for that attack, no saving throw is made for that attack; instead a number of POXWALKERS from your POXWALKERS unit equal to the Damage characteristic of that attack are destroyed.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-blooming-pestilence",
+    "whenRules": "Start of any phase.",
+    "targetRules": "One TERMINATOR unit from your army.",
+    "effectRules": "Until the end of the phase, add 3\" to the Contagion Range of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-grim-repears",
+    "whenRules": "Fight phase.",
+    "targetRules": "One TERMINATOR unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit (excluding MONSTERS and VEHICLES) you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-undying-spite",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One TERMINATOR unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-signal-pox",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One LORD OF VIRULENCE model from your army.",
+    "effectRules": "Select one objective marker within 30\" of and visible to your model. Until the start of your next turn, while an enemy unit is within range of that objective marker, that unit is Afflicted.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-mortarions-teachings",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One TERMINATOR unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the ASSAULT and HEAVY abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-sickening-impact",
+    "whenRules": "Your Charge phase, just after a TERMINATOR unit from your army ends a Charge move.",
+    "targetRules": "That TERMINATOR unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 2+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-nauseating-paroxysms",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "One DEATH GUARD INFANTRY unit from your army that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit. That unit must take a Battle‐shock test, subtracting 1 from the result.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-vermin-cloud",
+    "whenRules": "Fight phase.",
+    "targetRules": "One DEATH GUARD INFANTRY unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in this unit makes a Pile‐in or Consolidation move, it can move up to 6\" instead of up to 3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-eye-of-the-swarm",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One DEATH GUARD INFANTRY unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit (excluding Blast weapons) have the PISTOL ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-droning-horror",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One DEATH GUARD INFANTRY unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack, re‐roll a Hit roll of 1. If that attack targets a unit within half range, you can re‐roll the Hit roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-enervating-onslaught",
+    "whenRules": "Your Charge phase, just after a DEATH GUARD INFANTRY unit from your army makes a Charge move.",
+    "targetRules": "That DEATH GUARD INFANTRY unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit (excluding MONSTERS and VEHICLES). Roll one D6 for each model in your unit that is within Engagement Range of that unit, adding 1 to the result if that model is not a CULTIST or POXWALKER model: for each 5+, the selected enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-death-guard-myphitic-invigoration",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DEATH GUARD INFANTRY unit from your army that is within 6\" of one or more friendly MYPHITIC BLIGHT‐HAULER units and that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-death-guard-ferric-blight",
     "lore": "The spreading rust of the Ferric Blight can reduce armour of all kinds to nothing.",
     "whenRules": "Your Shooting phase or the Fight phase.",
@@ -3756,54 +4050,6 @@
     "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Death Guard unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
     "effectRules": "Until the end of the phase, your unit has the Stealth ability.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-death-guard-nauseating-paroxysms",
-    "lore": "The contagion borne by the Death Guard and their attendant swarms of winged vermin triggers bouts of sickness and convulsion in those they encounter.",
-    "whenRules": "Start of the Fight phase.",
-    "targetRules": "One Death Guard Infantry unit from your army that is within Engagement Range of one or more enemy units.",
-    "effectRules": "Select one enemy unit within Engagement Range of your unit. That unit must take a Battle‑shock test, subtracting 1 from the result.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-death-guard-vermin-cloud",
-    "lore": "The storm of insectile contagion sweeps forward, dragging the Death Guard in its wake. None will escape the Plague God’s embrace.",
-    "whenRules": "Fight phase.",
-    "targetRules": "One Death Guard Infantry unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, each time a model in this unit makes a Pile‑in or Consolidation move, it can move up to 6\" instead of up to 3\".",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-death-guard-eye-of-the-swarm",
-    "lore": "The vermin swarms intensify as the Death Guard close in upon the enemy. As their foes clutch and tear their crawling skin, pitiless Plague Marines unleash volleys of point‑blank fire into their tormented foes.",
-    "whenRules": "Your Shooting phase.",
-    "targetRules": "One Death Guard Infantry unit from your army that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit (excluding Blast weapons) have the [PISTOL] ability.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-death-guard-droning-horror",
-    "lore": "Clouds of droning daemon flies sweep across the battlefield to envelop the enemies of the Death Guard.",
-    "whenRules": "Your Shooting phase.",
-    "targetRules": "One Death Guard Infantry unit from your army that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack, re‑roll a Hit roll of 1. If that attack targets a unit within half range, you can re‑roll the Hit roll instead.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-death-guard-enervating-onslaught",
-    "lore": "Swathed in a buzzing cloak of pathogenic decay, Nurgle’s chosen crash into the foe, disease dealing death as surely as fist, maul and blade.",
-    "whenRules": "Your Charge phase, just after a Death Guard Infantry unit from your army makes a Charge move.",
-    "targetRules": "That Death Guard Infantry unit.",
-    "effectRules": "Select one enemy unit within Engagement Range of your unit (excluding Monsters and Vehicles). Roll one D6 for each model in your unit that is within Engagement Range of that unit, adding 1 to the result if that model is not a Cultist or Poxwalker model: for each 5+, the selected enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-death-guard-myphitic-invigoration",
-    "lore": "Daemon flies are drawn to and invigorated by the foul miasmas surrounding Myphitic Blight‑haulers. In the vicinity of these malodorous constructs, the swarms gather in densities great enough to form a living barrier to the foe’s attacks.",
-    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Death Guard Infantry unit from your army that is within 6\" of one or more friendly Myphitic Blight‑hauler units and that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of this unit, subtract 1 from the Wound roll.",
     "restrictionRules": null
   },
   {
@@ -6873,6 +7119,258 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-world-eaters-blood-offering",
+    "whenRules": "Any phase.",
+    "targetRules": "One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-hack-and-slash",
+    "whenRules": "Fight phase.",
+    "targetRules": "One WORLD EATERS unit from your army that has not been selected to fight this phase and that made a charge move this turn.",
+    "effectRules": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-frenzied-resilience",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-skulls-for-the-skull-throne!",
+    "whenRules": "Fight phase.",
+    "targetRules": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-apoplectic-frenzy",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One WORLD EATERS unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-berzerkers-wrath",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One KHORNE BERZERKERS unit from your army that can make a Blood Surge move as a result of those attacks.",
+    "effectRules": "Do not roll a D6 to determine how far models in your unit can move when they make their Blood Surge move. Instead, when making their Blood Surge move, these models can move up to 8\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-aspire-to-infamy",
+    "whenRules": "Fight phase.",
+    "targetRules": "One KHORNE BERZERKERS or JAKHALS unit from your army that has not been selected to fight this phase and is within 8\" of one or more friendly WORLD EATERS CHARACTER models.",
+    "effectRules": "Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non‑CHARACTER models in your unit by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-overshadowed-by-none",
+    "whenRules": "Fight phase.",
+    "targetRules": "One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, you can re‑roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-gory-dedication",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One WORLD EATERS unit from your army that destroyed one or more enemy models with a melee attack this phase.",
+    "effectRules": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-punish-the-craven",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit (excluding MONSTERS and VEHICLES) is selected to Fall Back.",
+    "targetRules": "One WORLD EATERS INFANTRY or WORLD EATERS DAEMON PRINCE unit from your army within Engagement Range of that enemy unit.",
+    "effectRules": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a VESSEL OF WRATH unit, subtract 1 from each of those tests.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-meet-force-with-force",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One WORLD EATERS INFANTRY, WORLD EATERS MOUNTED or WORLD EATERS DAEMON PRINCE unit from your army that lost one or more wounds as a result of those attacks.",
+    "effectRules": "Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a KHORNE BERZERKERS or VESSEL OF WRATH unit, you can re‑roll the D6 to determine how far your unit can move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-brazen-contempt",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a VESSEL OF WRATH unit, subtract 1 from the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-bloody-vengeance",
+    "whenRules": "Any phase.",
+    "targetRules": "One WORLD EATERS MONSTER or WORLD EATERS TITANIC unit from your army that was just destroyed by an enemy unit. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Until the end of the battle, each time a model in a JAKHALS or GOREMONGERS unit from your army makes an attack that targets the enemy unit that just destroyed your unit, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-drawn-to-the-slaughter",
+    "whenRules": "Any phase.",
+    "targetRules": "One JAKHALS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength.",
+    "restrictionRules": "This Stratagem cannot be used to return destroyed CHARACTER units to Attached units."
+  },
+  {
+    "id": "stratagem-world-eaters-in-the-shadow-of-brass-idols",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One JAKHALS or GOREMONGERS unit from your army that was selected as the target as one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within 6\" of one or more friendly WORLD EATERS MONSTER units, or within 9\" of one or more friendly WORLD EATERS TITANIC units, your unit has the Feel No Pain 5+ ability instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-bloodthirsty-horde",
+    "whenRules": "Fight phase.",
+    "targetRules": "One JAKHALS or GOREMONGERS unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the end of the phase, each time your unit is selected to fight, when determining which models in it are eligible to fight, any models in your unit that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-fail-not-the-blood-god",
+    "whenRules": "Fight phase.",
+    "targetRules": "One JAKHALS or GOREMONGERS unit from your army.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re-roll a Hit roll of 1. If that model's unit is within 6\" of one or more friendly WORLD EATERS MONSTER units, or within 9\" of one or more friendly WORLD EATERS TITANIC units, you can re-roll the Hit roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-brazen-idol",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One WORLD EATERS MONSTER or WORLD EATERS TITANIC unit from your army.",
+    "effectRules": "Select the Idol of Infinite Rage, Idol of Burning Wrath or Idol of Blessed Blood. Until the start of your next Command phase, that Idols of Khorne ability is active for your unit instead of any other Idols of Khorne ability that is active for your army, even if you have already selected that ability this battle.",
+    "restrictionRules": "You can only use this Stratagem once per battle."
+  },
+  {
+    "id": "stratagem-world-eaters-summoned-by-slaughter",
+    "whenRules": "Any phase, when the last model in a unit is destroyed, before removing it from play.",
+    "targetRules": "One BLOODLETTERS unit from your army that is in Reserves.",
+    "effectRules": "Set your unit up anywhere on the battlefield wholly within 9\" of that destroyed model and not within Engagement Range of one or more enemy units, then remove the destroyed model from play.",
+    "restrictionRules": "You cannot use this Stratagem more than once per battle round."
+  },
+  {
+    "id": "stratagem-world-eaters-daemonic-fury",
+    "whenRules": "Start of your Fight phase.",
+    "targetRules": "One BLOOD LEGIONS unit from your army.",
+    "effectRules": "Select one friendly WORLD EATERS unit within 6\" of your unit. Until the end of the turn, melee weapons equipped by models in your WORLD EATERS unit have the LANCE ability. If the Daemonic Rage ability is active for your army, then until the end of the phase those melee weapons also have the TWIN-LINKED ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-a-worthy-skull",
+    "whenRules": "Fight phase, just after a BLOOD LEGIONS or WORLD EATERS unit from your army has fought, and one or more enemy CHARACTER or MONSTER models were destroyed as a result of those attacks.",
+    "targetRules": "That BLOOD LEGIONS or WORLD EATERS unit.",
+    "effectRules": "You gain D3BTP and you can then spend one or more BTP you have to activate one of the Blood Tithe abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-blessing-of-burning-blood",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One BLOOD LEGIONS unit from your army that is within 6\" of a friendly WORLD EATERS unit that was selected as the target as one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your WORLD EATERS unit have a 5+ invulnerable save. If the Boon of Blood ability is active for your army, then until the end of the phase, models in your WORLD EATERS unit have a 4+ invulnerable save.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-daemontide",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One WORLD EATERS unit from your army.",
+    "effectRules": "Select one friendly BLOOD LEGIONS unit within 6\" of your unit. One destroyed MOUNTED model, up to D3 destroyed BEAST models, or up to D6 destroyed INFANTRY models are returned to that BLOOD LEGIONS unit with their full wounds remaining.",
+    "restrictionRules": "This Stratagem cannot be used to return destroyed CHARACTER models to Attached units."
+  },
+  {
+    "id": "stratagem-world-eaters-murder-call",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One BLOOD LEGIONS unit from your army that is on the battlefield and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-daemonic-resistance",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One WORLD EATERS POSSESSED unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-daemonic-strength",
+    "whenRules": "Fight phase.",
+    "targetRules": "One WORLD EATERS POSSESSED unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time an attack made by a model in your unit is allocated to an enemy model, if your unit has the EIGHTBOUND keyword and that enemy model is not a MONSTER or VEHICLE, add 1 to the Damage characteristic of that attack. If your unit has the EXALTED EIGHTBOUND keyword and that enemy model is a MONSTER or VEHICLE, add 1 to the Damage characteristic of that attack instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-immortal-fury",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One WORLD EATERS POSSESSED unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking model's unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-rapid-manifestation",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One EXALTED EIGHTBOUND unit from your army that is arriving using the Deep Strike ability this phase.",
+    "effectRules": "Your unit can be set up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units.",
+    "restrictionRules": "A unit targeted with this Stratagem is not eligible to declare a charge in the same turn."
+  },
+  {
+    "id": "stratagem-world-eaters-warp-stalkers",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One WORLD EATERS POSSESSED unit from your army that has not been selected to move or declare a charge this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through enemy models (excluding MONSTERS and VEHICLES). When doing so, it can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-horrifying-violence",
+    "whenRules": "Your opponent's Command phase.",
+    "targetRules": "One WORLD EATERS POSSESSED unit from your army.",
+    "effectRules": "Each enemy unit within Engagement Range of your unit must take a Battle-shock test, subtracting 1 from that test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-endless-pursuit-of-violence",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One WORLD EATERS INFANTRY unit from your army and one friendly TRANSPORT that it is able to embark within.",
+    "effectRules": "If your WORLD EATERS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-smash-through",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One WORLD EATERS VEHICLE model from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-aggressive-disembarkation",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One WORLD EATERS RHINO model from your army that has not been selected to move this phase.",
+    "effectRules": "One WORLD EATERS unit embarked within your RHINO can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your RHINO and can be set up within Engagement Range of one or more enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-full-throttle-assault",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One WORLD EATERS RHINO model from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time a WORLD EATERS unit disembarks from that model after it has made a Normal move, that unit is still eligible to declare a charge this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-world-eaters-unrelenting-advance",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One WORLD EATERS VEHICLE model from your army that was hit by one or more of the attacking unit's attacks.",
+    "effectRules": "Your model can make a Normal move of up to 6\".",
+    "restrictionRules": "A unit cannot be targeted by this Stratagem and the Fury Unleashed Stratagem in the same phase."
+  },
+  {
+    "id": "stratagem-world-eaters-fury-unleashed",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One WORLD EATERS RHINO model from your army that has one or more wounds remaining and was hit by one or more of the attacking unit's attacks.",
+    "effectRules": "One KHORNE BERZERKERS unit embarked within your model can disembark and make a Blood Surge move.",
+    "restrictionRules": "A unit cannot be targeted by this Stratagem and the Unrelenting Advance Stratagem in the same phase."
+  },
+  {
     "id": "stratagem-world-eaters-gory-massacre",
     "lore": "Those who witness the massacres inflicted by the World Eaters flee to avoid being the next victims.",
     "whenRules": "Fight phase.",
@@ -6902,70 +7400,6 @@
     "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One World Eaters unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
     "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Damage characteristic of that attack.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-blood-offering",
-    "lore": "The blood of Khorne’s devoted warriors is still blood, and when the battleground runs red, it is still a worthy addition to the Blood God’s domain.",
-    "whenRules": "Any phase.",
-    "targetRules": "One World Eaters unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
-    "effectRules": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-apoplectic-frenzy",
-    "lore": "Those who fight for Khorne are driven to even greater depths of rage, surging towards the foe in a barely controlled tide.",
-    "whenRules": "Your Movement phase.",
-    "targetRules": "One World Eaters unit from your army that has not been selected to move this phase.",
-    "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-aspire-to-infamy",
-    "lore": "With proven champions of Khorne looking on, those of lesser renown hurl themselves into the fray with greater ferocity, eager to prove their prowess.",
-    "whenRules": "Fight phase.",
-    "targetRules": "One World Eaters unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, improve the Strength and Armour Penetration characteristics of melee weapons equipped by non‑Character models in your unit by 1.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-overshadowed-by-none",
-    "lore": "The more towering and monstrous the adversary, the better a chance that its bloody end will win the approbation of Khorne.",
-    "whenRules": "Fight phase.",
-    "targetRules": "One World Eaters unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a Monster or Vehicle unit, you can re‑roll the Wound roll.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-gory-dedication",
-    "lore": "To the World Eaters, every battlefield is an altar upon which to offer up crimson sacrifices. Where the lifeblood of their victims falls, it anoints the ground as holy to Khorne’s murderous creed.",
-    "whenRules": "End of the Fight phase.",
-    "targetRules": "One World Eaters unit from your army that destroyed one or more enemy models with a melee attack this phase.",
-    "effectRules": "Select one objective marker you control that your unit is within range of. That objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-punish-the-craven",
-    "lore": "The Blood God is said to detest cowards. Meting out punishment to such degenerates is a sure way to win his favour and gain his wrathful boons.",
-    "whenRules": "Your opponent’s Movement phase, just after an enemy unit (excluding Monsters and Vehicles) is selected to Fall Back.",
-    "targetRules": "One World Eaters Infantry or World Eaters Daemon Prince unit from your army within Engagement Range of that enemy unit.",
-    "effectRules": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if your unit is a Vessel of Wrath unit, subtract 1 from each of those tests.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-meet-force-with-force",
-    "lore": "Desperate to prove themselves to the Blood God in this hour of infernal glory, these warriors are only goaded to more ferocious efforts by the enemy’s attempts to hold them at bay.",
-    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has shot.",
-    "targetRules": "One World Eaters Infantry, World Eaters Mounted or World Eaters Daemon Prince unit from your army that lost one or more wounds as a result of those attacks.",
-    "effectRules": "Your unit can make a Blood Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is a Khorne Berzerkers or Vessel of Wrath unit, you can re‑roll the D6 to determine how far your unit can move.",
-    "restrictionRules": null
-  },
-  {
-    "id": "stratagem-world-eaters-brazen-contempt",
-    "lore": "Empowered by flowing waves of hatred that they believe emanate from the Blood God himself, Khorne’s worshippers feel nothing but scorn at their enemies’ pitiful blows.",
-    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One World Eaters unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a Vessel of Wrath unit, subtract 1 from the Wound roll instead.",
     "restrictionRules": null
   },
   {
