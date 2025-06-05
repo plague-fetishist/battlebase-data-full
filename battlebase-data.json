@@ -498,7 +498,7 @@
   {
     "id": "secondary-mission-chapter-approved-2025-26-engage-on-all-fronts",
     "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
-    "body": "If one or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within a table quarter and those units are more than 6\" away from the centre oftho battlefield, you have a presence in that table quarter.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nYou have presence in two table quarters. 1VP\nOR\nYou have presence in three table quarters. 2VP\nOR\nYou have presence in four table quarters. 3VP"
+    "body": "If one or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within a table quarter and those units are more than 6\" away from the centre oftho battlefield, you have a presence in that table quarter.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nYou have presence in two table quarters. 1VP\nOR\nYou have presence in three table quarters. 2VP\nOR\nYou have presence in four table quarters. 4VP"
   },
   {
     "id": "secondary-mission-pariah-nexus-establish-locus",
