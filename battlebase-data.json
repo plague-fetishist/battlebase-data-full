@@ -313,47 +313,47 @@
   {
     "id": "mission-rule-chapter-approved-2025-26-night-fighting",
     "lore": "",
-    "body": "[PLACEHOLDER] Each unit can only be the target of a ranged attack if the attacking model is within 18\"."
+    "body": "Each unit can only be the target of a ranged attack if the attacking model is within 18\"."
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-ruinscape",
     "lore": "",
-    "body": "[PLACEHOLDER] Each time a unit makes a Normal or Advance move, it can move horizontally through terrain features."
+    "body": "Each time a unit makes a Normal or Advance move, it can move horizontally through terrain features."
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-martial-pride",
     "lore": "",
-    "body": "[PLACEHOLDER] BATTLELINE units can start Actions if they Advanced, and can shoot while doing Actions. This excludes VEHICLE units (yeah, someone didn’t like that War Dog thing)."
+    "body": "Advancing does not make a BATTLELINE unit ineligible to start an Action (excluding VEHICLE units).\n\nStarting an Action does not make a BATTLELINE unit ineligible to shoot (excluding VEHICLE units)."
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-rapid-escalation",
     "lore": "",
-    "body": "[PLACEHOLDER] In the first battle round, players can set up units from Strategic Reserves in the Reinforcements step of the Movement phase, wholly within 6\" of any battlefield edge but not within the enemy deployment zone, and units cannot use Deep Strike. For Strike Force, you can set up up to 400pts of units in this way."
+    "body": "In the first battle round, players can set up units from Strategic Reserves in the Reinforcements step of their Movement phase. If they do, those units must be set up wholly within 6\" of any battlefield edge, but no model in those units can be set up within the enemy deployment zone. A unit set up in this manner cannot be set up using the Deep Strike ability.\n\nThe maximum points total of units set up in this way is as follows:\n\nBATTLESIZE     MAXIMUM POINTS TOTAL\nIncursion      200pts\nStrike Force   400pts\nAsymmetric War 400pts"
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-adapt-or-die",
     "lore": "",
-    "body": "[PLACEHOLDER] If you’re playing Fixed, then once per battle you can change one of your Secondary Missions for a different one (which must still be eligible to be Fixed). If you’re playing Tactical, then twice per battle you can draw an extra Secondary Mission card after drawing one and then shuffle one of those cards back into your deck (this wording is specific – you draw two and keep one of those, you can’t discard a card you already have active)."
+    "body": "FOR PLAYERS USING FIXED MISSIONS\nOnce per battle, at the end of that player's turn, after scoring any VP, they can discard one of their Secondary Mission cards and replace it with another Secondary Mission card that has the Fixed Mission symbol.\n\nFOR PLAYERS USING TACTICAL MISSIONS\nTwice per battle, after drawing a Secondary Mission card, that player can draw another Secondary Mission card, then shuffle one of those two Secondary Mission cards back into their Secondary Mission deck."
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-high-octane",
     "lore": "",
-    "body": "[PLACEHOLDER] Units can auto-Advance 6\"."
+    "body": "Each time a unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in that unit."
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-bloodlust",
     "lore": "",
-    "body": "[PLACEHOLDER] Units are eligible to charge if they are within 18\" of one or more enemy units, instead of 12\", and roll 3D6 for Charge rolls."
+    "body": "A unit is eligible to charge if it is within 18\"of one or more enemy units, instead of within 12\".\n    \nEach time you make a Charge roll, roll 3D6."
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-point-blank",
     "lore": "",
-    "body": "[PLACEHOLDER] Ranged weapons (except Blast weapons) have the PISTOL ability."
+    "body": "Ranged weapons (except Blast weapons) have the PISTOL ability."
   },
   {
     "id": "mission-rule-chapter-approved-2025-26-lords-of-war",
     "lore": "",
-    "body": "[PLACEHOLDER] You get +3 Attacks for weapons equipped by a non-VEHICLE WARLORD model."
+    "body": "Until the end of the battle, add 3 to the Attacks characteristic of each weapon equipped by WARLORD models (excluding VEHICLES)."
   },
   {
     "id": "secondary-mission-a-tempting-target",
@@ -1843,7 +1843,7 @@
     "id": "stratagem-aeldari-skyborne-sanctuary",
     "whenRules": "End of the Fight phase.",
     "targetRules": "One ASURYANI unit from your army and one friendly TRANSPORT it is able to embark within.",
-    "effectRules": "If your ASURYANI unit is wholly within 6\" of that TRANSPORT, it can embark within it.",
+    "effectRules": "If your ASURYANI unit is not within Engagement Range of one or more enemy units and is wholly within 6\" of that TRANSPORT, it can embark within it.",
     "restrictionRules": null
   },
   {
@@ -1883,8 +1883,8 @@
   },
   {
     "id": "stratagem-aeldari-overflight",
-    "whenRules": "Your Shooting phase or the Fight phase, just after an ASURYANI MOUNTED unit from your army destroys an enemy unit.",
-    "targetRules": "That ASURYANI MOUNTED unit.",
+    "whenRules": "End of your Shooting phase or the end of the Fight phase.",
+    "targetRules": "One ASURYANI MOUNTED unit from your army that destroyed one or more enemy units this phase.",
     "effectRules": "Your unit can make a Normal move of up to 7\".",
     "restrictionRules": null
   },
@@ -3759,6 +3759,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-chaos-space-marines-baleful-blessing",
+    "whenRules": "Any phase, just after a HERETIC ASTARTES unit from your army has a mortal wound allocated to it.",
+    "targetRules": "That HERETIC ASTARTES unit.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-no-rest-in-death",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army within 9\" of a HERETIC ASTARTES PSYKER, HERETIC ASTARTES DAEMON PRINCE or HERETIC ASTARTES DAEMON PRINCE WITH WINGS unit from your army.",
+    "effectRules": "One model in your unit regains up to D3+1 lost wounds. If your unit has the BATTLELINE keyword, you can return up to D3 destroyed models (excluding CHARACTER models) to your unit with their full wounds remaining, instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-mutations-curse",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One HERETIC ASTARTES PSYKER unit from your army.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. Roll one D6: on a 1, that enemy unit suffers 1 mortal wound; on a 2-4, that enemy unit suffers D3 mortal wounds; on a 5-6, that enemy unit suffers 2D3 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-soulseekers",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that has not been selected to shoot that phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVERS ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-unholy-haste",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One HERETIC ASTARTES INFANTRY unit from your army that has not been selected to charge that phase.",
+    "effectRules": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-shroud-of-chaos",
+    "whenRules": "Start of your opponent's Shooting phase.",
+    "targetRules": "One HERETIC ASTARTES PSYKER, HERETIC ASTARTES DAEMON PRINCE or HERETIC ASTARTES DAEMON PRINCE WITH WINGS unit from your army.",
+    "effectRules": "Until the end of the phase, your unit has the following ability:\n\nShroud of Chaos (Aura): Models in friendly HERETIC ASTARTES units within 6\" of this unit have the Stealth ability.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-dark-angels-hunters-trail",
     "lore": "Using augur beacons, servo-skulls and the like, the Ravenwing mark locations they have passed through and cleansed of foes, laying a trial their fellows can follow on the hunt.",
     "whenRules": "Command phase.",
@@ -3947,6 +3989,48 @@
     "lore": "The Dark Angels’ Inner Circle warriors pursue the Chapter’s sworn foes and any who shield them with relentless endurance and a determination borne of indoctrinated hatred.",
     "whenRules": "End of your opponent's Charge phase.",
     "targetRules": "One Deathwing Infantry or Deathwing Walker unit from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.",
+    "effectRules": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
+    "restrictionRules": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn."
+  },
+  {
+    "id": "stratagem-dark-angels-inescapable-justice",
+    "whenRules": "Any phase, just after your Oath of Moment target is destroyed.",
+    "targetRules": "One ADEPTUS ASTARTES CHARACTER unit that is on the battlefield.",
+    "effectRules": "Select one enemy unit within 12\" and visible to your unit. That enemy unit becomes your Oath of Moment target until the start of your next Command phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-lions-will",
+    "whenRules": "Command phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the start of your next Command phase, add 1 to the Objective Control characteristic of models in your unit. In addition, until the end of the turn, if your unit does not have the DEATHWING, RAVENWING or VEHICLE keyword, each time a model in your unit makes an attack, add 1 to the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-wrath-of-the-rock-armour-of-contempt",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-tactical-mastery",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army.",
+    "effectRules": "Your unit is eligible to shoot and declare a charge in a turn in which it Advanced. If your unit has the RAVENWING keyword, it is also eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-relics-of-the-dark-age",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, add 2 to the Strength characteristic of ranged weapons equipped by models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-angels-leonine-aggression",
+    "whenRules": "End of your opponent's Charge phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army within 3\" of one or more enemy units, or one Deathwing unit from your army within 6\" of one or more enemy units.",
     "effectRules": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
     "restrictionRules": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn."
   },
@@ -7453,9 +7537,9 @@
   {
     "id": "stratagem-tyranids-unseen-lurkers",
     "lore": "Hyper-attuned senses warn vanguard organisms when they are being targeted by the prey.",
-    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 12\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit’s attacks.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One VANGUARD INVADER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\" or, if your unit has the Lone Operative ability, if the attacking model is within 6\". Your opponent can select new targets for the attacking unit's attacks.",
     "restrictionRules": null
   },
   {
@@ -7560,6 +7644,48 @@
     "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Tyranid Warriors unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
     "effectRules": "If that unit is a Tyranid Warriors unit, select up to one Endless Multitude unit from your army, that is not Battle‑shocked, within 6\" of it. Until the end of the phase, each time a ranged attack targets one of those units, if the Strength characteristic of that attack is greater than the Toughness characteristic of that unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tyranids-adaptive-optimisation",
+    "whenRules": "Command phase.",
+    "targetRules": "One MAWLOC or TRYGON unit from your army.",
+    "effectRules": "Until the start of your next Command phase, your unit has the SYNAPSE keyword.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tyranids-replenishing-swarms",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One TYRANIDS unit from your army, wholly within 9\" of one or more Tunnel Markers you placed.",
+    "effectRules": "One model in your unit regains up to D3+1 lost wounds, or you can return up to D3+1 destroyed models with a Wounds characteristic of 1 to your unit, with their full wounds remaining, instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tyranids-enfilading-emergence",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One TYRANIDS unit from your army that was set up as Reinforcements this turn.",
+    "effectRules": "Until the end of your next Fight phase, weapons equipped by models in your unit have the SUSTAINED HITS 1 and IGNORES COVER abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tyranids-tunnel-network",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One TYRANIDS unit from your army that is wholly within 9\" of one or more of your Tunnel Markers.",
+    "effectRules": "Remove your unit from the battlefield and set it up again, wholly within 9\" of another Tunnel Marker you placed, and more than 6\" horizontally away from all enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tyranids-swarming-assault",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One TYRANIDS MONSTER unit from your army that was set up as Reinforcements this turn.",
+    "effectRules": "Until the end of the phase, friendly TYRANIDS units within 6\" of your unit can re-roll Charge rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tyranids-retreat-below",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
     "restrictionRules": null
   },
   {
@@ -7762,7 +7888,7 @@
     "id": "stratagem-world-eaters-warp-stalkers",
     "whenRules": "Your Movement phase or your Charge phase.",
     "targetRules": "One WORLD EATERS POSSESSED unit from your army that has not been selected to move or declare a charge this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through enemy models (excluding MONSTERS and VEHICLES). When doing so, it can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move through enemy models (excluding MONSTERS and VEHICLES). When doing so, it can move within Engagement Range of such models but, unless that move was a Charge move, it cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
     "restrictionRules": null
   },
   {
