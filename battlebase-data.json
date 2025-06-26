@@ -930,8 +930,8 @@
     "id": "stratagem-adepta-sororitas-to-the-heart-of-heresy",
     "lore": "Seizing their moment to drive like a burning blade through the enemy lines and complete their holy mission, these faithful strike with unstoppable might.",
     "whenRules": "Fight phase.",
-    "targetRules": "One Adepta Sororitas unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the turn, melee weapons equipped by models in your unit have the [LETHAL HITS] ability.",
+    "targetRules": "One ADEPTA SORORITAS unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the turn, improve the Strength characteristic of melee weapons equipped by models in your unit by 1. If your unit is Righteous, until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by models in your unit by 1 as well.",
     "restrictionRules": null
   },
   {
@@ -3232,50 +3232,212 @@
   },
   {
     "id": "stratagem-chaos-knights-avange-the-masters",
-    "lore": "As the object of their adulation is consumed by fire, mortal worshippers are roused to a desperate fury, seeking vengeance on behalf of their deceased master.",
     "whenRules": "Any phase.",
-    "targetRules": "One Chaos Knights unit from your army that was just destroyed.",
-    "effectRules": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a Damned model from your army makes an attack that targets a Marked unit, that attack has the [LETHAL HITS] ability.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Until the end of the battle, the enemy unit that destroyed your unit is Marked. Each time a DAMNED model from your army makes an attack that targets a Marked unit, that attack has the LETHAL HITS ability.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-chaos-knights-wretched-masses",
-    "lore": "In the wake of striding Knights are dragged tides of desperate zealots. No sooner has one horde of baying mortals fallen than another surges forth to take their place.",
     "whenRules": "Any phase.",
-    "targetRules": "One Damned unit (excluding Accursed Cultists) from your army that was just destroyed.",
+    "targetRules": "One DAMNED unit (excluding ACCURSED CULTISTS) from your army that was just destroyed. You can use this Stratagem on that unit even though it was just destroyed.",
     "effectRules": "Add a new unit to your army identical to your destroyed unit, in Strategic Reserves, at its Starting Strength and with all of its wounds remaining.",
-    "restrictionRules": null
+    "restrictionRules": "You can only use this Stratagem once per battle. This Stratagem cannot be used to return destroyed CHARACTER units to Attached units."
   },
   {
     "id": "stratagem-chaos-knights-soul-hunger",
-    "lore": "Daemonic corruption, both physical and spiritual, has debased once noble machines. As the pilots of corrupted Knight suits slaughter mortal victims, their mechanical steed feeds upon stolen life forces and raw fear.",
-    "whenRules": "Fight phase, just after a Chaos Knights unit from your army has fought.",
-    "targetRules": "That Chaos Knights unit.",
+    "whenRules": "Fight phase, just after a CHAOS KNIGHTS unit from your army has fought.",
+    "targetRules": "That CHAOS KNIGHTS unit.",
     "effectRules": "If one or more models were destroyed as a result of those attacks, your unit regains up to D3 lost wounds. If one or more models from Battle‑shocked units were destroyed as a result of those attacks, your unit regains up to D3+2 lost wounds instead.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-chaos-knights-unrestrained-rage",
-    "lore": "When consumed with battlelust, Fallen Nobles pilot their Knight suits with instinctive skill, rampaging through the enemies with horrific speed and savagery.",
-    "whenRules": "Your Movement phase, just after a Chaos Knights unit from your army Advances or Falls Back.",
+    "whenRules": "Your Movement phase, just after a CHAOS KNIGHTS unit from your army Advances or Falls Back.",
     "targetRules": "That unit.",
     "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-chaos-knights-worthless-chattel",
-    "lore": "The callous nobility of Iconoclast houses care naught for their devotees, obliterating enemies and mortal thralls alike in furious barrages of infernal firepower.",
     "whenRules": "Your Shooting phase.",
-    "targetRules": "One Damned unit from your army.",
-    "effectRules": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons.",
+    "targetRules": "One DAMNED unit from your army.",
+    "effectRules": "Until the end of the phase, enemy units are not considered to be within Engagement Range of your unit for the purposes of selecting targets of ranged weapons. Until the end of the phase, each time an enemy model loses a wound, while that model's unit is within Engagement Range of your unit, roll one D6: on a 4+, one model from your unit is destroyed after the attacking unit has finished making its attacks.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-chaos-knights-preserve-the-idols",
-    "lore": "Driven to preserve their Fallen Noble overlords, masses of mutants, cultists, and corrupted soldiers rush to interpose themselves between their knightly idols and the cursed foe.",
-    "whenRules": "Your opponent’s Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
-    "targetRules": "One Chaos Knights unit from your army that is within 9\" of that enemy unit.",
-    "effectRules": "Select one Damned unit from your army that is not Battle‑shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That Damned unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move.",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.",
+    "effectRules": "Select one DAMNED unit from your army that is not Battle‑shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-traitoris-lance-codex-pterrorshades",
+    "whenRules": "Any phase, just after an enemy unit fails a Battle-shock test.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that is within 12\" of that enemy unit.",
+    "effectRules": "Roll six D6. For each 4+, that enemy unit suffers 1 mortal wound and this model regains up to 1 lost wound.",
+    "restrictionRules": "You can only use this Stratagem once per battle round."
+  },
+  {
+    "id": "stratagem-chaos-knights-traitoris-lance-codex-conquerors-without-mercy",
+    "whenRules": "Fight phase.",
+    "targetRules": "One CHAOS KNIGHTS model from your army that made a Charge move this turn and has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, improve the Armour Penetration characteristic of melee weapons equipped by your model by 1. After your model has finished making its attacks this phase, if it destroyed one or more enemy units this phase, each enemy unit within 6\" of your model must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-traitoris-lance-codex-disdain-for-the-weak",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your model has the Feel No Pain 6+ ability, and the Feel No Pain 5+ ability against attacks made by Battle-shocked models.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-traitoris-lance-codex-a-long-leash",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ABHORRENT model from your army and up to three WAR DOG models from your army.",
+    "effectRules": "Until the start of your next Command phase, those WAR DOG models count as being within range of any Aura abilities that ABHORRENT model has.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-traitoris-lance-codex-imperious-advance",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "Up to two WAR DOG units from your army or one TITANIC CHAOS KNIGHTS unit from your army.",
+    "effectRules": "Until the end of the phase, each time a model in one of your units makes a move, it can move through models and terrain features. When doing so, it can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed (the Super-heavy Walker ability does not apply while using this Stratagem).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-traitoris-lance-codex-storm-of-darkness",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Stealth ability, and each time an attack targets your unit, models in it have the Benefit of Cover against that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-claimed-for-the-dark-gods",
+    "whenRules": "Start of any phase.",
+    "targetRules": "One CHAOS KNIGHTS CHARACTER unit from your army that is within range of one or more objective markers you control.",
+    "effectRules": "Select one of those objective markers. That objective marker remains under your control, with a Level of Control of 5 (unless it would otherwise be higher), until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-spiteful-demise",
+    "whenRules": "Any phase, just after a CHAOS KNIGHTS CHARACTER unit from your army is destroyed.",
+    "targetRules": "That CHAOS KNIGHTS CHARACTER unit. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "When rolling to determine whether mortal wounds are inflicted by your unit's Deadly Demise ability, that model's Deadly Demise ability inflicts mortal wounds on a D6 roll of a 4+ instead of on a 6.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-runes-of-disdain",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One CHAOS KNIGHTS CHARACTER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-titanic-duel",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One CHAOS KNIGHTS CHARACTER unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Select one enemy MONSTER or VEHICLE unit. Until the end of the phase, each time a model in your unit makes an attack that targets that enemy unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1. Each time a model in your unit makes an attack that targets that enemy unit, if that enemy unit is TITANIC, you can re-roll the Hit roll and you can re-roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-trophy-hunter",
+    "whenRules": "Fight phase, just before a CHAOS KNIGHTS CHARACTER unit from your army consolidates.",
+    "targetRules": "That CHAOS KNIGHTS CHARACTER unit.",
+    "effectRules": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" as long as your unit can end that move within Engagement Range of one or more enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-crushed-like-vermin",
+    "whenRules": "Your Movement phase, just after a CHAOS KNIGHTS CHARACTER unit from your army ends a Normal move.",
+    "targetRules": "That CHAOS KNIGHTS CHARACTER unit.",
+    "effectRules": "Select one enemy unit (excluding MONSTERS and VEHICLES) that your unit moved over during that move and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound. If one or more models are destroyed as a result of this Stratagem, that enemy unit must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-vox-howl",
+    "whenRules": "Start of the Shooting phase or the start of the Fight phase.",
+    "targetRules": "One WAR DOG CHARACTER unit from your army.",
+    "effectRules": "Each enemy unit within 6\" of your unit must take a Battle-shock test. Each friendly WAR DOG unit that is within 6\" of your unit and is Battle-shocked must take a Leadership test; if that test is passed, that unit is no longer Battle-shocked.",
+    "restrictionRules": "You can only use this Stratagem once per turn."
+  },
+  {
+    "id": "stratagem-chaos-knights-hungry-for-combat",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "Two or more WAR DOG units from your army within Engagement Range of the same enemy unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of those WAR DOG units. Until the end of the phase, models in those WAR DOG units can only target that enemy unit, but each time a model in one of those WAR DOG units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-cunning-hunter",
+    "whenRules": "Your Movement phase, just after a WAR DOG unit from your army Falls Back",
+    "targetRules": "That WAR DOG unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-animalistic-rage",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after a WAR DOG unit from your army is destroyed.",
+    "targetRules": "That WAR DOG unit. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Before resolving your unit's Deadly Demise ability, it can either shoot or fight. When doing so, it must target only the enemy unit that just destroyed it, and can only do so if that enemy unit is an eligible target. After it has done so and after any Consolidation moves have been made, resolve your unit's Deadly Demise ability as normal.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-harrying-hounds",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One WAR DOG unit from your army that is within 9\" of that enemy unit.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-encircling-pack",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One WAR DOG unit from your army that is wholly within 12\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-profane-symbiosis",
+    "whenRules": "End of any phase.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that is not Empowered.",
+    "effectRules": "Your unit makes a Malefic Surge.",
+    "restrictionRules": "You cannot select the same unit as the target of this Stratagem more than once per battle round."
+  },
+  {
+    "id": "stratagem-chaos-knights-hellforged-construction",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-corrupting-taint",
+    "whenRules": "Your Command phase, just after a CHAOS KNIGHTS CHARACTER unit from your army makes a Malefic Surge.",
+    "targetRules": "That CHAOS KNIGHTS CHARACTER unit.",
+    "effectRules": "Select one objective marker your unit is within range of that you control. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-unleash-balefire",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "After your unit has shot, select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test; if the test is failed, until the end of your opponent's next turn, it is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-warp-vision",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVER ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-diabolic-bulwark",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, that CHAOS KNIGHTS model has a 4+ invulnerable save against ranged attacks.",
     "restrictionRules": null
   },
   {
@@ -5529,9 +5691,9 @@
   {
     "id": "stratagem-necrons-protocol-of-the-vengeful-stars",
     "lore": "In response to enemy attack, criss-cross fire leaps from the Necron ranks, forming a blazing corona of deadly energy from which there can be no escape.",
-    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.",
-    "targetRules": "One Necrons unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
-    "effectRules": "Your unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target. In addition, if a Necrons Character is leading your unit, until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit destroys a NECRONS unit from your army.",
+    "targetRules": "One NECRONS CHARACTER unit from your army that was within 6\" of that NECRONS unit when it was destroyed.",
+    "effectRules": "After the attacking unit has resolved its attacks, your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
     "restrictionRules": null
   },
   {
@@ -7691,8 +7853,8 @@
   {
     "id": "stratagem-world-eaters-blood-offering",
     "whenRules": "Any phase.",
-    "targetRules": "One WORLD EATERS unit from your army that was just destroyed while it was within range of an objective marker you controlled. You can use this Stratagem on that unit even though it was just destroyed.",
-    "effectRules": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn.",
+    "targetRules": "One WORLD EATERS unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Select one of those objective markers. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
     "restrictionRules": null
   },
   {
@@ -7711,16 +7873,16 @@
   },
   {
     "id": "stratagem-world-eaters-skulls-for-the-skull-throne!",
-    "whenRules": "Fight phase.",
-    "targetRules": "One WORLD EATERS unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes a melee attack that targets a CHARACTER, MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+    "whenRules": "Fight phase, just after a WORLD EATERS unit from your army destroys a CHARACTER or MONSTER model.",
+    "targetRules": "That WORLD EATERS unit.",
+    "effectRules": "Make a Blessings of Khorne roll and use the results to activate one Blessing of Khorne. Until the end of the battle round, that Blessing of Khorne is active in addition to any other Blessings of Khorne that are currently active.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-world-eaters-apoplectic-frenzy",
-    "whenRules": "Your Movement phase.",
-    "targetRules": "One WORLD EATERS unit from your army that has not been selected to move this phase.",
-    "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "whenRules": "Your Movement phase, just after a KHORNE BERZERKERS unit from your army is selected to Advance.",
+    "targetRules": "That KHORNE BERZERKERS unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced.",
     "restrictionRules": null
   },
   {
