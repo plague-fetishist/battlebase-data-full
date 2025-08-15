@@ -2615,40 +2615,40 @@
   {
     "id": "stratagem-black-templars-fuelled-by-faith",
     "lore": "The Black Templars fight on through even the most grievous wounds to body and mind.",
-    "whenRules": "Any phase, just after a mortal wound is allocated to an Adeptus Astartes unit from your army.",
-    "targetRules": "That Adeptus Astartes unit.",
+    "whenRules": "Any phase, just after a mortal wound is allocated to an ADEPTUS ASTARTES unit from your army.",
+    "targetRules": "That ADEPTUS ASTARTES unit.",
     "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-black-templars-wrathful-procession-armour-of-contempt",
     "lore": "The belligerence and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
-    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-black-templars-wrathful-procession-castigate-the-demagogues",
     "lore": "There is nowhere that the architects of heresy can hide from the righteous judgement of the Black Templars.",
     "whenRules": "Fight phase.",
-    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the [PRECISION] ability.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the PRECISION ability.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-black-templars-wrathful-procession-brute-fervour",
     "lore": "All the enemy’s skill, cunning and trickery come to naught in the face of the Black Templars’ direct and unrelenting brutality.",
     "whenRules": "Fight phase.",
-    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to fight this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1 and you can ignore any or all modifiers to the following: that attack’s Weapon Skill characteristic; the Hit roll; the Wound roll.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1 and you can ignore any or all modifiers to the following: that attack's Weapon Skill characteristic; the Hit roll; the Wound roll.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-black-templars-wrathful-procession-relentless-momentum",
     "lore": "The sheer momentum and ferocity of so many charging, armoured killers are almost impossible to stop, carrying them forward through rank after rank of the heretical foe.",
     "whenRules": "Fight phase.",
-    "targetRules": "One Adeptus Astartes unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase and is within Engagement Range of one or more enemy units.",
     "effectRules": "Until the end of the phase, when determining which models in your unit are eligible to fight, any models in it that are within 3\" of one or more enemy models are eligible to fight. When resolving those attacks, such models can target one of those enemy units that is within 3\" of them and within Engagement Range of their unit.",
     "restrictionRules": null
   },
@@ -2656,8 +2656,134 @@
     "id": "stratagem-black-templars-wrathful-procession-voice-of-devotion",
     "lore": "In the crucial moment, these battle‑brothers switch to the most apposite devotional litany just as they might select the correct weapon from the Chapter’s armouries.",
     "whenRules": "Your Command phase.",
-    "targetRules": "One Adeptus Astartes Infantry or Adeptus Astartes Mounted unit from your army.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army.",
     "effectRules": "Select the Chorus of Relentless Hate, Rite of Perfervid Wrath or Chant of Deathless Devotion Litany. Until the end of the battle round, that Litany is active for your unit instead of any other Litany that is active for your army.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-champions-of-vehemence-devout-push",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\".",
+    "restrictionRules": "A unit cannot be targeted with this and the Hearts Hardened to Duty Stratagem in the same phase unless it has the CHAPLAIN or JUDICIAR keywords."
+  },
+  {
+    "id": "stratagem-black-templars-champions-of-vehemence-hearts-hardened-to-duty",
+    "whenRules": "Fight phase, just before an ADEPTUS ASTARTES INFANTRY unit from your army Consolidates.",
+    "targetRules": "That ADEPTUS ASTARTES INFANTRY unit.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it does not need to end that move closer to the closest enemy model (or the closest enemy unit if the Suffer Not the Unclean to Live Vow is active for it).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-champions-of-vehemence-for-the-emperors-honour!",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the PRECISION ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-champions-of-vehemence-pious-enmity",
+    "whenRules": "Fight phase.",
+    "targetRules": "One CHAPLAIN or JUDICIAR unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a melee attack that targets an enemy unit, re-roll a Hit roll of 1. If that target is a MONSTER or VEHICLE unit, re-roll a Wound roll of 1 as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-champions-of-vehemence-heresy-begets-retribution",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One CHAPLAIN or JUDICIAR unit from your army that is within 9\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Retribution move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-champions-of-vehemence-dread-crusaders",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit declares a charge.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY unit from your army that was selected as one of the targets of that charge.",
+    "effectRules": "That enemy unit must take a Battle-shock test, subtracting 1 from the result.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-vindication-task-force-refusal-to-yield",
+    "whenRules": "Any phase, just after an ANCIENT model from your army is destroyed.",
+    "targetRules": "That ANCIENT model. You can use this Stratagem on that model even though it was just destroyed.",
+    "effectRules": "At the end of the phase, set your model back up on the battlefield, as close as possible to where it was destroyed and not within Engagement Range of one or more enemy units, with its full wounds remaining.",
+    "restrictionRules": "You cannot target the same model with this Stratagem more than once per battle."
+  },
+  {
+    "id": "stratagem-black-templars-vindication-task-force-litanies-of-purgation",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, if that model's unit is within range of one or more objective markers or the target unit is within range of one or more objective markers, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-vindication-task-force-spoor-of-the-unholy",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVER ability and each time a model in your unit makes an attack, you can ignore any or all modifiers to the following: that attack's Ballistic Skill or Weapon Skill characteristic; the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-vindication-task-force-reclaim-our-honour!",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit destroys an ANCIENT model from your army that has not been targeted with the Refusal to Yield Stratagem this phase",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army visible to that enemy unit",
+    "effectRules": "Until the end of the battle, each time an ADEPTUS ASTARTES model from your army makes an attack that targets that enemy unit, add 1 to the Hit roll.",
+    "restrictionRules": "You cannot target that ANCIENT model with the Refusal to Yield Stratagem this phase."
+  },
+  {
+    "id": "stratagem-black-templars-vindication-task-force-recitation-of-the-revered",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ANCIENT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-vindication-task-force-perfervid-intervention",
+    "whenRules": "End of your opponent's Charge phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that is within 6\" of one or more enemy units and would be eligible to declare a charge against one or more of those enemy units if it were your Charge phase.",
+    "effectRules": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
+    "restrictionRules": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn"
+  },
+  {
+    "id": "stratagem-black-templars-godhammer-assault-force-a-ceaseless-cause",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY unit from your army that was eligible to fight this phase.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". It cannot embark within a TRANSPORT at the end of this move if it disembarked from a TRANSPORT this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-godhammer-assault-force-uncompromising-egress",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One LAND RAIDER model from your army that has not been selected to move this phase.",
+    "effectRules": "One ADEPTUS ASTARTES unit embarked within your LAND RAIDER can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your LAND RAIDER and can be set up within Engagement Range of one or more enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-godhammer-assault-force-gauntlet-of-the-god-emperor",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ADEPTUS ASTARTES VEHICLE model from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time your model makes a Normal or Advance move, it can move horizontally through terrain features.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-godhammer-assault-force-focused-hatred",
+    "whenRules": "Your Charge phase, just after you make a Charge roll for an ADEPTUS ASTARTES unit from your army that disembarked from a TRANSPORT this turn.",
+    "targetRules": "That ADEPTUS ASTARTES unit.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Charge move, models in your unit can move through models (when doing so, its models can move within Engagement Range of enemy models, but they can only end that move within Engagement Range of enemy models if those enemy models belong to a unit that your unit declared a charge against this turn).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-godhammer-assault-force-condemnatory-info-screed",
+    "whenRules": "Your Fight phase",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, if it disembarked from a TRANSPORT this turn, re-roll a Wound roll of 1. lf that TRANSPORT has the LAND RAIDER keyword, you can re-roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-templars-godhammer-assault-force-blessed-hull",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES VEHICLE unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
     "restrictionRules": null
   },
   {
@@ -5417,43 +5543,253 @@
   {
     "id": "stratagem-grey-knights-sanctified-kill-zone",
     "whenRules": "Your Shooting phase or the Fight phase.",
-    "targetRules": "One Grey Knights unit from your army that has not been selected to shoot or fight this phase and that is wholly within your army’s Hallowed Ground.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1, or, re‑roll the Wound roll instead if your unit is a Purifier Squad.",
+    "targetRules": "One GREY KNIGHTS unit from your army that has not been selected to shoot or fight this phase and that is wholly within your army's Hallowed Ground.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1, or, re‑roll the Wound roll instead if your unit is a PURIFIER SQUAD.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-grey-knights-flames-of-sanctity",
     "whenRules": "End of the Fight phase.",
-    "targetRules": "One Purifier Squad unit from your army that was eligible to fight this phase.",
-    "effectRules": "Roll one D6 for each enemy unit within 6\" of your unit, adding 1 to the result if your unit includes Castellan Crowe: on a 4+, that enemy unit suffers D3 mortal wounds.",
+    "targetRules": "One PURIFIER SQUAD unit from your army that was eligible to fight this phase.",
+    "effectRules": "Roll one D6 for each enemy unit within 6\" of your unit, adding 1 to the result if your unit includes CASTELLAN CROWE: on a 4+, that enemy unit suffers D3 mortal wounds.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-grey-knights-hallowed-beacon",
     "whenRules": "Reinforcements step of your Movement phase.",
-    "targetRules": "One Grey Knights Infantry unit (excluding Terminator units) that is arriving using the Deep Strike or Teleport Assault abilities this phase.",
-    "effectRules": "Set up your unit wholly within your army’s Hallowed Ground and more than 6\" horizontally away from all enemy units.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit (excluding TERMINATOR units) that is arriving using the Deep Strike or Teleport Assault abilities this phase.",
+    "effectRules": "Set up your unit wholly within your army's Hallowed Ground and more than 6\" horizontally away from all enemy units.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-grey-knights-fires-of-covenant",
-    "whenRules": "Start of your opponent’s Movement phase.",
-    "targetRules": "One Grey Knights Infantry unit from your army.",
-    "effectRules": "Until the end of the phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 6\" of your unit, roll one D6, adding 2 to the result if your unit is wholly within your army’s Hallowed Ground: on a 4+, that enemy unit suffers D3 mortal wounds.",
+    "whenRules": "Start of your opponent's Movement phase.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy unit is set up or ends a Normal, Advance or Fall Back move within 6\" of your unit, roll one D6, adding 2 to the result if your unit is wholly within your army's Hallowed Ground: on a 4+, that enemy unit suffers D3 mortal wounds.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-grey-knights-aegis-eternal",
-    "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Grey Knights Infantry unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, models in your unit that are wholly within your Hallowed Ground have a 4+ invulnerable save.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-grey-knights-repelling-sphere",
-    "whenRules": "Start of your opponent’s Charge phase.",
-    "targetRules": "One Grey Knights Infantry unit from your army.",
-    "effectRules": "Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army’s Hallowed Ground.",
+    "whenRules": "Start of your opponent's Charge phase.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army.",
+    "effectRules": "Until the end of the phase, each time an enemy unit declares a charge and your unit is one of the targets of that charge, subtract 1 from the Charge roll, or subtract 2 instead if your unit is wholly within your army's Hallowed Ground.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-truesilver-channelling",
+    "whenRules": "Fight phase.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, Psychic weapons equipped by models in your unit have the DEVASTATING WOUNDS ability,",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-combat-manifestation",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One GREY KNIGHTS unit from your army that is arriving using the Deep Strike ability this phase.",
+    "effectRules": "Set your unit up anywhere on the battlefield that is more than 3\" horizontally away from all enemy units, but until the end of the turn, it is not eligible to declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-purgation-pattern",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One GREY KNIGHTS unit from your army that was set up using the Deep Strike ability this turn and has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, weapons equipped by models in your unit have the SUSTAINED HITS 1 ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-duty-unending",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit within Engagement Range of one or more GREY KNIGHTS units from your army Falls Back.",
+    "targetRules": "One of those GREY KNIGHTS units that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-shining-veil",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One GREY KNIGHTS unit that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit has the Stealth ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-expeditious-exit",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER INFANTRY unit from your army.",
+    "effectRules": "If every model in your unit has the Deep Strike ability, remove your unit from the battlefield and place it into Strategic Reserves.\n\nDesigner's Note: *This Stratagem allows you* to *remove a unit in addition* to *those removed using the Gate of Infinity rule, and it allows you* to *remove a unit within Engagement Range of one* or *more enemy units.*",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-giants-of-the-battlefield",
+    "whenRules": "Fight phase.",
+    "targetRules": "One GREY KNIGHTS TERMINATOR unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, add 1 to the Attacks characteristic of melee weapons equipped by models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-unending-fidelity",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not shot or fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can shoot or fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-point-blank-purgation",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, storm bolter weapons equipped by models in your unit have the PISTOL and TWIN-LINKED abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-grind-them-underfoot",
+    "whenRules": "Your Charge phase, just after a GREY KNIGHTS TERMINATOR unit from your army ends a Charge move.",
+    "targetRules": "That GREY KNIGHTS unit.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-precognitive-strategies",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-shining-resolve",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-hexwrought-reprisal",
+    "whenRules": "End of any phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that is on the battlefield and suffered one or more mortal wounds this phase.",
+    "effectRules": "Select one enemy unit which inflicted one or more mortal wounds on your unit this phase, then roll a number of dice equal to the number of mortal wounds your unit suffered this phase: for each 2+, that enemy unit suffers one mortal wound (to a maximum of 6 mortal wounds). These mortal wounds are Psychic Attacks.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-warding-chant",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against attacks with an unmodified Damage characteristic of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-chaos-bane",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the ANTI-CHAOS 4+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-celerity",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER INFANTRY unit from your army.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Advanced",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-circle-of-sanctuary",
+    "whenRules": "Start of your opponent's Movement phase.",
+    "targetRules": "One GREY KNIGHTS CHARACTER model from your army.",
+    "effectRules": "Until the end of the phase, enemy units that are set up on the battlefield as Reinforcements cannot be set up within 12\" horizontally of your model.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-shadow-of-anarch",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that is within 9\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\" or, if it has the Deep Strike ability, it can be placed into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-truesilver-will",
+    "whenRules": "Any phase, just after a GREY KNIGHTS PSYKER VEHICLE unit from your army suffers a mortal wound.",
+    "targetRules": "That GREY KNIGHTS PSYKER VEHICLE unit.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 4+ ability against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-abominus-class-targets",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One GREY KNIGHTS unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-armoured-aegis",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER VEHICLE unit from your army.",
+    "effectRules": "One model in your unit regains up to 3 lost wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-redoubled-assault",
+    "whenRules": "Your Movement phase, just after a GREY KNIGHTS VEHICLE unit from your army Falls Back.",
+    "targetRules": "That GREY KNIGHTS VEHICLE unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-force-wave",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One GREY KNIGHTS VEHICLE unit from your army that has not been selected to move or charge this phase",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-argent-wrath",
+    "whenRules": "Your Charge phase, just after a GREY KNIGHTS VEHICLE unit from your army ends a Charge move.",
+    "targetRules": "That GREY KNIGHTS VEHICLE unit.",
+    "effectRules": "Each enemy unit within 3\" of your unit must take a Battle-shock test, subtracting 1 from that test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-aggressive-anticipation",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can ignore any or all modifiers to that attack's Weapon Skill or Ballistic Skill characteristics and/or any or all modifiers to the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-appointed-hour",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-forewarned-evasion",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One GREY KNIGHTS WALKER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-necessary-end",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One GREY KNIGHTS INFANTRY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. If the result is greater than the current battle round number, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-redirected-strike",
+    "whenRules": "End of your Command phase.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.\n\nDesigner's Note: *This Stratagem lets players utilise abilities that retain control of objective markers and react to their missions and objectives with this unit.*",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-grey-knights-mirage-of-echoes",
+    "whenRules": "The Reinforcements step of your opponent's Movement phase, just after an enemy unit is set up.",
+    "targetRules": "One GREY KNIGHTS PSYKER unit from your army that is within 12\" of that enemy unit and is not within Engagement Range of one or more enemy units.",
+    "effectRules": "If your unit has the Deep Strike ability, it can be placed into Strategic Reserves.",
     "restrictionRules": null
   },
   {
