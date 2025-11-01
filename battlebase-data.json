@@ -7740,6 +7740,92 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-space-marines-armour-of-contempt",
+    "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-ruthless-butchery",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES DREADNOUGHT, TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. If your unit is below Starting Strength, add 1 to the Wound roll as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-dominator-beacon",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ADEPTUS ASTARTES DREADNOUGHT, TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within range of an objective marker you control.",
+    "effectRules": "That objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-cogitated-ferocity",
+    "whenRules": "Your Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES DREADNOUGHT, TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Select either the SUSTAINED HITS 1 or LETHAL HITS abilities. Until the end of the phase, melee weapons equipped by models in your unit have the selected ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-augmetic-fortitude",
+    "whenRules": "Your opponent's Charge phase, just after an enemy unit ends a Charge move.",
+    "targetRules": "One ADEPTUS ASTARTES TERMINATOR, BLADEGUARD VETERAN SQUAD, STERNGUARD VETERAN SQUAD or VANGUARD VETERAN SQUAD unit from your army within Engagement Range of that enemy unit.",
+    "effectRules": "Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-hammer-of-avernii-dropship-extraction",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES TERMINATOR unit from your army. You cannot target a unit that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-armour-of-contempt",
+    "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-spear-thrust-and-sabre-swing",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Select either the LANCE or LETHAL HITS ability. Until the end of the phase, melee weapons equipped by models in your unit have the selected ability. If it is a MOUNTED unit, until the end of the phase, melee weapons equipped by models in your unit have the LANCE and LETHAL HITS abilities instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-mobile-lethality",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced or Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-hunters-instincts",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY unit or ADEPTUS ASTARTES MOUNTED unit from your army that is within 9\" of that enemy unit. You cannot target a unit that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-evasive-manoeuvres",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES FLY VEHICLE unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll and subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-withdraw-and-regroup",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES FLY VEHICLE unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-space-wolves-armour-of-contempt",
     "lore": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
