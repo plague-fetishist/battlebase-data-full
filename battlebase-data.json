@@ -2259,6 +2259,48 @@
     "restrictionRules": "You cannot select a unit within Engagement Range of one or more enemy units, and until the end of the turn, you cannot target that unit with the Heroic Intervention Stratagem."
   },
   {
+    "id": "stratagem-aeldari-fangs-of-the-brood",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "One TROUPE unit from your army.",
+    "effectRules": "Until the end of the phase, when using your unit's Dance of Death ability, you can select three of the abilities for your unit to gain, instead of one.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-venomous-wrath",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One HARLEQUINS VEHICLE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "After your unit has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move of up to 6\". Until the end of the turn, your unit is not eligible to declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-striking-stride",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One HARLEQUINS unit from your army.",
+    "effectRules": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-weavers-coils",
+    "whenRules": "End of your Fight phase.",
+    "targetRules": "One HARLEQUINS MOUNTED unit from your army that was eligible to fight this phase.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, it can make a Normal move. Otherwise, your unit can make a Fall Back move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-weaving-stride",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One HARLEQUINS INFANTRY unit from your army that is within 9\" of that enemy unit.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-skyward-lunge",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One HARLEQUINS VEHICLE or HARLEQUINS MOUNTED unit from your army.",
+    "effectRules": "If your unit is not within Engagement Range of one or more enemy units, you can remove it from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-astra-militarum-reinforcements!",
     "lore": "The Astra Militarum can call upon a nearly inexhaustible supply of warriors.",
     "whenRules": "Any phase.",
@@ -2562,6 +2604,48 @@
     "whenRules": "End of your opponent's turn.",
     "targetRules": "One ASTRA MILITARUM MOUNTED or ASTRA MILITARUM WALKER unit from your army that is wholly within 10\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-snap-to-it",
+    "whenRules": "Start of any phase.",
+    "targetRules": "One ASTRA MILITARUM OFFICER unit from your army.",
+    "effectRules": "Your unit's OFFICER model can issue 1 Order as if it were your Command phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-no-retreat!",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ASTRA MILITARUM unit from your army affected by the Duty and Honour! Order.",
+    "effectRules": "If your unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-veteran-sharpshooters",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVER ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-purging-fire",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM unit from your army affected by an Order that has not been selected to shoot this phase.",
+    "effectRules": "If your unit is within range of an objective marker, until the end of the phase, ranged weapons equipped by models in your unit have the LETHAL HITS ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-mordian-minute",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM INFANTRY unit from your army affected by the First Rank, Fire! Second Rank, Fire! Order.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, improve the Strength characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-additional-armour",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ASTRA MILITARUM unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
   {
@@ -3024,6 +3108,49 @@
     "whenRules": "End of your opponent’s Fight phase.",
     "targetRules": "One Adeptus Astartes Jump Pack unit from your army. You cannot target a unit that is within Engagement Range of one or more enemy units, unless it is The Sanguinor.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-a-grim-warning",
+    "whenRules": "Any phase.",
+    "targetRules": "One BLOOD ANGELS unit from your army that was just destroyed while it was within range of one or more objective markers you controlled at the end of the previous phase. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Select one of those objective markers. That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-cursed-onslaught-armour-of-contempt",
+    "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-insensate-rampage",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DEATH COMPANY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-limb-from-limb",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that made a Charge move this turn.",
+    "effectRules": "Select either the Strength or Armour Penetration characteristic of melee weapons equipped by models in your unit. Until the end of the phase, add 1 to the selected characteristic. You can instead choose for your unit to give in to the Red Thirst; if it does, it becomes Battle‑shocked (but the effects of this Stratagem still apply to it), and until the end of the phase, add 1 to the Strength and Armour Penetration characteristics of melee weapons equipped by models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-deathless-duty",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DEATH COMPANY unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, do not remove it from play. The destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-blood-angels-red-wrath",
+    "whenRules": "Your Movement phase, just after an ADEPTUS ASTARTES unit from your army Advances.",
+    "targetRules": "That ADEPTUS ASTARTES unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to either shoot or declare a charge in a turn in which it Advanced. You can instead choose for your unit to give in to the Red Thirst; if it does, it becomes Battle-shocked (but the effects of this Stratagem still apply to it), and until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
     "restrictionRules": null
   },
   {
@@ -4086,6 +4213,48 @@
     "whenRules": "Start of your opponent's Shooting phase.",
     "targetRules": "One HERETIC ASTARTES PSYKER, HERETIC ASTARTES DAEMON PRINCE or HERETIC ASTARTES DAEMON PRINCE WITH WINGS unit from your army.",
     "effectRules": "Until the end of the phase, your unit has the following ability:\n\nShroud of Chaos (Aura): Models in friendly HERETIC ASTARTES units within 6\" of this unit have the Stealth ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-talons-sunk-deep",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One HERETIC ASTARTES INFANTRY unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle‑shocked and/or Below Half‑strength, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-prey-on-the-weak",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One HERETIC ASTARTES INFANTRY unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a unit that is Battle‑shocked and/or Below Half‑strength, you can re‑roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-sadistic-display",
+    "whenRules": "Fight phase, just after a HERETIC ASTARTES unit from your army destroys an enemy unit.",
+    "targetRules": "That HERETIC ASTARTES unit.",
+    "effectRules": "Each enemy unit within 6\" of and visible to your unit (excluding MONSTER and VEHICLE units) must take a Battle‑shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-malicious-surge",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One HERETIC ASTARTES INFANTRY unit from your army.",
+    "effectRules": "Until the end of the phase, your unit is eligible to declare a charge in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-relentless-terror",
+    "whenRules": "Your Movement phase, just after a HERETIC ASTARTES INFANTRY unit from your army Falls Back.",
+    "targetRules": "That HERETIC ASTARTES unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-horrific-incursion",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that arrived from Reserves this turn.",
+    "effectRules": "Select one enemy unit (excluding MONSTER and VEHICLE units) within 12\" of and visible to your unit: that unit must take a Battle‑shock test, subtracting 1 from the result.",
     "restrictionRules": null
   },
   {
@@ -5310,6 +5479,48 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One EMPEROR'S CHILDREN CHARACTER unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "After the attacking unit has shot, your unit can make a Surge move. To do so, roll one D6:each model in your unit can move a distance in inches up to the result, but your unit must end that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. If your unit is not your army's Favoured Champions, you can re-roll the dice to determine the distance of its Surge move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-contemptuous-disregard",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-prideful-superiority",
+    "whenRules": "Fight phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re‑roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-sinuous-breach",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One EMPEROR'S CHILDREN DAEMON unit from your army that has not been selected to move or charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-close-quarters-excruciation",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time an EMPEROR'S CHILDREN model in your unit makes an attack that targets an eligible unit within 12\", improve the Strength and  Armour Penetration characteristics of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-euphoric-inspiration",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One EMPEROR'S CHILDREN DAEMON unit from your army.",
+    "effectRules": "Until the end of the phase, you can re-roll Charge rolls for friendly EMPEROR'S CHILDREN units within 6\" of your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-emperors-children-catalytic-stimulus",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One EMPEROR'S CHILDREN unit from your army that lost one or more wounds as a result of those attacks.",
+    "effectRules": "Your unit can make a Stimulus move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
     "restrictionRules": null
   },
   {
@@ -7230,7 +7441,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7294,7 +7505,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7326,7 +7537,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7374,7 +7585,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7422,7 +7633,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7478,7 +7689,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7518,7 +7729,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7574,7 +7785,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7614,7 +7825,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7657,7 +7868,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7700,7 +7911,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7743,7 +7954,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7786,7 +7997,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -7829,7 +8040,7 @@
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -8088,6 +8299,48 @@
     "whenRules": "End of your opponent's Fight phase.",
     "targetRules": "One SPACE WOLVES unit from your army that is wholly within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-the-foe-foreseen",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-grimnars-command",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army.",
+    "effectRules": "Select one Hunting Pack from the Master of Wolves Detachment rule. Until the start of your next Command phase, that Hunting Pack is active for your unit instead of any other Hunting Pack that is active, even if you have already selected that Hunting Pack this battle.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-fenrisian-ferocity",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One ADEPTUS ASTARTES MOUNTED or ADEPTUS ASTARTES WALKER unit from your army that has not been selected to move or charge this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a Normal, Advance, Fall Back or Charge move, it can move horizontally through models (excluding TITANIC models) and terrain features. When doing so, it can move within Engagement Range of enemy models, but cannot end a Normal, Advance or Fall Back move within Engagement Range of them.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-unrelenting-hunters",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If your unit is a SPACE WOLVES unit, until the end of the turn, it is eligible to declare a charge in a turn in which it Advanced or Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-eye-of-the-pack",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-wolves-battle-instincts",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One SPACE WOLVES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Your unit can make a Normal move of up to D6\".",
     "restrictionRules": null
   },
   {
