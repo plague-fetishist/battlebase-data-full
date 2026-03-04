@@ -498,7 +498,7 @@
   {
     "id": "secondary-mission-chapter-approved-2025-26-engage-on-all-fronts",
     "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
-    "body": "If one or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within a table quarter and those units are more than 6\" away from the centre oftho battlefield, you have a presence in that table quarter.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nYou have presence in two table quarters. 1VP\nOR\nYou have presence in three table quarters. 2VP\nOR\nYou have presence in four table quarters. 4VP"
+    "body": "If one or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within a table quarter and those units are more than 6\" away from the centre of the battlefield, you have a presence in that table quarter.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nYou have presence in two table quarters. 1VP\nOR\nYou have presence in three table quarters. 2VP\nOR\nYou have presence in four table quarters. 4VP"
   },
   {
     "id": "secondary-mission-pariah-nexus-establish-locus",
@@ -2301,6 +2301,90 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-aeldari-raiders-spoils",
+    "whenRules": "Command phase.",
+    "targetRules": "One ANHRATHE unit from your army that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the start of the next Command phase, add 1 to the Objective Control characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-ruthless-killers",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One CORSAIR VOIDSCARRED unit from your army that has not been selected to shoot or Fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-yriels-example",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One AELDARI INFANTRY unit from your army (excluding WRAITH CONSTRUCT units) that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-no-prey-too-big",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ANHRATHE, RANGERS or SHROUD RUNNERS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, if the Strength characteristic of that attack is less than the highest Toughness characteristic of models in the target unit, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-impeding-fire",
+    "whenRules": "Start of your opponent's Charge phase.",
+    "targetRules": "One RANGERS, SHROUD RUNNERS or STARFANG unit from your army.",
+    "effectRules": "Select one enemy unit (excluding TITANIC units) visible to and within 36\" of your unit. Until the end of the phase, each time that enemy unit declares a charge, subtract 2 from the Charge roll (this is not cumulative with any other negative modifiers to that Charge roll).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-withdraw-and-reinforce",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One ANHRATHE unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves. If that unit is below Starting Strength, return all destroyed models (excluding CHARACTER models) to that unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-pirates-due",
+    "whenRules": "The Fight phase.",
+    "targetRules": "One AELDARI unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Wound roll of 1. If your unit has the ANHRATHE keyword, then until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of an objective marker, you can re‑roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-lethal-ruse",
+    "whenRules": "Your Movement phase, just after an AELDARI unit from your army Falls Back.",
+    "targetRules": "That AELDARI unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to declare a charge in a turn in which it Fell Back. If it is an ANHRATHE unit, also select one enemy unit your unit was within Engagement Range of at the start of the phase, and roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-outcast-ambush",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One RANGERS or SHROUD RUNNERS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVER and RAPID FIRE 1 abilities, and until the end of the phase, improve the Armour Penetration characteristic of those weapons by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-into-the-breach",
+    "whenRules": "Your Shooting phase, just after an ANHRATHE unit from your army destroyed one or more enemy units.",
+    "targetRules": "That ANHRATHE unit.",
+    "effectRules": "After your unit has resolved all of its shooting attacks, it can make a Normal move of up to D6+1\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-cloak-and-shadow",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One AELDARI INFANTRY unit from your army that is within range of an objective marker that you control and that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Stealth ability and your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-aeldari-vengeful-sorrow",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One AELDARI INFANTRY unit from your army, if one or more models in that unit were destroyed as a result of those attacks, and if that AELDARI unit is neither Battle‑shocked nor within Engagement Range of one or more enemy units.",
+    "effectRules": "Your unit can make a Surge move. To do so, roll one D6 and add 1 to the roll: models in your unit move a number of inches up to this result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-astra-militarum-reinforcements!",
     "lore": "The Astra Militarum can call upon a nearly inexhaustible supply of warriors.",
     "whenRules": "Any phase.",
@@ -3204,9 +3288,9 @@
   {
     "id": "stratagem-legiones-daemonica-thieves-of-pain",
     "lore": "The daemons of Slaanesh are so enraptured by the physical sensations of their victims that they even steal one another’s agonies to enjoy.",
-    "whenRules": "Any phase, just after an attack or mortal wound is allocated to a model in a Legiones Daemonica Slaanesh unit from your army (excluding MONSTERS and VEHICLES).",
-    "targetRules": "That Legiones Daemonica Slaanesh unit.",
-    "effectRules": "Select one other friendly Legiones Daemonica Slaanesh unit that is within 12\" of and visible toyour unit. Until the end of the phase, while the selected unit is on the battlefield, each time a model in your unit would lose a wound, inflict 1 mortal wound on the selected unit instead.",
+    "whenRules": "Any phase, just after an attack or mortal wound is allocated to a model in a LEGIONES DAEMONICA SLAANESH unit from your army (excluding MONSTERS and VEHICLES).",
+    "targetRules": "That LEGIONES DAEMONICA SLAANESH unit.",
+    "effectRules": "Select one other friendly LEGIONES DAEMONICA SLAANESH unit that is within 9\" of and visible to your unit. Until the end of the phase, while the selected unit is on the battlefield, each time a model in your unit would lose a wound, inflict 1 mortal wound on the selected unit instead.",
     "restrictionRules": null
   },
   {
@@ -3243,7 +3327,7 @@
   },
   {
     "id": "stratagem-legiones-daemonica-overwhelming-excess",
-    "lore": "Sensation gushes relentlessly into the overwhelming minds of the enemy until their souls strain fit to burst. Barely able to think or function, they recoil in their desperate need to stem the unstoppable tide.",
+    "lore": "Sensation gushes relentlessly into the overstimulated minds of the enemy until their souls strain fit to burst. Barely able to think or function, they recoil in their desperate need to stem the unstoppable tide.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Legiones Daemonica Slaanesh unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
     "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
@@ -3251,7 +3335,7 @@
   },
   {
     "id": "stratagem-legiones-daemonica-impossible-eclipse",
-    "lore": "The daemons of Tzeentch are so enraptured by the physical sensations of their victims that they even steal one another’s agonies to enjoy.",
+    "lore": "At the call of this malevolent entity, invisible stellar bodies slide into alignment, plunging the battlefield into momentary twilight, dancing with strange and sorcerous will-o'-the-wisps.",
     "whenRules": "Any phase.",
     "targetRules": "One Legiones Daemonica Tzeentch Monster unit from your army that is on the battlefield.",
     "effectRules": "Select No Man’s Land or your opponent’s deployment zone, or spend one Flux token and select both. Until the end of the phase, the selected areas of the battlefield are within your army’s Shadow of Chaos.",
@@ -3275,10 +3359,10 @@
   },
   {
     "id": "stratagem-legiones-daemonica-fateborne-nightmares",
-    "lore": "Between one heartbeat and the next, the daemons of Tzeentch vanish as though they were never there. Yet this jarring respite will last only long enough for their victims to question their sanity before the onslaught begins anew.",
-    "whenRules": "End of your opponent’s Fight phase.",
-    "targetRules": "One Legiones Daemonica Tzeentch unit from your army that is not within Engagement Range of one or more enemy units.",
-    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "lore": "Barred doors, reinforced windows, or walls are no barriers to the children of the Warp. They cannot be outrun; they cannot be hidden from; they cannot be stopped.",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One LEGIONES DAEMONICA TZEENTCH unit from your army.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a move, it can move through terrain features.",
     "restrictionRules": null
   },
   {
@@ -3293,8 +3377,8 @@
     "id": "stratagem-legiones-daemonica-delirium-unmade",
     "lore": "Between one heartbeat and the next, the daemons of Tzeentch vanish as though they were never there. Yet this jarring respite will last only long enough for their victims to question their sanity before the onslaught begins anew.",
     "whenRules": "End of your opponent’s Fight phase.",
-    "targetRules": "One Legiones Daemonica Tzeentch unit from your army that is not within Engagement Range of one or more enemy units.",
-    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "targetRules": "One LEGIONES DAEMONICA TZEENTCH unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend one Flux token when you use this Stratagem and target up to two LEGIONES DAEMONICA TZEENTCH units from your army instead (including those within Engagement Range of one or more enemy units).",
+    "effectRules": "Remove your units from the battlefield and place them into Strategic Reserves.",
     "restrictionRules": null
   },
   {
@@ -3357,8 +3441,8 @@
     "id": "stratagem-legiones-daemonica-fever-visions",
     "lore": "A plague of waking nightmares races through the enemy ranks, leaving foes reeling in the grip of nauseating visions that curdle into soul-destroying reality.",
     "whenRules": "Your Shooting phase or the Fight phase.",
-    "targetRules": "One Legiones Daemonica Nurgle unit from your army that has not been selected to shoot or fight this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll.",
+    "targetRules": "One LEGIONES DAEMONICA NURGLE unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll. After your unit has finished making its attacks, select one enemy unit hit by one or more of those attacks; that enemy unit must take a Battle‑shock test.",
     "restrictionRules": null
   },
   {
@@ -4255,6 +4339,90 @@
     "whenRules": "Your Movement phase.",
     "targetRules": "One HERETIC ASTARTES unit from your army that arrived from Reserves this turn.",
     "effectRules": "Select one enemy unit (excluding MONSTER and VEHICLE units) within 12\" of and visible to your unit: that unit must take a Battle‑shock test, subtracting 1 from the result.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-hardened-killers",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One DAMNED unit from your army.",
+    "effectRules": "Select one of the following effects:\n\n• Improve the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.\n• Improve the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1.\n• Improve the Save characteristic of models in this unit by 1.\n\nUntil the start of your next turn, your unit has the benefit of that effect.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-at-the-tyrants-command",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One HERETIC ASTARTES unit (excluding MONSTERS and VEHICLES) from your army.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-seize-the-prize",
+    "whenRules": "Your Movement phase, just after a HERETIC ASTARTES unit (excluding MONSTERS and VEHICLES) from your army has been selected to Advance.",
+    "targetRules": "That HERETIC ASTARTES unit.",
+    "effectRules": "Do not make an Advance roll for your unit. Instead, until the end of the phase add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-reavers-flurry",
+    "whenRules": "Your Fight phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that made a Charge move this turn.",
+    "effectRules": "Until the end of the phase, add 1 to the Attacks characteristics of melee weapons equipped by models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-to-the-favoured-the-spoils",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that lost one or more wounds as a result of those attacks.",
+    "effectRules": "Your unit can make a Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-encircling-surge",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One HERETIC ASTARTES unit (excluding MONSTERS and VEHICLES) from your army that is within 6\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-never-outgunned",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that has just been selected to shoot or fight.",
+    "effectRules": "Select either the LETHAL HITS or SUSTAINED HITS 1 ability. Until the end of the phase, weapons equipped by models in your unit have the selected ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-vengeful-destruction",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One HERETIC ASTARTES INFANTRY (excluding DAMNED units) or HERETIC ASTARTES MOUNTED unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes an attack that targets your Vendetta target, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-undying-hatred",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-renegade-claim",
+    "whenRules": "Your Movement phase",
+    "targetRules": "One HERETIC ASTARTES unit from your army within range of an objective marker you control.",
+    "effectRules": "That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-corrupted-munitions",
+    "whenRules": "Your Shooting phase",
+    "targetRules": "One HERETIC ASTARTES unit in your army that has just been selected to shoot.",
+    "effectRules": "Until the end of the phase, each time a model in this unit makes a ranged attack, improve the Armour Penetration of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-reavers-reaction",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One HERETIC ASTARTES unit (excluding MONSTERS and VEHICLES) from your army that was hit by one or more of those attacks.",
+    "effectRules": "Your unit can make a Normal move of up to D6\".",
     "restrictionRules": null
   },
   {
@@ -6510,7 +6678,7 @@
     "id": "stratagem-leagues-of-votann-fury-of-the-hearth",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, ranged weapons (excluding Blast weapons) equipped by models in your unit have the RAPID FIRE 1 ability.",
+    "effectRules": "Until the end of the phase, improve the Strength characteristic of ranged weapons equipped by models in your unit by 1. If you spend 1YP, until the end of the phase, ranged weapons equipped by models in that unit have the SUSTAINED HITS 1 ability as well.",
     "restrictionRules": null
   },
   {
@@ -6552,7 +6720,7 @@
     "id": "stratagem-leagues-of-votann-needgaard-oathband-reactive-reprisal",
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit that has one or more Judgement tokens has resolved its attacks.",
     "targetRules": "One LEAGUES OF VOTANN unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
-    "effectRules": "Your LEAGUES OF VOTANN unit can shoot as if it were your Shooting phase, but it must target the enemy unit that just attacked it, and can only do so if that enemy unit is an eligible target.",
+    "effectRules": "Your unit can shoot as if it were your Shooting phase, can only target that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
     "restrictionRules": null
   },
   {
@@ -6641,9 +6809,9 @@
   },
   {
     "id": "stratagem-leagues-of-votann-secure-positions",
-    "whenRules": "End of any phase, if units from your army have Hostile Acquisition.",
+    "whenRules": "End of any of your phases, if units from your army have Hostile Acquisition.",
     "targetRules": "One LEAGUES OF VOTANN TRANSPORT unit from your army.",
-    "effectRules": "One LEAGUES OF VOTANN unit embarked within your TRANSPORT can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your TRANSPORT.",
+    "effectRules": "One LEAGUES OF VOTANN unit embarked within your TRANSPORT can disembark. When doing so, models in that unit can be set up anywhere on the battlefield wholly within 6\" of your TRANSPORT. That unit cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn.",
     "restrictionRules": null
   },
   {
@@ -6721,6 +6889,48 @@
     "whenRules": "End of your opponent's Movement phase.",
     "targetRules": "One IRONKIN STEELJACKS unit from your army.",
     "effectRules": "Your unit can make a Normal move. When doing so, your unit must end that move as close as possible to the closest objective marker.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-leagues-of-votann-auxiliary-contract",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One LEAGUES OF VOTANN INFANTRY or LEAGUES OF VOTANN MOUNTED unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, weapons equipped by models in your unit have the PRECISION ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-leagues-of-votann-optimal-expenditure",
+    "whenRules": "The Fight phase",
+    "targetRules": "One LEAGUES OF VOTANN INFANTRY unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re‑roll a Hit roll of 1 and re‑roll the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-leagues-of-votann-grand-artifice",
+    "whenRules": "Your Movement phase, just after a LEAGUES OF VOTANN unit from your army Falls Back.",
+    "targetRules": "That LEAGUES OF VOTANN unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-leagues-of-votann-privateer-arsenal",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One LEAGUES OF VOTANN INFANTRY unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Each time you use this Stratagem, you can spend 3YP. Until the end of the phase, each time a model in your unit makes an attack, re‑roll a Hit roll of 1 and re‑roll a Wound roll of 1. If you spent YP during this usage of this Stratagem, you can re‑roll the Hit roll and re‑roll a Wound roll of 1 instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-leagues-of-votann-new-horizons",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One LEAGUES OF VOTANN INFANTRY unit from your army that is not within Engagement range of one or more enemy units and one friendly TRANSPORT it is able to embark within",
+    "effectRules": "If your LEAGUES OF VOTANN unit is wholly within 6\" of that TRANSPORT, it can embark within it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-leagues-of-votann-mobile-exploitation",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One HERNKYN unit from your army that is not within Engagement Range of one or more enemy units. Alternatively, you can spend 2YP and target up to two HERNKYN units from your army that are not within Engagement Range of one or more enemy units instead.",
+    "effectRules": "Remove your units from the battlefield and place them into Strategic Reserves.",
     "restrictionRules": null
   },
   {
@@ -7564,6 +7774,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-orks-bash-and-grab",
+    "whenRules": "The Fight phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit within range of the loot objective, you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-grab-and-bash",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ORKS unit from your army (excluding GRETCHIN units) that is within range of the loot objective.",
+    "effectRules": "Until the start of your next Command phase, the Waaagh! is active for your unit, even if you have already called a Waaagh! this battle.\n\nDesigner's Note: This means that any abilities that are in effect while the Waaagh! is active for your army will be in effect for your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-boardin-rush",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time your unit Advances, do not make an Advance roll. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-deck-fraggers",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit targets an INFANTRY unit with a ranged weapon, that weapon has the BLAST ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-rolling-loot-heap",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One FLASH GITZ unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the ANTI‑VEHICLE 4+ ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-krump-and-run",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit falls back.",
+    "targetRules": "One ORKS unit from your army that was within engagement range of that enemy unit at the start of the phase and is not within range of one or more enemy units.",
+    "effectRules": "Your unit can make a Normal move of up to 6\".",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -7600,7 +7852,7 @@
     "lore": "The heroes entombed within Dreadnoughts have fought across countless war zones throughout their extended existences, perfecting their martial prowess beyond mortal limits.",
     "whenRules": "Your Command phase.",
     "targetRules": "One ADEPTUS ASTARTES WALKER model from your army.",
-    "effectRules": "Until the start of your next Command phase, improve your model’s Move, Toughness, Save, Leadership and Objective Control characteristics by 1 and each time your model makes an attack, add 1 to the Hit roll.",
+    "effectRules": "Until the start of your next Command phase, improve your model’s Move, Toughness, Leadership and Objective Control characteristics by 1 and each time your model makes an attack, add 1 to the Hit roll.",
     "restrictionRules": null
   },
   {
@@ -7639,8 +7891,8 @@
     "id": "stratagem-space-marines-storm-of-fire",
     "lore": "There is no escaping the wrath of the Space Marines, and they use their weapons to bring swift death to their foes wherever they may hide, expertly placing their shots to wreak maximum damage.",
     "whenRules": "Your Shooting phase.",
-    "targetRules": "One Adeptus Astartes unit from your army.",
-    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the [IGNORES COVER] ability. If your unit is under the effects of the Devastator Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the IGNORES COVER ability. If your unit is under the effects of the Devastator Doctrine, until the end of the phase, improve the Armour Penetration characteristic of such weapons by 1 as well.",
     "restrictionRules": null
   },
   {
@@ -7918,9 +8170,9 @@
   {
     "id": "stratagem-space-marines-fiery-shield",
     "lore": "As the enemy closes in for the kill, the psyker manifests his psychic will in a raging inferno that obscures imperilled allies and threatens to immolate any who come close enough to land a blow upon them.",
-    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Adeptus Astartes unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that is within 18\" of one or more friendly ADEPTUS ASTARTES PSYKER models, and that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll, and if the Pyromancy Discipline is active for your army, weapons that target your unit have the HAZARDOUS ability.",
     "restrictionRules": null
   },
   {
@@ -7944,7 +8196,7 @@
     "lore": "Sharing some of his prescience with his battle‑brothers, a Librarian can guide their fire.",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One Adeptus Astartes Psyker unit from your army that has not been selected to shoot this phase.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, that attack has the [LETHAL HITS] ability, and the [IGNORES COVER] ability as well if the Divination Discipline is active for your army.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, that attack has the LETHAL HITS ability, and the IGNORES COVER ability as well if the Divination Discipline is active for your army.",
     "restrictionRules": null
   },
   {
@@ -9228,49 +9480,49 @@
   {
     "id": "stratagem-tyranids-rapid-regeneration",
     "lore": "Prey stare in horror as chitinous armour regrows and flesh, muscle and sinew knots back together as though never harmed.",
-    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Tyranids unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, until the end of the phase, models in your unit have the Feel No Pain 5+ ability instead.",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 6+ ability. If your unit is within Synapse Range of your army, models in your unit have the Feel No Pain 5+ ability instead.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-tyranids-death-frenzy",
     "lore": "Tyranids care nothing for self-preservation, lashing out even in death.",
     "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Tyranids unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model’s unit has finished making attacks, and is then removed from play.",
+    "targetRules": "One TYRANIDS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove it from play. The destroyed model can fight after the attacking model's unit has finished making its attacks, and is then removed from play.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-tyranids-adrenal-surge",
     "lore": "These warrior organisms destroy all as their adrenaline surges.",
     "whenRules": "Fight phase.",
-    "targetRules": "Up to two Tyranids units from your army that are within Synapse Range of your army and are eligible to fight, or one other Tyranids unit from your army that is eligible to fight.",
-    "effectRules": "Until the end of the phase, each time a model in one of those selected units makes an attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
+    "targetRules": "Up to two TYRANIDS units from your army that are within Synapse Range of your army and are eligible to fight, or one other TYRANIDS unit from your army that is eligible to fight.",
+    "effectRules": "Until the end of the phase, each time a model in any of those selected units makes an attack, an unmodified Hit roll of 5+ scores a Critical Hit.",
     "restrictionRules": null
   },
   {
     "id": "stratagem-tyranids-overrun",
     "lore": "Tyranids are an unstoppable avalanche of flesh and chitin.",
-    "whenRules": "Fight phase, just before a Tyranids unit from your army Consolidates.",
-    "targetRules": "That Tyranids unit.",
-    "effectRules": "Until the end of the phase, each time a model in your unit makes a Consolidation move, it can move up to 6\" instead of up to 3\", provided your unit can end its Consolidation move in Unit Coherency and within Engagement Range of one or more enemy units. If your unit is within Synapse Range of your army and not within Engagement Range of any enemy units, instead of making that Consolidation move, it can instead make a Normal move of up to 6\".",
+    "whenRules": "Fight phase, just before a TYRANIDS unit from your army Consolidates.",
+    "targetRules": "That TYRANIDS unit.",
+    "effectRules": "Until the end of the phase, each time your unit Consolidates, models in it can move an additional 3\" as long as your unit can end that move within Engagement Range of one or more enemy units. If your unit is within Synapse Range of your army and not within Engagement Range of any enemy units, instead of making that Consolidation move, it can make a Normal move of up to 6\".",
     "restrictionRules": null
   },
   {
-    "id": "stratagem-tyranids-synaptic-insight",
+    "id": "stratagem-tyranids-predatory-imperative",
     "lore": "Guided by the instincts of leader-beasts, a portion of the swarm can be tasked with focusing its hunting instincts to destroy a particular foe.",
     "whenRules": "Your Command phase.",
-    "targetRules": "Up to two Tyranids units from your army that are within Synapse Range of your army, or one other Tyranids unit from your army.",
-    "effectRules": "Select one Hyper-adaptation. Until the end of the battle round, that hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
-    "restrictionRules": "You cannot select the same hyper-adaptation you selected at the start of the first battle round."
+    "targetRules": "Up to two TYRANIDS units from your army that are within Synapse Range of your army, or one other TYRANIDS unit from your army.",
+    "effectRules": "Select one Hyper-adaptation. Until the start of your next Command phase, that Hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
+    "restrictionRules": "You cannot select the same Hyper-adaptation you selected at the start of the first battle round."
   },
   {
     "id": "stratagem-tyranids-endless-swarm",
     "lore": "As the battle rages, more organisms pour in to bolster the swarms.",
     "whenRules": "Your Command phase.",
-    "targetRules": "Up to two Endless Multitude units from your army that are within Synapse Range of your army, or one other Endless Multitude unit from your army.",
-    "effectRules": "Up to D3+3 destroyed models are returned to each of the selected units.",
+    "targetRules": "Up to two ENDLESS MULTITUDE units from your army that are within Synapse Range of your army, or one other ENDLESS MULTITUDE unit from your army.",
+    "effectRules": "You can return up to D3+3 destroyed models to each of those selected units.",
     "restrictionRules": null
   },
   {
@@ -9602,6 +9854,14 @@
     "targetRules": "One TYRANIDS unit or up to two BURROWER units from your army that are not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
     "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tyranids-synaptic-insight",
+    "lore": "Guided by the instincts of leader-beasts, a portion of the swarm can be tasked with focusing its hunting instincts to destroy a particular foe.",
+    "whenRules": "Your Command phase.",
+    "targetRules": "Up to two Tyranids units from your army that are within Synapse Range of your army, or one other Tyranids unit from your army.",
+    "effectRules": "Select one Hyper-adaptation. Until the end of the battle round, that hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
+    "restrictionRules": "You cannot select the same hyper-adaptation you selected at the start of the first battle round."
   },
   {
     "id": "stratagem-world-eaters-blood-offering",
