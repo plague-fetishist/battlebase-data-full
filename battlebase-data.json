@@ -548,12 +548,12 @@
   {
     "id": "secondary-mission-pariah-nexus-no-prisoners",
     "lore": "Exterminate your enemies.",
-    "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit is destroyed. 2VP (UP TO SVP)"
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit is destroyed. 2VP (UP TO 5VP)"
   },
   {
     "id": "secondary-mission-chapter-approved-2025-26-no-prisoners",
     "lore": "Show no mercy. Exterminate your enemies.",
-    "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy Bodyguard unit or enemy non-CHARACTER unit is destroyed. FIXED 2VP (UP TO SVP)\n\nANY BATTLE ROUND\nWHEN: While this card is active (if you are using Tactical Missions).\nEach time an enemy unit is destroyed. TACTICAL 2VP (UP TO SVP)"
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy Bodyguard unit or enemy non-CHARACTER unit is destroyed. FIXED 2VP (UP TO 5VP)\n\nANY BATTLE ROUND\nWHEN: While this card is active (if you are using Tactical Missions).\nEach time an enemy unit is destroyed. TACTICAL 2VP (UP TO 5VP)"
   },
   {
     "id": "secondary-mission-overwhelming-force",
@@ -1590,6 +1590,48 @@
     "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
     "targetRules": "One Adeptus Mechanicus Infantry unit (excluding Kataphron units) from your army that is within 9\" of that enemy unit and not within Engagement Range of one or more enemy units.",
     "effectRules": "Your unit can make a Normal move of up to D6\", or up to 6\" instead if it is a Halo Override unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-servo-driven-charge",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ADEPTUS MECHANICUS unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the LANCE ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-unrelenting-aggression",
+    "whenRules": "Your Movement phase, just after an ADEPTUS MECHANICUS unit from your army Falls Back.",
+    "targetRules": "That ADEPTUS MECHANICUS unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Fell Back. If your unit has the SKITARII keyword, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-unshackled-wrath",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One SKITARII unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Select the SUSTAINED HITS 1 or LETHAL HITS ability. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. You can instead select the SUSTAINED HITS 1, LETHAL HITS and HAZARDOUS abilities to apply to those weapons until the end of the phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-threat-cogitation-targeters",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One SKITARII VEHICLE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a ranged attack made by a model in your unit is allocated to a MONSTER or VEHICLE model, you can re-roll the Damage roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-precision-onslaught",
+    "whenRules": "Your Charge phase, just after a SICARIAN unit from your army declares a charge.",
+    "targetRules": "That SICARIAN unit.",
+    "effectRules": "Until the end of the phase, when your unit ends a Charge move, select one enemy unit within Engagement Range of it, then roll one D6 for each model in your unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-adeptus-mechanicus-analytic-reprisals",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One SKITARII Infantry unit from your army that lost one or more models as a result of the attacking unit’s attacks.",
+    "effectRules": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
     "restrictionRules": null
   },
   {
@@ -3778,6 +3820,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-chaos-knights-feral-arrogance",
+    "whenRules": "Any phase, just after a mortal wound is allocated to a CHAOS KNIGHTS unit from your army.",
+    "targetRules": "That CHAOS KNIGHTS unit.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-merciless-fusillade",
+    "whenRules": "Start of your Shooting phase or the start of the Fight phase.",
+    "targetRules": "One TITANIC CHAOS KNIGHTS unit from your army, and up to two friendly WAR DOG units, that have not been selected to shoot or fight this phase.",
+    "effectRules": "Select one enemy unit that is an eligible target for each of those CHAOS KNIGHTS units. Until the end of the phase, each time one of those CHAOS KNIGHTS units is selected to shoot or fight, if that enemy unit is an eligible target, you can only select that enemy unit as the target for all of those attacks and those attacks have the SUSTAINED HITS 1 ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-beasthide-manifestation",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-flush-the-quarry",
+    "whenRules": "Start of your Movement phase.",
+    "targetRules": "One TITANIC CHAOS KNIGHTS unit from your army and up to three friendly WAR DOG units within 6\" of that TITANIC CHAOS KNIGHTS unit.",
+    "effectRules": "Until the end of the phase, each time one of those WAR DOG units makes a Normal, Advance or Fall Back move, its models can move through models and terrain features. When doing so, they can move within Engagement Range of such models but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-contemptuous-volleys-helhunt",
+    "whenRules": "Your Movement phase, just after a CHAOS KNIGHTS unit from your army Falls Back.",
+    "targetRules": "That CHAOS KNIGHTS unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-knights-goaded-beast",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One CHAOS KNIGHTS unit from your army that lost one or more wounds as a result of those attacks.",
+    "effectRules": "Your unit can make a Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-heretic-astartes-infernal-rites",
     "lore": "With gruesome offerings and ritualised promises, the Chaos Space Marines seek the protection of their infernal masters.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -4423,6 +4507,90 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
     "targetRules": "One HERETIC ASTARTES unit (excluding MONSTERS and VEHICLES) from your army that was hit by one or more of those attacks.",
     "effectRules": "Your unit can make a Normal move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-empyric-dislocation",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": "You cannot target the same unit with the Empyric Dislocation and Armour of Corruption Stratagems in the same phase."
+  },
+  {
+    "id": "stratagem-chaos-space-marines-armour-of-corruption",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One HERETIC ASTARTES TERMINATOR, OBLITERATORS or MUTILATORS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the turn, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": "You cannot target the same unit with the Armour of Corruption and Empyric Dislocation Stratagems in the same phase."
+  },
+  {
+    "id": "stratagem-chaos-space-marines-warp-flicker",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One HERETIC ASTARTES TERMINATOR, OBLITERATORS or MUTILATORS unit from your army.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-warp-tainted",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One HERETIC ASTARTES TERMINATOR, OBLITERATORS or MUTILATORS unit from your army, within range of an objective marker you control.",
+    "effectRules": "That objective marker remains under your control until your opponent's Level of Control over that objective marker is greater than yours at the end of a phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-siegebreaker-strike",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "Up to two HERETIC ASTARTES units from your army that were set up using the Deep Strike ability this turn and have not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your units have the IGNORES COVER ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-portal-of-spite",
+    "whenRules": "Your Charge phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that was set up using the Deep Strike ability this turn and has not declared a charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit declares a charge, if the closest eligible enemy unit is selected as one of the targets of that charge, add 2 to the Charge roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-touch-of-the-arkifane",
+    "whenRules": "Any phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army (excluding DAMNED units) that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, if your unit is selected to make a Dark Pact, you can select both abilities for that unit’s weapons to gain.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-balefire-boon",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One SOUL FORGE unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-soul-tally-offerings",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One SOUL FORGE unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER, MONSTER or VEHICLE unit, you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-biomechanoid-regeneration",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One HERETIC ASTARTES unit from your army (excluding DAMNED units).",
+    "effectRules": "One model in your unit regains up to D3 lost wounds. If your unit has the SOUL FORGE keyword, one model in your unit regains up to 3 lost wounds instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-forge-fire-surge",
+    "whenRules": "Your Movement phase, just after a HERETIC ASTARTES unit from your army Advances.",
+    "targetRules": "That HERETIC ASTARTES unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced. If your unit has the SOUL FORGE keyword, until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Advanced instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chaos-space-marines-unholy-fortitude",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One SOUL FORGE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, add 1 to the Toughness characteristic of models in your unit.",
     "restrictionRules": null
   },
   {
@@ -6592,6 +6760,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-imperial-knights-noble-sacrifice-freeblade",
+    "whenRules": "Any phase.",
+    "targetRules": "One IMPERIAL KNIGHTS unit from your army that was just destroyed. You can target that unit with this Stratagem even though it was just destroyed.",
+    "effectRules": "Your unit's Deadly Demise ability inflicts mortal wounds on a D6 roll of 4+, adding 1 to the result if it is an ARMIGER unit, instead of only a 6.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-imperial-knights-strength-from-exile",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, if there are no other friendly units within 9\" of your unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-imperial-knights-freeblade-company-full-tilt",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One IMPERIAL KNIGHTS unit from your army.",
+    "effectRules": "Until the end of the phase, if your unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in your unit, or 9\" instead if your unit is an ARMIGER or DESTRIER unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-imperial-knights-point-blank-barrage",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One IMPERIAL KNIGHTS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, when making ranged attacks with Blast weapons, models in your unit can target enemy units within Engagement Range of your unit (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, until the end of the phase, your unit does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units, but each time a model in your unit makes an attack with a Blast weapon that targets a unit within Engagement Range of your unit, on an unmodified Hit roll of 1, your unit suffers 1 mortal wound after all of its attacks have been resolved.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-imperial-knights-survivor-of-strife",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One IMPERIAL KNIGHTS unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-imperial-knights-flanking-manoeuvres",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One ARMIGER unit from your army that is within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-leagues-of-votann-warrior-pride",
     "lore": "The warriors of the Leagues of Votann pride themselves on their martial skill and proficiency in combat, and when the Ancestors are watching their actions they can quickly overwhelm and pick apart their foes.",
     "whenRules": "Fight phase.",
@@ -8581,6 +8791,49 @@
     "whenRules": "Your Shooting phase or your Charge phase.",
     "targetRules": "One ADEPTUS ASTARTES unit (excluding BATTLELINE units) from your army.",
     "effectRules": "Until the end of the phase, your unit is eligible to shoot and declare a charge in a turn in which it Advanced or Fell Back. If it does, every target of that charge and every target of those attacks must be an auspex scanned unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-unyielding-might",
+    "whenRules": "Command phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that is within Engagement Range of one or more enemy units.",
+    "effectRules": "Until the start of your next Command phase, add 1 to the Objective Control characteristics of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-priority-strike",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that has not been selected to shoot or fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a CHARACTER, MONSTER or VEHICLE unit, you can re-roll the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-ceramite-armour-of-contempt",
+    "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-stand-to-the-end",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, adding 1 to the result if it is an ENTRENCHED unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-augmented-targeting",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Select either the SUSTAINED HITS 1 or LETHAL HITS abilities. Until the end of the phase, ranged weapons equipped by models in your unit have the selected ability. If your unit is Entrenched, until the end of the phase, ranged weapons equipped by models in your unit have the SUSTAINED HITS 1 and LETHAL HITS abilities instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-evasive-repositioning",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Your unit can make a Normal move of up to D6\". If your unit is ENTRENCHED, you can re-roll the D6 to determine how far your unit can move.",
     "restrictionRules": null
   },
   {
