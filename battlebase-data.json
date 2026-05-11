@@ -2775,6 +2775,90 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-astra-militarum-engine-of-wrath",
+    "whenRules": "Fight phase.",
+    "targetRules": "One ASTRA MILITARUM TITANIC unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Select one enemy unit within Engagement Range of your unit. Until the end of the phase, add 6 to the Attacks characteristic of melee weapons equipped by models in your unit, improve the Armour Penetration characteristic of those weapons by 2, and each time a model in your unit fights, it can only target that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-imposing-arrival",
+    "whenRules": "Reinforcements step of your Movement phase, from the second battle round onwards.",
+    "targetRules": "One ASTRA MILITARUM TITANIC unit from your army that is in Reserves.",
+    "effectRules": "Set up your unit on the battlefield, wholly within 8\" of the battlefield edge and more than 6\" horizontally away from all enemy units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-adamantine-behemoth",
+    "whenRules": "Your Movement phase or your Charge phase.",
+    "targetRules": "One ASTRA MILITARUM VEHICLE unit from your army that has not been selected to move or charge this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal, Advance or Charge move, it can move horizontally through terrain features.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-shattering-salvo",
+    "whenRules": "Your Shooting phase, just after an ASTRA MILITARUM TITANIC unit from your army has shot.",
+    "targetRules": "That ASTRA MILITARUM TITANIC unit.",
+    "effectRules": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-withering-firepower",
+    "whenRules": "Your Shooting phase, just after an ASTRA MILITARUM VEHICLE unit from your army has shot.",
+    "targetRules": "That ASTRA MILITARUM VEHICLE unit.",
+    "effectRules": "Select one enemy unit hit by one or more of those attacks. That enemy unit must take a Battle-shock test, subtracting 1 from that test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-accuracy-under-pressure",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-order-the-advance",
+    "whenRules": "Start of your Movement phase.",
+    "targetRules": "One ASTRA MILITARUM OFFICER unit from your army.",
+    "effectRules": "Select one or more friendly ASTRA MILITARUM units within 6\" of your unit; until the end of the phase, you can re-roll Advance rolls made for those units.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-mobile-firebase",
+    "whenRules": "Your Movement phase, just after an ARMOURED SKIRMISHER unit from your army Advances or Falls Back.",
+    "targetRules": "That ARMOURED SKIRMISHER unit.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot in a turn in which it Advanced or Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-burst-of-speed",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One ASTRA MILITARUM unit from your army that did not Remain Stationary or arrive from Reserves this phase.",
+    "effectRules": "Your unit can make a Normal move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-supporting-ordnance",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ARMOURED SKIRMISHER unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a visible MONSTER or VEHICLE unit, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-combined-fire",
+    "whenRules": "Your Shooting phase, just after an ARMOURED SKIRMISHER unit from your army has shot.",
+    "targetRules": "That ARMOURED SKIRMISHER unit.",
+    "effectRules": "Select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover, and each time an ARMOURED SKIRMISHER unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-astra-militarum-opening-salvo",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ASTRA MILITARUM unit from your army that disembarked from a TRANSPORT this turn and has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-black-templars-armour-of-contempt",
     "lore": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -8026,6 +8110,90 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-orks-on-da-move",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the turn, your unit is eligible to shoot and declare a charge in a turn in which it Fell Back or Advanced (unless it used its turbo this turn).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-mobile-dakkastorm",
+    "whenRules": "Your Shooting phase, just after a Speed Freeks or Trukk unit from your army has shot.",
+    "targetRules": "That SPEED FREEKS or TRUKK unit.",
+    "effectRules": "Select one enemy unit hit by one or more of those attacks (excluding attacks made with Indirect Fire weapons). Until the end of the phase, each time a model in a SPEED FREEKS or TRUKK unit from your army makes an attack that targets that unit, improve the Strength characteristic of that attack by 2.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-speshul-ammo",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ORKS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit (excluding Torrent weapons) have the ANTI-MONSTER 4+ and ANTI-VEHICLE 4+ abilities.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-ded-killy-construction",
+    "whenRules": "Your Fight phase.",
+    "targetRules": "One SPEED FREEKS or TRUKK unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, melee weapons equipped by models in your unit have the LANCE ability and, if your unit made a Charge move this turn, until the end of the phase, add 1 to the Damage characteristic of those weapons.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-dust-trails",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ORKS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, your unit has the Benefit of Cover.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-evasive-manoova",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "SPEED FREEKS or TRUKK unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-mount-up-ladz",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One ORKS INFANTRY unit from your army that is not within Engagement Range of one or more enemy units, and one friendly TRANSPORT it is able to embark within.",
+    "effectRules": "If your ORKS INFANTRY unit is wholly within 6\" of that TRANSPORT, it can embark within it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-mekanised-brutality",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One BATTLEWAGON, KILL RIG or HUNTA RIG unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the turn, each time a unit disembarks from your unit after your unit makes a Normal move, that disembarked unit is still eligible to declare a charge this turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-run-em-down",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One BATTLEWAGON, KILL RIG or HUNTA RIG unit from your army that has not been selected to move this phase.",
+    "effectRules": "Select up to two other friendly ORKS VEHICLE or ORKS MONSTER units within 6\" of your unit. Until the end of the turn, your unit and each unit you selected are eligible to declare a charge in a turn in which they Advanced.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-armoured-duellists",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ORKS VEHICLE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes an attack that targets a MONSTER or VEHICLE unit, add 1 to the Hit roll and add 1 to the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-impervious",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One BATTLEWAGON, KILL RIG or HUNTA RIG unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-yooz-in-trouble-now",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One BATTLEWAGON, HUNTA RIG or KILL RIG model from your army that was hit by one or more of the attacking unit’s attacks.",
+    "effectRules": "One ORKS INFANTRY unit embarked within your model can disembark and make a Surge move. To do so, roll one D6: models in that unit move a number of inches up to this result, but that unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -8834,6 +9002,90 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
     "targetRules": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
     "effectRules": "Your unit can make a Normal move of up to D6\". If your unit is ENTRENCHED, you can re-roll the D6 to determine how far your unit can move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-headhunter-armour-of-contempt",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-target-weak-point",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One TANK ACE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets a MONSTER or VEHICLE unit, improve the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": "A unit cannot be targeted with this and the Kill Shot Stratagem in the same phase."
+  },
+  {
+    "id": "stratagem-space-marines-kill-shot",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One TANK ACE unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets a MONSTER or VEHICLE unit, re-roll a Wound roll of 1. If the target unit is below its Starting Strength, you can re-roll the Wound roll instead.",
+    "restrictionRules": "A unit cannot be targeted with this and the Target Weak Point Stratagem in the same phase."
+  },
+  {
+    "id": "stratagem-space-marines-rapid-gunnery",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, your unit is eligible to shoot in a turn in which it Fell Back.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-reactive-repositioning",
+    "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
+    "targetRules": "One TANK ACE unit from your army (excluding units containing one or more models with a Wounds characteristic of 16+) that is within 9\" of that enemy unit.",
+    "effectRules": "Your unit can make a Normal move of up to D6.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-machine-vengeance",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
+    "targetRules": "One TANK ACE unit from your army (excluding units containing one or more models with a Wounds characteristic of 16+) that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is visible and an eligible target.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-machine-wrath",
+    "whenRules": "Any phase, just after a HEAVY TRANSPORT unit from your army with the Deadly Demise ability is destroyed.",
+    "targetRules": "That HEAVY TRANSPORT unit, if you rolled a 6 for its Deadly Demise ability. You can use this Stratagem on that unit even though it was just destroyed.",
+    "effectRules": "Your unit can make a Normal or Fall Back move before its Deadly Demise ability is resolved, and before any embarked units perform an Emergency Disembarkation. When making this move, your unit can move through enemy models (excluding MONSTERS and VEHICLES) and can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-armoured-speartip-armour-of-contempt",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-armoured-speartip-rapid-embarkation",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY unit from your army that is not within Engagement Range of one or more enemy units, and one friendly HEAVY TRANSPORT it is able to embark within.",
+    "effectRules": "If your ADEPTUS ASTARTES INFANTRY unit is wholly within 6\" of that HEAVY TRANSPORT, it can embark within it.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-ceramite-sledgehammer",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ADEPTUS ASTARTES TRANSPORT unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, each time your unit makes a Normal or Advance move, it can move horizontally through terrain features. In addition, if your unit is a HEAVY TRANSPORT, when making this move, your unit can move through enemy models (excluding MONSTERS and VEHICLES) and can move within Engagement Range of such models, but cannot end that move within Engagement Range of them, and any Desperate Escape test is automatically passed.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-advanced-deployment",
+    "whenRules": "Your Movement phase.",
+    "targetRules": "One ADEPTUS ASTARTES TRANSPORT unit from your army that has not been selected to move this phase.",
+    "effectRules": "Until the end of the phase, units can disembark from your TRANSPORT after it has Advanced. Units that do so count as having made a Normal move this phase, and cannot declare a charge in the same turn (unless your TRANSPORT has the Assault Ramp ability), but can otherwise act normally.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-space-marines-purgation-doctrine",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll (if your unit disembarked from a HEAVY TRANSPORT this turn, add 1 to the Wound roll as well).",
     "restrictionRules": null
   },
   {
