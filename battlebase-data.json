@@ -196,6 +196,121 @@
     "body": "In the Place Objective Markers step, players must set up one additional objective marker in No Man's Land.\n\nBefore setting up this new objective marker, players must first move the objective marker in the centre of the battlefield 6\" directly towards one of the corners of the battlefield (if No Man's Land touches any of the corners of the battlefield, you must move the objective marker towards one of those corners). Otherwise, the players roll off, and the winner selects which corner the objective marker is moved towards. Players then set up the new objective marker 6\" from the centre of the battlefield towards the diagonally opposite corner of the battlefield to the previously moved objective marker.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\n\nThe player whose turn it is scores VP as follows (these are cumulative):\n\n• 5VP If they control one objective marker not within their deployment zone.\n• 5VP If they control two objective markers not within their deployment zone.\n• 5VP if they control more objective markers than their opponent controls."
   },
   {
+    "id": "mission-chapter-approved-2025-26-take-and-hold",
+    "lore": "Several strategic locations have been identified in your vicinity. You are ordered to assault these positions, secure them and hold them at any cost.",
+    "body": "SECOND BATTLE ROUND ONWARDS\n  \nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\n\nThe player whose turn it is scores 5VP for each objective marker they control (up to 15VP per turn)."
+  },
+  {
+    "id": "mission-chapter-approved-2025-26-terraform",
+    "lore": "Victory here lies in dominating not only the foe, but also the landscape of the battlefield itself.",
+    "body": "TERRAFORM (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army, each within range of a different objective marker that is not within your deployment zone.\nCOMPLETES: End of the turn, if the unit performing this Action is still within range of the same objective marker and you control that objective marker.\nIF COMPLETED: Each of those objective markers is terraformed by you. If that objective marker was terraformed by your opponent, it no longer is.\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\n\nThe player whose turn it is scores 4VP for each objective marker they control (up to 12VP per turn).\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of the turn.\n\nEach player scores 1VP for each objective marker that is terraformed by them."
+  },
+  {
+    "id": "mission-chapter-approved-2025-26-linchpin",
+    "lore": "True victory is built upon a firm foundation. If the centre cannot hold then all else swiftly crumbles.",
+    "body": "SECOND BATTLE ROUND ONWARDS\nWHEN: End of the Command phase (or the end of your turn if it is the fifth battle round and you are going second).\n\nIf the player whose turn it is does not control the objective marker in their deployment zone, they score 3VP for each objective marker they control.\n\nOR\n\nIf the player whose turn it is controls the objective marker in their deployment zone, they score 3VP for controlling that objective marker, and 5VP for each other objective marker they control (up to 15VP per turn)."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-battlefield-dominance",
+    "lore": "This battlefield holds great significance for the wider war effort. You must seize control of it. Let nothing stand in your way."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-determined-acquisition",
+    "lore": "The resistance arrayed against you is formidable indeed, yet your orders are clear; take and hold the ground ahead, heedless of the cost."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-immovable-object",
+    "lore": "Obstinance is often the key to victory. Weather everything the enemy throws at you. If your opponent is to take any ground, they will have to wade through their own dead to do so."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-inescapable-dominion",
+    "lore": "Your first priority must be to dominate the battlefield. Seize strongpoints and dig in. Only then may you turn your full attention to slaughtering the foe."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-purge-and-secure",
+    "lore": "Enemy pickets and reconnaissance have engaged your vanguard. Move forward, seize defensive positions and repel the assault at all costs."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-consecrate",
+    "lore": "Whether in the name of grand ideals or simply to satisfy the thirst of their terrible gods, your warriors must consecrate this battlefield with the blood of their foes."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-destroyers-wrath",
+    "lore": "Victory here shall not be measured in ground taken or plunder seized, but in the mangled corpses of your foes and the grisly trophies hewn from their bodies."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-meatgrinder",
+    "lore": "Vicious and without relent, this battle has descended into base savagery. Only one path to victory remains: kill more of the enemy than they can kill of you."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-punishment",
+    "lore": "Those who resist must be punished. Make a bloody example of them, and leave none in doubt as to your mastery."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-unstoppable-force",
+    "lore": "The enemy are arrayed before you in number, and well prepared for the coming assault. Smash through their defences. Grind them to dust."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-gather-intel",
+    "lore": "The nature and motivation of the foe remains unclear. Test their mettle and seize pertinent intelligence from the field of battle."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-reconnaissance-sweep",
+    "lore": "Enemy movements have aroused suspicion. Disperse your forces, probe their lines and decipher their intentions."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-search-and-scour",
+    "lore": "Forward elements report enemy movement in this sector. Move out, locate the foes and halt their operation before it gathers momentum."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-surveil-the-foe",
+    "lore": "Information is power. Evaluate the strengths and weaknesses of the enemy and feed this crucial information back to your superiors."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-triangulation",
+    "lore": "By acquiring and transmitting precise coordinates, your forces will be able to summon reinforcements, saturate the battlefield with artillery fire or call in other means of support."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-extract-relic",
+    "lore": "A priceless relic saturated with eldritch power lies somewhere on the field of battle. Secure the sensor array at the heart of the battlefield and direct its energies to locating the prize."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-sabotage",
+    "lore": "Strike deep behind enemy lines, sabotage supply routes, fortifications and heavy weapons. By doing so you may lay the groundwork for future offensives."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-secure-asset",
+    "lore": "A vital asset has been lost amidst the chaos of battle. You must secure the item at all costs."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-vanguard-operation",
+    "lore": "Striking deep beyond the front lines, your forces must employ speed and cunning to secure their objectives before the enemy responds."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-vital-link",
+    "lore": "A key communications node is located in the midst of this battlefield. Control of this node is crucial to the continued success of your armies. Ensure it does not fall into enemy hands."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-death-trap",
+    "lore": "Even the most potent enemy force can be undone with sufficient preparation. Lay minefields, dig trenches and draw the enemy into pre-prepared killing zones."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-delaying-action",
+    "lore": "Your enemies are on the march. Commit your warriors to battle and make the foe pay a bloody price for every foot of ground."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-locate-and-deny",
+    "lore": "The enemy is searching for an asset of value. By cunning or by force of arms, prevent its retrieval."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-outmanoeuvre",
+    "lore": "Speed and positioning are key in any battle. Outflank the enemy, seize high ground and routes of resupply. Choke them to death."
+  },
+  {
+    "id": "primary-mission-chapter-approved-2026-27-smoke-and-mirrors",
+    "lore": "Cunning is as potent a weapon as overwhelming force. Outnumbered or outgunned, you must make use of subterfuge and misdirection to pick the enemy apart."
+  },
+  {
     "id": "mission-rule-leviathan-chilling-rain",
     "lore": "Intense winds gust across the battlefield, whipping through the shattered remains of bombed ruins and heavy with the stench of death. Icy rain drenches and chills the warriors, only adding to their misery and discomfort.",
     "body": "In this mission, no additional mission rules apply."
@@ -356,6 +471,60 @@
     "body": "Until the end of the battle, add 3 to the Attacks characteristic of each weapon equipped by WARLORD models (excluding VEHICLES)."
   },
   {
+    "id": "mission-rule-chapter-approved-2026-27-martial-pride",
+    "lore": "The rank and file of your armies are determined to demonstrate their value, advancing relentlessly toward their assigned objectives whilst maintaining a punishing rate of fire.",
+    "body": "A BATTLELINE unit can start an action in a turn in which it made an advance move.\nA BATTLELINE unit can shoot in a turn in which it started an action.\n\nDesigner’s Note: This is a great twist for Incursion battles."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2026-27-mirrored-world",
+    "lore": "As destinies converge, rival warlords find themselves on parallel paths, competing with one another to achieve near‑identical outcomes and objectives.",
+    "body": "The players both replace their Primary Mission card with the same one of the following Primary Mission cards. If both players agree on one of them, use that Primary Mission card; otherwise, roll a D6 and consult the table below.\n\nPRIMARY MISSION\nMission - D6\nBattlefield Dominance - 1\nMeatgrinder - 2\nOutmanoeuvre - 3\nGather Intel - 4\nSabotage - 5\n(Roll again) - 6\n\nDesigner’s Note: This is a great twist for players who want to play a simpler battle of Warhammer 40,000, as both players will be trying to achieve the same Primary Mission."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2026-27-night-fighting",
+    "lore": "A shroud of darkness has fallen across the battlefield, obscuring the vision of your warriors and providing them with cover beneath which to advance.",
+    "body": "Each unit is not visible to enemy models unless they are within 18\" of that unit, and each unit cannot be targeted by [INDIRECT FIRE] weapons unless the attacking model is within 18\" of that unit.\n\nDesigner’s Note: This is a great twist for players who do not yet have a battlefield’s worth of terrain."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2026-27-nowhere-to-hide",
+    "lore": "This battlefield only affords the illusion of cover – nowhere is safe.",
+    "body": "Terrain features do not have the Solid rule.\n\nDesigner’s Note: This twist lets models draw line of sight through any gap in a terrain feature, allowing more ‘true line of sight’ and more lethal shooting."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2026-27-ruinscape",
+    "lore": "Decades of war have reduced the structures on this battlefield to hollow ruins. Your warriors stalk and scramble through the skeletal remnants of half‑destroyed buildings as they close in upon their enemies.",
+    "body": "When a unit makes a normal or advance move, models in that unit have the MOBILE keyword until that move ends.\n\nDesigner’s Note: For players who want to play with a lot of terrain and/or with many large models, this twist can help keep the battle flowing."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2026-27-scrambled-communications",
+    "lore": "Scrambled communications and intertwined vox‑channels have disrupted the chain of command, leaving your orders and objectives unclear.",
+    "body": "The players exchange their Primary Mission cards.\n\nDesigner’s Note: This is a great twist to shake things up in a regular match-up, or for players who love to embrace chaos!"
+  },
+  {
+    "id": "mission-rule-chapter-approved-2025-26-ruinscape",
+    "lore": "",
+    "body": "Each time a unit makes a Normal or Advance move, it can move horizontally through terrain features."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2025-26-adapt-or-die",
+    "lore": "",
+    "body": "FOR PLAYERS USING FIXED MISSIONS\nOnce per battle, at the end of that player's turn, after scoring any VP, they can discard one of their Secondary Mission cards and replace it with another Secondary Mission card that has the Fixed Mission symbol.\n\nFOR PLAYERS USING TACTICAL MISSIONS\nTwice per battle, after drawing a Secondary Mission card, that player can draw another Secondary Mission card, then shuffle one of those two Secondary Mission cards back into their Secondary Mission deck."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2025-26-point-blank",
+    "lore": "",
+    "body": "Ranged weapons (except Blast weapons) have the PISTOL ability."
+  },
+  {
+    "id": "mission-rule-chapter-approved-2025-26-lords-of-war",
+    "lore": "",
+    "body": "Until the end of the battle, add 3 to the Attacks characteristic of each weapon equipped by WARLORD models (excluding VEHICLES)."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-a-grievous-blow",
+    "lore": "Target and eliminate the most numerous and potent of enemy infantry to shatter their battle line."
+  },
+  {
     "id": "secondary-mission-a-tempting-target",
     "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely to use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
     "body": "When this Secondary Mission card is drawn, your opponent must select one objective marker in No Man's Land.\n\nAt the end of your turn, if you control that selected objective marker, this Secondary Mission is achieved and you score 5VP."
@@ -366,12 +535,26 @@
     "body": "When Drawn: Your opponent must select one objective marker in No Man's Land to be your Tempting Target objective marker.\n\nANY BATTLE ROUND\nWHEN: End of either player's turn.\nYou control your Tempting Target objective marker. 5VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-a-tempting-target",
+    "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely to use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes.",
+    "body": "When Drawn: Your opponent must select one objective marker in No Man's Land to be your Tempting Target objective marker.\n\nANY BATTLE ROUND\nWHEN: End of either player's turn.\nYou control your Tempting Target objective marker. 5VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-a-tempting-target",
+    "lore": "An opportunity to seize a valuable asset has been identified, but the enemy are likely to use it as bait in a trap. Move to secure the site, but be wary of enemy ambushes."
+  },
+  {
     "id": "secondary-mission-area-denial",
     "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
     "body": "At the end of your turn, if one or more units from your army (excluding Battle-shocked units) are wholly within 6\" of the centre of the battlefield, and there are no enemy units wholly within 6\" of the centre of the battlefield, this Secondary Mission is achieved and you score 5VP.\n\nIf, at the end of your turn, there are one or more enemy units wholly within 6\" of the centre of the battlefield, but there are no enemy units within 3\" of the centre of the battlefield, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 5VP."
   },
   {
     "id": "secondary-mission-pariah-nexus-area-denial",
+    "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 3\" of the centre of the battlefield. 2VP\nOR\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 6\" of the centre of the battlefield. 5VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-area-denial",
     "lore": "It is critical that this area is dominated. No enemy vanguard or guerrilla units can be allowed to disrupt our plans.",
     "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 3\" of the centre of the battlefield. 2VP\nOR\nOne or more units from your army (excluding AIRCRAFT and Battle-shocked units) are within 3\" of the centre of the battlefield, and there are no enemy units within 6\" of the centre of the battlefield. 5VP"
   },
@@ -396,6 +579,19 @@
     "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy CHARACTER model with a Wounds characteristic of 4 or higher is destroyed. FIXED 4VP\nEach time an enemy CHARACTER model with a Wounds characteristic of less than 4 is destroyed. FIXED 3VP\n\nANY BATTLE ROUND\nWHEN: End of either player's turn (if you are using Tactical Missions).\nOne or more enemy CHARACTER models were destroyed this turn. TACTICAL 5VP\nOR\nAll enemy CHARACTER models have been destroyed during the battle. TACTICAL 5VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-assassination",
+    "lore": "The enemy look top their champions for courage. Identify and eliminate them with extreme prejudice.",
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy CHARACTER model with a Wounds characteristic of 4 or higher is destroyed. FIXED 4VP\nEach time an enemy CHARACTER model with a Wounds characteristic of less than 4 is destroyed. FIXED 3VP\n\nANY BATTLE ROUND\nWHEN: End of either player's turn (if you are using Tactical Missions).\nOne or more enemy CHARACTER models were destroyed this turn. TACTICAL 5VP\nOR\nAll enemy CHARACTER models have been destroyed during the battle. TACTICAL 5VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-assassination",
+    "lore": "The enemy looks to their champions for courage. Identify and eliminate them with extreme prejudice."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-beacon",
+    "lore": "Bold and defiant, your chosen champions taunt the foe, drawing them on. Should they hold fast in the face of the inevitable response, the enemy's momentum will surely falter."
+  },
+  {
     "id": "secondary-mission-behind-enemy-lines",
     "lore": "Break through the foe's army and cut of their lines of escape.",
     "body": "At the end of your turn, if two or more units from your army (excluding Aircraft) are wholly within your opponent’s deployment zone, this Secondary Mission is achieved and you score 4VP (or 5VP if you are using Tactical Missions). \n\nIf, at the end of your turn, only one unit from your army (excluding Aircraft) is wholly within your opponent’s deployment zone, then this Secondary Mission is still achieved, but in this instance you score 3VP instead of 4VP (or instead of 5VP)."
@@ -409,6 +605,15 @@
     "id": "secondary-mission-chapter-approved-2025-26-behind-enemy-lines",
     "lore": "Break through the foe's army and cut of their lines of escape.",
     "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nOne unit from your army (excluding AIRCRAFT and Battle-shocked units) is wholly within your opponent's deployment zone. 3VP\nOR\nTwo or more units from your army (excluding AIRCRAFT and Battle-shocked units] are wholly within your opponent's deployment zone. 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-behind-enemy-lines",
+    "lore": "Break through the foe's army and cut of their lines of escape.",
+    "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nOne unit from your army (excluding AIRCRAFT and Battle-shocked units) is wholly within your opponent's deployment zone. 3VP\nOR\nTwo or more units from your army (excluding AIRCRAFT and Battle-shocked units] are wholly within your opponent's deployment zone. 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-behind-enemy-lines",
+    "lore": "Your orders are clear: break through the enemy and cut off their escape routes."
   },
   {
     "id": "secondary-mission-bring-it-down",
@@ -426,9 +631,26 @@
     "body": "When Drawn: If there are no enemy MONSTER or VEHICLE units on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy MONSTER or VEHICLE unit is destroyed. FIXED 2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 15+ (at its Starting Strength). FIXED +2VP (CUMULATIVE)\n+ The total of the Wounds characteristics of the models in that destroyed unit was 20+ (at its Starting Strength). FIXED +2VP (CUMULATIVE)\n\nANY BATTLE ROUND\nWHEN: End of either players turn (if you are using Tactical Missions).\nOne or more enemy MONSTER or VEHICLE units were destroyed this turn. TACTICAL 4VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-bring-it-down",
+    "lore": "The opposing army contains numerous heavily armoured units. Take any opportunity to bring them down.",
+    "body": "When Drawn: If there are no enemy MONSTER or VEHICLE units on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy MONSTER or VEHICLE unit is destroyed. FIXED 2VP\n+ The total of the Wounds characteristics of the models in that destroyed unit was 15+ (at its Starting Strength). FIXED +2VP (CUMULATIVE)\n+ The total of the Wounds characteristics of the models in that destroyed unit was 20+ (at its Starting Strength). FIXED +2VP (CUMULATIVE)\n\nANY BATTLE ROUND\nWHEN: End of either players turn (if you are using Tactical Missions).\nOne or more enemy MONSTER or VEHICLE units were destroyed this turn. TACTICAL 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-bring-it-down",
+    "lore": "Prioritise the destruction of heavily armoured assets. Bring them down at all costs."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-burden-of-trust",
+    "lore": "The strategic prizes in this region must be guarded at all costs – a duty that falls upon a chosen few."
+  },
+  {
     "id": "secondary-mission-capture-enemy-outpost",
     "lore": "A vital objective has been identified in your vicinity, but it is currently held by the enemy. You are ordered to capture it at any cost.",
     "body": "At the end of your turn, if you control one or more objective markers in your opponent's deployment zone, this Secondary Mission is achieved and you score 8VP."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-centre-ground",
+    "lore": "The heart of the battlefield is key to victory. Dominate the centre ground, and you shall be one step closer to achieving your goals."
   },
   {
     "id": "secondary-mission-cleanse",
@@ -446,6 +668,15 @@
     "body": "CLEANSE (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army within range of an objective marker that is not within your deployment zone.\nCOMPLETES: End of your turn, if the unit performing this Action is still within range of the same objective marker and you control that objective marker.\nIF COMPLETED: That objective marker is cleansed by your army.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nOne objective marker was cleansed by your army this turn. 2VP\nOR\nTwo or more objective markers were cleansed by your army this turn. FIXED 4VP TACTICAL 5VP\n"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-cleanse",
+    "lore": "The objectives in this area have been tainted and must be cleansed with ritual and purifying flame.",
+    "body": "CLEANSE (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army within range of an objective marker that is not within your deployment zone.\nCOMPLETES: End of your turn, if the unit performing this Action is still within range of the same objective marker and you control that objective marker.\nIF COMPLETED: That objective marker is cleansed by your army.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nOne objective marker was cleansed by your army this turn. 2VP\nOR\nTwo or more objective markers were cleansed by your army this turn. FIXED 4VP TACTICAL 5VP\n"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-cleanse",
+    "lore": "Your forces have identified a series of tainted objectives in this area. Purify these locations."
+  },
+  {
     "id": "secondary-mission-pariah-nexus-containment",
     "lore": "By setting up servo-sentries, laying booby traps or demolishing routes of egress, you must trap your foes within the bounds of this battiefield.",
     "body": "CONTAINMENT (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One or more units from your army that are wholly within 9\" of one or more battlefield edges and not within your deployment zone. Select a different one of those battlefield edges for each of those units.\nCOMPLETES: Immediately.\nIF COMPLETED: Each battlefield edge you selected is contained by your army.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nFor each battlefield edge contained by your army this turn. 3VP (UP TO 6VP)"
@@ -454,6 +685,11 @@
     "id": "secondary-mission-pariah-nexus-cull-the-horde",
     "lore": "The enemy come forth in teeming masses. Their ranks must be thinned if the day is to be won.",
     "body": "When Drawn: If there are no enemy units on the battlefield that satisfy either of the conditions required to achieve this card, you can discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: While this card is active.\nVICTORY POINTS\nEach time an enemy INFANTRY unit is destroyed, if one or more of the following conditions are satisfied:\n\n• The Starting Strength of the destroyed unit was 20+.\n• The total of the Wounds characteristics of the models in the destroyed unit was 25+ (at its Starting Strength).\n• When that unit's player added that unit to their army, the points value they subtracted from the total permitted for this battle was sufficient for that unit to be composed of 20 or more models.\n\n5VP\n\nNote: For the purposes of the above conditions, models in attached Leader units are ignored."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-cull-the-horde",
+    "lore": "The enemy come forth in teeming masses. Their ranks must be thinned if the day is to be won.",
+    "body": "When Drawn: If there are no enemy units on the battlefield that satisfy the condition below, you can discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy INFANTRY unit with a starting strength of 13+ is destroyed. FIXED 5VP\n\nANY BATTLE ROUND\nWHEN: End of either player's turn (if you are using Tactical Missions).\nOne or more enemy INFANTRY units with a starting strength of 13+ (including Attached units) were destroyed this turn. TACTICAL 5VP"
   },
   {
     "id": "secondary-mission-chapter-approved-2025-26-cull-the-horde",
@@ -476,6 +712,15 @@
     "body": "When Drawn: If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n    \nSECOND BATTLE ROUND ONWARDS\nWHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYou control one or more objective markers in your deployment zone. 3VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-defend-stronghold",
+    "lore": "You are charged with the defence of a key objective. It must not be permitted to fall into enemy hands.",
+    "body": "When Drawn: If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n    \nSECOND BATTLE ROUND ONWARDS\nWHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYou control one or more objective markers in your deployment zone. 3VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-defend-stronghold",
+    "lore": "You are charged with the defence of a critical objective. It must not be permitted to fall into enemy hands."
+  },
+  {
     "id": "secondary-mission-deploy-teleport-homer",
     "lore": "An allied fleet approaches ready to launch a full-scale invasion of this planet. If our vanguard forces deploy a series of teleport homers and landing beacons deep within enemy territory, troops aboard our ships will be able to launch a deadly surprise assault from orbit.",
     "body": "In your Shooting phase, you can select one unit from your army that is not Battle-shocked and is eligible to shoot. Until the end of your turn, that unit is not eligible to shoot or declare a charge.\n\nAt the end of your turn, if that unit is within your opponent’s deployment zone, or within 6\" of the centre of the battlefield, it deploys a teleport homer at that location, this Secondary Mission is achieved and you score a number of VP depending on where the teleport homer was deployed, as follows:\n■ Centre of battlefield = 3VP.\n■ Opponent’s deployment zone = 4VP if you are using Fixed Missions, or 5VP if you are using Tactical Missions"
@@ -484,6 +729,15 @@
     "id": "secondary-mission-chapter-approved-2025-26-display-of-might",
     "lore": "Intimidation is the most potent of weapons. Degrade the combat abilities of your opponent to demonstrate your superiority and erode enemy morale.",
     "body": "When Drawn: If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of your turn.\nThere are more units from your army than from your opponent's army wholly within No Man's Land. 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-display-of-might",
+    "lore": "Intimidation is the most potent of weapons. Degrade the combat abilities of your opponent to demonstrate your superiority and erode enemy morale.",
+    "body": "When Drawn: If it is the first battle round, draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck\n\nSECOND BATTLE ROUND ONWARDS\nWHEN: End of your turn.\nThere are more units from your army than from your opponent's army wholly within No Man's Land. 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-display-of-might",
+    "lore": "Intimidation is a potent weapon. Demonstrate your battlefield supremacy with a brutal show of force and erode what remains of the enemy's morale."
   },
   {
     "id": "secondary-mission-engage-on-all-fronts",
@@ -501,7 +755,21 @@
     "body": "If one or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within a table quarter and those units are more than 6\" away from the centre of the battlefield, you have a presence in that table quarter.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nYou have presence in two table quarters. 1VP\nOR\nYou have presence in three table quarters. 2VP\nOR\nYou have presence in four table quarters. 4VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-engage-on-all-fronts",
+    "lore": "This area is of extreme importance. You are to lead an immediate all-out assault to capture it and deny it to our enemy for good.",
+    "body": "If one or more units from your army (excluding AIRCRAFT and Battle-shocked units) are wholly within a table quarter and those units are more than 6\" away from the centre of the battlefield, you have a presence in that table quarter.\n    \nANY BATTLE ROUND\nWHEN: End of your turn.\nYou have presence in two table quarters. 1VP\nOR\nYou have presence in three table quarters. 2VP\nOR\nYou have presence in four table quarters. 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-engage-on-all-fronts",
+    "lore": "Probe their lines and engage any resistance. Stretch the foe to breaking point."
+  },
+  {
     "id": "secondary-mission-pariah-nexus-establish-locus",
+    "lore": "Whether a teleport homer crackling with arcane energies, a daemonic summoning circle, a pheromonal marker or some other means of guiding forces onto the battlefield, this locus must be set up swiftly to pave the road to victory.",
+    "body": "ESTABLISH LOCUS (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army.\nCOMPLETES: End of your turn, if that unit is within your opponent's deployment zone or within 6\" of the centre of the battlefield.\nIF COMPLETED: Your unit establishes a locus.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nYour unit established a locus this turn and is within 6\" of the centre of the battlefield. 2VP\nOR\nYour unit established a locus this turn and is within your opponent's deployment zone. 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-establish-locus",
     "lore": "Whether a teleport homer crackling with arcane energies, a daemonic summoning circle, a pheromonal marker or some other means of guiding forces onto the battlefield, this locus must be set up swiftly to pave the road to victory.",
     "body": "ESTABLISH LOCUS (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army.\nCOMPLETES: End of your turn, if that unit is within your opponent's deployment zone or within 6\" of the centre of the battlefield.\nIF COMPLETED: Your unit establishes a locus.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nYour unit established a locus this turn and is within 6\" of the centre of the battlefield. 2VP\nOR\nYour unit established a locus this turn and is within your opponent's deployment zone. 4VP"
   },
@@ -526,6 +794,15 @@
     "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one or more objective markers within your deployment zone and one or more objective markers within No Man's Land. 4VP\nOR\nYou control one or more objective markers within No Man's Land. 2VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-extend-battle-lines",
+    "lore": "The battleground is won one yard at a time. Continue to establish a strong military presence in the area.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one or more objective markers within your deployment zone and one or more objective markers within No Man's Land. 4VP\nOR\nYou control one or more objective markers within No Man's Land. 2VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-forward-position",
+    "lore": "You must break the enemy line and establish a forward position to launch fresh assaults."
+  },
+  {
     "id": "secondary-mission-investigate-signals",
     "lore": "Our fleet has received a mysterious signal in this war zone, and its source has been identified as originating somewhere in the vicinity of this battlefield. Locate and secure it without delay.",
     "body": "In your Shooting phase, you can select one or more units from your army that are not Battle-shocked and are eligible to shoot. Until the end of your turn, the units you selected are not eligible to shoot or declare a charge.\n\nAt the end of your turn, each corner of the battlefield that has one or more of these selected units wholly within 9\" of it is scanned by your army.\n\nIf one or more corners are scanned by your army, this Secondary Mission is achieved and you score 2VP for each corner scanned by your army this turn."
@@ -534,6 +811,11 @@
     "id": "secondary-mission-pariah-nexus-marked-for-death",
     "lore": "These specific enemy assets must be eliminated to ensure victory, no matter how insignificant they might seem.",
     "body": "When Drawn: Your opponent must select three units from their army on the battlefield. If there are only one or two units from their army on the battlefield, they must select those units. If there are no units from their army on the battlefield, discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: End of either player's turn.\nOne or more of the selected units were destroyed (or removed from the battlefield for any other reason) this turn. 5VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-marked-for-death",
+    "lore": "These specific enemy assets must be eliminated to ensure victory, no matter how insignificant they might seem.",
+    "body": "When Drawn: Your opponent must select three units from their army on the battlefield. If there are only one or two units from their army on the battlefield, they must select those units. The selected units are your Alpha Target units. You can then select one unit from your opponent's army on the battlefield to be your Gamma Target unit. If there are no units from their army on the battlefield, discard this card and draw a new Secondary Mission card.\n    \nANY BATTLE ROUND\nWHEN: End of either player's turn.\nOne or more of your Alpha Target units were destroyed (or removed from the battlefield for any other reason) this turn. 5VP\n\nOR\n\nNone of your Alpha Target units were destroyed (or removed from the battlefield for any other reason) this turn, but your Gamma Target unit was destroyed (or removed from the battlefield for any other reason) this turn. 2VP"
   },
   {
     "id": "secondary-mission-chapter-approved-2025-26-marked-for-death",
@@ -556,6 +838,19 @@
     "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy Bodyguard unit or enemy non-CHARACTER unit is destroyed. FIXED 2VP (UP TO 5VP)\n\nANY BATTLE ROUND\nWHEN: While this card is active (if you are using Tactical Missions).\nEach time an enemy unit is destroyed. TACTICAL 2VP (UP TO 5VP)"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-no-prisoners",
+    "lore": "Show no mercy. Exterminate your enemies.",
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active (if you are using Fixed Missions).\nEach time an enemy Bodyguard unit or enemy non-CHARACTER unit is destroyed. FIXED 2VP (UP TO 5VP)\n\nANY BATTLE ROUND\nWHEN: While this card is active (if you are using Tactical Missions).\nEach time an enemy unit is destroyed. TACTICAL 2VP (UP TO 5VP)"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-no-prisoners",
+    "lore": "Show no mercy. Exterminate your enemies."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-outflank",
+    "lore": "Exploit the flanks; use your speed and momentum to surround the foe and catch them in the jaws of a trap."
+  },
+  {
     "id": "secondary-mission-overwhelming-force",
     "lore": "Scour the enemy from the face of the battlefield.",
     "body": "While this Secondary Mission is active, each time an enemy unit that started the turn within range of an objective marker is destroyed, you score 3VP (to a maximum of 5VP).\n\nNote that VP are scored even if such a unit is destroyed and then subsequently resurrected for any reason. If you score any VP from this Secondary Mission during a turn, then at the end of that turn this Secondary Mission is achieved."
@@ -569,6 +864,19 @@
     "id": "secondary-mission-chapter-approved-2025-26-overwhelming-force",
     "lore": "Scour the enemy from the face of the battlefield.",
     "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit that started the turn within range of an objective marker is destroyed. 3VP (UP TO 5VP)\n\nDesigner's Note: Destroyed Leader and Bodyguard units count separately for the purposes of scoring this Secondary Mission, provided that Attached unit started the turn within range of an objective marker."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-overwhelming-force",
+    "lore": "Scour the enemy from the face of the battlefield.",
+    "body": "ANY BATTLE ROUND\nWHEN: While this card is active.\nEach time an enemy unit that started the turn within range of an objective marker is destroyed. 3VP (UP TO 5VP)\n\nDesigner's Note: Destroyed Leader and Bodyguard units count separately for the purposes of scoring this Secondary Mission, provided that Attached unit started the turn within range of an objective marker."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-overwhelming-force",
+    "lore": "The enemy holds your assigned objectives. Commit your forces in full and sweep them from these locations post-haste."
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-plunder",
+    "lore": "Unguarded prizes lie strewn across the field of battle. Secure them and deny them to the enemy."
   },
   {
     "id": "secondary-mission-pariah-nexus-raise-banners-mission-rule",
@@ -586,7 +894,17 @@
     "body": "When Drawn: If you are playing an Incursion mission, or if there are fewer than three units from your army on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nRECOVER ASSETS (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: Two or more units from your army, if each of those units is wholly within a different one of the following areas: your deployment zone; No Man's Land; your opponent's deployment zone.\nCOMPLETES: End of your turn, if either two or three of those units are on the battlefield.\nIF COMPLETED: Those units recover assets.\n\nANY BATTLE ROUND\nWHEN: End of your turn or the end of the battle (whichever comes first).\nTwo of your units recovered assets this turn. 3VP\nOR\nThree of your units recovered assets this turn.\n5VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-recover-assets",
+    "lore": "Scattered strategic assets must be swiftly reclaimed.",
+    "body": "When Drawn: If you are playing an Incursion mission, or if there are fewer than three units from your army on the battlefield, you can discard this card and draw a new Secondary Mission card.\n\nRECOVER ASSETS (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: Two or more units from your army, if each of those units is wholly within a different one of the following areas: your deployment zone; No Man's Land; your opponent's deployment zone.\nCOMPLETES: End of your turn, if either two or three of those units are on the battlefield.\nIF COMPLETED: Those units recover assets.\n\nANY BATTLE ROUND\nWHEN: End of your turn or the end of the battle (whichever comes first).\nTwo of your units recovered assets this turn. 3VP\nOR\nThree of your units recovered assets this turn.\n5VP"
+  },
+  {
     "id": "secondary-mission-pariah-nexus-sabotage",
+    "lore": "This region is replete with strategic assets or supply caches vital to the foe. See to it that they are reduced to just so much flaming wreckage.",
+    "body": "SABOTAGE (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army that is within a terrain feature and not within your deployment zone.\nCOMPLETES: End of your opponent's next turn or the end of the battle (whichever comes first), if your unit is on the battlefield.\nIF COMPLETED: Your unit commits sabotage.\n\nANY BATTLE ROUND\nWHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYour unit committed sabotage this turn and is not within your opponent's deployment zone. 3VP\nOR\nYour unit committed sabotage this turn and is within your opponent's deployment zone. 6VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-sabotage",
     "lore": "This region is replete with strategic assets or supply caches vital to the foe. See to it that they are reduced to just so much flaming wreckage.",
     "body": "SABOTAGE (ACTION)\nSTARTS: Your Shooting phase.\nUNITS: One unit from your army that is within a terrain feature and not within your deployment zone.\nCOMPLETES: End of your opponent's next turn or the end of the battle (whichever comes first), if your unit is on the battlefield.\nIF COMPLETED: Your unit commits sabotage.\n\nANY BATTLE ROUND\nWHEN: End of your opponent's turn or the end of the battle (whichever comes first).\nYour unit committed sabotage this turn and is not within your opponent's deployment zone. 3VP\nOR\nYour unit committed sabotage this turn and is within your opponent's deployment zone. 6VP"
   },
@@ -611,12 +929,26 @@
     "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one objective marker in No Man's Land. 2VP\nOR\nYou control two or more objective markers in No Man's Land. 5VP"
   },
   {
+    "id": "secondary-mission-chapter-approved-2025-26-secure-no-mans-land",
+    "lore": "You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the entire battlefield.",
+    "body": "ANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one objective marker in No Man's Land. 2VP\nOR\nYou control two or more objective markers in No Man's Land. 5VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2026-27-secure-no-mans-land",
+    "lore": "You must advance swiftly into no man's land and seize it before the enemy can, lest they take control of the battlefield."
+  },
+  {
     "id": "secondary-mission-storm-hostile-objective",
     "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
     "body": "At the end of your turn, if either of the below conditions are satisfied, this Secondary Mission is achieved and you score 4VP if you are using Fixed Missions, or 5VP If you are using Tactical Missions:\n• You control one or more objective markers that were controlled by your opponent at the start of your turn.\n• Your opponent did not control any objective markers at the start of your turn and you control one or more objective markers that you did not control at the start of your turn.\n\nThis Secondary Mission cannot be achieved during the first battle round; If you randomly drew this Secondary Mission card during the first battle round, drew a new Secondary Mission card and shuffle this Secondary Mission card back into your Secondary Mission deck."
   },
   {
     "id": "secondary-mission-pariah-nexus-storm-hostile-objective",
+    "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
+    "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one or more objective markers that were controlled by your opponent at the start of the turn. 4VP\nOR\nYour opponent did not control any objective markers at the start of the turn, and you control one or more objective markers that you did not control at the start of the turn. 4VP"
+  },
+  {
+    "id": "secondary-mission-chapter-approved-2025-26-storm-hostile-objective",
     "lore": "Dominate the field of battle. Storm every site of tactical import and leave the foe with no place to hide.",
     "body": "When Drawn: If it is the first battle round, you can draw a new Secondary Mission card and shuffle this card back into your Secondary Mission deck.\n\nANY BATTLE ROUND\nWHEN: End of your turn.\nYou control one or more objective markers that were controlled by your opponent at the start of the turn. 4VP\nOR\nYour opponent did not control any objective markers at the start of the turn, and you control one or more objective markers that you did not control at the start of the turn. 4VP"
   },
@@ -959,6 +1291,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-chorus-of-condemnation-harmonised-exorcism",
+    "whenRules": "Your Shooting phase, when a friendly Exorcist unit is selected to shoot.",
+    "targetRules": "That Exorcist unit.",
+    "effectRules": "Select one unit visible to and within 9\" of a friendly Adepta Sororitas Infantry Fly unit. Your unit's ranged attacks that target that unit have +1 to hit rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chorus-of-condemnation-devastating-reprise",
+    "whenRules": "Your Shooting phase, when a friendly Exorcist unit has shot.",
+    "targetRules": "One friendly ADEPTA SORORITAS INFANTRY FLY unit.",
+    "effectRules": "Select one enemy unit (excluding Monster/Vehicle units) hit by those ranged attacks. Your unit's ranged attacks that target that unit have [Devastating Wounds].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-chorus-of-condemnation-inspirational-battle-canticles",
+    "whenRules": "Start of the Command phase.",
+    "targetRules": "One friendly Adepta Sororitas Infantry Fly unit or one friendly Exorcist unit.",
+    "effectRules": "Select one friendly battle‑shocked Adepta Sororitas unit within 6\" of your unit. That unit is no longer battle‑shocked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-sacred-champions-faithful-fortitude",
+    "whenRules": "Any phase, when a friendly Celestian Sacresants unit suffers a mortal wound.",
+    "targetRules": "That Celestian Sacresants unit.",
+    "effectRules": "Your unit has Feel No Pain 5+ against mortal wounds until the end of the phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-sacred-champions-unflinching-determination",
+    "whenRules": "Your Movement phase, when a friendly Celestian Sacresants unit is selected to make an advance/fall-back move.",
+    "targetRules": "That Celestian Sacresants unit.",
+    "effectRules": "Your unit's ranged attacks have [ASSAULT] until the end of the turn. That move does not prevent your unit from being eligible to shoot/declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-sacred-champions-sanctified-blows",
+    "whenRules": "Fight phase, when a friendly Celestian Sacresants unit is selected to fight.",
+    "targetRules": "That Celestian Sacresants unit.",
+    "effectRules": "Your unit's melee attacks have +1 A and S.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-adeptus-custodes-arcane-genetic-alchemy",
     "lore": "The Adeptus Custodes are individually engineered on a molecular level using secrets of genetic alchemy that render them almost supernaturally resilient.",
     "whenRules": "Any phase, just after a mortal wound has been allocated to an Adeptus Custodes model from your army (excluding Anathema Psykana models).",
@@ -1254,6 +1628,70 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
     "targetRules": "One ADEPTUS CUSTODES unit from your army (excluding VEHICLE units) that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Your unit can make a Normal move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-might-of-the-moritoi-unstoppable-advance",
+    "whenRules": "Your Movement phase, when a friendly Adeptus Custodes Walker unit is selected to move.",
+    "targetRules": "That Adeptus Custodes Walker unit.",
+    "effectRules": "Your unit has Mobile.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-might-of-the-moritoi-prioritised-eradication",
+    "whenRules": "Your Shooting phase, when a friendly Telemon Heavy Dreadnought unit is selected to shoot.",
+    "targetRules": "That Telemon Heavy Dreadnought unit.",
+    "effectRules": "Your unit's: Arachnus Storm Cannon weapons have [Rapid Fire 6]. Iliastus Accelerator Culverin weapons have [Rapid Fire 2].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-might-of-the-moritoi-flawless-construction",
+    "lore": "The vehicles of the Adeptus Custodes are the finest examples of their kind. Their expertly wrought armoured forms contain ancient and esoteric technology, including auto‑repair subroutines and reactive field generators.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Adeptus Custodes Vehicle unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets a model in your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-silent-hunters-umbral-prosecution",
+    "whenRules": "Your Shooting phase, when a friendly Prosecutors unit is selected to shoot.",
+    "targetRules": "That Prosecutors unit.",
+    "effectRules": "Your unit's Boltgun weapons have: [Rapid Fire 2]. +1 AP.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-silent-hunters-synchronised-inferno",
+    "whenRules": "Your Shooting phase, when a friendly Witchseekers unit is selected to shoot.",
+    "targetRules": "That Witchseekers unit.",
+    "effectRules": "Your unit's [Torrent] ranged attacks have [Blast 1].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-silent-hunters-deathsong-scythes",
+    "whenRules": "Fight phase, when a friendly Vigilators unit is selected to fight.",
+    "targetRules": "That Vigilators unit.",
+    "effectRules": "Your unit's melee attacks have [Lance]. Your unit's melee attacks that target a Psyker unit have +1 A.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tharanatoi-hammerblow-unleash-the-lions",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ALLARUS CUSTODIANS or AQUILON CUSTODIANS unit from your army that is on the battlefield.",
+    "effectRules": "That unit is split into separate units, each containing one model. These new units each have a Starting Strength of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tharanatoi-hammerblow-hardened-resolve",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, when an enemy unit targets a friendly Adeptus Custodes Terminator unit.",
+    "targetRules": "That Adeptus Custodes Terminator unit.",
+    "effectRules": "Your unit has +1 T.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tharanatoi-hammerblow-electroexorcist-saturation",
+    "whenRules": "Your Shooting phase, when a friendly Adeptus Custodes Terminator unit is selected to shoot.",
+    "targetRules": "That Adeptus Custodes Terminator unit.",
+    "effectRules": "Your unit's Ballistus Grenade Launcher weapons have D3+3 A.",
     "restrictionRules": null
   },
   {
@@ -1632,6 +2070,69 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
     "targetRules": "One SKITARII Infantry unit from your army that lost one or more models as a result of the attacking unit’s attacks.",
     "effectRules": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cohort-acquisitus-defect-scrutiny",
+    "whenRules": "Your Shooting phase, when a friendly ADEPTUS MECHANICUS unit is selected to shoot.",
+    "targetRules": "That ADEPTUS MECHANICUS unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of a friendly RECON AUGURY unit. Your unit's ranged attacks that target that enemy unit have [IGNORES COVER].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cohort-acquisitus-repolarised-augurs",
+    "whenRules": "Start of your opponent's Movement phase.",
+    "targetRules": "One friendly unengaged Recon Augury unit.",
+    "effectRules": "Your unit has -3\" detection range until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cohort-acquisitus-clandestine-reposition",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One friendly unengaged Infiltrators/Pteraxii unit.",
+    "effectRules": "Place your unit in strategic reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-lords-of-the-forge-scriptural-prognosis",
+    "whenRules": "In your opponent's Shooting phase or the Fight phase, when an enemy unit targets a friendly Tech-Priest unit that is within range of an objective.",
+    "targetRules": "That Tech-Priest unit.",
+    "effectRules": "Attacks that target your unit have -1 AP until that enemy unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-lords-of-the-forge-holy-avarice",
+    "whenRules": "Your Shooting phase, when a friendly Tech-Priest unit starts an action.",
+    "targetRules": "That Tech-Priest unit.",
+    "effectRules": "That action does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-lords-of-the-forge-overloaded-safeguards",
+    "whenRules": "Your Movement phase, when a friendly Tech-Priest unit is selected to make a fall-back move.",
+    "targetRules": "That Tech-Priest unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to shoot/declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-luminen-auto-choir-momentum-feedback",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly unengaged ELECTRO-PRIESTS unit has shot.",
+    "targetRules": "That ELECTRO-PRIESTS unit.",
+    "effectRules": "Your unit can make a surge move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-luminen-auto-choir-echoes-of-the-conduit-wars",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly ELECTRO-PRIESTS unit is selected to attack.",
+    "targetRules": "That ELECTRO-PRIESTS unit.",
+    "effectRules": "Your unit's attacks that target a unit within range of an objective can: Re-roll hit rolls of 1. Re-roll wound rolls of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-luminen-auto-choir-chant-of-electrotraction",
+    "whenRules": "Your Movement phase, when a friendly ELECTRO-PRIESTS Battleclade unit is selected to make an advance move.",
+    "targetRules": "That ELECTRO-PRIESTS unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to declare a charge.",
     "restrictionRules": null
   },
   {
@@ -2427,6 +2928,69 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-fateful-performance-exit-the-stage",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One HARLEQUINS unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fateful-performance-heroes-fall",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One HARLEQUINS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6. On a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fateful-performance-deceptive-feint",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Harlequins Infantry unit.",
+    "targetRules": "That Harlequins Infantry unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-path-of-the-outcast-eldritch-suppression",
+    "whenRules": "Your Shooting phase, when a friendly Rangers/Shroud Runners unit has shot.",
+    "targetRules": "That Rangers/Shroud Runners unit.",
+    "effectRules": "Select one enemy unit hit by those ranged attacks. That enemy unit makes a battle‑shock roll, with ‑1 to that battle‑shock roll if a model in that enemy unit was destroyed by those attacks.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-path-of-the-outcast-nomads-of-the-hidden-way",
+    "whenRules": "Your Shooting phase, when a friendly Rangers/Shroud Runners unit has shot.",
+    "targetRules": "That Rangers/Shroud Runners unit.",
+    "effectRules": "Your unit can make a normal move of up to D6\". Your unit is not eligible to declare a charge or embark within a Transport until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-path-of-the-outcast-casting-back-the-veil",
+    "whenRules": "Your Shooting phase, when a friendly Rangers/Shroud Runners unit has shot.",
+    "targetRules": "That Rangers/Shroud Runners unit.",
+    "effectRules": "Select one enemy unit hit by those ranged attacks. That enemy unit has +6\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-twilight-flickers-captivating-performance",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One friendly Troupe unit.",
+    "effectRules": "Select one objective your unit is controlling. That objective is secured.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-twilight-flickers-presaged-rehearsal",
+    "whenRules": "Fight phase, when a friendly Troupe unit is selected to fight.",
+    "targetRules": "That Troupe unit.",
+    "effectRules": "Your unit's melee attacks have [lance].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-twilight-flickers-phantasmal-mirage",
+    "whenRules": "Your Shooting phase, when a friendly Harlequins Vehicle unit has shot.",
+    "targetRules": "That Harlequins Vehicle unit.",
+    "effectRules": "Your unit can make a normal move of up to D6\". Your unit is not eligible to declare a charge until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-astra-militarum-reinforcements!",
     "lore": "The Astra Militarum can call upon a nearly inexhaustible supply of warriors.",
     "whenRules": "Any phase.",
@@ -2859,6 +3423,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-abhuman-auxiliaries-thick-skulled-obdurance",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, when an enemy unit targets a friendly Bullgryn Squad/Ogryn Squad unit that is within range of an objective.",
+    "targetRules": "That Bullgryn Squad/Ogryn Squad unit.",
+    "effectRules": "Attacks that target your unit have -1 AP until that enemy unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-abhuman-auxiliaries-low-profile",
+    "whenRules": "Your Shooting phase, when a friendly Ratlings unit has shot.",
+    "targetRules": "That Ratlings unit.",
+    "effectRules": "Those ranged attacks do not prevent your unit from being hidden.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-abhuman-auxiliaries-stirred-to-action",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly unengaged BULLGRYN SQUAD/OGRYN SQUAD unit has shot.",
+    "targetRules": "That Bullgryn Squad/Ogryn Squad unit.",
+    "effectRules": "Your unit can make a surge move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-designation-force-triggered-alerts",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Astra Militarum Infantry unit.",
+    "targetRules": "That Astra Militarum Infantry unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-designation-force-sump-smog-screen",
+    "whenRules": "Start of your opponent's Shooting phase",
+    "targetRules": "One friendly astra militarum infantry smoke unit.",
+    "effectRules": "When an attack targets either your unit, or a unit that is not fully visible to the attacking model because of one or more models in your unit, the target has the benefit of cover against that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-designation-force-close-range-detection",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Scout Sentinel/astra militarum infantry unit.",
+    "effectRules": "While a visible enemy unit is within 6\" of your unit, that unit has +3\" detection range.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-black-templars-armour-of-contempt",
     "lore": "The belligerency and transhuman physiologies of the Adeptus Astartes make them unyielding foes.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -2952,6 +3558,20 @@
     "whenRules": "Your Command phase.",
     "targetRules": "One ADEPTUS ASTARTES INFANTRY or ADEPTUS ASTARTES MOUNTED unit from your army.",
     "effectRules": "Select the Chorus of Relentless Hate, Rite of Perfervid Wrath or Chant of Deathless Devotion Litany. Until the end of the battle round, that Litany is active for your unit instead of any other Litany that is active for your army.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-wrathful-procession-rite-of-perfervid-wrath",
+    "whenRules": "Fight phase, when a friendly Chaplain unit is selected to fight.",
+    "targetRules": "That Chaplain unit.",
+    "effectRules": "Your unit's melee attacks have +1 S.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-wrathful-procession-fuelled-by-faith",
+    "whenRules": "Any phase, when a friendly Chaplain unit suffers a mortal wound.",
+    "targetRules": "That Chaplain unit.",
+    "effectRules": "Your unit has Feel No Pain 4+ against mortal wounds.",
     "restrictionRules": null
   },
   {
@@ -3078,6 +3698,27 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One ADEPTUS ASTARTES VEHICLE unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, each time an attack is allocated to a model in your unit, subtract 1 from the Damage characteristic of that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-marshals-household-blade-of-detestation",
+    "whenRules": "Your Charge phase, when a friendly Sword Brethren squad unit ends a charge move.",
+    "targetRules": "That Sword Brethren squad unit.",
+    "effectRules": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit: For each 4+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-marshals-household-slayers-of-abominations",
+    "whenRules": "Fight phase, when a friendly Sword Brethren squad unit is selected to fight.",
+    "targetRules": "That Sword Brethren squad unit.",
+    "effectRules": "Your unit's melee attacks that target a Monster/Vehicle unit have +2 S.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-marshals-household-unsparing-execution",
+    "whenRules": "Your opponent's Movement phase, when a unit is selected to make a fall‑back move, if that unit is engaged with a friendly Sword Brethren squad unit.",
+    "targetRules": "That Sword Brethren squad unit.",
+    "effectRules": "When an enemy unit engaged with your unit is selected to make a fall‑back move, that enemy unit must use the desperate escape mode, with ‑1 to those hazard rolls if that enemy unit is battle‑shocked.",
     "restrictionRules": null
   },
   {
@@ -3364,6 +4005,76 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-rage-cursed-onslaught-armour-of-contempt",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Deathwatch unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-encarmine-speartip-blinding-blurs-of-vengeance",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Sanguinary Guard unit.",
+    "targetRules": "That Sanguinary Guard unit.",
+    "effectRules": "Your unit has Stealth.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-encarmine-speartip-inexorable-valour",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit that was engaged with a friendly Sanguinary Guard unit ends a fall‑back move, if that Sanguinary Guard unit is unengaged.",
+    "targetRules": "That Sanguinary Guard unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-encarmine-speartip-judgement-of-the-golden-host",
+    "whenRules": "Your Charge phase, when a friendly Sanguinary Guard unit from your army ends a charge move.",
+    "targetRules": "That Sanguinary Guard unit.",
+    "effectRules": "Select one enemy unit engaged with your unit. Roll one D6 for each model in your unit engaged with that enemy unit: For each 3+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legacy-of-grace-soul-darkened-fury",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit is selected to make a fall‑back move, if that unit is engaged with a friendly Adeptus Astartes Character unit.",
+    "targetRules": "That Adeptus Astartes Character unit.",
+    "effectRules": "When an enemy unit engaged with your unit is selected to make a fall‑back move, that enemy unit must use the desperate escape mode, with ‑1 to those hazard rolls if that enemy unit is battle‑shocked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legacy-of-grace-aura-of-the-angels-grace",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Character unit.",
+    "targetRules": "That Character unit.",
+    "effectRules": "Your unit has 5+ InSv.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legacy-of-grace-martial-paragon",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Adeptus Astartes Character unit is selected to attack.",
+    "targetRules": "That Adeptus Astartes Character unit.",
+    "effectRules": "Your unit's attacks have: [Lethal Hits]. Or: [Sustained Hits 1].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-wrath-of-the-doomed-rage-fuelled-response",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly unengaged Death Company unit has shot.",
+    "targetRules": "That Death Company unit.",
+    "effectRules": "Your unit can make a surge move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-wrath-of-the-doomed-no-barrier-to-retribution",
+    "whenRules": "Your Movement or your Charge phase, when a friendly Death Company Dreadnought unit is selected to make a normal/advance/charge move.",
+    "targetRules": "That Death Company Dreadnought unit.",
+    "effectRules": "Your unit has Mobile.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-wrath-of-the-doomed-death-begets-vengeance",
+    "whenRules": "Any phase, when a friendly Death Company unit is destroyed by an enemy unit.",
+    "targetRules": "That enemy unit.",
+    "effectRules": "That enemy unit is hated until the end of the battle: While a unit is hated, friendly Death Company units' attacks that target that unit have +1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-legiones-daemonica-corrupt-realspace",
     "lore": "Daemons instinctively feel the need to despoil and corrupt every corner of realspace, the better to sustain their otherworldly forms.",
     "whenRules": "Start of any Command phase.",
@@ -3646,6 +4357,76 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-cavalcade-of-chaos-from-beyond-the-veil",
+    "whenRules": "End of the Movement phase, from the start of the battle.",
+    "targetRules": "One friendly Legiones Daemonica Mounted unit in strategic reserves.",
+    "effectRules": "Your unit can make an ingress move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cavalcade-of-chaos-warp-riders",
+    "whenRules": "Your Movement phase, when a friendly Legiones Daemonica Mounted unit is selected to move.",
+    "targetRules": "That Legiones Daemonica Mounted unit.",
+    "effectRules": "Your unit has Mobile.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cavalcade-of-chaos-inescapable-manifestations",
+    "whenRules": "Your opponent's Movement phase, when a unit is selected to make a fall‑back move, if that unit is engaged with a friendly Legiones Daemonica Mounted unit.",
+    "targetRules": "That Legiones Daemonica Mounted unit.",
+    "effectRules": "When an enemy unit engaged with your unit is selected to make a fall‑back move, that enemy unit must use the desperate escape mode. If that enemy unit is battle‑shocked, -1 from those hazard rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-lords-of-the-warp-carnival-of-excess",
+    "whenRules": "Fight phase, when an enemy unit has fought.",
+    "targetRules": "One friendly Legiones Daemonica Character Slaanesh unit (excluding Monster units) that has not been selected to fight this phase.",
+    "effectRules": "Your unit has Fights First and must be the next unit you select to fight.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-lords-of-the-warp-skirling-magicks",
+    "whenRules": "Your Shooting phase, when a friendly LEGIONES DAEMONICA CHARACTER TZEENTCH unit (excluding MONSTER units) is selected to shoot.",
+    "targetRules": "That LEGIONES DAEMONICA CHARACTER TZEENTCH unit.",
+    "effectRules": "Your unit's ranged attacks have [LETHAL HITS].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-lords-of-the-warp-call-to-murder",
+    "whenRules": "Fight phase, when a friendly Legiones Daemonica Khorne Character unit (excluding Monster units) that made a charge move this turn is selected to fight.",
+    "targetRules": "That Legiones Daemonica Character Khorne unit.",
+    "effectRules": "Your unit's melee attacks have +1 A.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-lords-of-the-warp-bilious-blessing",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Legiones Daemonica Character Nurgle unit (excluding Monster units).",
+    "effectRules": "Select one visible enemy unit within 8\" of your unit and roll seven D6: For each 4+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-warptide-incorporeal-entities",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Legiones Daemonica Battleline unit.",
+    "targetRules": "That Legiones Daemonica Battleline unit.",
+    "effectRules": "Ranged attacks that target your unit with a S greater than your unit's T have ‑1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-warptide-daemonic-infestation",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One friendly Legiones Daemonica Battleline unit (excluding PINK HORRORS units).",
+    "effectRules": "Your unit heals 3 wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-warptide-soulseeing",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Legiones Daemonica Battleline unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +6\" detection range.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-chaos-knights-dread-hounds",
     "lore": "War Dog pilots encircle their terrified victims then attack in a ferocious mass.",
     "whenRules": "The start of your Shooting phase or the start of the Fight phase.",
@@ -3733,6 +4514,20 @@
     "whenRules": "Your opponent's Movement phase, just after an enemy unit ends a Normal, Advance or Fall Back move.",
     "targetRules": "One CHAOS KNIGHTS unit from your army that is within 9\" of that enemy unit.",
     "effectRules": "Select one DAMNED unit from your army that is not Battle‑shocked, not within Engagement Range of one or more enemy units and is within 6\" of your unit. That DAMNED unit can make a Normal move of up to 6\", but it must end this move closer to that enemy unit than when it started the move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-iconoclast-fiefdom-dark-sacrifice",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One friendly Damned unit (excluding Accursed Cultists units) within 9\" of a friendly Chaos Knights model.",
+    "effectRules": "Select one Chaos Knights model within 9\" of your unit and roll D3+3: Your Damned unit suffers that number of mortal wounds. That Chaos Knights model heals that number of wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-iconoclast-fiefdom-coursing-thralls",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Damned unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. That enemy unit is hunted: While a unit is hunted, that unit has +6\" detection range.",
     "restrictionRules": null
   },
   {
@@ -3943,6 +4738,48 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
     "targetRules": "One CHAOS KNIGHTS unit from your army that lost one or more wounds as a result of those attacks.",
     "effectRules": "Your unit can make a Surge move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-bastions-of-tyranny-rune-cursed-stronghold",
+    "whenRules": "Any phase, when a friendly Knight Tyrant unit suffers a mortal wound.",
+    "targetRules": "That Knight Tyrant unit.",
+    "effectRules": "Your unit has Feel No Pain 5+ against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-bastions-of-tyranny-intimidating-reminder",
+    "whenRules": "Your Shooting phase, when a friendly Knight Tyrant unit has shot.",
+    "targetRules": "That Knight Tyrant unit.",
+    "effectRules": "Select one enemy unit hit by those attacks. That enemy unit is suppressed until the start of your next Command phase: While a unit is suppressed, that unit's attacks have -1 to hit rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-bastions-of-tyranny-pitiless-focus",
+    "whenRules": "Your Movement phase, when a friendly Knight Tyrant unit is selected to make a fall-back move.",
+    "targetRules": "That Knight Tyrant unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hunting-warpack-leash-of-the-masters",
+    "whenRules": "Your Shooting phase, when a friendly WAR DOG unit has shot.",
+    "targetRules": "That War Dog unit.",
+    "effectRules": "Those attacks do not prevent your unit from being eligible to start an action.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hunting-warpack-stalking-focus",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly War Dog unit within range of an objective.",
+    "targetRules": "That War Dog unit.",
+    "effectRules": "Ranged attacks that target your unit have ‑1 AP until that enemy unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hunting-warpack-insensate-bloodthirst",
+    "whenRules": "Fight phase, when an enemy unit targets a friendly War Dog unit.",
+    "targetRules": "That War Dog unit.",
+    "effectRules": "Your unit has Feel No Pain 5+.",
     "restrictionRules": null
   },
   {
@@ -4426,6 +5263,13 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-creations-of-bile-masters-are-watching",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One Heretic Astartes Infantry unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6, subtracting 1 from the result if it is a Damned unit: on a 4+, do not remove it from play. That destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-chaos-space-marines-baleful-blessing",
     "whenRules": "Any phase, just after a HERETIC ASTARTES unit from your army has a mortal wound allocated to it.",
     "targetRules": "That HERETIC ASTARTES unit.",
@@ -4465,6 +5309,27 @@
     "whenRules": "Start of your opponent's Shooting phase.",
     "targetRules": "One HERETIC ASTARTES PSYKER, HERETIC ASTARTES DAEMON PRINCE or HERETIC ASTARTES DAEMON PRINCE WITH WINGS unit from your army.",
     "effectRules": "Until the end of the phase, your unit has the following ability:\n\nShroud of Chaos (Aura): Models in friendly HERETIC ASTARTES units within 6\" of this unit have the Stealth ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cabal-of-chaos-wreathed-in-warpflame",
+    "whenRules": "Your Shooting phase, when a friendly Heretic Astartes Psyker unit is selected to shoot.",
+    "targetRules": "That Heretic Astartes Psyker unit.",
+    "effectRules": "Your unit's ranged attacks have [Ignores Cover].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cabal-of-chaos-fleshy-curse",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Heretic Astartes Psyker unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. Roll one D6: On a 1, that enemy unit suffers 1 mortal wound. On a 2‑4, that enemy unit suffers D3 mortal wounds. On a 5‑6, that enemy unit suffers 2D3 mortal wounds. These mortal wounds are inflicted by a psychic attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-cabal-of-chaos-infernal-vigour",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One friendly Heretic Astartes Psyker/Daemon unit (excluding Khorne units).",
+    "effectRules": "Your unit heals D3+1 wounds.",
     "restrictionRules": null
   },
   {
@@ -4675,6 +5540,48 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One SOUL FORGE unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
     "effectRules": "Until the end of the phase, add 1 to the Toughness characteristic of models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-devotees-of-destruction-ruinations-bounty",
+    "whenRules": "Your Shooting phase, when a friendly Havocs/Obliterators unit is selected to shoot.",
+    "targetRules": "That Havocs/Obliterators unit.",
+    "effectRules": "When your unit uses the Dark Pacts ability, your unit's ranged attacks have: [Lethal Hits]. [Sustained Hits 1].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-devotees-of-destruction-undying-hatred",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One HERETIC ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time a model in your unit is destroyed, if that model has not fought this phase, roll one D6: on a 4+, do not remove the destroyed model from play; it can fight after the attacking unit has finished making its attacks, and is then removed from play.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-devotees-of-destruction-snare-of-fire",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Havocs unit.",
+    "targetRules": "That Havocs unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-murdertalon-raiders-raking-pass",
+    "whenRules": "Your Movement phase, when a friendly Heretic Astartes Infantry Fly unit is selected to make a fall-back move.",
+    "targetRules": "That Heretic Astartes Infantry Fly unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-murdertalon-raiders-plunging-talons",
+    "whenRules": "Fight phase, when a friendly Heretic Astartes Infantry Fly unit that made a charge move this turn is selected to fight.",
+    "targetRules": "That Heretic Astartes Infantry Fly unit.",
+    "effectRules": "Your unit's melee attacks have [Lance].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-murdertalon-raiders-warp-twisted-terrors",
+    "whenRules": "Your Movement phase, when a friendly Warp Talons unit ends a move.",
+    "targetRules": "That Warp Talons unit.",
+    "effectRules": "Select one visible enemy unit (excluding Monster/Vehicle units) within 9\" of your unit. That enemy unit makes a battle-shock roll, with -1 to that battle-shock roll.",
     "restrictionRules": null
   },
   {
@@ -4910,6 +5817,69 @@
     "targetRules": "One ADEPTUS ASTARTES unit from your army within 3\" of one or more enemy units, or one Deathwing unit from your army within 6\" of one or more enemy units.",
     "effectRules": "Your unit now declares a charge that only targets one or more of those enemy units, and you resolve that charge.",
     "restrictionRules": "Note that even if this charge is successful, your unit does not receive any Charge bonus this turn."
+  },
+  {
+    "id": "stratagem-dark-age-arsenal-searing-bursts",
+    "whenRules": "Your Shooting phase, when a friendly Hellblaster Squad unit has shot.",
+    "targetRules": "That Hellblaster Squad unit.",
+    "effectRules": "Select one enemy unit hit by your unit's plasma ranged attacks. That enemy unit is seared until the start of your next turn: While a unit is seared, that unit has ‑2\" M.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-age-arsenal-no-sacrifice-too-great",
+    "whenRules": "Your Shooting phase, when a friendly Adeptus Astartes unit is selected to shoot.",
+    "targetRules": "That Adeptus Astartes unit.",
+    "effectRules": "Your unit's [HAZARDOUS] plasma ranged attacks have +1 S.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dark-age-arsenal-revelation-of-guilt",
+    "whenRules": "Your Shooting phase, when a friendly Adeptus Astartes unit is selected to shoot.",
+    "targetRules": "That Adeptus Astartes unit.",
+    "effectRules": "Your unit's plasma ranged attacks have +1 to hit rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-darkflight-pursuit-skyborne-surveillance",
+    "whenRules": "Your Shooting phase, when a friendly Ravenwing Fly unit has shot.",
+    "targetRules": "That Ravenwing Fly unit.",
+    "effectRules": "Visible enemy units within 6\" of your unit have +3\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-darkflight-pursuit-we-are-vengeance",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly unengaged Ravenwing Fly unit has shot.",
+    "targetRules": "That Ravenwing Fly unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-darkflight-pursuit-wings-of-shadow",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Ravenwing Fly unit.",
+    "targetRules": "That Ravenwing Fly unit.",
+    "effectRules": "Your unit has Stealth.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-interrogation-conclave-terrifying-zeal",
+    "whenRules": "Your Charge phase, when a friendly Chaplain unit ends a charge move.",
+    "targetRules": "That Chaplain unit.",
+    "effectRules": "Select one enemy unit (excluding Monster/Vehicle units) engaged with your unit. That enemy unit makes a leadership roll: If that leadership roll fails, that enemy unit's attacks have -1 to hit rolls until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-interrogation-conclave-exacting-punishment",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Chaplain unit is selected to attack.",
+    "targetRules": "That Chaplain unit.",
+    "effectRules": "Your unit's attacks have [Precision].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-interrogation-conclave-wages-of-cowardice",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit that was engaged with a friendly Chaplain unit ends a fall‑back move, if that Chaplain unit is unengaged.",
+    "targetRules": "That Chaplain unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
   },
   {
     "id": "stratagem-death-guard-putrid-detonation",
@@ -5164,6 +6134,13 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-death-lords-chosen-grim-reapers",
+    "whenRules": "Fight phase.",
+    "targetRules": "One TERMINATOR unit from your army that has not been selected to fight this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack that targets an enemy unit (excluding MONSTERS and VEHICLES) you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-death-guard-nauseating-paroxysms",
     "whenRules": "Start of the Fight phase.",
     "targetRules": "One DEATH GUARD INFANTRY unit from your army that is within Engagement Range of one or more enemy units.",
@@ -5251,6 +6228,48 @@
     "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One Death Guard unit from your army that was selected as the target of one or more of that enemy unit’s attacks.",
     "effectRules": "Until the end of the phase, your unit has the Stealth ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-paragons-of-putrescence-territorial-infection",
+    "whenRules": "Start of the Command phase.",
+    "targetRules": "One friendly Death Guard Character unit.",
+    "effectRules": "Your unit has +1 OC until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-paragons-of-putrescence-aggravus-spasms",
+    "whenRules": "Start of your Shooting Phase.",
+    "targetRules": "One friendly Death Guard Character unit.",
+    "effectRules": "Select one visible enemy unit within Contagion Range of your unit. That enemy unit has +6\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-paragons-of-putrescence-simultaneous-contamination",
+    "whenRules": "Your Shooting phase, when a friendly Death Guard Character unit starts an action.",
+    "targetRules": "That Death Guard Character unit.",
+    "effectRules": "That action does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-contagion-engines-soulrot-flux",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit is selected to make a fall‑back move, if that enemy unit is engaged with a friendly Contagion Engine unit.",
+    "targetRules": "That Contagion Engine unit.",
+    "effectRules": "When an enemy unit engaged with your unit is selected to make a fall‑back move, roll one D6: On a 1, that enemy unit suffers 1 mortal wound. On a 2‑5, that enemy unit suffers D3 mortal wounds. On a 6, that enemy unit suffers 3 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-contagion-engines-bloodrust-deluge",
+    "whenRules": "Your Shooting phase, when a friendly Contagion Engine unit is selected to shoot.",
+    "targetRules": "That Contagion Engine unit.",
+    "effectRules": "Select one visible enemy unit. That enemy unit is Afflicted until your unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-contagion-engines-fresh-vectors",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Contagion Engine unit is selected to attack.",
+    "targetRules": "That Contagion Engine unit.",
+    "effectRules": "Your unit's attacks can re‑roll wound rolls of 1.",
     "restrictionRules": null
   },
   {
@@ -5343,6 +6362,14 @@
   },
   {
     "id": "stratagem-deathwatch-black-spear-task-force-grotmas-teleportarium",
+    "lore": "Site-to-site battlefield teleportation is a rare capability indeed, used only by the Deathwatch in extreme situations.",
+    "whenRules": "End of your opponent’s Fight phase.",
+    "targetRules": "Up to two Kill Team units from your army, or one other Adeptus Astartes Infantry unit from your army, if those units are not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove those units from the battlefield and place them into Strategic Reserves. Until the end of your next Movement phase, models in those units that do not have the Deep Strike ability have the Deep Strike ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-black-spear-task-force-site-to-site-teleportation",
     "lore": "Site-to-site battlefield teleportation is a rare capability indeed, used only by the Deathwatch in extreme situations.",
     "whenRules": "End of your opponent’s Fight phase.",
     "targetRules": "Up to two Kill Team units from your army, or one other Adeptus Astartes Infantry unit from your army, if those units are not within Engagement Range of one or more enemy units.",
@@ -5524,6 +6551,13 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-reapers-wager-murderers-circus",
+    "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One DRUKHARI or HARLEQUINS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, each time an attack targets your unit, subtract 1 from the Hit roll.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-drukhari-berserk-fugue",
     "whenRules": "Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One WYCH CULT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
@@ -5647,6 +6681,69 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One KABAL or BLADES FOR HIRE unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-exhibition-of-slaughter-sculpting-the-stage",
+    "whenRules": "Your Movement phase, when a friendly Wych Cult unit is selected to make an advance/fall-back move.",
+    "targetRules": "That Wych Cult unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to start an action.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-exhibition-of-slaughter-planned-strikes",
+    "whenRules": "Fight phase, when a friendly Wych Cult unit is selected to fight.",
+    "targetRules": "That Wych Cult unit.",
+    "effectRules": "Your unit's melee attacks have [Lethal Hits].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-exhibition-of-slaughter-acrobatic-display",
+    "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One WYCH CULT unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have a 5+ invulnerable save.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-kabalite-agonysts-prioritised-victim",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Blades for Hire/Kabal unit targets a Character unit.",
+    "targetRules": "That Blades for Hire/Kabal unit.",
+    "effectRules": "Your unit's attacks that target a Character unit can: Re‑roll hit rolls of 1. Re‑roll wound rolls of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-kabalite-agonysts-shadows-reach",
+    "whenRules": "Your Shooting phase, when a friendly Blades for Hire/Kabal unit has shot.",
+    "targetRules": "That Blades for Hire/Kabal unit.",
+    "effectRules": "Those attacks do not prevent your unit from being hidden.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-kabalite-agonysts-killers-from-the-dark-spires",
+    "whenRules": "Your Shooting phase, when a friendly Kabalite Warriors unit is selected to shoot.",
+    "targetRules": "That Kabalite Warriors unit.",
+    "effectRules": "Your unit's ranged attacks have [Ignores Cover].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tools-of-torment-salting-the-wound",
+    "whenRules": "Fight phase, when a friendly CRONOS/TALOS unit is selected to fight.",
+    "targetRules": "That CRONOS/TALOS unit.",
+    "effectRules": "Your unit's attacks that target a battle‑shocked unit have [Devastating Wounds].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tools-of-torment-dividends-of-agony",
+    "whenRules": "Fight phase, when a friendly Haemonculus Covens unit destroys an enemy unit.",
+    "targetRules": "That Haemonculus Covens unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. That enemy unit makes a battle‑shock roll, with -1 to that battle‑shock roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-tools-of-torment-urgent-metamorphosis",
+    "whenRules": "Your Movement phase, when a friendly Haemonculus Covens unit is selected to make a fall‑back move.",
+    "targetRules": "That Haemonculus Covens unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to declare a charge.",
     "restrictionRules": null
   },
   {
@@ -5941,6 +7038,69 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
     "targetRules": "One EMPEROR'S CHILDREN unit from your army that lost one or more wounds as a result of those attacks.",
     "effectRules": "Your unit can make a Stimulus move. To do so, roll one D6: models in your unit move a number of inches up to the result, but your unit must end that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-elegant-brutes-psychedelic-soulflame",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Emperor's Children Terminator unit is selected to attack.",
+    "targetRules": "That Emperor's Children Terminator unit",
+    "effectRules": "Your unit's attacks have +2 S.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-elegant-brutes-delight-in-agony",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, when an enemy unit targets a friendly Emperor's Children Terminator unit.",
+    "targetRules": "That Emperor's Children Terminator unit.",
+    "effectRules": "Attacks that target your unit with a S greater than your unit's T have -1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-elegant-brutes-warp-plunge",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One friendly unengaged Emperor's Children Terminator unit.",
+    "effectRules": "Place your unit in strategic reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-frenzied-host-absolute-sensory-overload",
+    "whenRules": "Your Shooting phase, when a friendly Emperor's Children Battleline unit is selected to shoot.",
+    "targetRules": "That Emperor's Children Battleline unit.",
+    "effectRules": "Those ranged attacks do not prevent your unit from being hidden.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-frenzied-host-possessive-mania",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, when an enemy unit targets a friendly Emperor's Children Battleline unit within range of an objective.",
+    "targetRules": "That Emperor's Children Battleline unit.",
+    "effectRules": "Attacks that target your unit have -1 AP until that enemy unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-frenzied-host-agonised-cacophony",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Emperor's Children Battleline unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +6\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-spectacle-of-slaughter-single-minded-strike",
+    "whenRules": "Your Charge phase, when a friendly Flawless Blades unit starts a charge move.",
+    "targetRules": "That Flawless Blades unit.",
+    "effectRules": "Your unit can move through models (excluding MONSTER/VEHICLE models).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-spectacle-of-slaughter-honour-is-for-fools",
+    "whenRules": "Fight phase, when a friendly Flawless Blades unit is selected to fight.",
+    "targetRules": "That Flawless Blades unit.",
+    "effectRules": "Your unit's melee attacks have [Precision].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-spectacle-of-slaughter-intoxicated-by-triumph",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit that was engaged with a friendly Flawless Blades unit ends a fall‑back move, if that Flawless Blades unit is unengaged.",
+    "targetRules": "That Flawless Blades unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
     "restrictionRules": null
   },
   {
@@ -6280,6 +7440,69 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-heroes-of-the-uprising-surging-broodworship",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Killer unit is selected to attack.",
+    "targetRules": "That Killer unit.",
+    "effectRules": "Attacks made by KILLER models in your unit have [Devastating Wounds].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heroes-of-the-uprising-living-up-to-legend",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Killer unit has attacked, if those attacks destroyed an enemy unit or an enemy Character model.",
+    "targetRules": "That Killer unit.",
+    "effectRules": "Each visible friendly battle-shocked GENESTEALER CULTS unit within 12\" of your unit is no longer battle-shocked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-heroes-of-the-uprising-loyal-to-the-end",
+    "whenRules": "Fight phase, when an enemy unit targets a friendly Killer unit.",
+    "targetRules": "That Killer unit.",
+    "effectRules": "When a Killer model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6: On a 1, that enemy unit suffers 1 mortal wound. On a 2+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-purestrain-broodswarm-inhuman-reactions",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Purestrain Genestealers unit.",
+    "targetRules": "That Purestrain Genestealers unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-purestrain-broodswarm-lurk-and-strike",
+    "whenRules": "Your Movement phase, when a friendly Purestrain Genestealers unit is selected to make a fall‑back move.",
+    "targetRules": "That Purestrain Genestealers unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-purestrain-broodswarm-crawling-horror",
+    "whenRules": "Start of your opponent's Movement phase.",
+    "targetRules": "One friendly Purestrain Genestealers unit.",
+    "effectRules": "Your unit has ‑6\" detection range until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-xenocult-masses-slunk-from-the-underbelly",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Neophyte Hybrids unit with every model within a terrain area.",
+    "targetRules": "That Neophyte Hybrids unit.",
+    "effectRules": "Ranged attacks that target your unit have -1 AP until that unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-xenocult-masses-eyes-of-the-cult",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Neophyte Hybrids unit within a terrain area.",
+    "effectRules": "Enemy units within that terrain area have +6\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-xenocult-masses-fanatical-hail",
+    "whenRules": "Your Shooting phase, when a friendly Neophyte Hybrids unit is selected to shoot.",
+    "targetRules": "That Neophyte Hybrids unit.",
+    "effectRules": "Select one enemy unit. Your unit's ranged attacks that target that enemy unit can re‑roll hit rolls.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-grey-knights-radiant-strike",
     "lore": "Psychic fire rimes the blades of the Grey Knights as they charge at the foe, fanned by their battle fury. At the moment of contact, the empyric charge is unleashed in a blast of azure light.",
     "whenRules": "Fight phase.",
@@ -6580,6 +7803,69 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-argent-assault-aura-of-vengeance",
+    "whenRules": "Fight phase, when an enemy unit targets a friendly Paladin Squad unit.",
+    "targetRules": "That Paladin Squad unit.",
+    "effectRules": "That enemy unit's melee attacks have [Hazardous].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-argent-assault-truesilver-aegis",
+    "whenRules": "Any phase, when a friendly Paladin Squad unit suffers a mortal wound.",
+    "targetRules": "That Paladin Squad unit.",
+    "effectRules": "Your unit has Feel No Pain 4+ against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-argent-assault-a-threat-ended",
+    "whenRules": "Fight phase, when a friendly Paladin Squad unit is selected to fight.",
+    "targetRules": "That Paladin Squad unit.",
+    "effectRules": "Your unit's melee attacks have [Precision].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fires-of-purgation-soul-locked",
+    "whenRules": "Your Movement phase, when a friendly Purgation Squad unit is selected to make a fall‑back move.",
+    "targetRules": "That Purgation Squad unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fires-of-purgation-focused-immolation",
+    "whenRules": "Your Shooting phase, when a friendly Purgation Squad unit is selected to shoot.",
+    "targetRules": "That Purgation Squad unit.",
+    "effectRules": "Select one enemy unit. Your unit's ranged attacks that target that unit have: [Devastating Wounds]. [sustained hits 1].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fires-of-purgation-spiritsear",
+    "whenRules": "Your Shooting phase, when a friendly Purgation Squad unit has shot.",
+    "targetRules": "That Purgation Squad unit.",
+    "effectRules": "Select one battle‑shocked enemy unit hit by those attacks. That enemy unit suffers D3+1 mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-immaterial-interdiction-blades-from-the-beyond",
+    "whenRules": "Fight phase, when a friendly Interceptor Squad unit that made a charge move this turn is selected to fight.",
+    "targetRules": "That Interceptor Squad unit.",
+    "effectRules": "Your unit's melee attacks have [Lance].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-immaterial-interdiction-by-thought-alone",
+    "whenRules": "Your Shooting phase, when a friendly Interceptor Squad unit starts an action.",
+    "targetRules": "That Interceptor Squad unit.",
+    "effectRules": "That action does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-immaterial-interdiction-responsive-displacement",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit that was engaged with a friendly Interceptor Squad unit ends a fall‑back move, if that Interceptor Squad unit is unengaged.",
+    "targetRules": "That Interceptor Squad unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-imperial-knights-shoulder-the-burden",
     "lore": "When faced with their darkest hour, knightly Nobles rise to the challenge, for nothing shall deter them from fulfilling their duty.",
     "whenRules": "Your Command phase.",
@@ -6673,6 +7959,13 @@
     "whenRules": "Your opponent’s Movement phase, just after an enemy unit is set up or ends a Normal, Advance, or Fall Back move.",
     "targetRules": "One Imperial Knights Titanic unit from your army that is within 24\" of and visible to that enemy unit.",
     "effectRules": "Select one ranged weapon equipped by a model in your unit. That model can shoot at that enemy unit (and only if it is an eligible target). When doing so, that model can only make attacks with that weapon and each time it makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-questor-forgepact-in-the-shadow-of-giants",
+    "whenRules": "Your Movement phase, when a friendly Adeptus Mechanicus unit is selected to make an advance/fall‑back move.",
+    "targetRules": "That Adeptus Mechanicus unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to start an action.",
     "restrictionRules": null
   },
   {
@@ -6883,6 +8176,48 @@
     "whenRules": "End of your opponent's Fight phase.",
     "targetRules": "One ARMIGER unit from your army that is within 9\" of one or more battlefield edges and not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dominus-foebreakers-fire-shocked",
+    "whenRules": "Your Shooting phase, when a friendly Imperial Knights Dominus unit has shot.",
+    "targetRules": "That Imperial Knights Dominus unit.",
+    "effectRules": "Select one enemy unit hit by those attacks. That enemy unit makes a battle‑shock roll, with ‑1 to that battle‑shock roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dominus-foebreakers-foebreaker-firestorm",
+    "whenRules": "Your Shooting phase, when a friendly engaged Imperial Knights Dominus unit is selected to shoot.",
+    "targetRules": "That Imperial Knights Dominus unit.",
+    "effectRules": "Your unit's [Blast] ranged attacks: Do not have [Blast]. Have +1 A.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-dominus-foebreakers-ground-shaking-strides",
+    "whenRules": "Your Movement phase, when a friendly Imperial Knights Dominus unit is selected to move.",
+    "targetRules": "That Imperial Knights Dominus unit.",
+    "effectRules": "Your unit has +2\" M.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-throne-bonded-outriders-helm-conditioning",
+    "whenRules": "Your Command phase, when a friendly Imperial Knights unit uses a Bondsman ability.",
+    "targetRules": "That Imperial Knights unit.",
+    "effectRules": "When selecting an Armiger model for that Bondsman ability, you can select one within 18\" of your unit (excluding models already affected by a Bondsman ability).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-throne-bonded-outriders-honoured-to-serve",
+    "whenRules": "Your Shooting phase, when a friendly Armiger unit has shot.",
+    "targetRules": "That Armiger unit.",
+    "effectRules": "Those attacks do not prevent your unit from being eligible to start an action.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-throne-bonded-outriders-neural-lash",
+    "whenRules": "Command phase.",
+    "targetRules": "One friendly Imperial Knights Titanic unit.",
+    "effectRules": "Select one friendly battle‑shocked Armiger unit within 12\" of your unit. That Armiger unit is no longer battle‑shocked.",
     "restrictionRules": null
   },
   {
@@ -7228,6 +8563,76 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-d-lve-assault-shift-hidden-accessways",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One CTHONIAN BESERKS, HEARTHKYN WARRIORS or HERNKYN YAEGIRS unit from your army that is not within Engagement Range of one or more enemy units.",
+    "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-armoured-trailblazers-built-to-last",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Sagitaur unit.",
+    "targetRules": "That Sagitaur unit.",
+    "effectRules": "Ranged attacks that target your unit with a S greater than your unit's T have -1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-armoured-trailblazers-coordinated-crossfire",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "Up to two friendly Sagitaur units.",
+    "effectRules": "Select one enemy unit. Your units' ranged attacks that target that enemy unit can: Re‑roll hit rolls of 1. Re-roll wound rolls of 1.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-armoured-trailblazers-outflanking-armour",
+    "whenRules": "End of your opponent's Movement phase, from the second battle round onwards.",
+    "targetRules": "Up to two friendly Sagitaur units in strategic reserves.",
+    "effectRules": "Your units each make an ingress move.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-farseekers-no-shot-wasted",
+    "whenRules": "Your Shooting phase, when a friendly Hernkyn unit is selected to shoot.",
+    "targetRules": "That Hernkyn unit.",
+    "effectRules": "Your unit's ranged attacks have [Lethal Hits].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-farseekers-economy-of-motion",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged PIONEERS unit.",
+    "targetRules": "That PIONEERS unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-farseekers-scornful-analysis",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Hernkyn unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. Friendly Leagues of Votann units' attacks that target that enemy unit have [Ignores Cover].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hearthguard-covenant-fury-of-the-hearth",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One EINHYR HEARTHGUARD unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, improve the Strength characteristic of ranged weapons equipped by models in your unit by 1. If you spend 1YP, until the end of the phase, ranged weapons equipped by models in that unit have the SUSTAINED HITS 1 ability as well.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hearthguard-covenant-br-kkeknots",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One KÂHL, ÛTHAR THE DESTINED or EINHYR HEARTHGUARD unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have a 4+ invulnerable save.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hearthguard-covenant-materialisation-matrices",
+    "whenRules": "The Reinforcements step of your Movement phase.",
+    "targetRules": "One LEAGUES OF VOTANN unit from your army that is in Reserves and has the Deep Strike ability.",
+    "effectRules": "Until the end of the phase, when your unit is set up on the battlefield using the Deep Strike ability, it can be set up anywhere on the battlefield that is more than 6\" horizontally away from all enemy units.",
+    "restrictionRules": ""
+  },
+  {
     "id": "stratagem-necrons-protocol-of-the-eternal-guardian",
     "lore": "Necron rulers possess sophisticated self-repair systems that can reknit their corporeal forms so they can once more command their legions.",
     "whenRules": "Any phase.",
@@ -7274,6 +8679,14 @@
     "targetRules": "One NECRONS CHARACTER unit from your army that was within 6\" of that NECRONS unit when it was destroyed.",
     "effectRules": "After the attacking unit has resolved its attacks, your unit can shoot as if it were your Shooting phase, but it must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
     "restrictionRules": null
+  },
+  {
+    "id": "stratagem-awakened-dynasty-protocol-of-the-eternal-revenant",
+    "lore": "Necron rulers possess sophisticated self-repair systems that can reknit their corporeal forms so they can once more command their legions.",
+    "whenRules": "Any phase.",
+    "targetRules": "One Necrons Infantry Character model from your army that was just destroyed.",
+    "effectRules": "Set your model back up on the battlefield as close as possible to where it was destroyed and more than 1\" away from all enemy models, with half of its starting number of wounds remaining.",
+    "restrictionRules": ""
   },
   {
     "id": "stratagem-necrons-masks-of-death",
@@ -7639,6 +9052,69 @@
     "whenRules": "Your opponent's Movement phase, when an unravelling enemy unit is selected to Fall Back.",
     "targetRules": "One NECRONS unit from your army that is within Engagement Range of that enemy unit",
     "effectRules": "When that enemy unit Falls Back, all models in that enemy unit must take a Desperate Escape test. When doing so, if that enemy unit is Battle‑shocked, subtract 1 from each of those tests.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hand-of-the-dynasty-nanosaturation",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly Immortals/Necron Warriors unit has shot.",
+    "targetRules": "That Immortals/Necron Warriors unit.",
+    "effectRules": "Your unit shoots using snap shooting, but while doing so your unit can only target that enemy unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hand-of-the-dynasty-will-of-the-conqueror",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One friendly Immortals/Necron Warriors unit.",
+    "effectRules": "Select one objective your unit is controlling. That objective is secured.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-hand-of-the-dynasty-dominance-protocols",
+    "whenRules": "Command phase.",
+    "targetRules": "One friendly Immortals unit.",
+    "effectRules": "Your unit has +1 OC until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-skyshroud-spearhead-evasive-protocols",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Necrons Mounted unit.",
+    "targetRules": "That Necrons Mounted unit.",
+    "effectRules": "Ranged attacks that target your unit with a S greater than your unit's T have -1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-skyshroud-spearhead-swift-as-death",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Necrons Mounted unit.",
+    "targetRules": "That Necrons Mounted unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-skyshroud-spearhead-omnilocked-strafing",
+    "whenRules": "Your Movement phase, when a friendly Necrons Mounted unit is selected to make a fall‑back move.",
+    "targetRules": "That Necrons Mounted unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-the-phaerons-armoury-subsurface-quantumweave",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, when an enemy unit targets a friendly Necrons Titanic Fly unit.",
+    "targetRules": "That Necrons Titanic Fly unit.",
+    "effectRules": "Attacks that target your unit have ‑1 AP until that enemy unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-the-phaerons-armoury-particle-pulse",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly Necrons Titanic Fly unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +3\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-the-phaerons-armoury-cosmic-storm",
+    "whenRules": "Your Shooting phase, when a friendly Obelisk/Tesseract Vault unit is selected to shoot.",
+    "targetRules": "That Obelisk/Tesseract Vault unit.",
+    "effectRules": "Your unit's Tesla Sphere weapons have +1 AP.",
     "restrictionRules": null
   },
   {
@@ -8194,6 +9670,27 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-rollin-deff-impending-crunch",
+    "whenRules": "Your Charge phase, when a friendly Wagon unit ends a charge move.",
+    "targetRules": "That Wagon unit.",
+    "effectRules": "Each enemy unit engaged with your unit makes a battle‑shock roll, with -1 to that battle‑shock roll.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-rollin-deff-devastating-drift",
+    "whenRules": "Your Fight phase, when a friendly Wagon unit that made a charge move this turn is selected to fight.",
+    "targetRules": "That Wagon unit.",
+    "effectRules": "Your unit's melee attacks have [Cleave 1].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-rollin-deff-brutal-broadside",
+    "whenRules": "Your Shooting phase, when a friendly Battlewagon unit is selected to shoot.",
+    "targetRules": "That Battlewagon unit.",
+    "effectRules": "Your unit's ranged attacks (excluding attacks made by weapons selected with Firing Deck) have [Rapid Fire X], where X is that attack's A.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -8335,6 +9832,13 @@
     "whenRules": "Your opponent’s Shooting phase, just after an enemy unit has resolved its attacks.",
     "targetRules": "One ADEPTUS ASTARTES unit from your army that had one or more of its models destroyed as a result of the attacking unit’s attacks.",
     "effectRules": "Your unit can shoot as if it were your Shooting phase, but must target only that enemy unit when doing so, and can only do so if that enemy unit is an eligible target.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-anvil-siege-force-battle-drill-recall",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the SUSTAINED HITS 1 ability. If your unit Remained Stationary this turn, then until the end of the phase, each time a model in your unit makes a ranged attack, a successful unmodified Hit roll of 5+ scores a Critical Hit.",
     "restrictionRules": null
   },
   {
@@ -8979,7 +10483,7 @@
     "id": "stratagem-space-marines-ceramite-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
@@ -9006,7 +10510,8 @@
   },
   {
     "id": "stratagem-space-marines-headhunter-armour-of-contempt",
-    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
@@ -9055,7 +10560,8 @@
   },
   {
     "id": "stratagem-space-marines-armoured-speartip-armour-of-contempt",
-    "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
     "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
@@ -9086,6 +10592,49 @@
     "whenRules": "Your Shooting phase.",
     "targetRules": "One ADEPTUS ASTARTES unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, add 1 to the Hit roll (if your unit disembarked from a HEAVY TRANSPORT this turn, add 1 to the Wound roll as well).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fulguris-task-force-anti-grav-surge",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One friendly unengaged Speeder unit.",
+    "effectRules": "Place your unit in strategic reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fulguris-task-force-data-link-augury",
+    "whenRules": "Your Shooting phase, when a friendly Speeder unit is selected to shoot.",
+    "targetRules": "That Speeder unit.",
+    "effectRules": "Select one enemy unit within 24\" of your unit. That enemy unit has +6\" detection range until your unit has shot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-fulguris-task-force-reactive-evasion",
+    "whenRules": "Your opponent's Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Speeder unit.",
+    "targetRules": "That Speeder unit.",
+    "effectRules": "Your unit can make a normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-subversion-assets-cloaked-position",
+    "whenRules": "Start of your opponent's Movement phase.",
+    "targetRules": "One friendly unengaged Phobos/Scout Squad unit.",
+    "effectRules": "Your unit has -3\" detection range until the end of the turn.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-subversion-assets-adaptive-operations",
+    "whenRules": "Your Shooting phase, when a friendly Phobos/Scout Squad unit starts an action.",
+    "targetRules": "That Phobos/Scout Squad unit.",
+    "effectRules": "That action does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-subversion-assets-strike-from-the-shadows",
+    "lore": "To evade one’s enemies and sow confusion can be a deadly weapon in itself.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit that is more than 12\" away, improve the Ballistic Skill and Armour Penetration characteristics of that attack by 1. If one or more enemy models are destroyed as a result of those attacks, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test.",
     "restrictionRules": null
   },
   {
@@ -9182,6 +10731,20 @@
     "whenRules": "End of your opponent’s Fight phase.",
     "targetRules": "One Adeptus Astartes Terminator unit from your army that is not within Engagement Range of one or more enemy units.",
     "effectRules": "Remove your unit from the battlefield and place it into Strategic Reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-champions-of-fenris-stalk-between-worlds",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly Adeptus Astartes Infantry Character unit.",
+    "targetRules": "That Adeptus Astartes Infantry Character unit.",
+    "effectRules": "Your unit has Stealth.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-champions-of-fenris-wolf-totems",
+    "whenRules": "Any phase, when a friendly Adeptus Astartes Infantry Character unit suffers a mortal wound.",
+    "targetRules": "That Adeptus Astartes Infantry Character unit.",
+    "effectRules": "Your unit has Feel No Pain 5+ against mortal wounds.",
     "restrictionRules": null
   },
   {
@@ -9350,6 +10913,49 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has shot.",
     "targetRules": "One SPACE WOLVES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Your unit can make a Normal move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legends-of-saga-and-song-fangs-of-the-pack",
+    "whenRules": "Fight phase, when a friendly Adeptus Astartes Terminator unit is selected to fight.",
+    "targetRules": "That Adeptus Astartes Terminator unit.",
+    "effectRules": "Your unit's melee attacks have [Precision].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legends-of-saga-and-song-wings-of-the-blizzard",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One friendly unengaged Adeptus Astartes Terminator unit.",
+    "effectRules": "Place your unit in strategic reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-legends-of-saga-and-song-chilling-howl",
+    "lore": "Raising their feral voices as one, the elite champions of Fenris give voice to a predatory howl fit to freeze the marrow of the bravest warriors.",
+    "whenRules": "Your opponent’s Command phase.",
+    "targetRules": "One Adeptus Astartes Terminator unit from your army.",
+    "effectRules": "Each enemy unit within 6\" of your unit must take a Battle‑shock test, subtracting 1 from that test if that unit is Below Half‑strength.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-veterans-of-the-fang-icy-calm",
+    "whenRules": "Your Movement phase, when a friendly Grey Hunters unit is selected to make an advance/fall-back move.",
+    "targetRules": "That Grey Hunters unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to start an action.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-veterans-of-the-fang-blade-keen-senses",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly unengaged Grey Hunters unit.",
+    "effectRules": "Select one visible enemy unit within 24\" of your unit. That enemy unit has +6\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-veterans-of-the-fang-grizzled-killers",
+    "whenRules": "Fight phase, when a friendly Grey Hunters unit is selected to fight.",
+    "targetRules": "That Grey Hunters unit.",
+    "effectRules": "Your unit's melee attacks have: [Sustained Hits 1]. Or: [Lethal Hits].",
     "restrictionRules": null
   },
   {
@@ -9641,6 +11247,13 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-auxiliary-cadre-guided-by-unity",
+    "whenRules": "Your Shooting phase, when a friendly T'au Empire unit (excluding Kroot/Vespid Stingwings units) is selected to shoot.",
+    "targetRules": "That T'au Empire unit.",
+    "effectRules": "Your unit's ranged attacks that target a unit within 9\" of a friendly Kroot/Vespid Stingwings unit have [Lethal Hits].",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-tau-empire-automated-repair-drones",
     "whenRules": "Command phase.",
     "targetRules": "One T'AU EMPIRE BATTLESUIT unit from your army.",
@@ -9680,6 +11293,27 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One T'AU EMPIRE CRISIS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, your unit can only be selected as the target of a ranged attack if the attacking model is within 18\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-advanced-acquisition-cadre-autoreactive-camouflage",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly PATHFINDER TEAM/ STEALTH BATTLESUITS unit, if that friendly unit is hidden.",
+    "targetRules": "That Pathfinder Team/Stealth Battlesuits unit.",
+    "effectRules": "Your unit has +1 Sv.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-advanced-acquisition-cadre-marker-beacon",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One friendly Pathfinder Team/Stealth Battlesuits unit.",
+    "effectRules": "Select one objective your unit is controlling. That objective is secured.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-advanced-acquisition-cadre-microdrone-support",
+    "whenRules": "Your Shooting phase, when a friendly Pathfinder Team/Stealth Battlesuits unit starts an action.",
+    "targetRules": "That Pathfinder Team/Stealth Battlesuits unit.",
+    "effectRules": "That action does not prevent your unit from being eligible to shoot.",
     "restrictionRules": null
   },
   {
@@ -9899,6 +11533,69 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-ritual-of-regeneration-relentless-rebirth",
+    "whenRules": "Any phase, when a friendly Infantry/Mounted Thousand Sons Psyker unit suffers a mortal wound.",
+    "targetRules": "That Infantry/Mounted Thousand Sons Psyker unit.",
+    "effectRules": "Your unit has Feel No Pain 5+ against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-ritual-of-regeneration-mutagenic-magicks",
+    "whenRules": "Start of the Fight phase.",
+    "targetRules": "One friendly engaged Thousand Sons Psyker unit.",
+    "effectRules": "Select one enemy unit engaged with your unit. Roll six D6: For each 4+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-ritual-of-regeneration-multitudinous-limbs",
+    "whenRules": "Your Movement phase, when a friendly Infantry/Mounted Thousand Sons Psyker unit is selected to make an advance/fall back move.",
+    "targetRules": "That Infantry/Mounted Thousand Sons Psyker unit.",
+    "effectRules": "That move does not prevent your unit from being eligible to start an action.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-sekhetar-cohort-warp-fields",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit targets a friendly SEKHETAR ROBOTS unit within 12\" of a friendly Thousand Sons Psyker unit.",
+    "targetRules": "That SEKHETAR ROBOTS unit.",
+    "effectRules": "Ranged attacks that target your unit with a S greater than your unit's T have ‑1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-sekhetar-cohort-arcane-venting",
+    "whenRules": "End of your Movement phase.",
+    "targetRules": "One friendly SEKHETAR ROBOTS unit.",
+    "effectRules": "Select one objective your unit is controlling. That objective is secured.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-sekhetar-cohort-ectoplasmic-extrusion",
+    "whenRules": "Your Shooting phase, when a friendly SEKHETAR ROBOTS unit within 12\" of a friendly Thousand Sons Psyker unit starts an action.",
+    "targetRules": "That SEKHETAR ROBOTS unit.",
+    "effectRules": "That action does not prevent your unit from being eligible to shoot.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-servants-of-change-prismatic-displacement",
+    "whenRules": "Your Movement phase, when a friendly Infantry/Mounted Mutant unit is selected to make an advance/fall back move.",
+    "targetRules": "That Infantry/Mounted Mutant unit.",
+    "effectRules": "Your unit's ranged attacks have [ASSAULT] until the end of the turn. That move does not prevent your unit from being eligible to shoot/declare a charge.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-servants-of-change-the-land-writhes",
+    "whenRules": "Your Movement phase, when a friendly Monster Mutant unit is selected to move.",
+    "targetRules": "That Monster Mutant unit.",
+    "effectRules": "Your unit has MOBILE.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-servants-of-change-temporal-instability",
+    "whenRules": "Your Movement phase, when a friendly Infantry/Mounted Mutant unit is selected to make an advance/fall back move.",
+    "targetRules": "That Infantry/Mounted Mutant unit.",
+    "effectRules": "In a turn your unit made an advance/fall-back move, that move does not prevent your unit from being eligible to start an action.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-thousand-sons-grand-coven-psychic-dominion",
     "whenRules": "Any phase, just after an enemy unit has selected its targets.",
     "targetRules": "One THOUSAND SONS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
@@ -10079,6 +11776,14 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-crusher-stampede-rampaging-monstrosities",
+    "lore": "Tyranid monsters have reserves of energy that they unleash in waves of devastating fury.",
+    "whenRules": "Fight phase.",
+    "targetRules": "One TYRANIDS MONSTER unit from your army that has not been selected to fight this phase",
+    "effectRules": "Until the end of the phase, each time a model in your unit makes an attack, you can re-roll the Hit roll.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-tyranids-synaptic-goading",
     "lore": "For a moment, a minuscule sliver of the Hive Mind’s ineffable will is focussed through these warrior organisms, driving them to pounce upon either valuable prey or else some vital strategic target.",
     "whenRules": "Any phase, just before an ENDLESS MULTITUDE unit from your army that is within Synapse Range of your army makes a Surge move.",
@@ -10172,6 +11877,14 @@
     "whenRules": "Your Fight phase.",
     "targetRules": "One TYRANIDS unit from your army that just destroyed an enemy unit.",
     "effectRules": "Your unit immediately Regenerates (See Feed the Swarm). When doing so, if your unit is a HARVESTER unit and you choose for one model to regain up to D3 lost wounds, that model regains up to 3 lost wounds instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-assimilation-swarm-ablative-carapace",
+    "lore": "These organisms have employed consumed minerals to exude an additional hardened protective layer over their chitinous armour.",
+    "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+    "targetRules": "One HARVESTER unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+    "effectRules": "Until the end of the phase, models in your unit have the Feel No Pain 5+ ability. If your unit is within range of an objective marker you control, until the end of the phase models in your unit have the Feel No Pain 4+ ability instead.",
     "restrictionRules": null
   },
   {
@@ -10319,6 +12032,13 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-warrior-bioform-onslaught-alien-physiology",
+    "whenRules": "Your opponent's Shooting phase or the Fight phase, when an enemy unit targets a friendly Tyranid Warriors unit.",
+    "targetRules": "That Tyranid Warriors unit.",
+    "effectRules": "Attacks that target your unit with a S greater than your unit's T have -1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-tyranids-adaptive-optimisation",
     "whenRules": "Command phase.",
     "targetRules": "One MAWLOC or TRYGON unit from your army.",
@@ -10367,6 +12087,48 @@
     "targetRules": "Up to two Tyranids units from your army that are within Synapse Range of your army, or one other Tyranids unit from your army.",
     "effectRules": "Select one Hyper-adaptation. Until the end of the battle round, that hyper-adaptation is active for those selected units in addition to any other that may be active for your army.",
     "restrictionRules": "You cannot select the same hyper-adaptation you selected at the start of the first battle round."
+  },
+  {
+    "id": "stratagem-ambush-predators-scanner-gheist",
+    "whenRules": "End of your opponent's Fight phase.",
+    "targetRules": "One friendly unengaged Deathleaper/Lictor/Neurolictor unit.",
+    "effectRules": "Place your unit in strategic reserves.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-ambush-predators-counterpredation",
+    "whenRules": "Fight phase, when a friendly Deathleaper/Lictor/Neurolictor/Von Ryan's Leapers unit is selected to fight.",
+    "targetRules": "That Deathleaper/Lictor/Neurolictor/Von Ryan's Leapers unit.",
+    "effectRules": "Your unit's attacks that target a hidden unit have +1 S and AP.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-ambush-predators-hypersensory-adaptations",
+    "whenRules": "Start of your Shooting phase.",
+    "targetRules": "One friendly DEATHLEAPER/LICTOR/NEUROLICTOR/VON RYAN'S LEAPERS unit.",
+    "effectRules": "Select one visible enemy unit within 12\" of your unit. That enemy unit has +6\" detection range.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-talons-of-the-norn-queen-tanglestrike-rounds",
+    "whenRules": "Your Shooting phase, when a friendly Norn Assimilator unit has shot.",
+    "targetRules": "That Norn Assimilator unit.",
+    "effectRules": "Select one enemy unit hit by those attacks. That enemy unit is tethered until the start of your next Command phase: While a unit is tethered, that unit has ‑2\" M.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-talons-of-the-norn-queen-catalytic-biofortification",
+    "whenRules": "Any phase, when a friendly Norn Assimilator unit suffers a mortal wound.",
+    "targetRules": "That Norn Assimilator unit.",
+    "effectRules": "Your unit has Feel No Pain 4+ against mortal wounds.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-talons-of-the-norn-queen-lesser-prey",
+    "whenRules": "Fight phase, when a friendly Norn Assimilator/Norn Emissary unit is selected to fight.",
+    "targetRules": "That Norn Assimilator/Norn Emissary unit.",
+    "effectRules": "Your unit's melee attacks have +2 S.",
+    "restrictionRules": null
   },
   {
     "id": "stratagem-world-eaters-blood-offering",
@@ -10450,6 +12212,13 @@
     "whenRules": "Your opponent's Shooting phase, just after an enemy unit has selected its targets.",
     "targetRules": "One WORLD EATERS unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the end of the phase, each time an attack targets your unit, if the Strength characteristic of that attack is greater than the Toughness characteristic of your unit, subtract 1 from the Wound roll, or, if it is a VESSEL OF WRATH unit, subtract 1 from the Wound roll instead.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-vessels-of-wrath-scorn-the-witch",
+    "whenRules": "Any phase, when a friendly World Eaters Character unit (excluding EPIC HERO units) suffers a mortal wound.",
+    "targetRules": "That World Eaters Character unit.",
+    "effectRules": "Your unit has Feel No Pain 4+ against mortal wounds.",
     "restrictionRules": null
   },
   {
@@ -10653,6 +12422,48 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-butchers-of-khorne-focused-ferocity",
+    "whenRules": "Fight phase, when a friendly Terminator Squad unit is selected to fight.",
+    "targetRules": "That Terminator Squad unit.",
+    "effectRules": "Your unit's melee attacks have +1 A.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-butchers-of-khorne-wrath-beyond-reason",
+    "whenRules": "Your opponent's Shooting Phase, when an enemy unit targets a friendly Terminator Squad unit.",
+    "targetRules": "That Terminator Squad unit.",
+    "effectRules": "Ranged attacks that target your unit have -1 D until that enemy unit has attacked.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-butchers-of-khorne-a-trophy-for-the-throne",
+    "whenRules": "Fight phase, when a friendly Terminator Squad unit is selected to fight.",
+    "targetRules": "That Terminator Squad unit.",
+    "effectRules": "Your unit's attacks that target a Monster/Vehicle unit have +1 to wound rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-brazen-engines-goaded-to-fury",
+    "whenRules": "Your opponent's Shooting phase, when an enemy unit that targeted a friendly unengaged Daemon Vehicle unit (excluding Titanic units) has shot.",
+    "targetRules": "That Daemon Vehicle unit.",
+    "effectRules": "Your unit can make a surge move of up to D6\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-brazen-engines-apoplectic-clarity",
+    "whenRules": "Your Shooting phase or the Fight phase, when a friendly Daemon Vehicle unit is selected to attack.",
+    "targetRules": "That Daemon Vehicle unit.",
+    "effectRules": "Your unit's attacks can ignore modifiers to: BS. WS. Hit rolls and wound rolls.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-brazen-engines-trail-of-destruction",
+    "whenRules": "Your Movement phase, when a friendly Daemon Vehicle unit is selected to move.",
+    "targetRules": "That Daemon Vehicle unit.",
+    "effectRules": "Your unit has Mobile.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-core-insane-bravery",
     "lore": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds.",
     "whenRules": "Battle-shock step of your Command phase, just before you take a Battle-shock test for a unit from your army (pg 11).",
@@ -10747,6 +12558,94 @@
     "targetRules": "One of your active Secondary Mission cards.",
     "effectRules": "Discard it and draw one new Secondary Mission card.",
     "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-command-re-roll",
+    "lore": "A great commander can bend even the vagaries of fate and fortune to their will, the better to ensure victory.",
+    "whenRules": "Any phase, just after you make one of the following rolls for a friendly unit or model: Advance roll, Charge roll, Damage roll, Hazard roll, Hit roll, Save roll, Wound roll, or a roll to determine the number of attacks generated with a weapon.",
+    "targetRules": "That unit or model.",
+    "effectRules": "You re-roll that roll. If you are rolling more than one dice together, select one of those dice to re-roll (excluding charge rolls, which you must re-roll in full).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-epic-challenge",
+    "lore": "The legends of the 41st millennium are replete with deadly duels between mighty champions.",
+    "whenRules": "Fight phase, just after a friendly CHARACTER unit is selected to fight.",
+    "targetRules": "That CHARACTER unit.",
+    "effectRules": "Select one CHARACTER model in your unit. Until the end of the phase, that model’s melee weapons have the [PRECISION] ability.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-insane-bravery",
+    "lore": "Indifferent to their own survival, these warriors hold their ground against seemingly impossible odds.",
+    "whenRules": "Battle-shock step of your Command phase, just before you make a battle-shock roll for a friendly unit.",
+    "targetRules": "That unit.",
+    "effectRules": "That battle-shock roll is automatically successful.",
+    "restrictionRules": "You cannot use this stratagem more than once per battle."
+  },
+  {
+    "id": "stratagem-core-11th-edition-explosives",
+    "lore": "Priming grenades or other explosives, these warriors draw back and hurl death into the enemy’s midst.",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One friendly unengaged EXPLOSIVES/GRENADES unit that is eligible to shoot and did not make an advance move this turn.",
+    "effectRules": "Select one EXPLOSIVES/GRENADES model in your unit. Select one unengaged enemy unit within 8\" of and visible to that model. Roll six D6: for each 4+, that enemy unit suffers 1 mortal wound.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-crushing-impact",
+    "lore": "In extremis, armoured vehicles and rampaging monsters can use their sheer size as a weapon, ramming and crushing enemies beneath their colossal bulk, though doing so risks sustaining damage in return.",
+    "whenRules": "Your Charge phase, just after a friendly MONSTER/VEHICLE unit ends a charge move.",
+    "targetRules": "That MONSTER/VEHICLE unit.",
+    "effectRules": "Select one enemy unit engaged with your unit. Select one model in your unit engaged with that enemy unit. Roll a number of D6 equal to the T characteristic of that model: for each 1, your unit suffers 1 mortal wound; for each 5+, that enemy unit suffers 1 mortal wound (to a maximum of 6 mortal wounds per unit).",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-rapid-ingress",
+    "lore": "Be it cunning strategy, potent technology or supernatural ritual, there are many means by which a commander may hasten their warriors’ onset.",
+    "whenRules": "End of your opponent’s Movement phase.",
+    "targetRules": "One friendly unit that is in strategic reserves (excluding AIRCRAFT).",
+    "effectRules": "Your unit makes an ingress move.",
+    "restrictionRules": "You cannot use this stratagem during the first battle round."
+  },
+  {
+    "id": "stratagem-core-11th-edition-fire-overwatch",
+    "lore": "A hail of fire can drive back advancing foes.",
+    "whenRules": "End of your opponent’s Movement phase.",
+    "targetRules": "One friendly unengaged unit (excluding TITANIC units).",
+    "effectRules": "Your unit shoots using snap shooting.\n\n[SNAP SHOOTING]\n\nWhile shooting:\nYou can only target one visible enemy unit within 24\" of your unit (and only if it is an eligible target)\nEach attack only hits on an unmodified hit roll of 6 (irrespective of the attacking weapon’s BS characteristic or any modifiers)\nYou cannot re-roll hit rolls.\n\nAfter shooting: until the end of the phase, your unit is not eligible to start an action.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-smokescreen",
+    "lore": "Even the most skilled marksmen struggle to hit targets veiled by billowing screens of smoke.",
+    "whenRules": "Start of your opponent’s Shooting phase.",
+    "targetRules": "One friendly SMOKE unit.",
+    "effectRules": "Until the end of the phase, each time an attack targets either your SMOKE unit, or a unit that is not fully visible to the attacking model because of one or more models in your SMOKE unit, the target has the benefit of cover against that attack.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-heroic-intervention",
+    "lore": "Voices raised in furious war cries, your warriors surge forth to meet the enemy’s onslaught head-on.",
+    "whenRules": "End of your opponent’s Charge phase.",
+    "targetRules": "One friendly unengaged unit within 12\" of one or more enemy units. You can only select a VEHICLE unit if it is a CHARACTER/WALKER unit.",
+    "effectRules": "Resolve a charge with your unit. While doing so, before making the charge roll, you must select one of the following modes:",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-counter-offensive",
+    "lore": "In close-quarters combat, the slightest hesitation can leave an opening for a swift foe to exploit.",
+    "whenRules": "Fight step of your opponent’s Fight phase, just after an enemy unit has resolved its attacks.",
+    "targetRules": "One friendly unit that is eligible to fight.",
+    "effectRules": "Until the end of the phase, your unit has the Fights First ability and it must be the next unit you select to fight.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-core-11th-edition-new-orders",
+    "lore": "High command has received new intelligence.",
+    "whenRules": "End of your Command phase.",
+    "targetRules": "One of your active Secondary Mission cards.",
+    "effectRules": "Discard it and draw one new Secondary Mission card.",
+    "restrictionRules": "This stratagem can only be used once per battle."
   },
   {
     "id": "stratagem-challenger-card-chapter-approved-2025-26-force-a-breach",
