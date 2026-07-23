@@ -9691,6 +9691,27 @@
     "restrictionRules": null
   },
   {
+    "id": "stratagem-orks-equatorial-hordes-concealed-krumpin",
+    "whenRules": "Your Shooting phase or the Fight phase.",
+    "targetRules": "One hidden MOB unit from your army that is selected to shoot or fight.",
+    "effectRules": "Until the end of the phase, your unit's attacks have [Lethal Hits].",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-equatorial-hordes-deyre-over-ere",
+    "whenRules": "Your Shooting phase.",
+    "targetRules": "One MOB or KOMMANDOS unit from your army that has not been selected to shoot this phase.",
+    "effectRules": "Select one visible enemy unit within 6\" of your unit. That enemy unit has +3\" detection range until the end of the phase.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-orks-equatorial-hordes-stragglerz",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One MOB or KOMMANDOS unit from your army.",
+    "effectRules": "Your unit regains up to 2D3 lost wounds.",
+    "restrictionRules": null
+  },
+  {
     "id": "stratagem-space-marines-armour-of-contempt",
     "lore": "The belligerency of the Adeptus Astartes, combined with their transhuman physiology, makes them unyielding foes to face.",
     "whenRules": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
@@ -10635,6 +10656,27 @@
     "whenRules": "Your Shooting phase.",
     "targetRules": "One ADEPTUS ASTARTES INFANTRY unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, each time a model in your unit makes a ranged attack that targets an enemy unit that is more than 12\" away, improve the Ballistic Skill and Armour Penetration characteristics of that attack by 1. If one or more enemy models are destroyed as a result of those attacks, select one of those destroyed models; that destroyed model’s unit must take a Battle-shock test.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-vengeful-hosts-purge-by-sectors",
+    "whenRules": "End of the Fight phase.",
+    "targetRules": "One ADEPTUS ASTARTES FLY INFANTRY unit from your army that is not within Engagement Range of one or more enemy units and was eligible to fight this phase.",
+    "effectRules": "Your unit can make a Normal move of up to D3+3\".",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-vengeful-hosts-meteoric-onslaught",
+    "whenRules": "Your Fight phase, when an ADEPTUS ASTARTES FLY INFANTRY unit from your army that made a Charge move this turn is selected to fight.",
+    "targetRules": "That ADEPTUS ASTARTES FLY INFANTRY unit.",
+    "effectRules": "Until the end of the phase, add 1 to the Strength characteristic of melee weapons equipped by models in your unit.",
+    "restrictionRules": null
+  },
+  {
+    "id": "stratagem-vengeful-hosts-know-no-fear",
+    "whenRules": "Your Command phase.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army.",
+    "effectRules": "Your unit is no longer Battle-shocked.",
     "restrictionRules": null
   },
   {
