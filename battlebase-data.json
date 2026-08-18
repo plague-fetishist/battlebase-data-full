@@ -2656,7 +2656,7 @@
     "restrictionRules": null
   },
   {
-    "id": "stratagem-aeldari-soulsight",
+    "id": "stratagem-aeldari-devoted-of-ynnead-soulsight",
     "whenRules": "Your Shooting phase.",
     "targetRules": "One YNNARI unit from your army that has not been selected to shoot this phase.",
     "effectRules": "Until the end of the phase, ranged weapons equipped by models in your unit have the LETHAL HITS and IGNORES COVER abilities",
@@ -4007,7 +4007,7 @@
   {
     "id": "stratagem-rage-cursed-onslaught-armour-of-contempt",
     "whenRules": "Your opponent's Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
-    "targetRules": "One Deathwatch unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
+    "targetRules": "One ADEPTUS ASTARTES unit from your army that was selected as the target of one or more of the attacking unit's attacks.",
     "effectRules": "Until the attacking unit has finished making its attacks, each time an attack targets your unit, worsen the Armour Penetration characteristic of that attack by 1.",
     "restrictionRules": null
   },
